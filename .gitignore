@@ -1,0 +1,28 @@
+# ── runtime state (generated, not source) ──────────────────────────────────
+feed.json
+pins.json
+fetch.log
+server.log
+
+# history entries (auto-generated on each refresh)
+history/*.json
+
+# ── content-engine workspace (personal drafts & generated output) ───────────
+content-engine/workspace/drafts/*
+content-engine/workspace/finals/*
+content-engine/workspace/digests/*
+content-engine/workspace/learning/*
+
+# keep the folder structure
+!content-engine/workspace/drafts/.gitkeep
+!content-engine/workspace/finals/.gitkeep
+!content-engine/workspace/digests/.gitkeep
+
+# ── OS & editor noise ───────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+.env
+*.pyc
+__pycache__/
+.vscode/
+.idea/

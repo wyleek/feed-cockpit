@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feed Cockpit — wellness-genz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#F4F5F2;--paper:#FFFFFF;--ink:#1A211D;--ink-soft:#5E6862;--ink-faint:#8A918B;
+    --sage:#5C7D6A;--amber:#C2912F;--stone:#A2A8A1;--clay:#BD6B3E;--rose:#B85C6E;
+    --hairline:#E2E5DF;--hairline-strong:#D2D6CE;
+    --shadow:0 1px 2px rgba(26,33,29,.04),0 8px 24px -16px rgba(26,33,29,.25);--radius:14px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--porcelain);color:var(--ink);font-family:'Inter',system-ui,sans-serif;font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased;padding:0 20px 80px}
+  .wrap{max-width:760px;margin:0 auto}
+
+  /* ── header ── */
+  header.masthead{padding:38px 0 22px;border-bottom:1.5px solid var(--ink);margin-bottom:6px}
+  .brandrow{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .brand{font-family:'Newsreader',serif;font-weight:600;font-size:34px;letter-spacing:-.01em;line-height:1;display:flex;align-items:baseline;gap:12px}
+  .brand .pack{font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--sage);border:1px solid var(--sage);border-radius:999px;padding:3px 9px;transform:translateY(-4px)}
+  .dateline{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-soft);letter-spacing:.02em;text-align:right}
+  .standfirst{margin-top:14px;font-family:'Newsreader',serif;font-style:italic;font-size:16px;color:var(--ink-soft);max-width:52ch}
+  .metabar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:18px;font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.03em;color:var(--ink-soft)}
+  .metabar b{color:var(--ink);font-weight:600}
+
+  /* ── sort controls ── */
+  .sortbar{display:flex;gap:4px;align-items:center;margin-left:4px}
+  .sortbar-label{font-size:10.5px;color:var(--ink-faint);margin-right:2px}
+  .sortbtn{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--ink-soft);background:none;border:1px solid var(--hairline-strong);border-radius:6px;padding:4px 9px;cursor:pointer;transition:background .15s,color .15s,border-color .15s}
+  .sortbtn:hover{background:var(--paper);color:var(--ink)}
+  .sortbtn.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+  /* ── refresh button ── */
+  .refresh{margin-left:auto;display:flex;gap:10px;align-items:center}
+  .refresh button{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);background:none;border:1px solid var(--hairline-strong);border-radius:7px;padding:5px 11px;cursor:pointer;transition:background .15s,color .15s}
+  .refresh button:hover{background:var(--paper);color:var(--ink)}
+  .refresh button:disabled{opacity:.5;cursor:default}
+
+  /* ── notices ── */
+  .notice{margin-top:20px;padding:14px 16px;border-radius:10px;font-size:13.5px;line-height:1.5;display:none}
+  .notice.warn{display:block;background:#FBF3E9;border:1px solid #ECD9BD;color:#7A5A12}
+  .notice.err{display:block;background:#FBEDE7;border:1px solid #EBCBBB;color:#8A4422}
+  .notice code{font-family:'IBM Plex Mono',monospace;font-size:12px;background:rgba(0,0,0,.05);padding:2px 6px;border-radius:4px}
+
+  /* ── auto-update banner ── */
+  .update-banner{display:none;margin-top:14px;padding:10px 14px;background:#EAF2EC;border:1px solid #C2D9C8;border-radius:9px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:#3C5848;display:none;align-items:center;gap:10px}
+  .update-banner.show{display:flex}
+  .update-banner button{font-family:'IBM Plex Mono',monospace;font-size:11px;background:var(--sage);color:white;border:none;border-radius:5px;padding:4px 10px;cursor:pointer}
+
+  /* ── feed ── */
+  .feed{margin-top:26px;display:flex;flex-direction:column;gap:14px}
+
+  /* ── cards ── */
+  .card{position:relative;background:var(--paper);border:1px solid var(--hairline);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px 18px 26px;overflow:hidden}
+  .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--stone)}
+  .card.native::before{background:var(--sage)}.card.bridge::before{background:var(--amber)}
+  .card.stretch::before,.card.unscored::before{background:var(--stone)}
+  .card.is-new{border-color:var(--sage);border-width:1.5px}
+  .card.is-new::before{background:var(--sage)}
+  .card.pinned{border-color:var(--rose);border-width:1.5px}
+  .card.pinned::before{background:var(--rose)}
+  .card-tags{position:absolute;top:0;right:0;display:flex;gap:4px;padding:4px 8px;border-bottom-left-radius:9px}
+  .card-tag{font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.12em;padding:3px 7px;border-radius:4px}
+  .card-tag--pinned{color:var(--rose);background:#FBF0F2}
+  .card-tag--new{color:var(--sage);background:#E4EDE6}
+
+  .toprow{display:flex;align-items:flex-start;gap:14px}
+  .rank{font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:500;color:var(--ink-faint);padding-top:5px;min-width:22px}
+  .scorebox{text-align:center;min-width:48px;padding-top:1px}
+  .score{font-family:'Newsreader',serif;font-weight:600;font-size:27px;line-height:1;color:var(--clay)}
+  .scorelbl{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;color:var(--ink-faint);text-transform:uppercase;margin-top:3px}
+  .headcol{flex:1;min-width:0}
+  .headline{font-family:'Newsreader',serif;font-weight:600;font-size:20px;line-height:1.22;letter-spacing:-.005em;color:var(--ink)}
+  .summary{margin-top:9px;color:var(--ink-soft);font-size:14.5px}
+  .tagrow{margin-top:11px;display:flex;flex-wrap:wrap;gap:6px}
+  .kw{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-soft);background:var(--porcelain);border-radius:5px;padding:3px 8px}
+  .angle{margin-top:13px;display:flex;gap:9px;align-items:flex-start;padding:10px 12px;background:var(--porcelain);border-radius:9px}
+  .angle .tag{font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:5px;white-space:nowrap;flex-shrink:0}
+  .tag.native{color:#3C5848;background:#E4EDE6}.tag.bridge{color:#7A5A12;background:#F3E9CF}
+  .tag.stretch{color:#5C625B;background:#E9EBE7}.tag.unscored{color:#5C625B;background:#E9EBE7}
+  .angle .line{font-size:13.5px;line-height:1.45;color:var(--ink-soft);font-style:italic}
+  .footrow{margin-top:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .src{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);text-decoration:none;border:1px solid var(--hairline);border-radius:6px;padding:4px 9px;display:inline-flex;align-items:center;gap:7px;transition:border-color .15s,color .15s}
+  .src:hover{border-color:var(--sage);color:var(--ink)}
+  .src .tierbadge{font-weight:600;color:var(--sage)}
+  .verified{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--sage);display:inline-flex;align-items:center;gap:5px}
+  .gen-chip{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-soft);background:var(--porcelain);border-radius:5px;padding:3px 7px}
+  .gen-chip b{color:var(--sage)}
+  .actions{margin-left:auto;display:flex;gap:8px;align-items:center}
+  .pickbtn{font-family:'Inter',sans-serif;font-size:12.5px;font-weight:600;color:var(--paper);background:var(--ink);border:none;border-radius:8px;padding:7px 14px;cursor:pointer;transition:background .15s,transform .08s}
+  .pickbtn:hover{background:#2C362F}.pickbtn:active{transform:translateY(1px)}
+
+  /* ── pin button ── */
+  .pinbtn{background:none;border:1px solid var(--hairline-strong);border-radius:8px;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--ink-faint);transition:background .15s,color .15s,border-color .15s;flex-shrink:0}
+  .pinbtn:hover{background:var(--porcelain);color:var(--rose);border-color:var(--rose)}
+  .pinbtn.pinned{color:var(--rose);border-color:var(--rose);background:#FBF0F2}
+  .pinbtn svg{width:14px;height:14px}
+
+  .expandbtn{background:none;border:1px solid var(--hairline-strong);border-radius:8px;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--ink-soft);transition:background .15s,color .15s}
+  .expandbtn:hover{background:var(--porcelain);color:var(--ink)}
+  .expandbtn svg{transition:transform .25s ease}.card.open .expandbtn svg{transform:rotate(180deg)}
+  .detail{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+  .card.open .detail{grid-template-rows:1fr}
+  .detail-inner{overflow:hidden}
+  .detail-pad{margin-top:16px;padding-top:16px;border-top:1px dashed var(--hairline-strong);display:grid;gap:16px}
+  .detail h4{font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:9px}
+  .bars{display:grid;gap:6px}
+  .bar{display:grid;grid-template-columns:130px 1fr 28px;align-items:center;gap:10px}
+  .bar .blbl{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);text-transform:capitalize}
+  .bar .track{height:6px;background:var(--porcelain);border-radius:3px;overflow:hidden}
+  .bar .fill{height:100%;background:var(--sage);border-radius:3px;width:0;transition:width .5s ease}
+  .bar .bval{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink);text-align:right}
+  .srclist{display:flex;flex-direction:column;gap:7px}
+  .srclist a{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--ink-soft);text-decoration:none;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+  .srclist a:hover{color:var(--ink)}
+  .srclist .role{color:var(--sage);text-transform:uppercase;font-size:9.5px;letter-spacing:.06em;min-width:96px}
+  .srclist .tval{color:var(--clay);font-weight:600}
+
+  /* ── history section ── */
+  .history-section{margin-top:44px;border-top:1px solid var(--hairline);padding-top:22px}
+  .history-section summary{font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);cursor:pointer;display:flex;align-items:center;gap:8px;user-select:none;list-style:none}
+  .history-section summary::-webkit-details-marker{display:none}
+  .history-section summary::before{content:"▶";font-size:9px;transition:transform .2s}
+  .history-section[open] summary::before{transform:rotate(90deg)}
+  .history-section summary .hist-count{font-weight:400;color:var(--stone)}
+  .hist-feed{margin-top:18px;display:flex;flex-direction:column;gap:10px}
+  .hist-card{background:var(--paper);border:1px solid var(--hairline);border-radius:10px;padding:14px 16px;opacity:.8}
+  .hist-card:hover{opacity:1}
+  .hist-headline{font-family:'Newsreader',serif;font-weight:500;font-size:16px;line-height:1.25;color:var(--ink)}
+  .hist-meta{margin-top:6px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--ink-faint)}
+  .hist-meta .hscore{color:var(--clay);font-weight:600}
+  .hist-meta a{color:var(--ink-soft);text-decoration:none}
+  .hist-meta a:hover{color:var(--ink)}
+  .hist-dismissed{color:var(--stone)}
+
+  /* ── toast ── */
+  .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--paper);font-family:'IBM Plex Mono',monospace;font-size:12.5px;padding:12px 18px;border-radius:10px;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:50;max-width:90vw;text-align:center}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  .toast b{color:#9FC3AC}
+
+  footer{max-width:760px;margin:40px auto 0;padding-top:18px;border-top:1px solid var(--hairline);font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-faint);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+  @media (max-width:560px){
+    .brand{font-size:27px}.dateline{text-align:left}
+    .actions{margin-left:0;width:100%;justify-content:flex-start;margin-top:4px}
+    .bar{grid-template-columns:100px 1fr 24px}
+    .refresh{margin-left:0}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div class="brandrow">
+      <div class="brand">Feed Cockpit <span class="pack" id="packName">wellness-genz</span></div>
+      <div class="dateline" id="dateline">loading…</div>
+    </div>
+    <div class="standfirst">A no-AI pipeline pulls your feeds and ranks them by relevance. You judge the angle and pick what to generate.</div>
+    <div class="metabar">
+      <span><b id="liveCount">—</b> live</span>
+      <span><b id="keptStat">—</b> kept</span>
+      <span><b id="feedsStat">—</b> feeds</span>
+      <div class="sortbar">
+        <span class="sortbar-label">sort</span>
+        <button class="sortbtn active" data-sort="date">Date</button>
+        <button class="sortbtn" data-sort="score">Score</button>
+      </div>
+      <div class="refresh"><button id="reloadBtn">↻ refresh feed</button></div>
+    </div>
+    <div class="notice" id="notice"></div>
+    <div class="update-banner" id="updateBanner">
+      <span>Feed updated — new stories available</span>
+      <button id="applyUpdateBtn">Apply</button>
+    </div>
+  </header>
+
+  <div class="feed" id="feed"></div>
+
+  <details class="history-section" id="historySection">
+    <summary>Past Stories <span class="hist-count" id="histCount"></span></summary>
+    <div class="hist-feed" id="histFeed"></div>
+  </details>
+
+  <footer>
+    <span id="genStamp">—</span>
+    <span>no-AI pipeline · angle &amp; voice judged downstream</span>
+  </footer>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const $ = (s, el=document) => el.querySelector(s);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmtDate = iso => { try { return new Date(iso).toLocaleString('en-US',{weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}); } catch { return iso; } };
+
+const ANGLE_HINT = {unscored: 'Not yet judged — code ranked this by relevance; decide the wellness angle when you pick it.'};
+
+// ── state ──
+let currentSort = 'date';
+let currentData = null;
+let lastGenAt = null;
+let pendingData = null;  // new data waiting to be applied (auto-poll)
+let pinnedIds = new Set();
+
+// ── pin persistence (server-side) ──
+async function loadPins() {
+  try {
+    const r = await fetch('/pins');
+    if (!r.ok) return;
+    const p = await r.json();
+    pinnedIds = new Set(p.pinned_ids || []);
+  } catch { /* serve.py not running — pins are ephemeral */ }
+}
+
+async function togglePin(story) {
+  const id = story.id;
+  const nowPinned = !pinnedIds.has(id);
+  if (nowPinned) pinnedIds.add(id); else pinnedIds.delete(id);
+
+  // update in current data
+  if (currentData) {
+    const s = currentData.stories.find(x => x.id === id);
+    if (s) s.pinned = nowPinned;
+  }
+
+  // persist to server
+  try {
+    await fetch('/pins', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({id, pinned: nowPinned, story}),
+    });
+  } catch { /* non-critical — pins won't survive a refresh if server is down */ }
+
+  rerender();
+  toast(nowPinned ? '📌 Pinned — will stay through refreshes' : 'Unpinned');
+}
+
+// ── load & render ──
+async function load(silent=false) {
+  if (!silent) $('#notice').className = 'notice';
+  try {
+    const res = await fetch('feed.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    // merge pin state from our local set
+    (data.stories || []).forEach(s => { s.pinned = pinnedIds.has(s.id); });
+    lastGenAt = data.meta?.generated_at;
+    currentData = data;
+    render(data);
+    loadHistory();
+  } catch(e) {
+    if (!silent) {
+      const n = $('#notice'); n.className = 'notice err';
+      n.innerHTML = "Couldn't load <code>feed.json</code>. If you opened this file directly, "+
+        "browsers block local reads. Serve the folder instead: run "+
+        "<code>python3 serve.py</code> in this folder, then open "+
+        "<code>http://localhost:8000/cockpit.html</code>.";
+      $('#dateline').textContent = 'no data';
+    }
+  }
+}
+
+function rerender() {
+  if (currentData) render(currentData);
+}
+
+function render(data) {
+  const m = data.meta || {};
+  $('#packName').textContent = m.pack || 'feed';
+  $('#dateline').textContent = 'updated ' + fmtDate(m.generated_at);
+  $('#liveCount').textContent = m.live_count ?? (data.stories || []).length;
+  $('#keptStat').textContent = m.stats ? m.stats.kept : '—';
+  $('#feedsStat').textContent = m.stats ? m.stats.feeds_ok : '—';
+  $('#genStamp').textContent = 'generated ' + fmtDate(m.generated_at);
+
+  if (m.dead_feeds && m.dead_feeds.length) {
+    const n = $('#notice'); n.className = 'notice warn';
+    n.innerHTML = 'Dead feeds skipped: <b>' + m.dead_feeds.map(esc).join(', ') + '</b> — check URLs in <code>sources.yaml</code>.';
+  }
+
+  const stories = sortStories([...(data.stories || [])]);
+  $('#feed').innerHTML = stories.map((s, i) => card(s, i)).join('') ||
+    '<div class="notice warn" style="display:block">Feed is empty. Run <code>python3 fetch_feed.py</code> to pull stories.</div>';
+
+  bindCardEvents();
+}
+
+function sortStories(stories) {
+  // pinned always float to top; within pinned and non-pinned, sort by chosen method
+  const pinned = stories.filter(s => s.pinned);
+  const unpinned = stories.filter(s => !s.pinned);
+  const sorter = currentSort === 'score'
+    ? (a, b) => b.score - a.score
+    : (a, b) => {
+        const da = a.score_breakdown?.published ? new Date(a.score_breakdown.published) : new Date(0);
+        const db = b.score_breakdown?.published ? new Date(b.score_breakdown.published) : new Date(0);
+        return db - da;
+      };
+  return [...pinned.sort(sorter), ...unpinned.sort(sorter)];
+}
+
+function bindCardEvents() {
+  $('#feed').querySelectorAll('.expandbtn, .headline').forEach(el => el.addEventListener('click', e => {
+    const c = e.target.closest('.card'); c.classList.toggle('open');
+    if (c.classList.contains('open'))
+      c.querySelectorAll('.fill').forEach(f => requestAnimationFrame(() => f.style.width = (f.dataset.v * 10) + '%'));
+  }));
+  $('#feed').querySelectorAll('.pickbtn').forEach(b => b.addEventListener('click', e => {
+    const cmd = 'generate #' + e.target.dataset.id;
+    navigator.clipboard?.writeText(cmd).catch(() => {});
+    toast('Copied <b>' + esc(cmd) + '</b> — paste in Claude Code to build it');
+  }));
+  $('#feed').querySelectorAll('.pinbtn').forEach(btn => btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const id = btn.dataset.id;
+    const story = currentData?.stories.find(s => s.id === id);
+    if (story) togglePin(story);
+  }));
+}
+
+// ── card template ──
+function card(s, i) {
+  const rank = String(i + 1).padStart(2, '0');
+  const angle = s.angle_tag || 'unscored';
+  const angleLine = s.angle_line || ANGLE_HINT[angle] || '';
+  const kw = (s.keyword_hits || s.topic_tags || []).slice(0, 6).map(k => `<span class="kw">${esc(k)}</span>`).join('');
+  const srcChips = (s.sources || []).map(src =>
+    `<a class="src" href="${esc(src.url)}" target="_blank" rel="noopener"><span class="tierbadge">T${esc(src.tier)}</span>${esc(src.outlet)}</a>`
+  ).join('');
+  const gen = (s.generated || []).length
+    ? `<span class="gen-chip">${s.generated.map(g => `<b>${esc(g.component)} ✓</b>`).join(' · ')}</span>` : '';
+  const bd = s.score_breakdown || {};
+  const bars = Object.entries(bd).filter(([k, v]) => typeof v === 'number').map(([k, v]) =>
+    `<div class="bar"><span class="blbl">${esc(k.replace(/_/g,' '))}</span><span class="track"><span class="fill" data-v="${v}"></span></span><span class="bval">${v}</span></div>`
+  ).join('');
+  const pub = bd.published
+    ? `<div class="bar"><span class="blbl">published</span><span class="bval" style="grid-column:2/4;text-align:left;color:var(--ink-soft)">${esc(fmtDate(bd.published))}</span></div>` : '';
+  const srcList = (s.sources || []).map(src =>
+    `<a href="${esc(src.url)}" target="_blank" rel="noopener"><span class="role">${esc(src.role)}</span><span class="tval">Tier ${esc(src.tier)}</span><span>${esc(src.outlet)}</span></a>`
+  ).join('');
+  const isPinned = pinnedIds.has(s.id);
+  const pubDate = s.score_breakdown?.published ? new Date(s.score_breakdown.published) : null;
+  const today = new Date();
+  const isNew = pubDate &&
+    pubDate.getFullYear() === today.getFullYear() &&
+    pubDate.getMonth() === today.getMonth() &&
+    pubDate.getDate() === today.getDate();
+  const tagParts = [
+    isPinned ? `<span class="card-tag card-tag--pinned">PINNED</span>` : '',
+    isNew    ? `<span class="card-tag card-tag--new">NEW</span>`       : '',
+  ].filter(Boolean).join('');
+  const tagsHtml = tagParts ? `<div class="card-tags">${tagParts}</div>` : '';
+
+  const heartFilled = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>`;
+  const heartEmpty = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>`;
+
+  return `<article class="card ${esc(angle)}${isPinned ? ' pinned' : ''}${isNew ? ' is-new' : ''}">${tagsHtml}
+    <div class="toprow">
+      <div class="rank">${rank}</div>
+      <div class="scorebox"><div class="score">${Number(s.score).toFixed(1)}</div><div class="scorelbl">relevance</div></div>
+      <div class="headcol">
+        <div class="headline">${esc(s.headline)}</div>
+        <div class="summary">${esc(s.summary)}</div>
+        <div class="tagrow">${kw}</div>
+        <div class="angle"><span class="tag ${esc(angle)}">${esc(angle)}</span><span class="line">${esc(angleLine)}</span></div>
+        <div class="footrow">${srcChips}<span class="verified">✓ ${esc(s.verification)}</span>${gen}
+          <div class="actions">
+            <button class="pickbtn" data-id="${esc(s.id)}">Pick &amp; copy command</button>
+            <button class="pinbtn${isPinned ? ' pinned' : ''}" data-id="${esc(s.id)}" title="${isPinned ? 'Unpin' : 'Pin story'}">${isPinned ? heartFilled : heartEmpty}</button>
+            <button class="expandbtn" aria-label="Details"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="detail"><div class="detail-inner"><div class="detail-pad">
+      <div><h4>Relevance breakdown (no-AI)</h4><div class="bars">${bars}${pub}</div></div>
+      <div><h4>Sources &amp; roles</h4><div class="srclist">${srcList}</div></div>
+    </div></div></div>
+  </article>`;
+}
+
+// ── history section ──
+async function loadHistory() {
+  try {
+    const r = await fetch('/dismissed');
+    if (!r.ok) return;
+    const items = await r.json();
+    if (!items.length) { $('#historySection').style.display = 'none'; return; }
+    $('#historySection').style.display = '';
+    $('#histCount').textContent = `(${items.length})`;
+    $('#histFeed').innerHTML = items.map(entry => {
+      const s = entry;
+      const src = (s.sources || [])[0];
+      const pub = s.score_breakdown?.published;
+      return `<div class="hist-card">
+        <div class="hist-headline">${esc(s.headline)}</div>
+        <div class="hist-meta">
+          <span class="hscore">${Number(s.score||0).toFixed(1)}</span>
+          ${src ? `<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.outlet)}</a>` : ''}
+          ${pub ? `<span>${fmtDate(pub)}</span>` : ''}
+          <span class="hist-dismissed">removed ${fmtDate(entry.dismissed_at)}</span>
+        </div>
+      </div>`;
+    }).join('');
+  } catch { $('#historySection').style.display = 'none'; }
+}
+
+// ── sort buttons ──
+document.querySelectorAll('.sortbtn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    currentSort = btn.dataset.sort;
+    document.querySelectorAll('.sortbtn').forEach(b => b.classList.toggle('active', b === btn));
+    rerender();
+  });
+});
+
+// ── refresh button ──
+$('#reloadBtn').addEventListener('click', async () => {
+  const btn = $('#reloadBtn');
+  const orig = btn.textContent;
+  btn.textContent = '↻ fetching…';
+  btn.disabled = true;
+  $('#updateBanner').classList.remove('show');
+  try {
+    const r = await fetch('/refresh', {method: 'POST'});
+    const j = await r.json().catch(() => ({}));
+    if (r.ok) {
+      const match = (j.output || '').match(/(\d+) in feed/);
+      toast('RSS pulled · <b>' + (match ? match[0] + ' stories' : 'feed updated') + '</b>');
+    } else {
+      toast('Refresh error — check terminal output');
+    }
+  } catch {
+    const n = $('#notice'); n.className = 'notice warn';
+    n.innerHTML = 'Live refresh requires <code>serve.py</code>. Run <code>python3 serve.py</code> instead of <code>python3 -m http.server</code>. Feed re-read from disk.';
+  }
+  await load();
+  btn.textContent = orig;
+  btn.disabled = false;
+});
+
+// ── auto-poll: detect when feed.json changes (e.g. after terminal fetch) ──
+$('#applyUpdateBtn').addEventListener('click', async () => {
+  $('#updateBanner').classList.remove('show');
+  if (pendingData) {
+    (pendingData.stories || []).forEach(s => { s.pinned = pinnedIds.has(s.id); });
+    lastGenAt = pendingData.meta?.generated_at;
+    currentData = pendingData;
+    pendingData = null;
+    render(currentData);
+    loadHistory();
+  }
+});
+
+setInterval(async () => {
+  try {
+    const r = await fetch('feed.json?t=' + Date.now());
+    if (!r.ok) return;
+    const data = await r.json();
+    const newGenAt = data.meta?.generated_at;
+    if (lastGenAt && newGenAt && newGenAt !== lastGenAt) {
+      pendingData = data;
+      $('#updateBanner').classList.add('show');
+    }
+  } catch {}
+}, 30000);
+
+// ── toast ──
+let tt;
+function toast(html) {
+  const el = $('#toast'); el.innerHTML = html; el.classList.add('show');
+  clearTimeout(tt); tt = setTimeout(() => el.classList.remove('show'), 3200);
+}
+
+// ── init ──
+(async () => {
+  await loadPins();
+  await load();
+})();
+</script>
+</body>
+</html>

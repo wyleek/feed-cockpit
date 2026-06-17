@@ -1,0 +1,118 @@
+# ============================================================
+#  SOURCES & FILTERS  —  edit this file, not the script.
+#  The fetch script reads this to know what to pull and how to filter.
+#  No AI involved: this is plain config a human controls.
+# ============================================================
+
+# How many hours back to consider an item "fresh" enough to include.
+freshness_hours: 72
+
+# No story cap — everything that passes freshness + keyword filters appears in the feed.
+
+# ------------------------------------------------------------
+#  FEEDS  — RSS/Atom URLs, each tagged with a credibility tier.
+#  tier 1 = primary/authoritative, 2 = quality journalism, 3 = trend/culture.
+#  Because YOU chose these sources, the publisher is pre-vetted —
+#  no per-article credibility AI needed. That was the whole insight.
+#
+#  ⚠️ Verify each URL resolves on first run. Feeds rot; the script
+#     skips dead ones and logs them rather than crashing.
+# ------------------------------------------------------------
+feeds:
+  - name: "NPR Health"
+    url: "https://feeds.npr.org/1128/rss.xml"
+    tier: 2
+  - name: "The Guardian — Health"
+    url: "https://www.theguardian.com/society/health/rss"
+    tier: 2
+  - name: "BBC Health"
+    url: "https://feeds.bbci.co.uk/news/health/rss.xml"
+    tier: 2
+  - name: "ScienceDaily — Mind & Brain"
+    url: "https://www.sciencedaily.com/rss/mind_brain.xml"
+    tier: 2
+  - name: "ScienceDaily — Health"
+    url: "https://www.sciencedaily.com/rss/health_medicine.xml"
+    tier: 2
+  - name: "MedPageToday"
+    url: "https://www.medpagetoday.com/rss/headlines.xml"
+    tier: 2
+  - name: "STAT News"
+    url: "https://www.statnews.com/feed/"
+    tier: 2
+  - name: "The Conversation — Health"
+    url: "https://theconversation.com/us/health/articles.atom"
+    tier: 1
+  - name: "Scientific American — Health"
+    url: "https://www.scientificamerican.com/platform/syndication/rss/"
+    tier: 2
+  - name: "New Scientist — Health"
+    url: "https://www.newscientist.com/subject/health/feed/"
+    tier: 2
+  - name: "Healthline News"
+    url: "https://www.healthline.com/rss/health-news"
+    tier: 2
+  - name: "Vox"
+    url: "https://www.vox.com/rss/index.xml"
+    tier: 2
+  # AP / Reuters / CNN: public RSS is flaky — add via Google Alerts (below) instead.
+
+# ------------------------------------------------------------
+#  GOOGLE ALERTS  — your free 24/7 keyword listeners.
+#  Create an Alert at google.com/alerts, set "Deliver to" = RSS feed,
+#  copy the feed URL it gives you, and paste it here as tier 2.
+#  This is how AP/Reuters/CNN and breaking news get in without flaky feeds.
+# ------------------------------------------------------------
+alert_feeds:
+  # - name: "Alert — gen z wellness"
+  #   url: "https://www.google.com/alerts/feeds/XXXXItoXXXX/XXXXX"
+  #   tier: 2
+
+# ------------------------------------------------------------
+#  TOPIC KEYWORDS  — an item must hit at least `min_keyword_hits`
+#  of these (in title or summary) to enter the feed. Pure text match,
+#  no AI. Tune freely; this is your relevance dial.
+# ------------------------------------------------------------
+min_keyword_hits: 1
+keywords:
+  - sleep
+  - anxiety
+  - stress
+  - burnout
+  - depression
+  - mental health
+  - gut
+  - microbiome
+  - exercise
+  - workout
+  - nutrition
+  - diet
+  - loneliness
+  - screen time
+  - social media
+  - dopamine
+  - cortisol
+  - therapy
+  - mindfulness
+  - wellness
+  - young adults
+  - gen z
+  - teens
+  - study
+  - research
+
+# Words that, if present, DROP an item even if it matched (cheap noise filter).
+# Keeps the feel-good / on-mission lean and screens obvious junk.
+block_keywords:
+  - sponsored
+  - advertisement
+  - horoscope
+  - sweepstakes
+
+# Bonus keywords: extra relevance points if matched (not required).
+# These nudge the kind of story you want toward the top of the ranking.
+boost_keywords:
+  - new study
+  - clinical trial
+  - meta-analysis
+  - randomized

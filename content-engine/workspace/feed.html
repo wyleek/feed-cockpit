@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Wire — wellness-genz feed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#F4F5F2;
+    --paper:#FFFFFF;
+    --ink:#1A211D;
+    --ink-soft:#5E6862;
+    --ink-faint:#8A918B;
+    --sage:#5C7D6A;        /* native */
+    --amber:#C2912F;       /* bridge */
+    --stone:#A2A8A1;       /* stretch */
+    --clay:#BD6B3E;        /* score / signal */
+    --hairline:#E2E5DF;
+    --hairline-strong:#D2D6CE;
+    --shadow:0 1px 2px rgba(26,33,29,.04),0 8px 24px -16px rgba(26,33,29,.25);
+    --radius:14px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--porcelain);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    font-size:15px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    padding:0 20px 80px;
+  }
+
+  /* ---- masthead ---- */
+  .wrap{max-width:760px;margin:0 auto}
+  header.masthead{
+    padding:38px 0 22px;
+    border-bottom:1.5px solid var(--ink);
+    margin-bottom:6px;
+  }
+  .brandrow{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .brand{
+    font-family:'Newsreader',serif;
+    font-weight:600;font-size:34px;letter-spacing:-.01em;line-height:1;
+    display:flex;align-items:baseline;gap:12px;
+  }
+  .brand .pack{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--sage);
+    border:1px solid var(--sage);border-radius:999px;
+    padding:3px 9px;transform:translateY(-4px);
+  }
+  .dateline{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;color:var(--ink-soft);letter-spacing:.02em;
+    text-align:right;
+  }
+  .standfirst{
+    margin-top:14px;
+    font-family:'Newsreader',serif;font-style:italic;
+    font-size:16px;color:var(--ink-soft);max-width:48ch;
+  }
+  .metabar{
+    display:flex;gap:18px;flex-wrap:wrap;align-items:center;
+    margin-top:18px;
+    font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.03em;
+    color:var(--ink-soft);
+  }
+  .metabar b{color:var(--ink);font-weight:600}
+  .legend{display:flex;gap:14px;margin-left:auto;flex-wrap:wrap}
+  .legend span{display:inline-flex;align-items:center;gap:6px;text-transform:uppercase;font-size:10.5px}
+  .dot{width:9px;height:9px;border-radius:2px;display:inline-block}
+  .dot.native{background:var(--sage)} .dot.bridge{background:var(--amber)} .dot.stretch{background:var(--stone)}
+
+  /* ---- feed ---- */
+  .feed{margin-top:26px;display:flex;flex-direction:column;gap:14px}
+
+  .card{
+    position:relative;background:var(--paper);
+    border:1px solid var(--hairline);border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:18px 20px 18px 26px;
+    overflow:hidden;
+    opacity:0;transform:translateY(8px);
+    animation:rise .5s cubic-bezier(.2,.7,.2,1) forwards;
+  }
+  @keyframes rise{to{opacity:1;transform:none}}
+  /* the signature: an angle-coded spine down the left edge */
+  .card::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:5px;
+    background:var(--stone);
+  }
+  .card.native::before{background:var(--sage)}
+  .card.bridge::before{background:var(--amber)}
+  .card.stretch::before{background:var(--stone)}
+  .card.pinned{border-color:var(--hairline-strong)}
+  .card.pinned::after{
+    content:"PINNED";position:absolute;top:0;right:0;
+    font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:600;letter-spacing:.12em;
+    color:var(--clay);background:#FBF1EA;
+    padding:4px 9px;border-bottom-left-radius:9px;
+  }
+
+  .toprow{display:flex;align-items:flex-start;gap:14px}
+  .rank{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:500;
+    color:var(--ink-faint);padding-top:5px;min-width:22px;
+  }
+  .scorebox{text-align:center;min-width:48px;padding-top:1px}
+  .score{
+    font-family:'Newsreader',serif;font-weight:600;font-size:27px;line-height:1;
+    color:var(--clay);
+  }
+  .scorelbl{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;color:var(--ink-faint);text-transform:uppercase;margin-top:3px}
+  .headcol{flex:1;min-width:0}
+  .headline{
+    font-family:'Newsreader',serif;font-weight:600;font-size:20px;line-height:1.22;
+    letter-spacing:-.005em;color:var(--ink);
+  }
+  .status-chip{
+    display:inline-block;vertical-align:middle;margin-left:8px;
+    font-family:'IBM Plex Mono',monospace;font-size:9.5px;font-weight:500;letter-spacing:.07em;
+    text-transform:uppercase;color:var(--ink-soft);
+    border:1px solid var(--hairline-strong);border-radius:4px;padding:1px 6px;transform:translateY(-2px);
+  }
+  .status-chip.picked{color:var(--clay);border-color:#E7C9B5}
+  .status-chip.reviewed{color:var(--sage);border-color:#C7D6CB}
+  .summary{margin-top:9px;color:var(--ink-soft);font-size:14.5px;line-height:1.55}
+
+  .angle{
+    margin-top:13px;display:flex;gap:9px;align-items:flex-start;
+    padding:10px 12px;background:var(--porcelain);border-radius:9px;
+  }
+  .angle .tag{
+    font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.08em;
+    text-transform:uppercase;padding:3px 8px;border-radius:5px;white-space:nowrap;flex-shrink:0;
+  }
+  .tag.native{color:#3C5848;background:#E4EDE6}
+  .tag.bridge{color:#7A5A12;background:#F3E9CF}
+  .tag.stretch{color:#5C625B;background:#E9EBE7}
+  .angle .line{font-family:'Newsreader',serif;font-style:italic;font-size:15px;line-height:1.4;color:var(--ink)}
+
+  .footrow{
+    margin-top:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  }
+  .src{
+    font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);
+    text-decoration:none;border:1px solid var(--hairline);border-radius:6px;padding:4px 9px;
+    display:inline-flex;align-items:center;gap:7px;transition:border-color .15s,color .15s;
+  }
+  .src:hover{border-color:var(--sage);color:var(--ink)}
+  .src .tierbadge{font-weight:600;color:var(--sage)}
+  .verified{
+    font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--sage);
+    display:inline-flex;align-items:center;gap:5px;
+  }
+  .gen-chip{
+    font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-soft);
+    background:var(--porcelain);border-radius:5px;padding:3px 7px;
+  }
+  .gen-chip b{color:var(--sage)}
+
+  .actions{margin-left:auto;display:flex;gap:8px;align-items:center}
+  .pickbtn{
+    font-family:'Inter',sans-serif;font-size:12.5px;font-weight:600;
+    color:var(--paper);background:var(--ink);border:none;border-radius:8px;
+    padding:7px 14px;cursor:pointer;transition:background .15s,transform .08s;
+  }
+  .pickbtn:hover{background:#2C362F}
+  .pickbtn:active{transform:translateY(1px)}
+  .expandbtn{
+    background:none;border:1px solid var(--hairline-strong);border-radius:8px;
+    width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;
+    color:var(--ink-soft);transition:background .15s,color .15s;
+  }
+  .expandbtn:hover{background:var(--porcelain);color:var(--ink)}
+  .expandbtn svg{transition:transform .25s ease}
+  .card.open .expandbtn svg{transform:rotate(180deg)}
+
+  /* ---- expandable detail ---- */
+  .detail{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+  .card.open .detail{grid-template-rows:1fr}
+  .detail-inner{overflow:hidden}
+  .detail-pad{
+    margin-top:16px;padding-top:16px;border-top:1px dashed var(--hairline-strong);
+    display:grid;gap:16px;
+  }
+  .detail h4{
+    font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--ink-faint);margin-bottom:9px;
+  }
+  .bars{display:grid;gap:6px}
+  .bar{display:grid;grid-template-columns:120px 1fr 28px;align-items:center;gap:10px}
+  .bar .blbl{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);text-transform:capitalize}
+  .bar .track{height:6px;background:var(--porcelain);border-radius:3px;overflow:hidden}
+  .bar .fill{height:100%;background:var(--sage);border-radius:3px;width:0;transition:width .5s ease}
+  .bar .bval{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink);text-align:right}
+  .caveat{font-size:13.5px;color:var(--ink-soft);font-style:italic;line-height:1.5}
+  .srclist{display:flex;flex-direction:column;gap:7px}
+  .srclist a{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--ink-soft);text-decoration:none;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+  .srclist a:hover{color:var(--ink)}
+  .srclist .role{color:var(--sage);text-transform:uppercase;font-size:9.5px;letter-spacing:.06em;min-width:96px}
+  .srclist .tval{color:var(--clay);font-weight:600}
+
+  /* ---- toast ---- */
+  .toast{
+    position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);
+    background:var(--ink);color:var(--paper);
+    font-family:'IBM Plex Mono',monospace;font-size:12.5px;
+    padding:12px 18px;border-radius:10px;box-shadow:var(--shadow);
+    opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:50;
+    max-width:90vw;text-align:center;
+  }
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  .toast b{color:#9FC3AC}
+
+  footer{
+    max-width:760px;margin:40px auto 0;padding-top:18px;
+    border-top:1px solid var(--hairline);
+    font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-faint);
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  }
+
+  @media (max-width:560px){
+    .brand{font-size:27px}
+    .dateline{text-align:left}
+    .toprow{flex-wrap:wrap}
+    .actions{margin-left:0;width:100%;justify-content:flex-start;margin-top:4px}
+    .bar{grid-template-columns:92px 1fr 24px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none!important;transition:none!important}
+    .card{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div class="brandrow">
+      <div class="brand">The Wire <span class="pack" id="packName">wellness-genz</span></div>
+      <div class="dateline" id="dateline">—</div>
+    </div>
+    <div class="standfirst">Trending stories, vetted for receipts and read for the wellness angle. Pick one to generate.</div>
+    <div class="metabar">
+      <span><b id="liveCount">0</b> live</span>
+      <span><b id="pinnedCount">0</b> pinned</span>
+      <span>cap <b id="capCount">20</b></span>
+      <div class="legend">
+        <span><i class="dot native"></i>native</span>
+        <span><i class="dot bridge"></i>bridge</span>
+        <span><i class="dot stretch"></i>stretch</span>
+      </div>
+    </div>
+  </header>
+  <div class="feed" id="feed"></div>
+  <footer>
+    <span id="genStamp">—</span>
+    <span>schema v<span id="schemaV">1</span> · static snapshot</span>
+  </footer>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   FEED DATA — embedded snapshot of workspace/feed.json.
+   The live renderer in Claude Code reads feed.json directly;
+   this standalone file embeds it so it opens anywhere (file://)
+   and is shareable as a single document. To refresh: paste a
+   new feed.json into the FEED const below.
+   ============================================================ */
+const FEED = /* feed.json */ {
+  "meta": {
+    "pack": "wellness-genz",
+    "generated_at": "2026-06-13T00:00:00Z",
+    "feed_cap": 20,
+    "live_count": 5,
+    "pinned_count": 1,
+    "schema_version": 1
+  },
+  "stories": [
+    {
+      "id": "2026-06-13-social-media-threshold",
+      "status": "picked",
+      "pinned": true,
+      "first_seen": "2026-06-13T00:00:00Z",
+      "last_updated": "2026-06-14T00:00:00Z",
+      "headline": "Decade-long study just confirmed the 2-hour social media threshold",
+      "summary": "A 10-year cohort study of 1,200 young people found that 2+ hours of daily social media use is associated with measurably higher rates of depression and reduced wellbeing one year later — with girls aged 12–13 showing the steepest risk: about 11 extra cases per 100 annually.",
+      "category": "mind",
+      "topic_tags": [
+        "social-media",
+        "depression",
+        "young-adults",
+        "mental-health"
+      ],
+      "angle_tag": "native",
+      "angle_line": "A 10-year study of real kids just confirmed the 2-hour threshold. Girls who hit it at 12 had 11 more cases of depression per 100 than girls who didn't. That's not a vibe — that's a number.",
+      "angle_authenticity": 9,
+      "sources": [
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.5694/mja2.70220",
+          "outlet": "Medical Journal of Australia (Wiley)",
+          "tier": 1,
+          "role": "origin"
+        },
+        {
+          "url": "https://medicalxpress.com/news/2026-06-social-media-linked-poorer-mental.html",
+          "outlet": "MedicalXpress",
+          "tier": 2,
+          "role": "corroboration"
+        }
+      ],
+      "verification": "Tier 1 origin (Medical Journal of Australia) · 10-year longitudinal cohort · 4 independent outlets · no COI flags",
+      "caveats": "Association study, not causal. Australian sample (Melbourne); mechanism is general but demographics may differ from US.",
+      "score": 9.2,
+      "score_breakdown": {
+        "audience_fit": 10,
+        "source_strength": 9,
+        "freshness": 10,
+        "hook_potential": 9,
+        "mission_fit": 9,
+        "angle_authenticity": 9
+      },
+      "generated": [
+        {
+          "component": "script",
+          "path": "workspace/finals/2026-06-13-social-media-threshold.md",
+          "created": "2026-06-14T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-13-strength-training-sweet-spot",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-06-13T00:00:00Z",
+      "last_updated": "2026-06-13T00:00:00Z",
+      "headline": "The strength training sweet spot is shockingly low — and going over doesn't help",
+      "summary": "A 30-year analysis of 147,000 people found 90–120 minutes of weekly strength training cuts all-cause mortality by 13%, cardiovascular death by 19%, and neurological disease death by 27% — and doing more than 120 minutes adds no further benefit.",
+      "category": "fitness",
+      "topic_tags": [
+        "exercise",
+        "strength-training",
+        "longevity",
+        "brain-health"
+      ],
+      "angle_tag": "bridge",
+      "angle_line": "The sweet spot for strength training is 90 minutes a week. After 120, the science says you get nothing extra. Three 30-minute sessions. That's it — and it cuts your risk of dying from a brain disease by 27%.",
+      "angle_authenticity": 8,
+      "sources": [
+        {
+          "url": "https://www.eurekalert.org/news-releases/1130129",
+          "outlet": "British Journal of Sports Medicine (BMJ)",
+          "tier": 1,
+          "role": "origin"
+        }
+      ],
+      "verification": "Tier 1 origin (BJSM / BMJ Group) · 147,000 people · 30-year follow-up · 4 independent outlets · no COI flags",
+      "caveats": "Primary angle is longevity/mortality, not mental health. Sample skews older (health professionals + nurses cohorts). Weekly minutes tracked, not frequency.",
+      "score": 8.3,
+      "score_breakdown": {
+        "audience_fit": 7,
+        "source_strength": 10,
+        "freshness": 9,
+        "hook_potential": 9,
+        "mission_fit": 8,
+        "angle_authenticity": 8
+      },
+      "generated": []
+    },
+    {
+      "id": "2026-06-13-ai-anxiety-career",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-06-13T00:00:00Z",
+      "last_updated": "2026-06-13T00:00:00Z",
+      "headline": "AI anxiety is actively changing how Gen Z picks careers — and not in a good way",
+      "summary": "A 2026 Scientific Reports study found that AI anxiety degrades college students' career decision-making primarily by eroding career adaptability — the ability to stay flexible — which mediated 63% of the anxiety's negative effect on their choices.",
+      "category": "mind",
+      "topic_tags": [
+        "ai",
+        "anxiety",
+        "career",
+        "college-students"
+      ],
+      "angle_tag": "native",
+      "angle_line": "AI anxiety isn't just making college students stressed. A study found it's making them make worse career decisions — specifically by destroying their ability to stay flexible. Which is the exact skill you need right now.",
+      "angle_authenticity": 8,
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41598-026-37648-y",
+          "outlet": "Scientific Reports (Nature)",
+          "tier": 1,
+          "role": "origin"
+        }
+      ],
+      "verification": "Tier 1 origin (Scientific Reports / Nature) · no COI flags · caveat: China-specific sample of 315 students",
+      "caveats": "Sample is 315 Chinese college students; generalizability to US Gen Z is plausible but not confirmed. Exact publication month in 2026 unclear.",
+      "score": 7.5,
+      "score_breakdown": {
+        "audience_fit": 9,
+        "source_strength": 7,
+        "freshness": 6,
+        "hook_potential": 9,
+        "mission_fit": 8,
+        "angle_authenticity": 8
+      },
+      "generated": []
+    },
+    {
+      "id": "2026-06-13-alani-nu-investigation",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-06-13T00:00:00Z",
+      "last_updated": "2026-06-13T00:00:00Z",
+      "headline": "Texas just opened an investigation into Alani Nu — here's the update",
+      "summary": "Texas AG Ken Paxton opened a formal investigation into Celsius Holdings (maker of Alani Nu) over how its 200mg-caffeine energy drinks are marketed to teens, referencing a lawsuit from the family of a 17-year-old girl who died with an enlarged heart.",
+      "category": "food",
+      "topic_tags": [
+        "energy-drinks",
+        "caffeine",
+        "teens",
+        "consumer-safety"
+      ],
+      "angle_tag": "bridge",
+      "angle_line": "We covered that Alani Nu has 2x the safe caffeine for teens. Now a state AG opened a formal investigation, and a family is suing after their 17-year-old died. Here's what the label should say — and doesn't.",
+      "angle_authenticity": 7,
+      "sources": [
+        {
+          "url": "https://www.kbtx.com/2026/06/04/texas-opens-investigation-into-celsius-maker-alani-nu-energy-drinks-over-caffeine-levels-marketed-teens/",
+          "outlet": "Texas AG press release / Local affiliates",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Tier 2 origin (Texas AG press release + local news affiliates) · development on Consumer Reports investigation · no COI flags",
+      "caveats": "Development story — underlying science (Consumer Reports caffeine testing) unchanged. Death allegation is pending litigation, not adjudicated.",
+      "score": 7.4,
+      "score_breakdown": {
+        "audience_fit": 8,
+        "source_strength": 6,
+        "freshness": 8,
+        "hook_potential": 9,
+        "mission_fit": 7,
+        "angle_authenticity": 7
+      },
+      "generated": []
+    },
+    {
+      "id": "2026-06-13-uk-youth-mental-health",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-06-13T00:00:00Z",
+      "last_updated": "2026-06-13T00:00:00Z",
+      "headline": "The labour market is making young women depressed — a UK study quantified it",
+      "summary": "A study from three UK universities tracking 13 years of national data found that depression, anxiety, and panic attacks have steadily worsened among under-25s, with youth unemployment and job instability correlating strongly — and women hit hardest.",
+      "category": "mind",
+      "topic_tags": [
+        "mental-health",
+        "employment",
+        "young-women",
+        "stress"
+      ],
+      "angle_tag": "bridge",
+      "angle_line": "A 13-year study just mapped the link between a bad job market and young women's mental health. It's not soft feelings — it's measurable depression. Here's what researchers say could actually help.",
+      "angle_authenticity": 7,
+      "sources": [
+        {
+          "url": "https://www.stir.ac.uk/news/2026/june-2026-news/youth-mental-health-deepening-in-uk-and-labour-market-could-be-to-blame/",
+          "outlet": "Scottish Journal of Political Economy / Univ. of Stirling",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Tier 2 origin (Scottish Journal of Political Economy, 3 universities) · national population data · no COI flags",
+      "caveats": "UK-specific (especially Scotland). Published in economics journal, not health journal. Correlation not causation; confounders possible.",
+      "score": 6.7,
+      "score_breakdown": {
+        "audience_fit": 7,
+        "source_strength": 7,
+        "freshness": 8,
+        "hook_potential": 7,
+        "mission_fit": 6,
+        "angle_authenticity": 7
+      },
+      "generated": []
+    }
+  ]
+};
+
+/* ---------- helpers ---------- */
+const $=(s,el=document)=>el.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmtDate=iso=>new Date(iso).toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});
+const fmtTime=iso=>new Date(iso).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+
+/* ---------- sort: pinned first, then score desc ---------- */
+function sortStories(arr){
+  return [...arr].sort((a,b)=>(b.pinned-a.pinned)||(b.score-a.score));
+}
+
+/* ---------- render ---------- */
+function render(){
+  const m=FEED.meta;
+  $('#packName').textContent=m.pack;
+  $('#dateline').textContent=fmtDate(m.generated_at);
+  $('#liveCount').textContent=m.live_count;
+  $('#pinnedCount').textContent=m.pinned_count;
+  $('#capCount').textContent=m.feed_cap;
+  $('#schemaV').textContent=m.schema_version;
+  $('#genStamp').textContent='generated '+fmtTime(m.generated_at);
+
+  const feed=$('#feed');
+  const stories=sortStories(FEED.stories);
+  feed.innerHTML=stories.map((s,i)=>cardHTML(s,i)).join('');
+
+  // wire interactions
+  feed.querySelectorAll('.expandbtn,.headline').forEach(el=>{
+    el.addEventListener('click',e=>{
+      const card=e.target.closest('.card');
+      card.classList.toggle('open');
+      if(card.classList.contains('open')) animateBars(card);
+    });
+  });
+  feed.querySelectorAll('.pickbtn').forEach(btn=>{
+    btn.addEventListener('click',e=>{
+      const id=e.target.dataset.id;
+      const cmd='generate #'+id;
+      copy(cmd);
+      toast('Copied <b>'+esc(cmd)+'</b> — paste in Claude Code to build it');
+    });
+  });
+}
+
+function cardHTML(s,i){
+  const rank=String(i+1).padStart(2,'0');
+  const statusChip = s.status!=='new'
+    ? `<span class="status-chip ${esc(s.status)}">${esc(s.status)}</span>` : '';
+  const srcChips=s.sources.map(src=>
+    `<a class="src" href="${esc(src.url)}" target="_blank" rel="noopener">
+       <span class="tierbadge">T${esc(src.tier)}</span>${esc(src.outlet)}
+     </a>`).join('');
+  const genChip=s.generated.length
+    ? `<span class="gen-chip">${s.generated.map(g=>`<b>${esc(g.component)} \u2713</b>`).join(' · ')}</span>` : '';
+  const bars=Object.entries(s.score_breakdown).map(([k,v])=>
+    `<div class="bar"><span class="blbl">${esc(k.replace(/_/g,' '))}</span>
+       <span class="track"><span class="fill" data-v="${v}"></span></span>
+       <span class="bval">${v}</span></div>`).join('');
+  const srcList=s.sources.map(src=>
+    `<a href="${esc(src.url)}" target="_blank" rel="noopener">
+       <span class="role">${esc(src.role)}</span>
+       <span class="tval">Tier ${esc(src.tier)}</span>
+       <span>${esc(src.outlet)}</span></a>`).join('');
+
+  return `
+  <article class="card ${esc(s.angle_tag)}${s.pinned?' pinned':''}">
+    <div class="toprow">
+      <div class="rank">${rank}</div>
+      <div class="scorebox"><div class="score">${s.score.toFixed(1)}</div><div class="scorelbl">score</div></div>
+      <div class="headcol">
+        <div class="headline">${esc(s.headline)}${statusChip}</div>
+        <div class="summary">${esc(s.summary)}</div>
+        <div class="angle">
+          <span class="tag ${esc(s.angle_tag)}">${esc(s.angle_tag)}</span>
+          <span class="line">${esc(s.angle_line)}</span>
+        </div>
+        <div class="footrow">
+          ${srcChips}
+          <span class="verified">\u2713 ${esc(s.verification)}</span>
+          ${genChip}
+          <div class="actions">
+            <button class="pickbtn" data-id="${esc(s.id)}">Pick &amp; copy command</button>
+            <button class="expandbtn" aria-label="Show details">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="detail"><div class="detail-inner"><div class="detail-pad">
+      <div><h4>Score breakdown</h4><div class="bars">${bars}</div></div>
+      <div><h4>Caveats carried into generation</h4><div class="caveat">${esc(s.caveats)}</div></div>
+      <div><h4>Sources &amp; roles</h4><div class="srclist">${srcList}</div></div>
+    </div></div></div>
+  </article>`;
+}
+
+function animateBars(card){
+  card.querySelectorAll('.fill').forEach(f=>{
+    requestAnimationFrame(()=>{f.style.width=(f.dataset.v*10)+'%';});
+  });
+}
+function copy(t){
+  navigator.clipboard?.writeText(t).catch(()=>{});
+}
+let toastTimer;
+function toast(html){
+  const el=$('#toast');el.innerHTML=html;el.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3200);
+}
+
+/* stagger the card entrance */
+render();
+document.querySelectorAll('.card').forEach((c,i)=>{c.style.animationDelay=(i*60)+'ms';});
+</script>
+</body>
+</html>

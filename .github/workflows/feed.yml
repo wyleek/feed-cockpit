@@ -1,0 +1,31 @@
+# True 24/7, free, runs on GitHub's servers (not your laptop).
+# Flip this on later: push this folder to a GitHub repo and this workflow
+# runs fetch_feed.py on a schedule, commits the updated feed.json, and
+# (optionally) GitHub Pages serves cockpit.html at a public URL.
+name: Refresh feed
+
+on:
+  schedule:
+    - cron: "0 * * * *"     # every hour, on the hour (UTC)
+  workflow_dispatch: {}       # also lets you run it manually from the Actions tab
+
+permissions:
+  contents: write             # needed to commit the updated feed.json
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python3 fetch_feed.py
+      - name: Commit updated feed
+        run: |
+          git config user.name  "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add feed.json
+          git commit -m "feed: hourly refresh" || echo "no changes"
+          git push
