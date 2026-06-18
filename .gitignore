@@ -1,5 +1,5 @@
 # ── runtime state (generated, not source) ──────────────────────────────────
-feed.json
+# feed.json is committed so GitHub Actions can push it and Netlify can serve it
 pins.json
 fetch.log
 server.log

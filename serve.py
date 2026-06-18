@@ -8,7 +8,7 @@ Serves the cockpit exactly like the stdlib server, but adds endpoints:
   POST /pins      →  body {"id":"...", "pinned":true/false, "story":{...}}
   GET  /dismissed →  returns history/dismissed.json (past removed stories)
 """
-import json, subprocess, sys
+import json, subprocess, sys, threading, webbrowser
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 from pathlib import Path
 
@@ -91,5 +91,7 @@ class Handler(SimpleHTTPRequestHandler):
 if __name__ == '__main__':
     import os
     os.chdir(HERE)
-    print(f'Cockpit → http://localhost:{PORT}/cockpit.html  (Ctrl-C to stop)')
+    url = f'http://localhost:{PORT}/cockpit.html'
+    print(f'Cockpit → {url}  (Ctrl-C to stop)')
+    threading.Timer(1.2, lambda: webbrowser.open(url)).start()
     HTTPServer(('', PORT), Handler).serve_forever()

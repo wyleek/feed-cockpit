@@ -27,5 +27,9 @@ jobs:
           git config user.name  "feed-bot"
           git config user.email "feed-bot@users.noreply.github.com"
           git add feed.json
-          git commit -m "feed: hourly refresh" || echo "no changes"
-          git push
+          if git diff --staged --quiet; then
+            echo "feed.json unchanged — no commit needed"
+          else
+            git commit -m "feed: hourly refresh"
+            git push
+          fi

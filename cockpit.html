@@ -208,14 +208,23 @@ let lastGenAt = null;
 let pendingData = null;  // new data waiting to be applied (auto-poll)
 let pinnedIds = new Set();
 
-// ── pin persistence (server-side) ──
+// ── pin persistence (localStorage primary, server optional sync) ──
+const PINS_LS_KEY = 'feedcockpit_pins';
+
 async function loadPins() {
+  // localStorage works everywhere (static hosting, Netlify, local)
+  const stored = localStorage.getItem(PINS_LS_KEY);
+  if (stored) {
+    try { pinnedIds = new Set(JSON.parse(stored)); return; } catch {}
+  }
+  // First run: migrate from serve.py server and save to localStorage
   try {
     const r = await fetch('/pins');
     if (!r.ok) return;
     const p = await r.json();
     pinnedIds = new Set(p.pinned_ids || []);
-  } catch { /* serve.py not running — pins are ephemeral */ }
+    localStorage.setItem(PINS_LS_KEY, JSON.stringify([...pinnedIds]));
+  } catch {}
 }
 
 async function togglePin(story) {
@@ -223,23 +232,24 @@ async function togglePin(story) {
   const nowPinned = !pinnedIds.has(id);
   if (nowPinned) pinnedIds.add(id); else pinnedIds.delete(id);
 
-  // update in current data
+  localStorage.setItem(PINS_LS_KEY, JSON.stringify([...pinnedIds]));
+
   if (currentData) {
     const s = currentData.stories.find(x => x.id === id);
     if (s) s.pinned = nowPinned;
   }
 
-  // persist to server
+  // Also sync to server when serve.py is running (keeps pins.json for fetch_feed.py)
   try {
     await fetch('/pins', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({id, pinned: nowPinned, story}),
     });
-  } catch { /* non-critical — pins won't survive a refresh if server is down */ }
+  } catch {}
 
   rerender();
-  toast(nowPinned ? '📌 Pinned — will stay through refreshes' : 'Unpinned');
+  toast(nowPinned ? '📌 Pinned — stays through refreshes' : 'Unpinned');
 }
 
 // ── load & render ──
@@ -438,8 +448,13 @@ $('#reloadBtn').addEventListener('click', async () => {
       toast('Refresh error — check terminal output');
     }
   } catch {
-    const n = $('#notice'); n.className = 'notice warn';
-    n.innerHTML = 'Live refresh requires <code>serve.py</code>. Run <code>python3 serve.py</code> instead of <code>python3 -m http.server</code>. Feed re-read from disk.';
+    const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
+    if (isLocal) {
+      const n = $('#notice'); n.className = 'notice warn';
+      n.innerHTML = 'Live refresh requires <code>serve.py</code>. Run <code>python3 serve.py</code> in this folder, then open <code>http://localhost:8000/cockpit.html</code>.';
+    } else {
+      toast('Feed updates automatically — showing latest available');
+    }
   }
   await load();
   btn.textContent = orig;

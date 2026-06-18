@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+
+# Serve cockpit.html at the root URL
+[[redirects]]
+  from = "/"
+  to = "/cockpit.html"
+  status = 200
+
+# Prevent Netlify from caching the feed too aggressively
+[[headers]]
+  for = "/feed.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300, stale-while-revalidate=60"
