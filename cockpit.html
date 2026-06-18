@@ -560,7 +560,12 @@ $('#reloadBtn').addEventListener('click', async () => {
       const match = (j.output || '').match(/(\d+) in feed/);
       toast('RSS pulled · <b>' + (match ? match[0] + ' stories' : 'feed updated') + '</b>');
     } else {
-      toast('Refresh error — check terminal output');
+      const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
+      if (isLocal) {
+        toast('Refresh error — check terminal output');
+      } else {
+        toast('Feed updates automatically every hour — showing latest');
+      }
     }
   } catch {
     const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
