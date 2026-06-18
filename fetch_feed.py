@@ -214,10 +214,12 @@ def main():
 
     cfg = load_config()
     cutoff = datetime.now(timezone.utc) - timedelta(hours=cfg.get("freshness_hours", 72))
+    max_per_feed = cfg.get("max_per_feed", 0)  # 0 = no cap
     all_feeds = (cfg.get("feeds") or []) + (cfg.get("alert_feeds") or [])
 
     candidates = {}
     dead_feeds = []
+    per_feed_counts = {}  # track new stories added per feed for variety cap
     stats = {"fetched": 0, "kept": 0, "feeds_ok": 0, "feeds_dead": 0}
 
     for feed in all_feeds:
@@ -256,12 +258,17 @@ def main():
                     rec["score"] = score
                 continue
 
+            # enforce per-feed cap (corroboration above is always allowed)
+            if max_per_feed and per_feed_counts.get(feed["name"], 0) >= max_per_feed:
+                continue
+
             story_id = make_id(title, when)
             # skip if already in history archives (not just current feed)
             if story_id in seen_ids and story_id not in prev_ids:
                 continue
 
             stats["kept"] += 1
+            per_feed_counts[feed["name"]] = per_feed_counts.get(feed["name"], 0) + 1
             candidates[key] = {
                 "id": story_id,
                 "status": "new",

@@ -32,15 +32,26 @@ export default async function handler(req) {
   const voiceDir = join(packDir, 'voice');
   const fmtDir = join(packDir, 'formats');
 
+  const componentFormats = {
+    script:          ['video-script.md'],
+    hooks:           ['video-script.md'],
+    captions:        ['captions.md'],
+    package:         ['video-script.md', 'captions.md', 'breakdown.md'],
+    breakdown:       ['breakdown.md'],
+    instagram:       ['instagram.md'],
+    'text-overlays': ['text-overlays.md'],
+    thread:          ['thread.md'],
+  };
+
   const parts = [
     'You are a short-form video content writer for a Gen Z wellness channel.',
     'PACK CONTEXT:\n' + read(join(packDir, 'pack.md')),
     'VOICE BIBLE:\n' + read(join(voiceDir, 'voice-bible.md')),
-    'VIDEO SCRIPT FORMAT:\n' + read(join(fmtDir, 'video-script.md')),
   ];
 
-  if (['captions', 'package'].includes(component)) {
-    parts.push('CAPTIONS FORMAT:\n' + read(join(fmtDir, 'captions.md')));
+  for (const fname of (componentFormats[component] || ['video-script.md'])) {
+    const content = read(join(fmtDir, fname));
+    if (content) parts.push(fname.replace(/-/g, ' ').toUpperCase() + ' FORMAT:\n' + content);
   }
 
   const examplesDir = join(voiceDir, 'examples');

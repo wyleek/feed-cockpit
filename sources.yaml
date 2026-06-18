@@ -7,7 +7,8 @@
 # How many hours back to consider an item "fresh" enough to include.
 freshness_hours: 72
 
-# No story cap — everything that passes freshness + keyword filters appears in the feed.
+# Cap stories per source so no single feed dominates. Set to 0 to disable.
+max_per_feed: 6
 
 # ------------------------------------------------------------
 #  FEEDS  — RSS/Atom URLs, each tagged with a credibility tier.
@@ -64,8 +65,20 @@ feeds:
 #  This is how AP/Reuters/CNN and breaking news get in without flaky feeds.
 # ------------------------------------------------------------
 alert_feeds:
+  # HOW TO ADD GOOGLE ALERTS:
+  #  1. Go to google.com/alerts and create an alert (e.g. "gen z wellness", "teen mental health")
+  #  2. Under "Deliver to" select "RSS feed"
+  #  3. Click Create Alert — Google gives you a feed URL like the one below
+  #  4. Paste it here. These count toward max_per_feed like any other source.
+  #
   # - name: "Alert — gen z wellness"
-  #   url: "https://www.google.com/alerts/feeds/XXXXItoXXXX/XXXXX"
+  #   url: "https://www.google.com/alerts/feeds/YOURCODE/ALERTCODE"
+  #   tier: 2
+  # - name: "Alert — teen mental health"
+  #   url: "https://www.google.com/alerts/feeds/YOURCODE/ALERTCODE"
+  #   tier: 2
+  # - name: "Alert — dopamine screen time"
+  #   url: "https://www.google.com/alerts/feeds/YOURCODE/ALERTCODE"
   #   tier: 2
 
 # ------------------------------------------------------------

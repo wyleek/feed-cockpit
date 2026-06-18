@@ -35,11 +35,13 @@
   .sortbtn:hover{background:var(--paper);color:var(--ink)}
   .sortbtn.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 
-  /* ── refresh button ── */
-  .refresh{margin-left:auto;display:flex;gap:10px;align-items:center}
-  .refresh button{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);background:none;border:1px solid var(--hairline-strong);border-radius:7px;padding:5px 11px;cursor:pointer;transition:background .15s,color .15s}
-  .refresh button:hover{background:var(--paper);color:var(--ink)}
-  .refresh button:disabled{opacity:.5;cursor:default}
+  /* ── header buttons ── */
+  .headerbtns{margin-left:auto;display:flex;gap:6px;align-items:center}
+  .headerbtn{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-soft);background:none;border:1px solid var(--hairline-strong);border-radius:7px;padding:5px 11px;cursor:pointer;transition:background .15s,color .15s,border-color .15s;white-space:nowrap}
+  .headerbtn:hover{background:var(--paper);color:var(--ink)}
+  .headerbtn:disabled{opacity:.5;cursor:default}
+  .headerbtn.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .genbadge{display:inline-block;background:var(--sage);color:var(--paper);border-radius:99px;font-size:9px;padding:1px 5px;margin-left:4px;vertical-align:middle;line-height:1.4}
 
   /* ── notices ── */
   .notice{margin-top:20px;padding:14px 16px;border-radius:10px;font-size:13.5px;line-height:1.5;display:none}
@@ -48,9 +50,13 @@
   .notice code{font-family:'IBM Plex Mono',monospace;font-size:12px;background:rgba(0,0,0,.05);padding:2px 6px;border-radius:4px}
 
   /* ── auto-update banner ── */
-  .update-banner{display:none;margin-top:14px;padding:10px 14px;background:#EAF2EC;border:1px solid #C2D9C8;border-radius:9px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:#3C5848;display:none;align-items:center;gap:10px}
+  .update-banner{display:none;margin-top:14px;padding:10px 14px;background:#EAF2EC;border:1px solid #C2D9C8;border-radius:9px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:#3C5848;align-items:center;gap:10px}
   .update-banner.show{display:flex}
   .update-banner button{font-family:'IBM Plex Mono',monospace;font-size:11px;background:var(--sage);color:white;border:none;border-radius:5px;padding:4px 10px;cursor:pointer}
+
+  /* ── views ── */
+  .view-pane{display:none}
+  .view-pane.active{display:block}
 
   /* ── feed ── */
   .feed{margin-top:26px;display:flex;flex-direction:column;gap:14px}
@@ -91,9 +97,11 @@
   .verified{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--sage);display:inline-flex;align-items:center;gap:5px}
   .gen-chip{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-soft);background:var(--porcelain);border-radius:5px;padding:3px 7px}
   .gen-chip b{color:var(--sage)}
-  .actions{margin-left:auto;display:flex;gap:8px;align-items:center}
+  .pub-date{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--ink-faint);margin-top:8px}
+  .actions{margin-left:auto;display:flex;gap:6px;align-items:center}
   .pickbtn{font-family:'Inter',sans-serif;font-size:12.5px;font-weight:600;color:var(--paper);background:var(--ink);border:none;border-radius:8px;padding:7px 14px;cursor:pointer;transition:background .15s,transform .08s}
   .pickbtn:hover{background:#2C362F}.pickbtn:active{transform:translateY(1px)}
+  .pickbtn.active{background:var(--sage)}
 
   /* ── pin button ── */
   .pinbtn{background:none;border:1px solid var(--hairline-strong);border-radius:8px;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--ink-faint);transition:background .15s,color .15s,border-color .15s;flex-shrink:0}
@@ -101,25 +109,38 @@
   .pinbtn.pinned{color:var(--rose);border-color:var(--rose);background:#FBF0F2}
   .pinbtn svg{width:14px;height:14px}
 
-  .expandbtn{background:none;border:1px solid var(--hairline-strong);border-radius:8px;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--ink-soft);transition:background .15s,color .15s}
+  /* ── trash button ── */
+  .trashbtn{background:none;border:1px solid transparent;border-radius:8px;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--ink-faint);transition:background .15s,color .15s,border-color .15s,opacity .15s;flex-shrink:0;opacity:0;pointer-events:none}
+  .card:hover .trashbtn,.card.gen-open .trashbtn{opacity:1;pointer-events:auto}
+  .trashbtn:hover{color:var(--clay);border-color:var(--clay);background:#FDF0EC}
+  .trashbtn svg{width:13px;height:13px}
+
+  .expandbtn{background:none;border:1px solid var(--hairline-strong);border-radius:8px;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--ink-soft);transition:background .15s,color .15s;flex-shrink:0}
   .expandbtn:hover{background:var(--porcelain);color:var(--ink)}
   .expandbtn svg{transition:transform .25s ease}.card.open .expandbtn svg{transform:rotate(180deg)}
 
   /* ── generation panel ── */
-  .genpanel{display:none;margin-top:14px;padding-top:14px;border-top:1px dashed var(--hairline-strong)}
+  .genpanel{display:none;margin-top:10px;padding-top:10px;border-top:1px dashed var(--hairline-strong)}
   .card.gen-open .genpanel{display:block}
-  .genbar{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:2px}
-  .genbtn{font-family:'IBM Plex Mono',monospace;font-size:11px;background:none;border:1px solid var(--hairline-strong);border-radius:6px;padding:5px 10px;cursor:pointer;transition:background .15s,color .15s,border-color .15s}
-  .genbtn:hover{background:var(--porcelain);color:var(--ink)}
-  .genbtn.active{background:var(--sage);color:var(--paper);border-color:var(--sage)}
-  .genbtn:disabled{opacity:.45;cursor:default}
-  .gen-status{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-faint);font-style:italic;margin-left:2px}
-  .gen-result{margin-top:13px;font-size:14px;line-height:1.8;color:var(--ink);background:var(--porcelain);border-radius:10px;padding:16px 18px;white-space:pre-wrap;word-break:break-word;font-family:'Newsreader',serif}
-  .gen-footer{margin-top:10px;display:none;gap:8px;align-items:center}
-  .gen-copybtn{font-family:'IBM Plex Mono',monospace;font-size:11px;background:none;border:1px solid var(--hairline-strong);border-radius:6px;padding:4px 10px;cursor:pointer;transition:background .15s}
-  .gen-copybtn:hover{background:var(--paper)}
-  .gen-hint{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--ink-faint)}
-  .gen-err{display:none;margin-top:10px;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--clay);background:#FDF0EC;border:1px solid #EBCBB5;border-radius:8px;padding:10px 12px}
+  .genpills{display:flex;gap:5px;flex-wrap:wrap}
+  .genpill{font-family:'IBM Plex Mono',monospace;font-size:10.5px;background:none;border:1px solid var(--hairline-strong);border-radius:99px;padding:4px 11px;cursor:pointer;transition:background .12s,color .12s,border-color .12s;white-space:nowrap}
+  .genpill:hover{background:var(--porcelain);color:var(--ink)}
+  .genpill.active{background:var(--sage);color:var(--paper);border-color:var(--sage)}
+  .genpill:disabled{opacity:.45;cursor:default}
+  .gen-actions-row{display:flex;align-items:center;gap:8px;margin-top:8px}
+  .gen-status{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--ink-faint);font-style:italic;flex:1}
+  .gen-runbtn{font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;background:var(--ink);color:var(--paper);border:none;border-radius:7px;padding:6px 16px;cursor:pointer;transition:background .15s;flex-shrink:0}
+  .gen-runbtn:hover:not(:disabled){background:#2C362F}
+  .gen-runbtn:disabled{opacity:.35;cursor:default}
+  .gen-results-area{margin-top:8px;display:flex;flex-direction:column;gap:8px}
+  .gen-result-block{background:var(--porcelain);border-radius:9px;padding:11px 14px}
+  .gen-result-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--sage);margin-bottom:6px}
+  .gen-result-content{font-family:'Newsreader',serif;font-size:13.5px;line-height:1.75;color:var(--ink);white-space:pre-wrap;word-break:break-word}
+  .gen-result-content.loading{color:var(--ink-faint);font-style:italic}
+  .gen-result-content.error{color:var(--clay)}
+  .gen-result-copy{margin-top:8px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;background:none;border:1px solid var(--hairline-strong);border-radius:5px;padding:3px 10px;cursor:pointer;transition:background .12s}
+  .gen-result-copy:hover{background:var(--paper)}
+  .gen-err{display:none;margin-top:8px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--clay);background:#FDF0EC;border:1px solid #EBCBB5;border-radius:8px;padding:8px 12px}
 
   .detail{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
   .card.open .detail{grid-template-rows:1fr}
@@ -146,7 +167,7 @@
   .history-section[open] summary::before{transform:rotate(90deg)}
   .history-section summary .hist-count{font-weight:400;color:var(--stone)}
   .hist-feed{margin-top:18px;display:flex;flex-direction:column;gap:10px}
-  .hist-card{background:var(--paper);border:1px solid var(--hairline);border-radius:10px;padding:14px 16px;opacity:.8}
+  .hist-card{background:var(--paper);border:1px solid var(--hairline);border-radius:10px;padding:14px 16px;opacity:.8;transition:opacity .15s}
   .hist-card:hover{opacity:1}
   .hist-headline{font-family:'Newsreader',serif;font-weight:500;font-size:16px;line-height:1.25;color:var(--ink)}
   .hist-meta{margin-top:6px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--ink-faint)}
@@ -154,6 +175,26 @@
   .hist-meta a{color:var(--ink-soft);text-decoration:none}
   .hist-meta a:hover{color:var(--ink)}
   .hist-dismissed{color:var(--stone)}
+  .hist-restorebtn{font-family:'IBM Plex Mono',monospace;font-size:10px;background:none;border:1px solid var(--hairline-strong);border-radius:5px;padding:2px 8px;cursor:pointer;color:var(--sage);transition:background .12s,border-color .12s}
+  .hist-restorebtn:hover{background:#E4EDE6;border-color:var(--sage)}
+
+  /* ── generated view ── */
+  .gen-view-header{display:flex;align-items:center;gap:14px;margin-top:22px;margin-bottom:22px}
+  .gen-view-backbtn{font-family:'IBM Plex Mono',monospace;font-size:11px;background:none;border:1px solid var(--hairline-strong);border-radius:7px;padding:5px 11px;cursor:pointer;color:var(--ink-soft);transition:background .12s,color .12s}
+  .gen-view-backbtn:hover{background:var(--paper);color:var(--ink)}
+  .gen-view-title{font-family:'Newsreader',serif;font-size:22px;font-weight:600;color:var(--ink)}
+  .gen-view-empty{margin-top:60px;text-align:center;color:var(--ink-faint);font-family:'IBM Plex Mono',monospace;font-size:13px;line-height:1.7}
+  .gen-view-feed{display:flex;flex-direction:column;gap:16px;padding-bottom:80px}
+  .gen-view-card{background:var(--paper);border:1px solid var(--hairline);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px}
+  .gen-view-headline{font-family:'Newsreader',serif;font-weight:600;font-size:18px;line-height:1.25;color:var(--ink)}
+  .gen-view-meta{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--ink-faint);margin-top:4px;margin-bottom:14px}
+  .gen-view-section{border-top:1px solid var(--hairline);padding:12px 0 4px}
+  .gen-view-comp-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--sage);margin-bottom:8px}
+  .gen-view-comp-content{font-family:'Newsreader',serif;font-size:14px;line-height:1.75;color:var(--ink);white-space:pre-wrap;word-break:break-word}
+  .gen-view-copy{margin-top:8px;display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;background:none;border:1px solid var(--hairline-strong);border-radius:5px;padding:3px 10px;cursor:pointer;transition:background .12s}
+  .gen-view-copy:hover{background:var(--porcelain)}
+  .gen-view-delete{margin-left:8px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;background:none;border:none;color:var(--ink-faint);cursor:pointer;padding:3px 6px;transition:color .12s}
+  .gen-view-delete:hover{color:var(--clay)}
 
   /* ── toast ── */
   .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--paper);font-family:'IBM Plex Mono',monospace;font-size:12.5px;padding:12px 18px;border-radius:10px;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:50;max-width:90vw;text-align:center}
@@ -170,10 +211,9 @@
     .standfirst{font-size:14.5px}
     .metabar{gap:8px;font-size:11px}
     .sortbar{flex-wrap:wrap}
-    .refresh{margin-left:0;width:100%}
-    .refresh button{width:100%;justify-content:center;padding:9px 11px;font-size:12px}
+    .headerbtns{margin-left:0;width:100%}
+    .headerbtn{flex:1;justify-content:center;padding:9px 11px;font-size:12px;text-align:center}
 
-    /* cards */
     .card{padding:14px 14px 14px 20px}
     .rank{display:none}
     .scorebox{min-width:40px}
@@ -181,23 +221,19 @@
     .headline{font-size:17px}
     .summary{font-size:13.5px}
 
-    /* actions row — stack below content on small screens */
     .footrow{flex-wrap:wrap;gap:8px}
-    .actions{margin-left:0;width:100%;justify-content:flex-start;gap:8px;margin-top:2px}
+    .actions{margin-left:0;width:100%;justify-content:flex-start;gap:6px;margin-top:2px}
     .pickbtn{flex:1;padding:9px 10px;font-size:13px;text-align:center}
-    .pinbtn,.expandbtn{width:40px;height:40px;flex-shrink:0}
+    .pinbtn,.expandbtn,.trashbtn{width:40px;height:40px}
+    .trashbtn{opacity:1;pointer-events:auto}
 
-    /* gen panel */
-    .genbar{gap:6px}
-    .genbtn{flex:1;min-width:calc(50% - 4px);padding:9px 6px;font-size:12px;text-align:center}
-    .gen-result{font-size:13.5px;padding:12px 14px}
+    .genpills{gap:5px}
+    .genpill{flex:1;min-width:calc(50% - 4px);padding:8px 6px;font-size:11.5px;text-align:center;border-radius:8px}
+    .gen-result-content{font-size:13px;padding:0}
 
-    /* score breakdown bars */
     .bar{grid-template-columns:90px 1fr 24px}
   }
-  @media (max-width:380px){
-    .genbtn{min-width:100%}
-  }
+  @media (max-width:380px){.genpill{min-width:100%}}
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -218,7 +254,10 @@
         <button class="sortbtn active" data-sort="date">Date</button>
         <button class="sortbtn" data-sort="score">Score</button>
       </div>
-      <div class="refresh"><button id="reloadBtn">↻ refresh feed</button></div>
+      <div class="headerbtns">
+        <button class="headerbtn" id="genTabBtn">Generated<span class="genbadge" id="genBadge" style="display:none">0</span></button>
+        <button class="headerbtn" id="reloadBtn">↻ refresh feed</button>
+      </div>
     </div>
     <div class="notice" id="notice"></div>
     <div class="update-banner" id="updateBanner">
@@ -227,17 +266,33 @@
     </div>
   </header>
 
-  <div class="feed" id="feed"></div>
+  <div class="views-container">
+    <div id="viewsInner">
 
-  <details class="history-section" id="historySection">
-    <summary>Past Stories <span class="hist-count" id="histCount"></span></summary>
-    <div class="hist-feed" id="histFeed"></div>
-  </details>
+      <!-- Feed pane -->
+      <div class="view-pane" id="feedPane">
+        <div class="feed" id="feed"></div>
+        <details class="history-section" id="historySection">
+          <summary>Past Stories <span class="hist-count" id="histCount"></span></summary>
+          <div class="hist-feed" id="histFeed"></div>
+        </details>
+        <footer>
+          <span id="genStamp">—</span>
+          <span>no-AI pipeline · angle &amp; voice judged downstream</span>
+        </footer>
+      </div>
 
-  <footer>
-    <span id="genStamp">—</span>
-    <span>no-AI pipeline · angle &amp; voice judged downstream</span>
-  </footer>
+      <!-- Generated content pane -->
+      <div class="view-pane" id="genPane">
+        <div class="gen-view-header">
+          <button class="gen-view-backbtn" id="backToFeedBtn">← Back to Feed</button>
+          <span class="gen-view-title">Generated</span>
+        </div>
+        <div id="genViewFeed"></div>
+      </div>
+
+    </div>
+  </div>
 </div>
 <div class="toast" id="toast"></div>
 
@@ -245,28 +300,30 @@
 const $ = (s, el=document) => el.querySelector(s);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmtDate = iso => { try { return new Date(iso).toLocaleString('en-US',{weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}); } catch { return iso; } };
+const fmtShortDate = iso => { try { return new Date(iso).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}); } catch { return ''; } };
 
-const ANGLE_HINT = {unscored: 'Not yet judged — code ranked this by relevance; decide the wellness angle when you pick it.'};
-// /generate → serve.py locally, Netlify Function in production (via netlify.toml redirect)
+const ANGLE_HINT = {unscored:'Not yet judged — code ranked this by relevance; decide the wellness angle when you pick it.'};
 const GENERATE_URL = '/generate';
 
 // ── state ──
 let currentSort = 'date';
 let currentData = null;
 let lastGenAt = null;
-let pendingData = null;  // new data waiting to be applied (auto-poll)
+let pendingData = null;
 let pinnedIds = new Set();
 
-// ── pin persistence (localStorage primary, server optional sync) ──
-const PINS_LS_KEY = 'feedcockpit_pins';
+// ── localStorage keys ──
+const PINS_LS_KEY      = 'feedcockpit_pins';
+const DISMISSED_LS_KEY = 'feedcockpit_dismissed';
+const GENERATED_LS_KEY = 'feedcockpit_generated';
 
+let dismissedMap = {};   // { id: { story, dismissed_at } }
+let generatedMap = {};   // { id: { story, results: { component: content } } }
+
+// ── pins ──
 async function loadPins() {
-  // localStorage works everywhere (static hosting, Netlify, local)
   const stored = localStorage.getItem(PINS_LS_KEY);
-  if (stored) {
-    try { pinnedIds = new Set(JSON.parse(stored)); return; } catch {}
-  }
-  // First run: migrate from serve.py server and save to localStorage
+  if (stored) { try { pinnedIds = new Set(JSON.parse(stored)); return; } catch {} }
   try {
     const r = await fetch('/pins');
     if (!r.ok) return;
@@ -280,26 +337,129 @@ async function togglePin(story) {
   const id = story.id;
   const nowPinned = !pinnedIds.has(id);
   if (nowPinned) pinnedIds.add(id); else pinnedIds.delete(id);
-
   localStorage.setItem(PINS_LS_KEY, JSON.stringify([...pinnedIds]));
-
   if (currentData) {
     const s = currentData.stories.find(x => x.id === id);
     if (s) s.pinned = nowPinned;
   }
-
-  // Also sync to server when serve.py is running (keeps pins.json for fetch_feed.py)
   try {
-    await fetch('/pins', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({id, pinned: nowPinned, story}),
-    });
+    await fetch('/pins', {method:'POST',headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({id, pinned: nowPinned, story})});
   } catch {}
-
   rerender();
   toast(nowPinned ? '📌 Pinned — stays through refreshes' : 'Unpinned');
 }
+
+// ── dismissed ──
+function loadDismissed() {
+  try { dismissedMap = JSON.parse(localStorage.getItem(DISMISSED_LS_KEY) || '{}'); } catch { dismissedMap = {}; }
+}
+
+function dismissStory(story) {
+  const id = story.id;
+  if (pinnedIds.has(id)) {
+    pinnedIds.delete(id);
+    localStorage.setItem(PINS_LS_KEY, JSON.stringify([...pinnedIds]));
+    try { fetch('/pins',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,pinned:false})}); } catch {}
+  }
+  dismissedMap[id] = { story, dismissed_at: new Date().toISOString() };
+  localStorage.setItem(DISMISSED_LS_KEY, JSON.stringify(dismissedMap));
+  if (currentData?.stories) currentData.stories = currentData.stories.filter(s => s.id !== id);
+  rerender();
+  renderHistory();
+  toast('Removed — find it in Past Stories');
+}
+
+function restoreStory(id) {
+  const entry = dismissedMap[id];
+  if (!entry) return;
+  const story = entry.story || entry;
+  delete dismissedMap[id];
+  localStorage.setItem(DISMISSED_LS_KEY, JSON.stringify(dismissedMap));
+  if (currentData?.stories && !currentData.stories.find(s => s.id === id)) {
+    currentData.stories.push({...story, pinned: false});
+  }
+  rerender();
+  renderHistory();
+  toast('Story restored to feed');
+}
+
+// ── generated content ──
+function loadGenerated() {
+  try { generatedMap = JSON.parse(localStorage.getItem(GENERATED_LS_KEY) || '{}'); } catch { generatedMap = {}; }
+}
+
+function saveGenerated(storyId, component, content, story) {
+  if (!generatedMap[storyId]) generatedMap[storyId] = { story, results: {} };
+  generatedMap[storyId].results[component] = content;
+  generatedMap[storyId].story = story;
+  localStorage.setItem(GENERATED_LS_KEY, JSON.stringify(generatedMap));
+  updateGenBadge();
+}
+
+function updateGenBadge() {
+  const count = Object.values(generatedMap).filter(x => x.results && Object.keys(x.results).length > 0).length;
+  const badge = $('#genBadge');
+  if (count > 0) { badge.textContent = count; badge.style.display = ''; }
+  else { badge.style.display = 'none'; }
+}
+
+// ── generated view ──
+function renderGeneratedView() {
+  const items = Object.values(generatedMap).filter(x => x.results && Object.keys(x.results).length > 0);
+  if (!items.length) {
+    $('#genViewFeed').innerHTML = '<div class="gen-view-empty">No generated content yet.<br>Select pills on any story card and press Generate.</div>';
+    return;
+  }
+  $('#genViewFeed').innerHTML = items.map(item => {
+    const s = item.story;
+    const src = (s.sources||[])[0];
+    const sections = Object.entries(item.results).map(([comp, content]) => `
+      <div class="gen-view-section">
+        <div class="gen-view-comp-label">${esc(comp)}</div>
+        <div class="gen-view-comp-content">${esc(content)}</div>
+        <button class="gen-view-copy" data-content="${esc(content)}">Copy</button>
+        <button class="gen-view-delete" data-id="${esc(s.id)}" data-comp="${esc(comp)}" title="Delete">✕</button>
+      </div>`).join('');
+    return `<div class="gen-view-card">
+      <div class="gen-view-headline">${esc(s.headline)}</div>
+      <div class="gen-view-meta">${src ? esc(src.outlet)+' · ' : ''}score ${Number(s.score||0).toFixed(1)}</div>
+      ${sections}
+    </div>`;
+  }).join('');
+
+  $('#genViewFeed').querySelectorAll('.gen-view-copy').forEach(btn => {
+    btn.addEventListener('click', () => {
+      navigator.clipboard?.writeText(btn.dataset.content).catch(()=>{});
+      toast('Copied');
+    });
+  });
+  $('#genViewFeed').querySelectorAll('.gen-view-delete').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.dataset.id, comp = btn.dataset.comp;
+      if (generatedMap[id]) {
+        delete generatedMap[id].results[comp];
+        if (!Object.keys(generatedMap[id].results).length) delete generatedMap[id];
+        localStorage.setItem(GENERATED_LS_KEY, JSON.stringify(generatedMap));
+        updateGenBadge();
+        renderGeneratedView();
+      }
+    });
+  });
+}
+
+// ── view switching ──
+let currentView = 'feed';
+function switchView(view) {
+  currentView = view;
+  $('#feedPane').classList.toggle('active', view === 'feed');
+  $('#genPane').classList.toggle('active', view === 'generated');
+  $('#genTabBtn').classList.toggle('active', view === 'generated');
+  if (view === 'generated') renderGeneratedView();
+}
+
+$('#genTabBtn').addEventListener('click', () => switchView(currentView === 'generated' ? 'feed' : 'generated'));
+$('#backToFeedBtn').addEventListener('click', () => switchView('feed'));
 
 // ── load & render ──
 async function load(silent=false) {
@@ -308,12 +468,17 @@ async function load(silent=false) {
     const res = await fetch('feed.json?t=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
-    // merge pin state from our local set
-    (data.stories || []).forEach(s => { s.pinned = pinnedIds.has(s.id); });
+    (data.stories || []).forEach(s => {
+      s.pinned = pinnedIds.has(s.id);
+      // filter out locally dismissed stories
+      if (dismissedMap[s.id]) data.stories = (data.stories||[]).filter(x => x.id !== s.id);
+    });
+    // re-filter after inline mutation above
+    data.stories = (data.stories||[]).filter(s => !dismissedMap[s.id]);
     lastGenAt = data.meta?.generated_at;
     currentData = data;
     render(data);
-    loadHistory();
+    renderHistory();
   } catch(e) {
     if (!silent) {
       const n = $('#notice'); n.className = 'notice err';
@@ -326,9 +491,7 @@ async function load(silent=false) {
   }
 }
 
-function rerender() {
-  if (currentData) render(currentData);
-}
+function rerender() { if (currentData) render(currentData); }
 
 function render(data) {
   const m = data.meta || {};
@@ -352,7 +515,6 @@ function render(data) {
 }
 
 function sortStories(stories) {
-  // pinned always float to top; within pinned and non-pinned, sort by chosen method
   const pinned = stories.filter(s => s.pinned);
   const unpinned = stories.filter(s => !s.pinned);
   const sorter = currentSort === 'score'
@@ -366,72 +528,106 @@ function sortStories(stories) {
 }
 
 function bindCardEvents() {
+  // expand
   $('#feed').querySelectorAll('.expandbtn, .headline').forEach(el => el.addEventListener('click', e => {
     const c = e.target.closest('.card'); c.classList.toggle('open');
     if (c.classList.contains('open'))
       c.querySelectorAll('.fill').forEach(f => requestAnimationFrame(() => f.style.width = (f.dataset.v * 10) + '%'));
   }));
+
+  // generate panel toggle
   $('#feed').querySelectorAll('.pickbtn').forEach(b => b.addEventListener('click', e => {
     const card = e.target.closest('.card');
     card.classList.toggle('gen-open');
-    // also copy CLI command for Claude Code users
-    const cmd = 'generate #' + e.target.dataset.id;
-    navigator.clipboard?.writeText(cmd).catch(() => {});
+    b.classList.toggle('active', card.classList.contains('gen-open'));
   }));
-  $('#feed').querySelectorAll('.genbtn').forEach(btn => btn.addEventListener('click', async e => {
-    const card = e.target.closest('.card');
-    const id = card.querySelector('.pickbtn').dataset.id;
+
+  // pill multi-select
+  $('#feed').querySelectorAll('.genpill').forEach(pill => pill.addEventListener('click', e => {
+    e.stopPropagation();
+    pill.classList.toggle('active');
+    const card = pill.closest('.card');
+    const anyActive = [...card.querySelectorAll('.genpill')].some(p => p.classList.contains('active'));
+    card.querySelector('.gen-runbtn').disabled = !anyActive;
+  }));
+
+  // generate run button
+  $('#feed').querySelectorAll('.gen-runbtn').forEach(btn => btn.addEventListener('click', async e => {
+    e.stopPropagation();
+    const card = btn.closest('.card');
+    const id = card.dataset.id;
     const story = currentData?.stories.find(s => s.id === id);
     if (!story) return;
-    const component = btn.dataset.component;
 
-    const statusEl = card.querySelector('.gen-status');
-    const resultEl = card.querySelector('.gen-result');
-    const footEl  = card.querySelector('.gen-footer');
-    const errEl   = card.querySelector('.gen-err');
+    const selected = [...card.querySelectorAll('.genpill.active')].map(p => p.dataset.component);
+    if (!selected.length) return;
 
-    card.querySelectorAll('.genbtn').forEach(b => { b.disabled = true; b.classList.remove('active'); });
-    btn.classList.add('active');
-    statusEl.textContent = `generating ${component}…`;
-    resultEl.style.display = 'none';
-    footEl.style.display = 'none';
+    const statusEl  = card.querySelector('.gen-status');
+    const resultsArea = card.querySelector('.gen-results-area');
+    const errEl     = card.querySelector('.gen-err');
+
+    btn.disabled = true;
+    card.querySelectorAll('.genpill').forEach(p => p.disabled = true);
     errEl.style.display = 'none';
+    resultsArea.innerHTML = '';
+    resultsArea.style.display = 'flex';
 
-    try {
-      const r = await fetch('/generate', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({story, component}),
-      });
-      const j = await r.json().catch(() => ({}));
-      statusEl.textContent = '';
-      if (j.ok) {
-        resultEl.textContent = j.content;
-        resultEl.style.display = 'block';
-        footEl.style.display = 'flex';
-        footEl.querySelector('.gen-copybtn').onclick = () => {
-          navigator.clipboard?.writeText(j.content).catch(() => {});
-          toast('Copied');
-        };
-      } else {
-        errEl.textContent = j.error || 'Generation failed';
-        errEl.style.display = 'block';
+    for (const component of selected) {
+      const block = document.createElement('div');
+      block.className = 'gen-result-block';
+      block.innerHTML = `<div class="gen-result-label">${esc(component)}</div><div class="gen-result-content loading">generating…</div>`;
+      resultsArea.appendChild(block);
+      const contentEl = block.querySelector('.gen-result-content');
+      statusEl.textContent = component + '…';
+      try {
+        const r = await fetch(GENERATE_URL, {
+          method: 'POST',
+          headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({story, component}),
+        });
+        const j = await r.json().catch(() => ({}));
+        if (j.ok) {
+          contentEl.textContent = j.content;
+          contentEl.classList.remove('loading');
+          const copyBtn = document.createElement('button');
+          copyBtn.className = 'gen-result-copy';
+          copyBtn.textContent = 'Copy';
+          copyBtn.onclick = () => { navigator.clipboard?.writeText(j.content).catch(()=>{}); toast('Copied'); };
+          block.appendChild(copyBtn);
+          saveGenerated(id, component, j.content, story);
+        } else {
+          contentEl.textContent = j.error || 'Generation failed';
+          contentEl.classList.remove('loading');
+          contentEl.classList.add('error');
+        }
+      } catch {
+        const isLocal = ['localhost','127.0.0.1'].includes(location.hostname);
+        contentEl.textContent = isLocal
+          ? 'Needs ANTHROPIC_API_KEY — export ANTHROPIC_API_KEY=sk-ant-... then restart serve.py'
+          : 'Set ANTHROPIC_API_KEY in Netlify → Site settings → Environment variables';
+        contentEl.classList.remove('loading');
+        contentEl.classList.add('error');
       }
-    } catch {
-      statusEl.textContent = '';
-      const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
-      errEl.textContent = isLocal
-        ? 'Needs ANTHROPIC_API_KEY — run: export ANTHROPIC_API_KEY=sk-ant-... then restart serve.py'
-        : 'Generation unavailable — set ANTHROPIC_API_KEY in Netlify → Site settings → Environment variables';
-      errEl.style.display = 'block';
     }
-    card.querySelectorAll('.genbtn').forEach(b => { b.disabled = false; });
+    statusEl.textContent = '';
+    btn.disabled = false;
+    card.querySelectorAll('.genpill').forEach(p => { p.disabled = false; });
   }));
+
+  // pin
   $('#feed').querySelectorAll('.pinbtn').forEach(btn => btn.addEventListener('click', e => {
     e.stopPropagation();
     const id = btn.dataset.id;
     const story = currentData?.stories.find(s => s.id === id);
     if (story) togglePin(story);
+  }));
+
+  // trash
+  $('#feed').querySelectorAll('.trashbtn').forEach(btn => btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const id = btn.dataset.id;
+    const story = currentData?.stories.find(s => s.id === id);
+    if (story) dismissStory(story);
   }));
 }
 
@@ -444,8 +640,6 @@ function card(s, i) {
   const srcChips = (s.sources || []).map(src =>
     `<a class="src" href="${esc(src.url)}" target="_blank" rel="noopener"><span class="tierbadge">T${esc(src.tier)}</span>${esc(src.outlet)}</a>`
   ).join('');
-  const gen = (s.generated || []).length
-    ? `<span class="gen-chip">${s.generated.map(g => `<b>${esc(g.component)} ✓</b>`).join(' · ')}</span>` : '';
   const bd = s.score_breakdown || {};
   const bars = Object.entries(bd).filter(([k, v]) => typeof v === 'number').map(([k, v]) =>
     `<div class="bar"><span class="blbl">${esc(k.replace(/_/g,' '))}</span><span class="track"><span class="fill" data-v="${v}"></span></span><span class="bval">${v}</span></div>`
@@ -464,14 +658,16 @@ function card(s, i) {
     pubDate.getDate() === today.getDate();
   const tagParts = [
     isPinned ? `<span class="card-tag card-tag--pinned">PINNED</span>` : '',
-    isNew    ? `<span class="card-tag card-tag--new">NEW</span>`       : '',
+    isNew    ? `<span class="card-tag card-tag--new">NEW</span>` : '',
   ].filter(Boolean).join('');
   const tagsHtml = tagParts ? `<div class="card-tags">${tagParts}</div>` : '';
+  const pubDateStr = pubDate ? fmtShortDate(pubDate.toISOString()) : '';
 
   const heartFilled = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>`;
   const heartEmpty = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>`;
+  const trashIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4h6v2"/></svg>`;
 
-  return `<article class="card ${esc(angle)}${isPinned ? ' pinned' : ''}${isNew ? ' is-new' : ''}">${tagsHtml}
+  return `<article class="card ${esc(angle)}${isPinned ? ' pinned' : ''}${isNew ? ' is-new' : ''}" data-id="${esc(s.id)}">${tagsHtml}
     <div class="toprow">
       <div class="rank">${rank}</div>
       <div class="scorebox"><div class="score">${Number(s.score).toFixed(1)}</div><div class="scorelbl">relevance</div></div>
@@ -480,28 +676,33 @@ function card(s, i) {
         <div class="summary">${esc(s.summary)}</div>
         <div class="tagrow">${kw}</div>
         <div class="angle"><span class="tag ${esc(angle)}">${esc(angle)}</span><span class="line">${esc(angleLine)}</span></div>
-        <div class="footrow">${srcChips}<span class="verified">✓ ${esc(s.verification)}</span>${gen}
+        <div class="footrow">${srcChips}<span class="verified">✓ ${esc(s.verification)}</span>
           <div class="actions">
-            <button class="pickbtn" data-id="${esc(s.id)}">Generate</button>
+            <button class="pickbtn${pinnedIds.has(s.id)||false?' ':' '}" data-id="${esc(s.id)}">Generate</button>
+            <button class="trashbtn" data-id="${esc(s.id)}" title="Remove story">${trashIcon}</button>
             <button class="pinbtn${isPinned ? ' pinned' : ''}" data-id="${esc(s.id)}" title="${isPinned ? 'Unpin' : 'Pin story'}">${isPinned ? heartFilled : heartEmpty}</button>
             <button class="expandbtn" aria-label="Details"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
           </div>
         </div>
+        ${pubDateStr ? `<div class="pub-date">${esc(pubDateStr)}</div>` : ''}
       </div>
     </div>
     <div class="genpanel">
-      <div class="genbar">
-        <button class="genbtn" data-component="script">Script</button>
-        <button class="genbtn" data-component="hooks">Hooks</button>
-        <button class="genbtn" data-component="captions">Captions</button>
-        <button class="genbtn" data-component="package">Full Package</button>
+      <div class="genpills">
+        <button class="genpill" data-component="script">Script</button>
+        <button class="genpill" data-component="hooks">Hooks</button>
+        <button class="genpill" data-component="captions">Captions</button>
+        <button class="genpill" data-component="package">Full Package</button>
+        <button class="genpill" data-component="breakdown">Breakdown</button>
+        <button class="genpill" data-component="instagram">Instagram</button>
+        <button class="genpill" data-component="text-overlays">Text Overlays</button>
+        <button class="genpill" data-component="thread">Thread</button>
+      </div>
+      <div class="gen-actions-row">
         <span class="gen-status"></span>
+        <button class="gen-runbtn" disabled>Generate</button>
       </div>
-      <div class="gen-result" style="display:none"></div>
-      <div class="gen-footer">
-        <button class="gen-copybtn">Copy</button>
-        <span class="gen-hint">save to workspace/finals/ in Claude Code</span>
-      </div>
+      <div class="gen-results-area" style="display:none"></div>
       <div class="gen-err"></div>
     </div>
     <div class="detail"><div class="detail-inner"><div class="detail-pad">
@@ -511,30 +712,50 @@ function card(s, i) {
   </article>`;
 }
 
-// ── history section ──
-async function loadHistory() {
+// ── history / past stories ──
+async function renderHistory() {
+  // local dismissed (from trash button)
+  const localItems = Object.values(dismissedMap).sort((a,b) => new Date(b.dismissed_at)-new Date(a.dismissed_at));
+
+  // server dismissed (aged out via fetch_feed.py) — local serve.py only
+  let serverItems = [];
   try {
     const r = await fetch('/dismissed');
-    if (!r.ok) return;
-    const items = await r.json();
-    if (!items.length) { $('#historySection').style.display = 'none'; return; }
-    $('#historySection').style.display = '';
-    $('#histCount').textContent = `(${items.length})`;
-    $('#histFeed').innerHTML = items.map(entry => {
-      const s = entry;
-      const src = (s.sources || [])[0];
-      const pub = s.score_breakdown?.published;
-      return `<div class="hist-card">
-        <div class="hist-headline">${esc(s.headline)}</div>
-        <div class="hist-meta">
-          <span class="hscore">${Number(s.score||0).toFixed(1)}</span>
-          ${src ? `<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.outlet)}</a>` : ''}
-          ${pub ? `<span>${fmtDate(pub)}</span>` : ''}
-          <span class="hist-dismissed">removed ${fmtDate(entry.dismissed_at)}</span>
-        </div>
-      </div>`;
-    }).join('');
-  } catch { $('#historySection').style.display = 'none'; }
+    if (r.ok) serverItems = await r.json();
+  } catch {}
+
+  // merge: server items not already in our local dismissed map
+  const localIds = new Set(Object.keys(dismissedMap));
+  for (const s of serverItems) {
+    const sid = s.id || s.story?.id;
+    if (sid && !localIds.has(sid)) localItems.push(s);
+  }
+
+  if (!localItems.length) { $('#historySection').style.display = 'none'; return; }
+  $('#historySection').style.display = '';
+  $('#histCount').textContent = `(${localItems.length})`;
+
+  $('#histFeed').innerHTML = localItems.map(entry => {
+    const s = entry.story || entry;
+    const id = s.id;
+    const src = (s.sources || [])[0];
+    const pubIso = s.score_breakdown?.published;
+    const canRestore = !!dismissedMap[id];
+    return `<div class="hist-card">
+      <div class="hist-headline">${esc(s.headline)}</div>
+      <div class="hist-meta">
+        <span class="hscore">${Number(s.score||0).toFixed(1)}</span>
+        ${src ? `<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.outlet)}</a>` : ''}
+        ${pubIso ? `<span>${fmtShortDate(pubIso)}</span>` : ''}
+        <span class="hist-dismissed">removed ${fmtDate(entry.dismissed_at)}</span>
+        ${canRestore ? `<button class="hist-restorebtn" data-id="${esc(id)}">↩ restore</button>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+
+  $('#histFeed').querySelectorAll('.hist-restorebtn').forEach(btn => {
+    btn.addEventListener('click', e => { e.stopPropagation(); restoreStory(btn.dataset.id); });
+  });
 }
 
 // ── sort buttons ──
@@ -554,21 +775,18 @@ $('#reloadBtn').addEventListener('click', async () => {
   btn.disabled = true;
   $('#updateBanner').classList.remove('show');
   try {
-    const r = await fetch('/refresh', {method: 'POST'});
+    const r = await fetch('/refresh', {method:'POST'});
     const j = await r.json().catch(() => ({}));
     if (r.ok) {
       const match = (j.output || '').match(/(\d+) in feed/);
       toast('RSS pulled · <b>' + (match ? match[0] + ' stories' : 'feed updated') + '</b>');
     } else {
-      const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
-      if (isLocal) {
-        toast('Refresh error — check terminal output');
-      } else {
-        toast('Feed updates automatically every hour — showing latest');
-      }
+      const isLocal = ['localhost','127.0.0.1'].includes(location.hostname);
+      if (isLocal) toast('Refresh error — check terminal output');
+      else toast('Feed updates automatically every hour — showing latest');
     }
   } catch {
-    const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
+    const isLocal = ['localhost','127.0.0.1'].includes(location.hostname);
     if (isLocal) {
       const n = $('#notice'); n.className = 'notice warn';
       n.innerHTML = 'Live refresh requires <code>serve.py</code>. Run <code>python3 serve.py</code> in this folder, then open <code>http://localhost:8000/cockpit.html</code>.';
@@ -581,7 +799,7 @@ $('#reloadBtn').addEventListener('click', async () => {
   btn.disabled = false;
 });
 
-// ── auto-poll: detect when feed.json changes (e.g. after terminal fetch) ──
+// ── auto-poll ──
 $('#applyUpdateBtn').addEventListener('click', async () => {
   $('#updateBanner').classList.remove('show');
   if (pendingData) {
@@ -590,7 +808,7 @@ $('#applyUpdateBtn').addEventListener('click', async () => {
     currentData = pendingData;
     pendingData = null;
     render(currentData);
-    loadHistory();
+    renderHistory();
   }
 });
 
@@ -616,6 +834,10 @@ function toast(html) {
 
 // ── init ──
 (async () => {
+  loadDismissed();
+  loadGenerated();
+  updateGenBadge();
+  $('#feedPane').classList.add('active');
   await loadPins();
   await load();
 })();

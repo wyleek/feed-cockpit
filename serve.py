@@ -97,14 +97,25 @@ class Handler(SimpleHTTPRequestHandler):
                 def _r(p):
                     return p.read_text() if p.exists() else ''
 
+                component_formats = {
+                    'script':        ['video-script.md'],
+                    'hooks':         ['video-script.md'],
+                    'captions':      ['captions.md'],
+                    'package':       ['video-script.md', 'captions.md', 'breakdown.md'],
+                    'breakdown':     ['breakdown.md'],
+                    'instagram':     ['instagram.md'],
+                    'text-overlays': ['text-overlays.md'],
+                    'thread':        ['thread.md'],
+                }
                 parts = [
                     'You are a short-form video content writer for a Gen Z wellness channel.',
                     'PACK CONTEXT:\n' + _r(pack_dir / 'pack.md'),
                     'VOICE BIBLE:\n' + _r(voice_dir / 'voice-bible.md'),
-                    'VIDEO SCRIPT FORMAT:\n' + _r(fmt_dir / 'video-script.md'),
                 ]
-                if component in ('captions', 'package'):
-                    parts.append('CAPTIONS FORMAT:\n' + _r(fmt_dir / 'captions.md'))
+                for fname in component_formats.get(component, ['video-script.md']):
+                    content = _r(fmt_dir / fname)
+                    if content:
+                        parts.append(fname.replace('-', ' ').upper() + ' FORMAT:\n' + content)
                 examples_dir = voice_dir / 'examples'
                 if examples_dir.exists():
                     examples = [p.read_text() for p in sorted(examples_dir.glob('*.md'))[:2]]
