@@ -162,11 +162,41 @@
 
   footer{max-width:760px;margin:40px auto 0;padding-top:18px;border-top:1px solid var(--hairline);font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-faint);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
-  @media (max-width:560px){
-    .brand{font-size:27px}.dateline{text-align:left}
-    .actions{margin-left:0;width:100%;justify-content:flex-start;margin-top:4px}
-    .bar{grid-template-columns:100px 1fr 24px}
-    .refresh{margin-left:0}
+  @media (max-width:600px){
+    body{padding:0 12px 80px}
+    .brand{font-size:26px}
+    .dateline{text-align:left;width:100%}
+    .brandrow{gap:8px}
+    .standfirst{font-size:14.5px}
+    .metabar{gap:8px;font-size:11px}
+    .sortbar{flex-wrap:wrap}
+    .refresh{margin-left:0;width:100%}
+    .refresh button{width:100%;justify-content:center;padding:9px 11px;font-size:12px}
+
+    /* cards */
+    .card{padding:14px 14px 14px 20px}
+    .rank{display:none}
+    .scorebox{min-width:40px}
+    .score{font-size:22px}
+    .headline{font-size:17px}
+    .summary{font-size:13.5px}
+
+    /* actions row — stack below content on small screens */
+    .footrow{flex-wrap:wrap;gap:8px}
+    .actions{margin-left:0;width:100%;justify-content:flex-start;gap:8px;margin-top:2px}
+    .pickbtn{flex:1;padding:9px 10px;font-size:13px;text-align:center}
+    .pinbtn,.expandbtn{width:40px;height:40px;flex-shrink:0}
+
+    /* gen panel */
+    .genbar{gap:6px}
+    .genbtn{flex:1;min-width:calc(50% - 4px);padding:9px 6px;font-size:12px;text-align:center}
+    .gen-result{font-size:13.5px;padding:12px 14px}
+
+    /* score breakdown bars */
+    .bar{grid-template-columns:90px 1fr 24px}
+  }
+  @media (max-width:380px){
+    .genbtn{min-width:100%}
   }
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
