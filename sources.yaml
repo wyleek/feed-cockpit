@@ -7,8 +7,9 @@
 # How many hours back to consider an item "fresh" enough to include.
 freshness_hours: 72
 
-# Cap stories per source so no single feed dominates. Set to 0 to disable.
-max_per_feed: 6
+# Per-source story cap — set to a number (e.g. 6) if one feed floods the others.
+# Disabled for now; add more sources and tune keywords for variety instead.
+# max_per_feed: 6
 
 # ------------------------------------------------------------
 #  FEEDS  — RSS/Atom URLs, each tagged with a credibility tier.
