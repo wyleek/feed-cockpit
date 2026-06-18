@@ -104,6 +104,23 @@
   .expandbtn{background:none;border:1px solid var(--hairline-strong);border-radius:8px;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--ink-soft);transition:background .15s,color .15s}
   .expandbtn:hover{background:var(--porcelain);color:var(--ink)}
   .expandbtn svg{transition:transform .25s ease}.card.open .expandbtn svg{transform:rotate(180deg)}
+
+  /* ── generation panel ── */
+  .genpanel{display:none;margin-top:14px;padding-top:14px;border-top:1px dashed var(--hairline-strong)}
+  .card.gen-open .genpanel{display:block}
+  .genbar{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:2px}
+  .genbtn{font-family:'IBM Plex Mono',monospace;font-size:11px;background:none;border:1px solid var(--hairline-strong);border-radius:6px;padding:5px 10px;cursor:pointer;transition:background .15s,color .15s,border-color .15s}
+  .genbtn:hover{background:var(--porcelain);color:var(--ink)}
+  .genbtn.active{background:var(--sage);color:var(--paper);border-color:var(--sage)}
+  .genbtn:disabled{opacity:.45;cursor:default}
+  .gen-status{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink-faint);font-style:italic;margin-left:2px}
+  .gen-result{margin-top:13px;font-size:14px;line-height:1.8;color:var(--ink);background:var(--porcelain);border-radius:10px;padding:16px 18px;white-space:pre-wrap;word-break:break-word;font-family:'Newsreader',serif}
+  .gen-footer{margin-top:10px;display:none;gap:8px;align-items:center}
+  .gen-copybtn{font-family:'IBM Plex Mono',monospace;font-size:11px;background:none;border:1px solid var(--hairline-strong);border-radius:6px;padding:4px 10px;cursor:pointer;transition:background .15s}
+  .gen-copybtn:hover{background:var(--paper)}
+  .gen-hint{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--ink-faint)}
+  .gen-err{display:none;margin-top:10px;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--clay);background:#FDF0EC;border:1px solid #EBCBB5;border-radius:8px;padding:10px 12px}
+
   .detail{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
   .card.open .detail{grid-template-rows:1fr}
   .detail-inner{overflow:hidden}
@@ -200,6 +217,8 @@ const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;
 const fmtDate = iso => { try { return new Date(iso).toLocaleString('en-US',{weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}); } catch { return iso; } };
 
 const ANGLE_HINT = {unscored: 'Not yet judged — code ranked this by relevance; decide the wellness angle when you pick it.'};
+// /generate → serve.py locally, Netlify Function in production (via netlify.toml redirect)
+const GENERATE_URL = '/generate';
 
 // ── state ──
 let currentSort = 'date';
@@ -323,9 +342,60 @@ function bindCardEvents() {
       c.querySelectorAll('.fill').forEach(f => requestAnimationFrame(() => f.style.width = (f.dataset.v * 10) + '%'));
   }));
   $('#feed').querySelectorAll('.pickbtn').forEach(b => b.addEventListener('click', e => {
+    const card = e.target.closest('.card');
+    card.classList.toggle('gen-open');
+    // also copy CLI command for Claude Code users
     const cmd = 'generate #' + e.target.dataset.id;
     navigator.clipboard?.writeText(cmd).catch(() => {});
-    toast('Copied <b>' + esc(cmd) + '</b> — paste in Claude Code to build it');
+  }));
+  $('#feed').querySelectorAll('.genbtn').forEach(btn => btn.addEventListener('click', async e => {
+    const card = e.target.closest('.card');
+    const id = card.querySelector('.pickbtn').dataset.id;
+    const story = currentData?.stories.find(s => s.id === id);
+    if (!story) return;
+    const component = btn.dataset.component;
+
+    const statusEl = card.querySelector('.gen-status');
+    const resultEl = card.querySelector('.gen-result');
+    const footEl  = card.querySelector('.gen-footer');
+    const errEl   = card.querySelector('.gen-err');
+
+    card.querySelectorAll('.genbtn').forEach(b => { b.disabled = true; b.classList.remove('active'); });
+    btn.classList.add('active');
+    statusEl.textContent = `generating ${component}…`;
+    resultEl.style.display = 'none';
+    footEl.style.display = 'none';
+    errEl.style.display = 'none';
+
+    try {
+      const r = await fetch('/generate', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({story, component}),
+      });
+      const j = await r.json().catch(() => ({}));
+      statusEl.textContent = '';
+      if (j.ok) {
+        resultEl.textContent = j.content;
+        resultEl.style.display = 'block';
+        footEl.style.display = 'flex';
+        footEl.querySelector('.gen-copybtn').onclick = () => {
+          navigator.clipboard?.writeText(j.content).catch(() => {});
+          toast('Copied');
+        };
+      } else {
+        errEl.textContent = j.error || 'Generation failed';
+        errEl.style.display = 'block';
+      }
+    } catch {
+      statusEl.textContent = '';
+      const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
+      errEl.textContent = isLocal
+        ? 'Needs ANTHROPIC_API_KEY — run: export ANTHROPIC_API_KEY=sk-ant-... then restart serve.py'
+        : 'Generation unavailable — set ANTHROPIC_API_KEY in Netlify → Site settings → Environment variables';
+      errEl.style.display = 'block';
+    }
+    card.querySelectorAll('.genbtn').forEach(b => { b.disabled = false; });
   }));
   $('#feed').querySelectorAll('.pinbtn').forEach(btn => btn.addEventListener('click', e => {
     e.stopPropagation();
@@ -382,12 +452,27 @@ function card(s, i) {
         <div class="angle"><span class="tag ${esc(angle)}">${esc(angle)}</span><span class="line">${esc(angleLine)}</span></div>
         <div class="footrow">${srcChips}<span class="verified">✓ ${esc(s.verification)}</span>${gen}
           <div class="actions">
-            <button class="pickbtn" data-id="${esc(s.id)}">Pick &amp; copy command</button>
+            <button class="pickbtn" data-id="${esc(s.id)}">Generate</button>
             <button class="pinbtn${isPinned ? ' pinned' : ''}" data-id="${esc(s.id)}" title="${isPinned ? 'Unpin' : 'Pin story'}">${isPinned ? heartFilled : heartEmpty}</button>
             <button class="expandbtn" aria-label="Details"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
           </div>
         </div>
       </div>
+    </div>
+    <div class="genpanel">
+      <div class="genbar">
+        <button class="genbtn" data-component="script">Script</button>
+        <button class="genbtn" data-component="hooks">Hooks</button>
+        <button class="genbtn" data-component="captions">Captions</button>
+        <button class="genbtn" data-component="package">Full Package</button>
+        <span class="gen-status"></span>
+      </div>
+      <div class="gen-result" style="display:none"></div>
+      <div class="gen-footer">
+        <button class="gen-copybtn">Copy</button>
+        <span class="gen-hint">save to workspace/finals/ in Claude Code</span>
+      </div>
+      <div class="gen-err"></div>
     </div>
     <div class="detail"><div class="detail-inner"><div class="detail-pad">
       <div><h4>Relevance breakdown (no-AI)</h4><div class="bars">${bars}${pub}</div></div>

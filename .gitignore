@@ -8,6 +8,7 @@ server.log
 history/*.json
 
 # ── content-engine workspace (personal drafts & generated output) ───────────
+content-engine/workspace/feed.json
 content-engine/workspace/drafts/*
 content-engine/workspace/finals/*
 content-engine/workspace/digests/*
@@ -17,6 +18,9 @@ content-engine/workspace/learning/*
 !content-engine/workspace/drafts/.gitkeep
 !content-engine/workspace/finals/.gitkeep
 !content-engine/workspace/digests/.gitkeep
+
+# ── Node (Netlify Functions deps) ───────────────────────────────────────────
+node_modules/
 
 # ── OS & editor noise ───────────────────────────────────────────────────────
 .DS_Store

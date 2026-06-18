@@ -83,6 +83,68 @@ class Handler(SimpleHTTPRequestHandler):
             except Exception as e:
                 self._send_json(500, json.dumps({'ok': False, 'error': str(e)}).encode())
 
+        elif self.path == '/generate':
+            try:
+                length = int(self.headers.get('Content-Length', 0))
+                req = json.loads(self.rfile.read(length))
+                story = req.get('story', {})
+                component = req.get('component', 'script')
+
+                pack_dir = HERE / 'content-engine' / 'packs' / 'wellness-genz'
+                voice_dir = pack_dir / 'voice'
+                fmt_dir = pack_dir / 'formats'
+
+                def _r(p):
+                    return p.read_text() if p.exists() else ''
+
+                parts = [
+                    'You are a short-form video content writer for a Gen Z wellness channel.',
+                    'PACK CONTEXT:\n' + _r(pack_dir / 'pack.md'),
+                    'VOICE BIBLE:\n' + _r(voice_dir / 'voice-bible.md'),
+                    'VIDEO SCRIPT FORMAT:\n' + _r(fmt_dir / 'video-script.md'),
+                ]
+                if component in ('captions', 'package'):
+                    parts.append('CAPTIONS FORMAT:\n' + _r(fmt_dir / 'captions.md'))
+                examples_dir = voice_dir / 'examples'
+                if examples_dir.exists():
+                    examples = [p.read_text() for p in sorted(examples_dir.glob('*.md'))[:2]]
+                    if examples:
+                        parts.append('GOLD EXAMPLES (imitate their rhythm):\n' + '\n\n---\n\n'.join(examples))
+                parts.append('Generate ONLY the requested component. No preamble, no commentary — deliver the output directly.')
+                system = '\n\n'.join(filter(None, parts))
+
+                srcs = story.get('sources', [])
+                user_msg = (
+                    f"Generate a {component} for this story.\n\n"
+                    f"Headline: {story.get('headline', '')}\n"
+                    f"Summary: {story.get('summary', '')}\n"
+                    f"Source: {srcs[0]['outlet'] if srcs else 'Unknown'}\n"
+                    f"URL: {srcs[0]['url'] if srcs else ''}\n"
+                    f"Keywords: {', '.join(story.get('keyword_hits', []))}"
+                )
+
+                try:
+                    import anthropic as _ant
+                except ImportError:
+                    self._send_json(500, json.dumps({'ok': False, 'error': 'Run: pip install anthropic'}).encode())
+                    return
+
+                client = _ant.Anthropic()
+                msg = client.messages.create(
+                    model='claude-sonnet-4-6',
+                    max_tokens=1500,
+                    system=system,
+                    messages=[{'role': 'user', 'content': user_msg}],
+                )
+                content = msg.content[0].text
+                self._send_json(200, json.dumps({'ok': True, 'content': content, 'component': component}).encode())
+
+            except Exception as e:
+                err = str(e)
+                if any(k in err.lower() for k in ('api_key', 'authentication', 'x-api-key', 'invalid_api')):
+                    err = 'ANTHROPIC_API_KEY not set — export it before starting serve.py'
+                self._send_json(500, json.dumps({'ok': False, 'error': err}).encode())
+
         else:
             self.send_response(404)
             self.end_headers()

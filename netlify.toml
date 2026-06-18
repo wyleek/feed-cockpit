@@ -1,10 +1,20 @@
 [build]
   publish = "."
 
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["content-engine/**"]
+
 # Serve cockpit.html at the root URL
 [[redirects]]
   from = "/"
   to = "/cockpit.html"
+  status = 200
+
+# Route /generate to the serverless function
+[[redirects]]
+  from = "/generate"
+  to = "/.netlify/functions/generate"
   status = 200
 
 # Prevent Netlify from caching the feed too aggressively
