@@ -224,7 +224,8 @@ def main():
 
     for feed in all_feeds:
         try:
-            parsed = feedparser.parse(feed["url"])
+            parsed = feedparser.parse(feed["url"],
+                request_headers={"User-Agent": "Mozilla/5.0 (compatible; FeedReader/1.0)"})
             if parsed.bozo and not parsed.entries:
                 raise ValueError(parsed.get("bozo_exception", "no entries"))
             stats["feeds_ok"] += 1
