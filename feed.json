@@ -1,14 +1,14 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-06-20T22:06:14.859470+00:00",
-    "live_count": 61,
+    "generated_at": "2026-06-21T00:05:41.570465+00:00",
+    "live_count": 60,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
       "fetched": 476,
-      "kept": 61,
+      "kept": 60,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
@@ -18,8 +18,8 @@
       "id": "2026-06-20-a-child-goes-to-bed-and-doesn-t-wake-up-the-fami",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:11.991702+00:00",
-      "last_updated": "2026-06-20T22:06:11.991712+00:00",
+      "first_seen": "2026-06-21T00:05:38.716573+00:00",
+      "last_updated": "2026-06-21T00:05:38.716581+00:00",
       "headline": "‘A child goes to bed and doesn’t wake up’: the families left in shock after the sudden death of their healthy children",
       "summary": "Sudden cardiac arrest is statistically rare but among the leading causes of death for children and young people. And families often have no idea of the risk until it’s too lateBefore Alexandra Thoms goes to sleep, she puts together a flat-pack dining table with her father, Gordon. She needs the table for her otherwise…",
       "category": null,
@@ -55,8 +55,8 @@
       "id": "2026-06-20-scientists-found-a-cannabis-compound-that-reliev",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:12.889316+00:00",
-      "last_updated": "2026-06-20T22:06:12.889326+00:00",
+      "first_seen": "2026-06-21T00:05:39.340910+00:00",
+      "last_updated": "2026-06-21T00:05:39.340916+00:00",
       "headline": "Scientists found a cannabis compound that relieves pain without the high",
       "summary": "Compounds responsible for the aroma of cannabis and many other plants may offer a surprising new way to relieve chronic pain. Researchers found that several cannabis-derived terpenes significantly reduced pain in mouse models of fibromyalgia and post-surgical pain, with one terpene, geraniol, showing especially strong…",
       "category": null,
@@ -92,8 +92,8 @@
       "id": "2026-06-20-attachment-style-may-influence-how-many-kids-peo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.806040+00:00",
-      "last_updated": "2026-06-20T22:06:13.806049+00:00",
+      "first_seen": "2026-06-21T00:05:40.539782+00:00",
+      "last_updated": "2026-06-21T00:05:40.539789+00:00",
       "headline": "Attachment style may influence how many kids people have",
       "summary": "People with “fearful” or “preoccupied” insecure attachment styles had more children, whereas securely attached people had fewer, according to a recent study",
       "category": null,
@@ -129,8 +129,8 @@
       "id": "2026-06-19-this-test-outperformed-score2-for-gauging-heart",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.050391+00:00",
-      "last_updated": "2026-06-20T22:06:13.050420+00:00",
+      "first_seen": "2026-06-21T00:05:39.736721+00:00",
+      "last_updated": "2026-06-21T00:05:39.736728+00:00",
       "headline": "This Test Outperformed SCORE2 for Gauging Heart Risk in Rheumatic Disease",
       "summary": "(MedPage Today) -- Carotid-femoral pulse wave velocity (cfPWV) measurements more accurately predicted cardiovascular (CV) events in patients with autoimmune rheumatic diseases than a commonly used CV risk scoring system, researchers said. Among...",
       "category": null,
@@ -166,8 +166,8 @@
       "id": "2026-06-19-scientists-pop-the-cork-on-the-hidden-chemistry",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.806195+00:00",
-      "last_updated": "2026-06-20T22:06:13.806198+00:00",
+      "first_seen": "2026-06-21T00:05:40.539934+00:00",
+      "last_updated": "2026-06-21T00:05:40.539937+00:00",
       "headline": "Scientists pop the cork on the hidden chemistry inside wine bottles",
       "summary": "A new study captures how cork, wine and air interact over time",
       "category": null,
@@ -203,8 +203,8 @@
       "id": "2026-06-19-faecal-transplant-makes-the-brains-of-old-mice-a",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.023575+00:00",
-      "last_updated": "2026-06-20T22:06:14.023584+00:00",
+      "first_seen": "2026-06-21T00:05:40.847515+00:00",
+      "last_updated": "2026-06-21T00:05:40.847522+00:00",
       "headline": "Faecal transplant makes the brains of old mice act young again",
       "summary": "Older mice that received a faecal microbiome transplant from younger animals went on to have improved brain plasticity, which suggests their brains could overcome a neurological condition that is typically successfully treated only in childhood",
       "category": null,
@@ -240,8 +240,8 @@
       "id": "2026-06-19-booze-and-pancreatic-cancer-risk-from-hospice-to",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.050560+00:00",
-      "last_updated": "2026-06-20T22:06:13.050563+00:00",
+      "first_seen": "2026-06-21T00:05:39.736867+00:00",
+      "last_updated": "2026-06-21T00:05:39.736870+00:00",
       "headline": "Booze and Pancreatic Cancer Risk; From 'Hospice' to 'Hope'; Gen Z-ers Skip Screening",
       "summary": "(MedPage Today) -- A new study showed a \"dose response risk relationship\" between alcohol consumption and pancreatic cancer. (International Journal of Alcohol and Drug Research) Brain tumors diagnosed in 11 nurses at Newton-Wellesley Hospital...",
       "category": null,
@@ -281,8 +281,8 @@
       "id": "2026-06-19-think-you-re-eating-healthy-you-may-be-missing-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:12.889428+00:00",
-      "last_updated": "2026-06-20T22:06:12.889431+00:00",
+      "first_seen": "2026-06-21T00:05:39.340995+00:00",
+      "last_updated": "2026-06-21T00:05:39.340998+00:00",
       "headline": "Think you're eating healthy? You may be missing this heart-protecting nutrient",
       "summary": "Eating five servings of fruits and vegetables may not be enough if you're missing foods rich in flavanols, a group of compounds linked to better heart health. Researchers found that choices like blackberries, plums, apples, broad beans, cherries, and green tea can dramatically increase flavanol intake.",
       "category": null,
@@ -318,8 +318,8 @@
       "id": "2026-06-19-kidney-cancer-rates-near-pfas-factory-in-lancash",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:11.992091+00:00",
-      "last_updated": "2026-06-20T22:06:11.992094+00:00",
+      "first_seen": "2026-06-21T00:05:38.716960+00:00",
+      "last_updated": "2026-06-21T00:05:38.716963+00:00",
       "headline": "Kidney cancer rates near Pfas factory in Lancashire a ‘major source of concern’",
       "summary": "Experts cast doubt on conclusion of government-funded study of factory emitting forever chemicals near BlackpoolQuestions have been raised about the conclusions drawn by a government-funded study into kidney cancer rates near a factory linked to forever chemicals near Blackpool.Pfoa, a known carcinogenic forever…",
       "category": null,
@@ -355,8 +355,8 @@
       "id": "2026-06-19-tick-season-is-getting-worse-can-managing-deer-h",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:11.717078+00:00",
-      "last_updated": "2026-06-20T22:06:11.717086+00:00",
+      "first_seen": "2026-06-21T00:05:38.591293+00:00",
+      "last_updated": "2026-06-21T00:05:38.591300+00:00",
       "headline": "Tick season is getting worse. Can managing deer help?",
       "summary": "Health officials and researchers hope that efforts to control deer populations, which serve as \"party buses\" for mating ticks, can reverse the tide of ticks and the illnesses they cause.",
       "category": null,
@@ -392,8 +392,8 @@
       "id": "2026-06-19-new-research-links-prenatal-exposure-to-pfas-to",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:11.992244+00:00",
-      "last_updated": "2026-06-20T22:06:11.992246+00:00",
+      "first_seen": "2026-06-21T00:05:38.717149+00:00",
+      "last_updated": "2026-06-21T00:05:38.717153+00:00",
       "headline": "New research links prenatal exposure to Pfas to later development of PMOS",
       "summary": "Study suggests exposure to ‘forever chemicals’ may be a main driver of disease, formerly called PCOS, authors sayNew research for the first time links prenatal exposure to Pfas “forever chemicals” with the development of polyendocrine metabolic ovarian syndrome (PMOS) later in life.PMOS, formerly known as polycystic…",
       "category": null,
@@ -431,8 +431,8 @@
       "id": "2026-06-19-chatgpt-probably-isn-t-conscious-but-what-if-we",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.859152+00:00",
-      "last_updated": "2026-06-20T22:06:14.859163+00:00",
+      "first_seen": "2026-06-21T00:05:41.568893+00:00",
+      "last_updated": "2026-06-21T00:05:41.568900+00:00",
       "headline": "ChatGPT probably isn’t conscious. But what if we’re wrong?",
       "summary": "AI is rapidly gaining abilities that once belonged to humanity alone. In just the past four years, chatbots have learned how to build apps, make video games, generate research reports, compose songs, analyze contracts, and write terrible literary fiction. Soon, they may even be able to dread their own deaths. In…",
       "category": null,
@@ -468,8 +468,8 @@
       "id": "2026-06-19-can-prebiotics-probiotics-or-postbiotics-help-yo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.023655+00:00",
-      "last_updated": "2026-06-20T22:06:14.023657+00:00",
+      "first_seen": "2026-06-21T00:05:40.847595+00:00",
+      "last_updated": "2026-06-21T00:05:40.847598+00:00",
       "headline": "Can prebiotics, probiotics or postbiotics help your ageing microbiome?",
       "summary": "The disruption of your gut microbiome is a major consequence, and possible cause, of ageing. Columnist Graham Lawton looks into recent trials examining whether it can be replenished through diet and prebiotics, probiotics or postbiotics",
       "category": null,
@@ -509,8 +509,8 @@
       "id": "2026-06-19-federal-grant-delays-could-jeopardize-essential",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.267885+00:00",
-      "last_updated": "2026-06-20T22:06:13.267895+00:00",
+      "first_seen": "2026-06-21T00:05:39.966256+00:00",
+      "last_updated": "2026-06-21T00:05:39.966262+00:00",
       "headline": "Federal grant delays could jeopardize essential disability services, research",
       "summary": "Disability researchers across the country worry about their jobs, and the future of their institutions, as a delay in issuing federal grants drags on.",
       "category": null,
@@ -546,8 +546,8 @@
       "id": "2026-06-19-ico-watchdog-opens-inquiry-into-cameras-in-menta",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:11.992610+00:00",
-      "last_updated": "2026-06-20T22:06:11.992612+00:00",
+      "first_seen": "2026-06-21T00:05:38.717504+00:00",
+      "last_updated": "2026-06-21T00:05:38.717507+00:00",
       "headline": "ICO watchdog opens inquiry into cameras in mental health patients’ bedrooms",
       "summary": "Exclusive: Oxevision system used by 40% of NHS mental health trusts being scrutinised by information commissioner over privacy concernsThe information commissioner has launched an investigation into a controversial camera-based system for monitoring patients in their bedrooms, used by 40% of NHS mental health trusts,…",
       "category": null,
@@ -583,8 +583,8 @@
       "id": "2026-06-18-bending-forwards-a-lot-at-work-in-early-pregnanc",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:11.992694+00:00",
-      "last_updated": "2026-06-20T22:06:11.992696+00:00",
+      "first_seen": "2026-06-21T00:05:38.717591+00:00",
+      "last_updated": "2026-06-21T00:05:38.717593+00:00",
       "headline": "Bending forwards a lot at work in early pregnancy may increase miscarriage risk, study suggests",
       "summary": "More walking and standing in the workplace also associated with higher risk, according to Danish researchBending forwards and walking a lot at work in the early stages of pregnancy may increase the risk of miscarriage, a study suggests.Miscarriage affects about 15% of women. Risk factors include parental age, smoking,…",
       "category": null,
@@ -622,8 +622,8 @@
       "id": "2026-06-18-bob-blendon-an-expert-in-health-policy-and-polli",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.050685+00:00",
-      "last_updated": "2026-06-20T22:06:13.050687+00:00",
+      "first_seen": "2026-06-21T00:05:39.736998+00:00",
+      "last_updated": "2026-06-21T00:05:39.737000+00:00",
       "headline": "Bob Blendon, an Expert in Health Policy and Polling, Dies",
       "summary": "(MedPage Today) -- Bob Blendon, ScD, a giant in the world of healthcare polling, died Wednesday, said officials from Harvard University in Boston. \"Bob contributed so much to health policy as an innovator in research on public opinion,\" Paul Ginsburg...",
       "category": null,
@@ -659,8 +659,8 @@
       "id": "2026-06-18-brain-disorders-and-tbi-may-fuel-each-other",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.050822+00:00",
-      "last_updated": "2026-06-20T22:06:13.050824+00:00",
+      "first_seen": "2026-06-21T00:05:39.737167+00:00",
+      "last_updated": "2026-06-21T00:05:39.737170+00:00",
       "headline": "Brain Disorders and TBI May Fuel Each Other",
       "summary": "(MedPage Today) -- The connection between traumatic brain injury (TBI) and neurologic disorders may run both ways, a large retrospective study of U.S. military veterans suggested. Older adults with TBI were more likely than those without TBI to...",
       "category": null,
@@ -696,8 +696,8 @@
       "id": "2026-06-18-japan-s-2011-earthquake-was-so-powerful-that-it",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.806496+00:00",
-      "last_updated": "2026-06-20T22:06:13.806499+00:00",
+      "first_seen": "2026-06-21T00:05:40.540236+00:00",
+      "last_updated": "2026-06-21T00:05:40.540239+00:00",
       "headline": "Japan’s 2011 earthquake was so powerful that it shifted the entire country’s location",
       "summary": "This “extraordinary” event was likely caused by seismic waves bouncing off Earth’s core, researchers found",
       "category": null,
@@ -733,8 +733,8 @@
       "id": "2026-06-18-social-media-ban-saving-kids-or-punishing-them-l",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:11.992873+00:00",
-      "last_updated": "2026-06-20T22:06:11.992875+00:00",
+      "first_seen": "2026-06-21T00:05:38.717781+00:00",
+      "last_updated": "2026-06-21T00:05:38.717784+00:00",
       "headline": "Social media ban: saving kids or punishing them? | Letters",
       "summary": "Dr Rory Conn says the ban is long overdue to protect children from harm, but 16-year-old Clara O‘Grady says social media is not an isolated section of teenagers’ lives that can easily be removed. Plus letters from Dr Peter Jarrett and Tony SideThis week marks a positive moment for public health and for the wellbeing…",
       "category": null,
@@ -770,8 +770,8 @@
       "id": "2026-06-18-dear-fifa-check-my-clinic-schedule-former-janito",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.050944+00:00",
-      "last_updated": "2026-06-20T22:06:13.050946+00:00",
+      "first_seen": "2026-06-21T00:05:39.737296+00:00",
+      "last_updated": "2026-06-21T00:05:39.737298+00:00",
       "headline": "Dear FIFA, Check My Clinic Schedule; Former Janitor Starts Residency; Dystopian EMR",
       "summary": "(MedPage Today) -- The following contains links to social media websites including Bluesky, X, TikTok, Instagram, Facebook, and LinkedIn. Dear FIFA, can you schedule matches around my clinic hours? Pain management doctor Jeffrey R. Prinsell Jr...",
       "category": null,
@@ -807,8 +807,8 @@
       "id": "2026-06-18-stat-do-wearables-actually-help-people-with-card",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.268178+00:00",
-      "last_updated": "2026-06-20T22:06:13.268181+00:00",
+      "first_seen": "2026-06-21T00:05:39.966537+00:00",
+      "last_updated": "2026-06-21T00:05:39.966540+00:00",
       "headline": "STAT+: Do wearables actually help people with cardiovascular disease?",
       "summary": "In this edition of STAT Health Tech: A look at what researchers found about if using wearables help people with cardiovascular diseases, and more.",
       "category": null,
@@ -844,8 +844,8 @@
       "id": "2026-06-18-stat-cambrian-s-experimental-longevity-drug-mimi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.268237+00:00",
-      "last_updated": "2026-06-20T22:06:13.268239+00:00",
+      "first_seen": "2026-06-21T00:05:39.966604+00:00",
+      "last_updated": "2026-06-21T00:05:39.966606+00:00",
       "headline": "STAT+: Cambrian’s experimental longevity drug mimics exercise",
       "summary": "What Soon-Shiong has delivered, Encanta's RSV antiviral, and other biotech news from The Readout",
       "category": null,
@@ -881,8 +881,8 @@
       "id": "2026-06-18-rewriting-what-we-know-about-kidney-transplant-r",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.051029+00:00",
-      "last_updated": "2026-06-20T22:06:13.051031+00:00",
+      "first_seen": "2026-06-21T00:05:39.737386+00:00",
+      "last_updated": "2026-06-21T00:05:39.737388+00:00",
       "headline": "Rewriting What We Know About Kidney Transplant Rejection",
       "summary": "(MedPage Today) -- Dr. Alexander Wiseman and Dr. Carrie A Schinstock are paid partners of Biogen. In addition, Dr. Schinstock is a principal investigator for ongoing research in AMR and MVI. Each year, approximately 23,000 people in the U.S. are...",
       "category": null,
@@ -918,8 +918,8 @@
       "id": "2026-06-18-stat-shingles-vaccine-may-lower-dementia-risk-ne",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.268291+00:00",
-      "last_updated": "2026-06-20T22:06:13.268293+00:00",
+      "first_seen": "2026-06-21T00:05:39.966659+00:00",
+      "last_updated": "2026-06-21T00:05:39.966661+00:00",
       "headline": "STAT+: Shingles vaccine may lower dementia risk, new study finds",
       "summary": "Nursing home residents who received at least one dose of shingles vaccine were 24 percent less likely to develop dementia, a new study found.",
       "category": null,
@@ -955,8 +955,8 @@
       "id": "2026-06-18-ancient-dna-reveals-plague-was-already-killing-h",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:12.889619+00:00",
-      "last_updated": "2026-06-20T22:06:12.889621+00:00",
+      "first_seen": "2026-06-21T00:05:39.341208+00:00",
+      "last_updated": "2026-06-21T00:05:39.341211+00:00",
       "headline": "Ancient DNA reveals plague was already killing humans 5,500 years ago",
       "summary": "Plague was already a deadly killer 5,500 years ago, long before cities, farming, or the rat-infested conditions usually linked to historic outbreaks. By analyzing ancient DNA from hunter-gatherer cemeteries in Siberia, researchers discovered early plague strains in nearly 40% of the individuals studied and found…",
       "category": null,
@@ -992,8 +992,8 @@
       "id": "2026-06-18-1-in-3-psychologists-say-their-patients-use-ai-a",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:13.806742+00:00",
-      "last_updated": "2026-06-20T22:06:13.806744+00:00",
+      "first_seen": "2026-06-21T00:05:40.540472+00:00",
+      "last_updated": "2026-06-21T00:05:40.540474+00:00",
       "headline": "1 in 3 psychologists say their patients use AI as a second therapist",
       "summary": "People are increasingly turning to AI for mental health support—but its design is “antithetical” to mental health care, experts say",
       "category": null,
@@ -1029,8 +1029,8 @@
       "id": "2026-06-18-young-women-now-have-close-to-zero-risk-of-cervi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:12.427085+00:00",
-      "last_updated": "2026-06-20T22:06:12.427096+00:00",
+      "first_seen": "2026-06-21T00:05:38.995418+00:00",
+      "last_updated": "2026-06-21T00:05:38.995425+00:00",
       "headline": "Young women now have 'close to zero' risk of cervical cancer death after HPV jab",
       "summary": "A new study finds that hundreds of lives have been saved since school-age girls were offered the HPV jab in 2008.",
       "category": null,
@@ -1066,8 +1066,8 @@
       "id": "2026-06-18-researchers-found-8-common-food-additives-linked",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:12.889772+00:00",
-      "last_updated": "2026-06-20T22:06:12.889774+00:00",
+      "first_seen": "2026-06-21T00:05:39.341367+00:00",
+      "last_updated": "2026-06-21T00:05:39.341370+00:00",
       "headline": "Researchers found 8 common food additives linked to high blood pressure and heart disease",
       "summary": "A major study of more than 112,000 people found that eating foods containing common preservatives may be linked to a higher risk of high blood pressure and heart-related diseases. Researchers tracked participants for up to eight years and discovered that people consuming the highest amounts of certain preservatives…",
       "category": null,
@@ -1102,48 +1102,11 @@
       "is_new": false
     },
     {
-      "id": "2026-06-17-hpv-jabs-cut-risk-of-dying-from-cervical-cancer",
+      "id": "2026-06-21-8-500-daily-steps-can-help-you-lose-weight-and-k",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:11.993203+00:00",
-      "last_updated": "2026-06-20T22:06:11.993205+00:00",
-      "headline": "HPV jabs cut risk of dying from cervical cancer before 30 to almost zero",
-      "summary": "Study reveals positive news, but experts say deaths and cases may rise again as fewer teenagers get vaccinatedWomen who received an HPV vaccine in early adolescence have virtually zero risk of dying from cervical cancer before the age of 30, according to a groundbreaking study, but falling vaccination rates could see…",
-      "category": null,
-      "topic_tags": [
-        "study"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/society/2026/jun/17/hpv-jabs-reduce-risk-dying-cervical-cancer-before-30-zero-study-finds",
-          "outlet": "The Guardian — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-06-17T22:30:46+00:00"
-      },
-      "keyword_hits": [
-        "study"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-06-20-8-500-daily-steps-can-help-you-lose-weight-and-k",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.679437+00:00",
-      "last_updated": "2026-06-20T22:06:14.679439+00:00",
+      "first_seen": "2026-06-21T00:05:41.352332+00:00",
+      "last_updated": "2026-06-21T00:05:41.352334+00:00",
       "headline": "8,500 Daily Steps Can Help You Lose Weight and Keep It Off",
       "summary": "A new study demonstrates that 8,500 daily steps is the sweet spot for weight management. Stewart Cohen/Getty Images Walking 8,500 steps per day can help people maintain weight loss after an initial lifestyle modification program that includes dietary intervention. The authors of a research analysis say that walking is…",
       "category": null,
@@ -1177,14 +1140,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-people-using-glp-1s-like-ozempic-wegovy-less-lik",
+      "id": "2026-06-21-people-using-glp-1s-like-ozempic-wegovy-less-lik",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.663985+00:00",
-      "last_updated": "2026-06-20T22:06:14.663988+00:00",
+      "first_seen": "2026-06-21T00:05:41.335778+00:00",
+      "last_updated": "2026-06-21T00:05:41.335781+00:00",
       "headline": "People Using GLP-1s, Like Ozempic, Wegovy, Less Likely to Exercise Despite Benefits",
       "summary": "Recent research has found that despite the benefits, people using GLP-1s may be less likely to exercise. Image Credit: Fiordaliso/Getty Images A recent study found that people taking a GLP-1 medication, like Ozempic or Wegovy, may be less likely to engage in regular exercise. The study showed that, among people with…",
       "category": null,
@@ -1218,14 +1181,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-flavanol-rich-fruits-veggies-may-be-best-for-hea",
+      "id": "2026-06-21-flavanol-rich-fruits-veggies-may-be-best-for-hea",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.667303+00:00",
-      "last_updated": "2026-06-20T22:06:14.667306+00:00",
+      "first_seen": "2026-06-21T00:05:41.339161+00:00",
+      "last_updated": "2026-06-21T00:05:41.339164+00:00",
       "headline": "Flavanol-Rich Fruits, Veggies May Be Best for Heart Health. Here's Why",
       "summary": "Research shows that certain fruits and vegetables may be higher in flavanols, which improve heart health. Image Credit: Alex_Schmidt/Getty Images A recent study has found that most people are not getting enough flavanols in their diet. Flavanols are naturally occurring compounds that are found in various foods and…",
       "category": null,
@@ -1259,14 +1222,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-want-to-slow-your-biological-aging-sleeping-6-4",
+      "id": "2026-06-21-want-to-slow-your-biological-aging-sleeping-6-4",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.677888+00:00",
-      "last_updated": "2026-06-20T22:06:14.677890+00:00",
+      "first_seen": "2026-06-21T00:05:41.350654+00:00",
+      "last_updated": "2026-06-21T00:05:41.350657+00:00",
       "headline": "Want to Slow Your Biological Aging? Sleeping 6.4 to 7.8 Hours a Night May Help",
       "summary": "Recent research has found an association between sleep duration and biological aging. Image Credit: ArtistGNDphotography/Getty Images A recent study found that too little or too much sleep may speed aging in the brain and other organs. The study used aging clocks to examine associations between sleep and various…",
       "category": null,
@@ -1300,14 +1263,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-what-to-consider-before-taking-sunscreen-advice",
+      "id": "2026-06-21-what-to-consider-before-taking-sunscreen-advice",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.661161+00:00",
-      "last_updated": "2026-06-20T22:06:14.661169+00:00",
+      "first_seen": "2026-06-21T00:05:41.332818+00:00",
+      "last_updated": "2026-06-21T00:05:41.332824+00:00",
       "headline": "What to Consider Before Taking Sunscreen Advice on Social Media",
       "summary": "Misinformation about sunscreen on social media platforms like TikTok appears to attract more engagement, according to a new study. Image Credit: Photo by Westend61/GettyImages A new study found that TikTok videos promoting misinformation about sunscreen tend to receive higher engagement. However, while some videos…",
       "category": null,
@@ -1339,14 +1302,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-glp-1s-like-ozempic-may-help-lower-breast-cancer",
+      "id": "2026-06-21-glp-1s-like-ozempic-may-help-lower-breast-cancer",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.670342+00:00",
-      "last_updated": "2026-06-20T22:06:14.670344+00:00",
+      "first_seen": "2026-06-21T00:05:41.342173+00:00",
+      "last_updated": "2026-06-21T00:05:41.342176+00:00",
       "headline": "GLP-1s Like Ozempic May Help Lower Breast Cancer Risk. Here’s How",
       "summary": "New research suggests that GLP-1 drugs could serve as an effective strategy for breast cancer prevention. ruizluquepaz/Getty Images A new study found that females using GLP-1 drugs had about a 30% lower risk of developing breast cancer. The effect may be related to the metabolic improvements associated with this class…",
       "category": null,
@@ -1378,14 +1341,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-just-2-hours-of-strength-training-a-week-may-hel",
+      "id": "2026-06-21-just-2-hours-of-strength-training-a-week-may-hel",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.670724+00:00",
-      "last_updated": "2026-06-20T22:06:14.670726+00:00",
+      "first_seen": "2026-06-21T00:05:41.342548+00:00",
+      "last_updated": "2026-06-21T00:05:41.342550+00:00",
       "headline": "Just 2 Hours of Strength Training a Week May Help You Live Longer",
       "summary": "Researchers say that 90–120 minutes of strength training per week can help reduce the risk of early death. Image Credit: People Images/Getty Images A new study found that 90–120 minutes of strength training each week could help promote longevity. Around 1.5 to 2 hours of weekly strength training lowered the risk of…",
       "category": null,
@@ -1417,14 +1380,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-menopause-plant-forward-diets-can-help-with-weig",
+      "id": "2026-06-21-menopause-plant-forward-diets-can-help-with-weig",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.676117+00:00",
-      "last_updated": "2026-06-20T22:06:14.676120+00:00",
+      "first_seen": "2026-06-21T00:05:41.348734+00:00",
+      "last_updated": "2026-06-21T00:05:41.348736+00:00",
       "headline": "Menopause: Plant-Forward Diets Can Help With Weight Management",
       "summary": "Eating more plants and fewer processed foods can help with weight management during menopause. Viktoriya Skorikova/Getty Images A new study found that diets rich in plant foods and low in processed meats and salt may help with menopause weight gain. Plant foods have nutrients linked with better metabolic health and a…",
       "category": null,
@@ -1456,14 +1419,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-glp-1s-like-ozempic-wegovy-linked-to-surprising",
+      "id": "2026-06-21-glp-1s-like-ozempic-wegovy-linked-to-surprising",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.661518+00:00",
-      "last_updated": "2026-06-20T22:06:14.661521+00:00",
+      "first_seen": "2026-06-21T00:05:41.333181+00:00",
+      "last_updated": "2026-06-21T00:05:41.333184+00:00",
       "headline": "GLP-1s Like Ozempic, Wegovy Linked to Surprising Drop in Violent Behavior",
       "summary": "GLP-1s may help reduce impulsivity, alcohol intake, and violent behaviors in adults. Image Credit: munro/gettyimages A recent study found that GLP-1 medications like Ozempic and Wegovy may help lower impulsive and violent behaviors. The researchers noted that higher impulsivity and alcohol use were significantly…",
       "category": null,
@@ -1495,14 +1458,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-yes-stair-climbing-housework-count-as-exercise-t",
+      "id": "2026-06-21-yes-stair-climbing-housework-count-as-exercise-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.661838+00:00",
-      "last_updated": "2026-06-20T22:06:14.661840+00:00",
+      "first_seen": "2026-06-21T00:05:41.333515+00:00",
+      "last_updated": "2026-06-21T00:05:41.333518+00:00",
       "headline": "Yes, Stair Climbing, Housework Count as Exercise. They Can Even Boost Your Mood",
       "summary": "Small amounts of physical activity, like everyday chores, can boost your mood and even count toward your exercise goals. Image Credit: Getty Images/Oleh_Slobodeniuk New research has found that as little as 5 to 10 minutes of physical activity can provide an immediate boost to both mood and energy. Exercise and…",
       "category": null,
@@ -1534,14 +1497,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-spermmaxxing-social-media-influencers-are-moneti",
+      "id": "2026-06-21-spermmaxxing-social-media-influencers-are-moneti",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.664432+00:00",
-      "last_updated": "2026-06-20T22:06:14.664434+00:00",
+      "first_seen": "2026-06-21T00:05:41.336248+00:00",
+      "last_updated": "2026-06-21T00:05:41.336251+00:00",
       "headline": "‘Spermmaxxing’: Social Media Influencers Are Monetizing Male Fertility Anxiety",
       "summary": "“Spermmaxxing” is the newest social media trend. Why are younger males so concerned with fertility? Image Credit: Irina Shatilova/Getty Images “Spermmaxxing” is one of the most recent social media “maxxing” trends. In this trend, men seek to increase their fertility through lifestyle changes and other approaches, such…",
       "category": null,
@@ -1573,14 +1536,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-an-avocado-a-day-may-keep-diabetes-hypertension",
+      "id": "2026-06-21-an-avocado-a-day-may-keep-diabetes-hypertension",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.667922+00:00",
-      "last_updated": "2026-06-20T22:06:14.667925+00:00",
+      "first_seen": "2026-06-21T00:05:41.339599+00:00",
+      "last_updated": "2026-06-21T00:05:41.339602+00:00",
       "headline": "An Avocado a Day May Keep Diabetes, Hypertension, and Obesity at Bay",
       "summary": "Research shows that eating more avocado can reduce your risk of diabetes, hypertension, and obesity. Image Credit: Anjelika Gretskaia/Getty Images Research suggests that females who eat 30–38 grams of avocado per day may have a lower risk of diabetes. A recent study also found that eating one avocado and 1 cup of…",
       "category": null,
@@ -1612,14 +1575,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-peptide-injections-touted-as-fountain-of-youth-s",
+      "id": "2026-06-21-peptide-injections-touted-as-fountain-of-youth-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.668445+00:00",
-      "last_updated": "2026-06-20T22:06:14.668448+00:00",
+      "first_seen": "2026-06-21T00:05:41.340141+00:00",
+      "last_updated": "2026-06-21T00:05:41.340144+00:00",
       "headline": "Peptide Injections Touted as ‘Fountain of Youth.’ Spoiler Alert: They’re Not",
       "summary": "Influencers tout peptide injections for fitness and longevity, but experts warn of health and safety risks. Mariya Borisova/Getty Images Injectable “wellness” peptides have become wildly popular among health and wellness enthusiasts, despite lacking credible evidence for their safety and effectiveness. Social media…",
       "category": null,
@@ -1651,14 +1614,14 @@
         "wellness"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-drinking-alcohol-can-raise-your-risk-of-these-20",
+      "id": "2026-06-21-drinking-alcohol-can-raise-your-risk-of-these-20",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.669897+00:00",
-      "last_updated": "2026-06-20T22:06:14.669900+00:00",
+      "first_seen": "2026-06-21T00:05:41.341681+00:00",
+      "last_updated": "2026-06-21T00:05:41.341684+00:00",
       "headline": "Drinking Alcohol Can Raise Your Risk of These 20 Health Conditions",
       "summary": "Research shows that any amount of drinking can increase your health risks. Image Credit: Catherine Falls Commercial/Getty Images A recent study found an association between alcohol consumption and 20 different health outcomes. The findings show that any amount of alcohol may increase the risk for various cancers. The…",
       "category": null,
@@ -1690,14 +1653,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-perimenopause-may-be-the-ideal-time-for-cardiova",
+      "id": "2026-06-21-perimenopause-may-be-the-ideal-time-for-cardiova",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.675082+00:00",
-      "last_updated": "2026-06-20T22:06:14.675085+00:00",
+      "first_seen": "2026-06-21T00:05:41.347583+00:00",
+      "last_updated": "2026-06-21T00:05:41.347586+00:00",
       "headline": "Perimenopause May Be the Ideal Time for Cardiovascular Risk Prevention",
       "summary": "Research shows that perimenopause may be the ideal time to adopt lifestyle changes to help lower cardiovascular risks. Image Credit: Aleksandar Nakic/Getty Images A recent study suggests that perimenopause offers a “window of opportunity” for females to reassess cardiovascular risk and prompt lifestyle changes. The…",
       "category": null,
@@ -1729,14 +1692,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-how-much-exercise-do-you-need-to-lower-your-risk",
+      "id": "2026-06-21-how-much-exercise-do-you-need-to-lower-your-risk",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.675608+00:00",
-      "last_updated": "2026-06-20T22:06:14.675610+00:00",
+      "first_seen": "2026-06-21T00:05:41.348167+00:00",
+      "last_updated": "2026-06-21T00:05:41.348169+00:00",
       "headline": "How Much Exercise Do You Need to Lower Your Risk of Cardiovascular Disease?",
       "summary": "Researchers say current aerobic exercise recommendations may not be sufficient to reduce cardiovascular risk. MoMo Productions/Getty Images Researchers say adults may need to quadruple the current weekly exercise recommendations to achieve substantial heart health benefits. Those with lower levels of fitness may need…",
       "category": null,
@@ -1768,14 +1731,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-how-glp-1s-like-ozempic-turn-down-food-noise-to",
+      "id": "2026-06-21-how-glp-1s-like-ozempic-turn-down-food-noise-to",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.676440+00:00",
-      "last_updated": "2026-06-20T22:06:14.676442+00:00",
+      "first_seen": "2026-06-21T00:05:41.349086+00:00",
+      "last_updated": "2026-06-21T00:05:41.349089+00:00",
       "headline": "How GLP-1s Like Ozempic Turn Down ‘Food Noise’ to Help You Lose Weight",
       "summary": "GLP-1 drugs may help reduce food cravings, leading to healthier eating habits that contribute to weight loss. Image Credit: Juan Moyano/Stocksy A recent study found that using GLP-1 drugs, such as Ozempic and Mounjaro, can help reduce food cravings. The researchers found that GLP-1 medications can reduce “food noise”…",
       "category": null,
@@ -1807,14 +1770,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-glp-1-drugs-like-ozempic-wegovy-may-help-lower-b",
+      "id": "2026-06-21-glp-1-drugs-like-ozempic-wegovy-may-help-lower-b",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.677154+00:00",
-      "last_updated": "2026-06-20T22:06:14.677156+00:00",
+      "first_seen": "2026-06-21T00:05:41.349860+00:00",
+      "last_updated": "2026-06-21T00:05:41.349862+00:00",
       "headline": "GLP-1 Drugs Like Ozempic, Wegovy May Help Lower Blood Pressure",
       "summary": "Research shows that GLP-1s may help lower blood pressure levels. Image Credit: Tatiana Maksimova/Getty Images A recent study found that GLP-1 drugs like Ozempic and Wegovy may significantly reduce blood pressure. The positive results were observed alongside weight loss and independently of it. The findings add to…",
       "category": null,
@@ -1846,14 +1809,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-wegovy-semaglutide-reduces-migraine-severity-esp",
+      "id": "2026-06-21-wegovy-semaglutide-reduces-migraine-severity-esp",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.676835+00:00",
-      "last_updated": "2026-06-20T22:06:14.676837+00:00",
+      "first_seen": "2026-06-21T00:05:41.349524+00:00",
+      "last_updated": "2026-06-21T00:05:41.349527+00:00",
       "headline": "Wegovy: Semaglutide Reduces Migraine Severity, Especially in Women",
       "summary": "A new study found that women using semaglutide had a reduction in their use of triptans, a drug commonly prescribed for migraine. Victor Bordera/Stocksy A study has found that treatment with semaglutide led to reduced triptan usage in women. However, no significant effect was observed in men with overweight or…",
       "category": null,
@@ -1883,14 +1846,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-setting-a-goal-weight-may-lead-to-greater-succes",
+      "id": "2026-06-21-setting-a-goal-weight-may-lead-to-greater-succes",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.662150+00:00",
-      "last_updated": "2026-06-20T22:06:14.662152+00:00",
+      "first_seen": "2026-06-21T00:05:41.333845+00:00",
+      "last_updated": "2026-06-21T00:05:41.333848+00:00",
       "headline": "Setting a Goal Weight May Lead to Greater Success With GLP-1s Like Zepbound",
       "summary": "Setting a weight loss goal may yield greater success with GLP-1 drugs like Zepbound. Image Credit: Crispin la valiente/GettyImages A recent study found that people who set personal weight loss targets may achieve greater results with GLP-1 medications. People using tirzepatide (Zepbound or Mounjaro) saw more weight…",
       "category": null,
@@ -1920,14 +1883,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-how-ultra-processed-foods-are-made-matters-as-mu",
+      "id": "2026-06-21-how-ultra-processed-foods-are-made-matters-as-mu",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.663417+00:00",
-      "last_updated": "2026-06-20T22:06:14.663419+00:00",
+      "first_seen": "2026-06-21T00:05:41.335184+00:00",
+      "last_updated": "2026-06-21T00:05:41.335188+00:00",
       "headline": "How Ultra-Processed Foods Are Made Matters as Much as What's in Them",
       "summary": "The manufacturing processes used to produce ultra-processed foods are linked to negative impacts on human health. Image Credit: Andy Sacks/Getty Images A recent study has found that it may not just be what’s in ultra-processed foods that makes them unhealthy, but how they’re made. The study noted that factors such as…",
       "category": null,
@@ -1957,14 +1920,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-a-new-vaccine-was-designed-by-ai-and-safely-test",
+      "id": "2026-06-21-a-new-vaccine-was-designed-by-ai-and-safely-test",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.664844+00:00",
-      "last_updated": "2026-06-20T22:06:14.664846+00:00",
+      "first_seen": "2026-06-21T00:05:41.336694+00:00",
+      "last_updated": "2026-06-21T00:05:41.336697+00:00",
       "headline": "A New Vaccine Was Designed by AI and Safely Tested on Humans",
       "summary": "A new vaccine designed by AI is the first to be tested on humans and may protect against a wide range of coronaviruses related to SARS and COVID-19. miodrag ignjatovic/GettyImages Researchers have tested a vaccine designed to protect against a range of coronaviruses. This new vaccine was the first designed by AI to be…",
       "category": null,
@@ -1994,14 +1957,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-more-than-1-drink-a-day-linked-to-health-risks-c",
+      "id": "2026-06-21-more-than-1-drink-a-day-linked-to-health-risks-c",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.665582+00:00",
-      "last_updated": "2026-06-20T22:06:14.665585+00:00",
+      "first_seen": "2026-06-21T00:05:41.337474+00:00",
+      "last_updated": "2026-06-21T00:05:41.337477+00:00",
       "headline": "More Than 1 Drink a Day Linked to Health Risks, Clashing With U.S. Guidelines",
       "summary": "New research found that health risks accelerate after 1 drink per day. Oleg Breslavtsev/Getty Images New research suggests alcohol-related health risks may begin at lower levels of drinking than previously thought. Researchers found no clear health benefit from even moderate alcohol consumption and concluded that both…",
       "category": null,
@@ -2031,14 +1994,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-shaquille-o-neal-shares-how-zepbound-helped-with",
+      "id": "2026-06-21-shaquille-o-neal-shares-how-zepbound-helped-with",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.665993+00:00",
-      "last_updated": "2026-06-20T22:06:14.665995+00:00",
+      "first_seen": "2026-06-21T00:05:41.337900+00:00",
+      "last_updated": "2026-06-21T00:05:41.337902+00:00",
       "headline": "Shaquille O’Neal Shares How Zepbound Helped with Sleep Apnea and Weight Loss",
       "summary": "NEW YORK, NEW YORK – MAY 12: Shaquille O’Neal attends the 2026 Disney Upfront at Jacob K. Javits Convention Center on May 12, 2026 in New York City. (Photo by John Nacion/FilmMagic) Shaquille O’Neal is taking Zepbound to help manage his weight and reduce obstructive sleep apnea (OSA) symptoms. Zepbound is FDA approved…",
       "category": null,
@@ -2068,14 +2031,14 @@
         "sleep"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-drinking-alcohol-may-lead-to-ultra-processed-foo",
+      "id": "2026-06-21-drinking-alcohol-may-lead-to-ultra-processed-foo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.666551+00:00",
-      "last_updated": "2026-06-20T22:06:14.666555+00:00",
+      "first_seen": "2026-06-21T00:05:41.338378+00:00",
+      "last_updated": "2026-06-21T00:05:41.338381+00:00",
       "headline": "Drinking Alcohol May Lead to Ultra-Processed Food Cravings. Here’s Why",
       "summary": "New research found that more unhealthy, savory foods were consumed on drinking days versus non-drinking days. Jovana Milanko/Stocksy Drinking alcohol may lead to increased consumption of ultra-processed savory foods. Researchers found that alcohol can amplify the FGF21 hormone, which can cause cravings for protein and…",
       "category": null,
@@ -2105,14 +2068,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-waist-to-hip-ratio-may-offer-better-indicator-of",
+      "id": "2026-06-21-waist-to-hip-ratio-may-offer-better-indicator-of",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.671960+00:00",
-      "last_updated": "2026-06-20T22:06:14.671963+00:00",
+      "first_seen": "2026-06-21T00:05:41.343844+00:00",
+      "last_updated": "2026-06-21T00:05:41.343846+00:00",
       "headline": "Waist-to-Hip Ratio May Offer Better Indicator of Obesity, Health Over BMI",
       "summary": "BMI measurements may drastically underestimate obesity rates among U.S. adults, new research suggests. Thomas Barwick/Getty Images A growing body of evidence suggests that a waist-to-hip ratio (WHR) measurement is a better indicator of obesity and health than body mass index (BMI). New research suggests that BMI…",
       "category": null,
@@ -2142,14 +2105,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-beer-body-scent-may-make-you-a-mosquito-magnet-c",
+      "id": "2026-06-21-beer-body-scent-may-make-you-a-mosquito-magnet-c",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.672357+00:00",
-      "last_updated": "2026-06-20T22:06:14.672359+00:00",
+      "first_seen": "2026-06-21T00:05:41.344316+00:00",
+      "last_updated": "2026-06-21T00:05:41.344319+00:00",
       "headline": "Beer, Body Scent May Make You a Mosquito Magnet. Can DEET Help?",
       "summary": "Some people are more prone to mosquito bites than others, and scientists may have figured out why. Jaromir/Getty Images Researchers have identified several reasons why mosquitoes are more attracted to some people than others. The scent you give off through carbon dioxide and through your skin can make you more prone…",
       "category": null,
@@ -2179,14 +2142,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-eating-more-watermelon-may-help-prevent-heart-di",
+      "id": "2026-06-21-eating-more-watermelon-may-help-prevent-heart-di",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.674414+00:00",
-      "last_updated": "2026-06-20T22:06:14.674417+00:00",
+      "first_seen": "2026-06-21T00:05:41.346847+00:00",
+      "last_updated": "2026-06-21T00:05:41.346851+00:00",
       "headline": "Eating More Watermelon May Help Prevent Heart Disease",
       "summary": "Watermelon contains powerful nutrients that may offer protection against cardiovascular disease. Image Credit: J. Anthony/Stocksy Research shows that watermelon may help improve heart health and lower your risk of heart disease. It also shows that this fruit may aid in overall nutrient intake for both adults and…",
       "category": null,
@@ -2216,14 +2179,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-antidepressants-during-pregnancy-not-linked-to-a",
+      "id": "2026-06-21-antidepressants-during-pregnancy-not-linked-to-a",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.678298+00:00",
-      "last_updated": "2026-06-20T22:06:14.678300+00:00",
+      "first_seen": "2026-06-21T00:05:41.351117+00:00",
+      "last_updated": "2026-06-21T00:05:41.351120+00:00",
       "headline": "Antidepressants During Pregnancy Not Linked to Autism, ADHD. Here’s Why",
       "summary": "A large study found no link between SSRI use before or during pregnancy and neurodevelopmental disorders in children. Ekaterina Goncharova/Getty Images A comprehensive review found no causal link between antidepressant use before or during pregnancy and ADHD or autism. Any association of neurodevelopmental disorders…",
       "category": null,
@@ -2253,14 +2216,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-glp-1-drugs-may-improve-breast-cancer-survival-l",
+      "id": "2026-06-21-glp-1-drugs-may-improve-breast-cancer-survival-l",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.678669+00:00",
-      "last_updated": "2026-06-20T22:06:14.678671+00:00",
+      "first_seen": "2026-06-21T00:05:41.351506+00:00",
+      "last_updated": "2026-06-21T00:05:41.351509+00:00",
       "headline": "GLP-1 Drugs May Improve Breast Cancer Survival, Lower Risk of Recurrence",
       "summary": "A recent study shows that GLP-1 drugs may help improve survival rates in people with breast cancer, obesity, and diabetes. Image Credit: Tatsiana Volkava/Getty Images A recent study found that GLP-1 drugs like Ozempic and Wegovy may improve breast cancer survival and recurrence in those with obesity and related health…",
       "category": null,
@@ -2290,14 +2253,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-06-20-why-ballmaxxing-may-be-more-dangerous-than-you-t",
+      "id": "2026-06-21-why-ballmaxxing-may-be-more-dangerous-than-you-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-06-20T22:06:14.678993+00:00",
-      "last_updated": "2026-06-20T22:06:14.678995+00:00",
+      "first_seen": "2026-06-21T00:05:41.351850+00:00",
+      "last_updated": "2026-06-21T00:05:41.351852+00:00",
       "headline": "Why 'Ballmaxxing' May Be More Dangerous Than You Think",
       "summary": "Experts say that “ballmaxxing” may lead to permanent damage to male genitalia. Image Credit: Heathline/Paloma Rincon Studio/GettyImages “Ballmaxxing” is a viral social media phenomenon in which fluids are injected into the testicles to increase their size. Some men are injecting fluids until their testicles become the…",
       "category": null,
@@ -2327,7 +2290,7 @@
         "social media"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     }
   ]
 }
