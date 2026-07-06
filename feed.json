@@ -1,25 +1,105 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-07-05T22:01:05.238575+00:00",
-    "live_count": 46,
+    "generated_at": "2026-07-06T00:05:15.991704+00:00",
+    "live_count": 47,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
       "fetched": 477,
-      "kept": 46,
+      "kept": 47,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
   },
   "stories": [
     {
+      "id": "2026-07-05-nhs-to-rate-english-trusts-on-tackling-violence",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-07-06T00:05:11.705669+00:00",
+      "last_updated": "2026-07-06T00:05:11.705676+00:00",
+      "headline": "NHS to rate English trusts on tackling violence and racism towards staff",
+      "summary": "Exclusive: Published league tables will rank acute, ambulance and mental health trusts on six measures The NHS will rate trusts according to how well they tackle racism, violence and sexual misconduct towards staff, the government has announced.From July, all NHS acute, ambulance and mental health trusts in England…",
+      "category": null,
+      "topic_tags": [
+        "mental health"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/society/2026/jul/06/nhs-trusts-england-ratings-staff-wellbeing-violence-racism",
+          "outlet": "The Guardian — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-07-05T23:01:39+00:00"
+      },
+      "keyword_hits": [
+        "mental health"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-07-05-scientists-may-have-finally-found-how-alzheimer",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-07-06T00:05:12.750568+00:00",
+      "last_updated": "2026-07-06T00:05:12.750571+00:00",
+      "headline": "Scientists may have finally found how Alzheimer's kills brain cells",
+      "summary": "Researchers have identified a previously overlooked mechanism of brain cell death that appears to play a major role in Alzheimer's disease and frontotemporal dementia. The finding could lead to new treatments aimed at slowing neuron loss by interrupting the process before cells are destroyed.",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/06/260626124701.htm",
+          "outlet": "ScienceDaily — Mind & Brain",
+          "tier": 2,
+          "role": "origin"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/06/260626124701.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "corroboration"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-07-05T22:58:01+00:00"
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-07-05-quantum-mechanics-once-baffled-scientists-now-it",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.638669+00:00",
-      "last_updated": "2026-07-05T22:01:03.638671+00:00",
+      "first_seen": "2026-07-06T00:05:13.002372+00:00",
+      "last_updated": "2026-07-06T00:05:13.002374+00:00",
       "headline": "Quantum mechanics once baffled scientists. Now it's changing the world",
       "summary": "Quantum mechanics has journeyed from a strange and controversial idea to the foundation of some of humanity’s most advanced technologies. Now researchers are pushing its boundaries even further, with potential breakthroughs in energy, medicine, computing, and our understanding of the universe.",
       "category": null,
@@ -55,8 +135,8 @@
       "id": "2026-07-05-majority-of-uk-smokers-wrongly-believe-vaping-is",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:02.994276+00:00",
-      "last_updated": "2026-07-05T22:01:02.994284+00:00",
+      "first_seen": "2026-07-06T00:05:11.705951+00:00",
+      "last_updated": "2026-07-06T00:05:11.705955+00:00",
       "headline": "Majority of UK smokers wrongly believe vaping is as harmful as cigarettes, experts find",
       "summary": "Analysis shows public understanding about vaping, which is far less harmful than smoking, has plummeted in past decadeMore than half of adult smokers in the UK wrongly believe that vaping is as harmful or more harmful than cigarettes, making them less likely to switch to vapes and quit the deadly habit, research has…",
       "category": null,
@@ -92,8 +172,8 @@
       "id": "2026-07-05-scientists-discover-the-deep-sleep-circuit-that",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.496083+00:00",
-      "last_updated": "2026-07-05T22:01:03.496086+00:00",
+      "first_seen": "2026-07-06T00:05:12.750738+00:00",
+      "last_updated": "2026-07-06T00:05:12.750741+00:00",
       "headline": "Scientists discover the deep sleep circuit that builds muscle, burns fat, and boosts the brain",
       "summary": "Researchers have identified the brain circuitry that links deep sleep with the release of growth hormone, revealing how the two regulate each other. The newly discovered feedback loop helps explain why poor sleep can interfere with growth, muscle repair, fat metabolism, and brain function. Understanding this system…",
       "category": null,
@@ -134,50 +214,11 @@
       "is_new": false
     },
     {
-      "id": "2026-07-05-light-switch-wakes-sleeping-cancer-cells-and-mak",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.639890+00:00",
-      "last_updated": "2026-07-05T22:01:03.639892+00:00",
-      "headline": "Light switch wakes sleeping cancer cells and makes them vulnerable again",
-      "summary": "Some cancer cells evade treatment by entering a dormant state triggered by stress hormones. ETH Zurich scientists have created a light-controlled molecular switch that selectively destroys the receptors responsible for this survival mode. In laboratory lung cancer cells, the approach woke sleeping tumor cells and…",
-      "category": null,
-      "topic_tags": [
-        "sleep",
-        "stress"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/06/260619020503.htm",
-          "outlet": "ScienceDaily — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
-      "caveats": null,
-      "score": 7.0,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 7,
-        "published": "2026-07-05T06:08:50+00:00"
-      },
-      "keyword_hits": [
-        "sleep",
-        "stress"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-07-05-the-secret-to-healthy-aging-may-be-hidden-in-you",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.638398+00:00",
-      "last_updated": "2026-07-05T22:01:03.638401+00:00",
+      "first_seen": "2026-07-06T00:05:13.002073+00:00",
+      "last_updated": "2026-07-06T00:05:13.002076+00:00",
       "headline": "The secret to healthy aging may be hidden in your blood",
       "summary": "Some people live past 100 with remarkable health, and researchers may have uncovered one reason why. A new study found that centenarians have a unique chemical \"fingerprint\" in their blood that sets them apart from normal aging, including unusual patterns of bile acids and steroids linked to longer survival.",
       "category": null,
@@ -215,8 +256,8 @@
       "id": "2026-07-04-a-hidden-weakness-in-deadly-cancers-could-lead-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.638290+00:00",
-      "last_updated": "2026-07-05T22:01:03.638298+00:00",
+      "first_seen": "2026-07-06T00:05:13.001964+00:00",
+      "last_updated": "2026-07-06T00:05:13.001972+00:00",
       "headline": "A hidden weakness in deadly cancers could lead to powerful new treatments",
       "summary": "A UCLA study has identified a hidden Achilles' heel in aggressive small cell cancers that have resisted new treatments for decades. Scientists found that tumors lacking the RB gene become critically dependent on the protein E2F3 for survival. Blocking E2F3 shut down tumor growth in laboratory models, and existing…",
       "category": null,
@@ -252,8 +293,8 @@
       "id": "2026-07-04-tech-to-improve-stroke-outcomes-impact-of-a-nati",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.759973+00:00",
-      "last_updated": "2026-07-05T22:01:03.759980+00:00",
+      "first_seen": "2026-07-06T00:05:13.402617+00:00",
+      "last_updated": "2026-07-06T00:05:13.402624+00:00",
       "headline": "Tech to Improve Stroke Outcomes; Impact of a Nation's Social Media Ban",
       "summary": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El Paso, look at the top medical...",
       "category": null,
@@ -289,8 +330,8 @@
       "id": "2026-07-03-drinking-to-cope-with-stress-may-permanently-rew",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.495965+00:00",
-      "last_updated": "2026-07-05T22:01:03.495968+00:00",
+      "first_seen": "2026-07-06T00:05:12.750651+00:00",
+      "last_updated": "2026-07-06T00:05:12.750654+00:00",
       "headline": "Drinking to cope with stress may permanently rewire your brain",
       "summary": "Using alcohol to cope with stress when young may permanently alter the brain, making it harder to adapt to challenges and increasing the risk of returning to drinking later in life. Researchers also found signs of brain damage associated with early dementia, suggesting the effects can linger long after alcohol use has…",
       "category": null,
@@ -334,8 +375,8 @@
       "id": "2026-07-03-scientists-discover-why-some-brains-resist-alzhe",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.495866+00:00",
-      "last_updated": "2026-07-05T22:01:03.495874+00:00",
+      "first_seen": "2026-07-06T00:05:12.750482+00:00",
+      "last_updated": "2026-07-06T00:05:12.750490+00:00",
       "headline": "Scientists discover why some brains resist Alzheimer's",
       "summary": "Some brains appear to fight back against Alzheimer's by helping immature brain cells survive damage instead of succumbing to it. Understanding this natural resilience could point researchers toward entirely new ways to protect memory and slow dementia.",
       "category": null,
@@ -377,8 +418,8 @@
       "id": "2026-07-03-stop-calling-it-cancer-the-alcohol-paradox-rural",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.760232+00:00",
-      "last_updated": "2026-07-05T22:01:03.760235+00:00",
+      "first_seen": "2026-07-06T00:05:13.402850+00:00",
+      "last_updated": "2026-07-06T00:05:13.402853+00:00",
       "headline": "Stop Calling It Cancer; The Alcohol Paradox; Rural Patients Lose Ground in Screening",
       "summary": "(MedPage Today) -- Relabeling the lowest-risk prostate cancers as a non-cancerous condition might reduce overtreatment and prevent as many as 2,400 prostate cancer deaths annually. (UCLA Health) Social media influencer and cookbook author Nara...",
       "category": null,
@@ -414,8 +455,8 @@
       "id": "2026-07-03-exercise-may-not-be-a-no-no-after-aortic-dissect",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.760299+00:00",
-      "last_updated": "2026-07-05T22:01:03.760302+00:00",
+      "first_seen": "2026-07-06T00:05:13.402916+00:00",
+      "last_updated": "2026-07-06T00:05:13.402918+00:00",
       "headline": "Exercise May Not Be a No-No After Aortic Dissection",
       "summary": "(MedPage Today) -- It was feasible for survivors of thoracic aortic dissection (TAD) to engage in a structured exercise program, according to a pilot study. Among 93 adults post-Type A or B TAD, there were no deaths, aortic operations, or recurrent...",
       "category": null,
@@ -453,8 +494,8 @@
       "id": "2026-07-03-why-gen-z-bros-are-ditching-their-maga-hats",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.237962+00:00",
-      "last_updated": "2026-07-05T22:01:05.237971+00:00",
+      "first_seen": "2026-07-06T00:05:15.990129+00:00",
+      "last_updated": "2026-07-06T00:05:15.990138+00:00",
       "headline": "Why Gen Z bros are ditching their MAGA hats",
       "summary": "The numbers are clear: President Donald Trump’s approval rating is cratering across the board, and he’s losing the most ground with groups that were key demographics to his win in 2024. In that election, men under 30 broke for Trump over Vice President Kamala Harris by about a single point — not a lot, but […]",
       "category": null,
@@ -490,8 +531,8 @@
       "id": "2026-07-03-the-biological-dogma-that-women-don-t-make-new-e",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:04.312908+00:00",
-      "last_updated": "2026-07-05T22:01:04.312915+00:00",
+      "first_seen": "2026-07-06T00:05:14.181205+00:00",
+      "last_updated": "2026-07-06T00:05:14.181212+00:00",
       "headline": "The biological dogma that women don’t make new eggs after birth may be wrong",
       "summary": "Female mammals have long thought to be born with all the eggs they would ever have, but new research is challenging that consensus",
       "category": null,
@@ -527,8 +568,8 @@
       "id": "2026-07-03-old-muscle-stem-cells-can-act-young-again-but-th",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.639203+00:00",
-      "last_updated": "2026-07-05T22:01:03.639207+00:00",
+      "first_seen": "2026-07-06T00:05:13.002881+00:00",
+      "last_updated": "2026-07-06T00:05:13.002884+00:00",
       "headline": "Old muscle stem cells can act young again but there’s a catch",
       "summary": "Scientists at UCLA discovered a surprising reason aging muscles heal more slowly. In older muscle stem cells, a protein called NDRG1 builds up and acts like a brake, slowing the cells’ ability to jump into repair mode after injury. But there’s a twist: that same protein helps the cells survive the stresses of aging,…",
       "category": null,
@@ -564,8 +605,8 @@
       "id": "2026-07-03-scientists-stunned-as-bumble-bees-solve-a-classi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.496235+00:00",
-      "last_updated": "2026-07-05T22:01:03.496238+00:00",
+      "first_seen": "2026-07-06T00:05:12.750879+00:00",
+      "last_updated": "2026-07-06T00:05:12.750881+00:00",
       "headline": "Scientists stunned as bumble bees solve a classic intelligence test",
       "summary": "Bumble bees astonished researchers by inventing a new way to reach a hidden reward, despite never being taught the trick. The discovery adds to growing evidence that these tiny insects are far smarter and more adaptable than once believed.",
       "category": null,
@@ -601,8 +642,8 @@
       "id": "2026-07-03-scientists-discover-a-protein-switch-that-burns",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:03.638573+00:00",
-      "last_updated": "2026-07-05T22:01:03.638576+00:00",
+      "first_seen": "2026-07-06T00:05:13.002275+00:00",
+      "last_updated": "2026-07-06T00:05:13.002278+00:00",
       "headline": "Scientists discover a protein switch that burns fat and blocks new fat cells",
       "summary": "A protein called “Mitch” may hold the key to a new generation of obesity treatments. Researchers found that disabling it in human cells boosts fat burning, increases energy use, and makes it harder for new fat cells to develop. The findings help explain why mice lacking Mitch were leaner, more athletic, and resistant…",
       "category": null,
@@ -635,11 +676,11 @@
       "is_new": false
     },
     {
-      "id": "2026-07-05-intermittent-fasting-aids-weight-loss-with-a-sur",
+      "id": "2026-07-06-intermittent-fasting-aids-weight-loss-with-a-sur",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.066789+00:00",
-      "last_updated": "2026-07-05T22:01:05.066791+00:00",
+      "first_seen": "2026-07-06T00:05:15.769605+00:00",
+      "last_updated": "2026-07-06T00:05:15.769608+00:00",
       "headline": "Intermittent Fasting Aids Weight Loss, With a Surprising Psychological Benefit",
       "summary": "Researchers compared intermittent fasting with calorie counting and found that people following fasting protocols thought about food less often. Anchiy/Getty Images A recent study found that people who bounce from one diet to another — or “yo-yo dieters” — may have better results following an intermittent fasting diet…",
       "category": null,
@@ -673,14 +714,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-want-to-slow-your-aging-multivitamins-diet-and-f",
+      "id": "2026-07-06-want-to-slow-your-aging-multivitamins-diet-and-f",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.069380+00:00",
-      "last_updated": "2026-07-05T22:01:05.069383+00:00",
+      "first_seen": "2026-07-06T00:05:15.772039+00:00",
+      "last_updated": "2026-07-06T00:05:15.772041+00:00",
       "headline": "Want to Slow Your Aging? Multivitamins, Diet, and Fitness May Help",
       "summary": "Studies show that diet, fitness, and multivitamins may help slow the aging process. Image Credit: Maria Sher/Stocksy Research suggests that taking a multivitamin every day may help slow the signs of biological aging. A recent study found that higher midlife cardiorespiratory fitness levels may be associated with a…",
       "category": null,
@@ -714,14 +755,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-people-using-glp-1s-like-ozempic-wegovy-less-lik",
+      "id": "2026-07-06-people-using-glp-1s-like-ozempic-wegovy-less-lik",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.073300+00:00",
-      "last_updated": "2026-07-05T22:01:05.073303+00:00",
+      "first_seen": "2026-07-06T00:05:15.775721+00:00",
+      "last_updated": "2026-07-06T00:05:15.775724+00:00",
       "headline": "People Using GLP-1s, Like Ozempic, Wegovy, Less Likely to Exercise Despite Benefits",
       "summary": "Recent research has found that despite the benefits, people using GLP-1s may be less likely to exercise. Image Credit: Fiordaliso/Getty Images A recent study found that people taking a GLP-1 medication, like Ozempic or Wegovy, may be less likely to engage in regular exercise. The study showed that, among people with…",
       "category": null,
@@ -755,14 +796,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-flavanol-rich-fruits-veggies-may-be-best-for-hea",
+      "id": "2026-07-06-flavanol-rich-fruits-veggies-may-be-best-for-hea",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.076849+00:00",
-      "last_updated": "2026-07-05T22:01:05.076851+00:00",
+      "first_seen": "2026-07-06T00:05:15.779172+00:00",
+      "last_updated": "2026-07-06T00:05:15.779176+00:00",
       "headline": "Flavanol-Rich Fruits, Veggies May Be Best for Heart Health. Here's Why",
       "summary": "Research shows that certain fruits and vegetables may be higher in flavanols, which improve heart health. Image Credit: Alex_Schmidt/Getty Images A recent study has found that most people are not getting enough flavanols in their diet. Flavanols are naturally occurring compounds that are found in various foods and…",
       "category": null,
@@ -796,14 +837,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-sitting-too-much-raises-cancer-risk-but-short-bu",
+      "id": "2026-07-06-sitting-too-much-raises-cancer-risk-but-short-bu",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.060965+00:00",
-      "last_updated": "2026-07-05T22:01:05.060972+00:00",
+      "first_seen": "2026-07-06T00:05:15.764104+00:00",
+      "last_updated": "2026-07-06T00:05:15.764106+00:00",
       "headline": "Sitting Too Much Raises Cancer Risk, But Short Bursts of Light Activity May Help",
       "summary": "New research shows that prolonged periods of sitting or lying down could increase the risk of certain cancers. Image Credit: Justin Paget/Getty Images A new study found that prolonged sedentary behaviors can raise the risk of various cancers, including colorectal, pancreatic, and breast cancer. Replacing just 1 hour…",
       "category": null,
@@ -835,14 +876,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-statins-rarely-cause-severe-muscle-problems-rese",
+      "id": "2026-07-06-statins-rarely-cause-severe-muscle-problems-rese",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.062404+00:00",
-      "last_updated": "2026-07-05T22:01:05.062407+00:00",
+      "first_seen": "2026-07-06T00:05:15.765443+00:00",
+      "last_updated": "2026-07-06T00:05:15.765446+00:00",
       "headline": "Statins Rarely Cause Severe Muscle Problems, Researchers Say",
       "summary": "A large new study found that people taking statins are unlikely to develop serious muscle problems. Sol de Zuasnabar Brebbia/Getty Images New research reports that serious muscular disorders are rare for people who take statins to help lower cholesterol levels. Researchers say their findings are important because many…",
       "category": null,
@@ -874,14 +915,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-just-2-hours-of-strength-training-may-lower-hear",
+      "id": "2026-07-06-just-2-hours-of-strength-training-may-lower-hear",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.064864+00:00",
-      "last_updated": "2026-07-05T22:01:05.064866+00:00",
+      "first_seen": "2026-07-06T00:05:15.767772+00:00",
+      "last_updated": "2026-07-06T00:05:15.767775+00:00",
       "headline": "Just 2 Hours of Strength Training May Lower Heart Disease Risk in Women",
       "summary": "Research shows that 2 hours of weekly strength training may help reduce the risk of cardiovascular disease in women. Image Credit: COROIMAGE/Getty Images A new study suggests that women who do at least 2 hours of strength training per week have a lower risk of cardiovascular disease. The findings add that women who…",
       "category": null,
@@ -913,14 +954,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-can-glp-1-drugs-like-ozempic-really-change-your",
+      "id": "2026-07-06-can-glp-1-drugs-like-ozempic-really-change-your",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.066380+00:00",
-      "last_updated": "2026-07-05T22:01:05.066383+00:00",
+      "first_seen": "2026-07-06T00:05:15.769221+00:00",
+      "last_updated": "2026-07-06T00:05:15.769223+00:00",
       "headline": "Can GLP-1 Drugs Like Ozempic Really Change Your Sense of Smell and Taste?",
       "summary": "Some GLP-1 users report changes in their taste and smell, according to a new study. Tatsiana Volkava/Getty Images Researchers report that GLP-1 drugs used to treat type 2 diabetes may impair a person’s sense of taste and smell. Experts say taste and smell dysfunction doesn’t appear to be a common side effect of…",
       "category": null,
@@ -952,14 +993,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-what-to-consider-before-taking-sunscreen-advice",
+      "id": "2026-07-06-what-to-consider-before-taking-sunscreen-advice",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.070169+00:00",
-      "last_updated": "2026-07-05T22:01:05.070171+00:00",
+      "first_seen": "2026-07-06T00:05:15.772788+00:00",
+      "last_updated": "2026-07-06T00:05:15.772790+00:00",
       "headline": "What to Consider Before Taking Sunscreen Advice on Social Media",
       "summary": "Misinformation about sunscreen on social media platforms like TikTok appears to attract more engagement, according to a new study. Image Credit: Photo by Westend61/GettyImages A new study found that TikTok videos promoting misinformation about sunscreen tend to receive higher engagement. However, while some videos…",
       "category": null,
@@ -991,14 +1032,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-glp-1s-like-ozempic-may-help-lower-breast-cancer",
+      "id": "2026-07-06-glp-1s-like-ozempic-may-help-lower-breast-cancer",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.079935+00:00",
-      "last_updated": "2026-07-05T22:01:05.079937+00:00",
+      "first_seen": "2026-07-06T00:05:15.782228+00:00",
+      "last_updated": "2026-07-06T00:05:15.782230+00:00",
       "headline": "GLP-1s Like Ozempic May Help Lower Breast Cancer Risk. Here’s How",
       "summary": "New research suggests that GLP-1 drugs could serve as an effective strategy for breast cancer prevention. ruizluquepaz/Getty Images A new study found that females using GLP-1 drugs had about a 30% lower risk of developing breast cancer. The effect may be related to the metabolic improvements associated with this class…",
       "category": null,
@@ -1030,14 +1071,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-young-adults-are-aging-faster-which-may-be-drivi",
+      "id": "2026-07-06-young-adults-are-aging-faster-which-may-be-drivi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.060659+00:00",
-      "last_updated": "2026-07-05T22:01:05.060662+00:00",
+      "first_seen": "2026-07-06T00:05:15.763817+00:00",
+      "last_updated": "2026-07-06T00:05:15.763820+00:00",
       "headline": "Young Adults Are Aging Faster, Which May Be Driving Higher Cancer Rates",
       "summary": "Young adults appear to be aging faster than the previous generation, which could explain the rising early onset cancer rates. ZeynepKaya/Getty Images Researchers say younger generations appear to be aging faster than previous generations. They say the phenomenon may explain why certain cancers are rising drastically…",
       "category": null,
@@ -1069,14 +1110,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-glp-1s-like-ozempic-wegovy-linked-to-surprising",
+      "id": "2026-07-06-glp-1s-like-ozempic-wegovy-linked-to-surprising",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.070521+00:00",
-      "last_updated": "2026-07-05T22:01:05.070524+00:00",
+      "first_seen": "2026-07-06T00:05:15.773121+00:00",
+      "last_updated": "2026-07-06T00:05:15.773123+00:00",
       "headline": "GLP-1s Like Ozempic, Wegovy Linked to Surprising Drop in Violent Behavior",
       "summary": "GLP-1s may help reduce impulsivity, alcohol intake, and violent behaviors in adults. Image Credit: munro/gettyimages A recent study found that GLP-1 medications like Ozempic and Wegovy may help lower impulsive and violent behaviors. The researchers noted that higher impulsivity and alcohol use were significantly…",
       "category": null,
@@ -1108,14 +1149,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-yes-stair-climbing-housework-count-as-exercise-t",
+      "id": "2026-07-06-yes-stair-climbing-housework-count-as-exercise-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.070872+00:00",
-      "last_updated": "2026-07-05T22:01:05.070876+00:00",
+      "first_seen": "2026-07-06T00:05:15.773463+00:00",
+      "last_updated": "2026-07-06T00:05:15.773465+00:00",
       "headline": "Yes, Stair Climbing, Housework Count as Exercise. They Can Even Boost Your Mood",
       "summary": "Small amounts of physical activity, like everyday chores, can boost your mood and even count toward your exercise goals. Image Credit: Getty Images/Oleh_Slobodeniuk New research has found that as little as 5 to 10 minutes of physical activity can provide an immediate boost to both mood and energy. Exercise and…",
       "category": null,
@@ -1147,14 +1188,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-spermmaxxing-social-media-influencers-are-moneti",
+      "id": "2026-07-06-spermmaxxing-social-media-influencers-are-moneti",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.073775+00:00",
-      "last_updated": "2026-07-05T22:01:05.073778+00:00",
+      "first_seen": "2026-07-06T00:05:15.776202+00:00",
+      "last_updated": "2026-07-06T00:05:15.776205+00:00",
       "headline": "‘Spermmaxxing’: Social Media Influencers Are Monetizing Male Fertility Anxiety",
       "summary": "“Spermmaxxing” is the newest social media trend. Why are younger males so concerned with fertility? Image Credit: Irina Shatilova/Getty Images “Spermmaxxing” is one of the most recent social media “maxxing” trends. In this trend, men seek to increase their fertility through lifestyle changes and other approaches, such…",
       "category": null,
@@ -1186,14 +1227,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-an-avocado-a-day-may-keep-diabetes-hypertension",
+      "id": "2026-07-06-an-avocado-a-day-may-keep-diabetes-hypertension",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.077316+00:00",
-      "last_updated": "2026-07-05T22:01:05.077318+00:00",
+      "first_seen": "2026-07-06T00:05:15.779612+00:00",
+      "last_updated": "2026-07-06T00:05:15.779614+00:00",
       "headline": "An Avocado a Day May Keep Diabetes, Hypertension, and Obesity at Bay",
       "summary": "Research shows that eating more avocado can reduce your risk of diabetes, hypertension, and obesity. Image Credit: Anjelika Gretskaia/Getty Images Research suggests that females who eat 30–38 grams of avocado per day may have a lower risk of diabetes. A recent study also found that eating one avocado and 1 cup of…",
       "category": null,
@@ -1225,14 +1266,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-peptide-injections-touted-as-fountain-of-youth-s",
+      "id": "2026-07-06-peptide-injections-touted-as-fountain-of-youth-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.077861+00:00",
-      "last_updated": "2026-07-05T22:01:05.077863+00:00",
+      "first_seen": "2026-07-06T00:05:15.780168+00:00",
+      "last_updated": "2026-07-06T00:05:15.780171+00:00",
       "headline": "Peptide Injections Touted as ‘Fountain of Youth.’ Spoiler Alert: They’re Not",
       "summary": "Influencers tout peptide injections for fitness and longevity, but experts warn of health and safety risks. Mariya Borisova/Getty Images Injectable “wellness” peptides have become wildly popular among health and wellness enthusiasts, despite lacking credible evidence for their safety and effectiveness. Social media…",
       "category": null,
@@ -1264,14 +1305,14 @@
         "wellness"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-drinking-alcohol-can-raise-your-risk-of-these-20",
+      "id": "2026-07-06-drinking-alcohol-can-raise-your-risk-of-these-20",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.079451+00:00",
-      "last_updated": "2026-07-05T22:01:05.079454+00:00",
+      "first_seen": "2026-07-06T00:05:15.781732+00:00",
+      "last_updated": "2026-07-06T00:05:15.781734+00:00",
       "headline": "Drinking Alcohol Can Raise Your Risk of These 20 Health Conditions",
       "summary": "Research shows that any amount of drinking can increase your health risks. Image Credit: Catherine Falls Commercial/Getty Images A recent study found an association between alcohol consumption and 20 different health outcomes. The findings show that any amount of alcohol may increase the risk for various cancers. The…",
       "category": null,
@@ -1303,14 +1344,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-chronic-pain-melatonin-may-provide-some-relief-s",
+      "id": "2026-07-06-chronic-pain-melatonin-may-provide-some-relief-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.061913+00:00",
-      "last_updated": "2026-07-05T22:01:05.061916+00:00",
+      "first_seen": "2026-07-06T00:05:15.764983+00:00",
+      "last_updated": "2026-07-06T00:05:15.764985+00:00",
       "headline": "Chronic Pain? Melatonin May Provide Some Relief, Study Finds",
       "summary": "Melatonin alleviated chronic pain about as effectively as over-the-counter painkillers, a new study found. Grace Cary/Getty Images A new study found melatonin eased chronic musculoskeletal pain about as effectively as over-the-counter painkillers. The benefit was clearest for chronic pain, but results for…",
       "category": null,
@@ -1340,14 +1381,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-zepbound-vs-wegovy-which-glp-1-drug-is-best-for",
+      "id": "2026-07-06-zepbound-vs-wegovy-which-glp-1-drug-is-best-for",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.068972+00:00",
-      "last_updated": "2026-07-05T22:01:05.068975+00:00",
+      "first_seen": "2026-07-06T00:05:15.771667+00:00",
+      "last_updated": "2026-07-06T00:05:15.771670+00:00",
       "headline": "Zepbound vs. Wegovy: Which GLP-1 Drug Is Best for Weight Loss?",
       "summary": "Researchers say that GLP-1 drugs containing tirzepatide (Zepbound, Mounjaro) may lead to greater weight loss. Image Credit: Tatsiana Volkava/Getty Images A meta-analysis found that one type of GLP-1 medication may be more effective than others. The analysis showed that GLP-1s containing tirzepatide (Zepbound,…",
       "category": null,
@@ -1377,14 +1418,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-louisiana-man-becomes-first-in-region-to-be-func",
+      "id": "2026-07-06-louisiana-man-becomes-first-in-region-to-be-func",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.060184+00:00",
-      "last_updated": "2026-07-05T22:01:05.060191+00:00",
+      "first_seen": "2026-07-06T00:05:15.763380+00:00",
+      "last_updated": "2026-07-06T00:05:15.763386+00:00",
       "headline": "Louisiana Man Becomes First In Region to Be Functionally Cured of Sickle Cell Disease",
       "summary": "A Louisiana man has become the first in the Gulf South to be functionally cured of sickle cell disease using gene therapy. Image Credit: Marti Sans/Stocksy Daniel Cressy of Louisiana has become the first person in the Gulf South to be functionally cured of sickle cell disease. The milestone highlights the growing…",
       "category": null,
@@ -1414,14 +1455,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-creatine-supplements-may-help-treat-depression-e",
+      "id": "2026-07-06-creatine-supplements-may-help-treat-depression-e",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.061433+00:00",
-      "last_updated": "2026-07-05T22:01:05.061436+00:00",
+      "first_seen": "2026-07-06T00:05:15.764533+00:00",
+      "last_updated": "2026-07-06T00:05:15.764535+00:00",
       "headline": "Creatine Supplements May Help Treat Depression, Early Evidence Shows",
       "summary": "A large review suggests that creatine could help treat major depressive disorder (MDD), but evidence is mixed. ATHVisions/Getty Images A large review suggests that creatine could be an adjunct treatment for major depressive disorder (MDD). However, not all studies in the review found the same benefits for treating…",
       "category": null,
@@ -1451,14 +1492,14 @@
         "depression"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-glp-1s-like-ozempic-mounjaro-linked-to-reduced-s",
+      "id": "2026-07-06-glp-1s-like-ozempic-mounjaro-linked-to-reduced-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.064379+00:00",
-      "last_updated": "2026-07-05T22:01:05.064382+00:00",
+      "first_seen": "2026-07-06T00:05:15.767318+00:00",
+      "last_updated": "2026-07-06T00:05:15.767321+00:00",
       "headline": "GLP-1s Like Ozempic, Mounjaro Linked to Reduced Stroke, Heart Risks",
       "summary": "A growing body of evidence shows that GLP-1 drugs benefit cardiovascular health. Image Credit: Healthline/Munro/Getty Images GLP-1 medications like Ozempic and Wegovy help protect heart health, but stopping the medications may reduce the protective effects. Some research suggests that GLP-1s containing tirzepatide…",
       "category": null,
@@ -1488,14 +1529,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-covid-vaccine-study-previously-blocked-by-cdc-is",
+      "id": "2026-07-06-covid-vaccine-study-previously-blocked-by-cdc-is",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.065899+00:00",
-      "last_updated": "2026-07-05T22:01:05.065902+00:00",
+      "first_seen": "2026-07-06T00:05:15.768766+00:00",
+      "last_updated": "2026-07-06T00:05:15.768769+00:00",
       "headline": "COVID Vaccine Study Previously Blocked By CDC Is Out — Here's What It Found",
       "summary": "A study on COVID-19 vaccines that was previously blocked by the CDC’s acting director was published in a medical journal. luis velasco/Stocksy A COVID-19 vaccine efficacy study that had previously been blocked by the CDC was published in a scientific journal. Acting CDC Director Jay Bhattacharya blocked the study from…",
       "category": null,
@@ -1525,14 +1566,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-hhs-to-update-testosterone-therapy-labels-for-pr",
+      "id": "2026-07-06-hhs-to-update-testosterone-therapy-labels-for-pr",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.067728+00:00",
-      "last_updated": "2026-07-05T22:01:05.067730+00:00",
+      "first_seen": "2026-07-06T00:05:15.770486+00:00",
+      "last_updated": "2026-07-06T00:05:15.770489+00:00",
       "headline": "HHS to Update Testosterone Therapy Labels for Prostate Cancer, Hypogonadism",
       "summary": "HHS announced it would request updates to the warning labels for testosterone replacement therapy products. Malorny/Getty Images The Department of Health and Human Services (HHS) has proposed key changes to the labeling of testosterone replacement therapy (TRT) products. The proposed changes could expand access to TRT…",
       "category": null,
@@ -1562,14 +1603,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-setting-a-goal-weight-may-lead-to-greater-succes",
+      "id": "2026-07-06-setting-a-goal-weight-may-lead-to-greater-succes",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.071244+00:00",
-      "last_updated": "2026-07-05T22:01:05.071247+00:00",
+      "first_seen": "2026-07-06T00:05:15.773790+00:00",
+      "last_updated": "2026-07-06T00:05:15.773792+00:00",
       "headline": "Setting a Goal Weight May Lead to Greater Success With GLP-1s Like Zepbound",
       "summary": "Setting a weight loss goal may yield greater success with GLP-1 drugs like Zepbound. Image Credit: Crispin la valiente/GettyImages A recent study found that people who set personal weight loss targets may achieve greater results with GLP-1 medications. People using tirzepatide (Zepbound or Mounjaro) saw more weight…",
       "category": null,
@@ -1599,14 +1640,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-how-ultra-processed-foods-are-made-matters-as-mu",
+      "id": "2026-07-06-how-ultra-processed-foods-are-made-matters-as-mu",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.072647+00:00",
-      "last_updated": "2026-07-05T22:01:05.072650+00:00",
+      "first_seen": "2026-07-06T00:05:15.775099+00:00",
+      "last_updated": "2026-07-06T00:05:15.775102+00:00",
       "headline": "How Ultra-Processed Foods Are Made Matters as Much as What's in Them",
       "summary": "The manufacturing processes used to produce ultra-processed foods are linked to negative impacts on human health. Image Credit: Andy Sacks/Getty Images A recent study has found that it may not just be what’s in ultra-processed foods that makes them unhealthy, but how they’re made. The study noted that factors such as…",
       "category": null,
@@ -1636,14 +1677,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-a-new-vaccine-was-designed-by-ai-and-safely-test",
+      "id": "2026-07-06-a-new-vaccine-was-designed-by-ai-and-safely-test",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.074264+00:00",
-      "last_updated": "2026-07-05T22:01:05.074267+00:00",
+      "first_seen": "2026-07-06T00:05:15.776646+00:00",
+      "last_updated": "2026-07-06T00:05:15.776648+00:00",
       "headline": "A New Vaccine Was Designed by AI and Safely Tested on Humans",
       "summary": "A new vaccine designed by AI is the first to be tested on humans and may protect against a wide range of coronaviruses related to SARS and COVID-19. miodrag ignjatovic/GettyImages Researchers have tested a vaccine designed to protect against a range of coronaviruses. This new vaccine was the first designed by AI to be…",
       "category": null,
@@ -1673,14 +1714,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-more-than-1-drink-a-day-linked-to-health-risks-c",
+      "id": "2026-07-06-more-than-1-drink-a-day-linked-to-health-risks-c",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.075091+00:00",
-      "last_updated": "2026-07-05T22:01:05.075093+00:00",
+      "first_seen": "2026-07-06T00:05:15.777438+00:00",
+      "last_updated": "2026-07-06T00:05:15.777440+00:00",
       "headline": "More Than 1 Drink a Day Linked to Health Risks, Clashing With U.S. Guidelines",
       "summary": "New research found that health risks accelerate after 1 drink per day. Oleg Breslavtsev/Getty Images New research suggests alcohol-related health risks may begin at lower levels of drinking than previously thought. Researchers found no clear health benefit from even moderate alcohol consumption and concluded that both…",
       "category": null,
@@ -1710,14 +1751,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-shaquille-o-neal-shares-how-zepbound-helped-with",
+      "id": "2026-07-06-shaquille-o-neal-shares-how-zepbound-helped-with",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.075550+00:00",
-      "last_updated": "2026-07-05T22:01:05.075552+00:00",
+      "first_seen": "2026-07-06T00:05:15.777876+00:00",
+      "last_updated": "2026-07-06T00:05:15.777879+00:00",
       "headline": "Shaquille O’Neal Shares How Zepbound Helped with Sleep Apnea and Weight Loss",
       "summary": "NEW YORK, NEW YORK – MAY 12: Shaquille O’Neal attends the 2026 Disney Upfront at Jacob K. Javits Convention Center on May 12, 2026 in New York City. (Photo by John Nacion/FilmMagic) Shaquille O’Neal is taking Zepbound to help manage his weight and reduce obstructive sleep apnea (OSA) symptoms. Zepbound is FDA approved…",
       "category": null,
@@ -1747,14 +1788,14 @@
         "sleep"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-05-drinking-alcohol-may-lead-to-ultra-processed-foo",
+      "id": "2026-07-06-drinking-alcohol-may-lead-to-ultra-processed-foo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-05T22:01:05.076055+00:00",
-      "last_updated": "2026-07-05T22:01:05.076058+00:00",
+      "first_seen": "2026-07-06T00:05:15.778385+00:00",
+      "last_updated": "2026-07-06T00:05:15.778388+00:00",
       "headline": "Drinking Alcohol May Lead to Ultra-Processed Food Cravings. Here’s Why",
       "summary": "New research found that more unhealthy, savory foods were consumed on drinking days versus non-drinking days. Jovana Milanko/Stocksy Drinking alcohol may lead to increased consumption of ultra-processed savory foods. Researchers found that alcohol can amplify the FGF21 hormone, which can cause cravings for protein and…",
       "category": null,
@@ -1784,7 +1825,7 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     }
   ]
 }
