@@ -1,14 +1,14 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-07-21T23:56:19.630346+00:00",
-    "live_count": 60,
+    "generated_at": "2026-07-22T02:48:18.723251+00:00",
+    "live_count": 59,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
       "fetched": 387,
-      "kept": 60,
+      "kept": 59,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
@@ -18,8 +18,8 @@
       "id": "2026-07-21-pregnancy-complications-linked-to-risk-of-periph",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.355771+00:00",
-      "last_updated": "2026-07-21T23:56:17.355780+00:00",
+      "first_seen": "2026-07-22T02:48:16.767650+00:00",
+      "last_updated": "2026-07-22T02:48:16.767657+00:00",
       "headline": "Pregnancy Complications Linked to Risk of Peripheral Artery Disease",
       "summary": "(MedPage Today) -- Five major pregnancy complications were independently associated with heightened long-term risk of peripheral artery disease (PAD), a Swedish cohort study of more than 2 million deliveries found. At 30 to 46 years after delivery...",
       "category": null,
@@ -55,8 +55,8 @@
       "id": "2026-07-21-risk-of-neurologic-disorder-rises-for-people-who",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.355904+00:00",
-      "last_updated": "2026-07-21T23:56:17.355907+00:00",
+      "first_seen": "2026-07-22T02:48:16.767766+00:00",
+      "last_updated": "2026-07-22T02:48:16.767769+00:00",
       "headline": "Risk of Neurologic Disorder Rises for People Who Live Near Traffic Noise",
       "summary": "(MedPage Today) -- Long-term exposure to residential road traffic noise was associated with an increased risk of Parkinson's disease, a study of more than 3 million adults in Denmark showed. Traffic noise levels at the most exposed facade of people...",
       "category": null,
@@ -92,8 +92,8 @@
       "id": "2026-07-21-stem-cell-therapy-for-ga-shows-early-evidence-of",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.355983+00:00",
-      "last_updated": "2026-07-21T23:56:17.355985+00:00",
+      "first_seen": "2026-07-22T02:48:16.767835+00:00",
+      "last_updated": "2026-07-22T02:48:16.767838+00:00",
       "headline": "Stem Cell Therapy for GA Shows Early Evidence of Vision Gains, Retina Preservation",
       "summary": "(MedPage Today) -- MONTREAL -- A stem cell-derived therapy for advanced geographic atrophy (GA) showed preliminary evidence of vision improvement and retina preservation, according to a small study reported here. Best corrected visual acuity...",
       "category": null,
@@ -131,8 +131,8 @@
       "id": "2026-07-21-is-that-food-really-made-with-100-avocado-oil-li",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:16.559949+00:00",
-      "last_updated": "2026-07-21T23:56:16.559957+00:00",
+      "first_seen": "2026-07-22T02:48:15.246404+00:00",
+      "last_updated": "2026-07-22T02:48:15.246411+00:00",
       "headline": "Is that food really made with 100% avocado oil? Likely not",
       "summary": "A new study finds that consumers who are paying a premium for foods advertised as made with avocado oil are probably not getting what they think they're buying.",
       "category": null,
@@ -168,8 +168,8 @@
       "id": "2026-07-21-drugs-for-dry-amd-linked-to-thickening-of-retina",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.356087+00:00",
-      "last_updated": "2026-07-21T23:56:17.356089+00:00",
+      "first_seen": "2026-07-22T02:48:16.767928+00:00",
+      "last_updated": "2026-07-22T02:48:16.767931+00:00",
       "headline": "Drugs for Dry AMD Linked to Thickening of Retinal Nerve",
       "summary": "(MedPage Today) -- MONTREAL -- Complement inhibitors to treat geographic atrophy (GA) were associated with thickening of the retinal nerve fiber layer (RNFL), which could be helpful or pathologic, according to a study reported here. Both FDA...",
       "category": null,
@@ -205,8 +205,8 @@
       "id": "2026-07-21-yet-another-wake-up-call-on-declining-child-heal",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:16.754826+00:00",
-      "last_updated": "2026-07-21T23:56:16.754835+00:00",
+      "first_seen": "2026-07-22T02:48:15.484676+00:00",
+      "last_updated": "2026-07-22T02:48:15.484684+00:00",
       "headline": "Yet another wake-up call on declining child health | Letters",
       "summary": "Readers respond to a warning from the Royal College of Paediatrics and Child Health on a ‘national embarrassment’We were pleased to see your report (UK children will be one of unhealthiest generations in decades, doctors say, 14 July) on the deteriorating health of UK children, based on a study by the Royal College of…",
       "category": null,
@@ -242,8 +242,8 @@
       "id": "2026-07-21-time-to-look-closer-at-hypercortisolism-and-card",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.356228+00:00",
-      "last_updated": "2026-07-21T23:56:17.356230+00:00",
+      "first_seen": "2026-07-22T02:48:16.768079+00:00",
+      "last_updated": "2026-07-22T02:48:16.768082+00:00",
       "headline": "Time to Look Closer at Hypercortisolism and Cardiovascular Risk?",
       "summary": "(MedPage Today) -- At ENDO 2026, the annual meeting of the Endocrine Society, discussion around hypercortisolism extended beyond classic Cushing syndrome and highlighted the potential cardiovascular impact of cortisol across a broader spectrum...",
       "category": null,
@@ -279,8 +279,8 @@
       "id": "2026-07-21-the-roadmap-to-dsm-6",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.356293+00:00",
-      "last_updated": "2026-07-21T23:56:17.356295+00:00",
+      "first_seen": "2026-07-22T02:48:16.768139+00:00",
+      "last_updated": "2026-07-22T02:48:16.768141+00:00",
       "headline": "The Roadmap to DSM-6",
       "summary": "(MedPage Today) -- The Diagnostic and Statistical Manual of Mental Disorders (DSM) is often described as the \"bible\" of psychiatric diagnosis. It shapes how clinicians diagnose patients, how insurers reimburse care, how researchers design psychiatric...",
       "category": null,
@@ -316,8 +316,8 @@
       "id": "2026-07-21-watching-too-much-tv-in-midlife-may-shrink-the-b",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.137099+00:00",
-      "last_updated": "2026-07-21T23:56:17.137109+00:00",
+      "first_seen": "2026-07-22T02:48:16.094462+00:00",
+      "last_updated": "2026-07-22T02:48:16.094470+00:00",
       "headline": "Watching too much TV in midlife may shrink the brain",
       "summary": "Watching television very often in midlife may be linked to troubling brain changes decades later. In a study of about 1,700 adults, frequent TV viewers later showed smaller brain regions involved in memory, decision-making, and visual processing, along with more signs of damage in the brain’s white matter.…",
       "category": null,
@@ -359,8 +359,8 @@
       "id": "2026-07-21-the-truth-about-gut-health",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.629787+00:00",
-      "last_updated": "2026-07-21T23:56:19.629797+00:00",
+      "first_seen": "2026-07-22T02:48:18.721469+00:00",
+      "last_updated": "2026-07-22T02:48:18.721477+00:00",
       "headline": "The truth about gut health",
       "summary": "Gut health is everywhere right now. The hashtag #GutTok has over 6 billion views on TikTok, the global digestive health product market is worth over $60 billion, and viral trends that promise to “hack your gut” through miracle products, cleanses, and restrictive diets are all the rage. But what does gut health really…",
       "category": null,
@@ -398,8 +398,8 @@
       "id": "2026-07-21-time-for-a-clock-change-congress-considers-dayli",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.966930+00:00",
-      "last_updated": "2026-07-21T23:56:17.966941+00:00",
+      "first_seen": "2026-07-22T02:48:17.217210+00:00",
+      "last_updated": "2026-07-22T02:48:17.217218+00:00",
       "headline": "Time for a clock change? Congress considers daylight saving time … again",
       "summary": "A bill now being considered in the Senate would make daylight saving time permanent, but research suggests moving to standard time would bring more benefits.",
       "category": null,
@@ -435,8 +435,8 @@
       "id": "2026-07-21-the-surprisingly-undisciplined-trick-to-escaping",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.629894+00:00",
-      "last_updated": "2026-07-21T23:56:19.629897+00:00",
+      "first_seen": "2026-07-22T02:48:18.721565+00:00",
+      "last_updated": "2026-07-22T02:48:18.721568+00:00",
       "headline": "The surprisingly undisciplined trick to escaping social media",
       "summary": "If you’re looking to wean yourself off social media and replace it with a more productive habit — and who among us isn’t — a lot of the common advice can sound like it’s coming from a drill instructor: Go outside and touch grass. Routine is key. Get your butt in the chair and don’t […]",
       "category": null,
@@ -472,8 +472,8 @@
       "id": "2026-07-21-healthy-diet-too-expensive-for-one-in-three-peop",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:16.755249+00:00",
-      "last_updated": "2026-07-21T23:56:16.755253+00:00",
+      "first_seen": "2026-07-22T02:48:15.485036+00:00",
+      "last_updated": "2026-07-22T02:48:15.485039+00:00",
       "headline": "Healthy diet too expensive for one in three people globally, UN report finds",
       "summary": "Global hunger declined for the third year in a row in 2025 but experts call for action to bring down costs of fruit, vegetables and dairy as report shows 2.69bn people can’t afford to eat wellOne in three people cannot afford to eat a healthy diet, a new report has found, prompting calls for urgent action on food…",
       "category": null,
@@ -509,8 +509,8 @@
       "id": "2026-07-21-this-tiny-forgotten-organ-could-help-us-live-lon",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:18.118625+00:00",
-      "last_updated": "2026-07-21T23:56:18.118632+00:00",
+      "first_seen": "2026-07-22T02:48:17.367484+00:00",
+      "last_updated": "2026-07-22T02:48:17.367491+00:00",
       "headline": "This tiny, forgotten organ could help us live longer, healthier",
       "summary": "A hormone produced by the thymus helps tamp down age-related inflammation, a new study in mice found",
       "category": null,
@@ -546,8 +546,8 @@
       "id": "2026-07-21-opinion-how-a-controversial-rule-could-hurt-the",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.627961+00:00",
-      "last_updated": "2026-07-21T23:56:17.627969+00:00",
+      "first_seen": "2026-07-22T02:48:16.885430+00:00",
+      "last_updated": "2026-07-22T02:48:16.885437+00:00",
       "headline": "Opinion: How a controversial rule could hurt the NIH’s ability to manage risk",
       "summary": "The proposed rule could “weaken the NIH’s benign influence over research risks,” writes Doni Bloomfield.",
       "category": null,
@@ -583,8 +583,8 @@
       "id": "2026-07-21-scientists-found-mystery-bacteria-inside-one-of",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.262909+00:00",
-      "last_updated": "2026-07-21T23:56:17.262919+00:00",
+      "first_seen": "2026-07-22T02:48:16.410153+00:00",
+      "last_updated": "2026-07-22T02:48:16.410161+00:00",
       "headline": "Scientists found mystery bacteria inside one of the ocean’s most elusive whales",
       "summary": "Scientists studying decades of pygmy sperm whale strandings have uncovered three previously unknown types of Helicobacter bacteria hiding in the animals’ stomachs. All four infected whales showed serious digestive damage, including inflammation, ulcers, scarring, and parasite infestations, although the bacteria were…",
       "category": null,
@@ -620,8 +620,8 @@
       "id": "2026-07-21-new-molecular-map-reveals-how-the-flu-virus-hija",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.263096+00:00",
-      "last_updated": "2026-07-21T23:56:17.263099+00:00",
+      "first_seen": "2026-07-22T02:48:16.410360+00:00",
+      "last_updated": "2026-07-22T02:48:16.410363+00:00",
       "headline": "New molecular map reveals how the flu virus hijacks human cells",
       "summary": "Scientists uncovered how influenza A commandeers human cells, including a surprising strategy that dissolves tiny structures in the nucleus and releases proteins the virus may use to reproduce. The detailed molecular map could reveal new drug targets and help researchers study dangerous flu strains such as H5N1.",
       "category": null,
@@ -659,8 +659,8 @@
       "id": "2026-07-21-this-food-compound-may-help-vaccines-work-better",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.263267+00:00",
-      "last_updated": "2026-07-21T23:56:17.263270+00:00",
+      "first_seen": "2026-07-22T02:48:16.410506+00:00",
+      "last_updated": "2026-07-22T02:48:16.410509+00:00",
       "headline": "This food compound may help vaccines work better in older adults",
       "summary": "A naturally occurring compound found in foods such as wheat germ, mushrooms, and aged cheese may help older adults build stronger protection after vaccination. In a small pilot trial, researchers gave spermidine supplements to adults over 65 following their third COVID-19 vaccine dose. The biggest improvements…",
       "category": null,
@@ -696,8 +696,8 @@
       "id": "2026-07-21-new-antibody-drug-stops-aggressive-prostate-canc",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.263668+00:00",
-      "last_updated": "2026-07-21T23:56:17.263671+00:00",
+      "first_seen": "2026-07-22T02:48:16.410815+00:00",
+      "last_updated": "2026-07-22T02:48:16.410818+00:00",
       "headline": "New antibody drug stops aggressive prostate cancer from spreading",
       "summary": "Scientists have developed a fully human antibody that halted the growth and spread of aggressive prostate cancer in preclinical research. Although more testing is needed, the drug’s unusual mechanism could open the door to a safer new treatment for advanced cancer.",
       "category": null,
@@ -733,8 +733,8 @@
       "id": "2026-07-20-hhs-agency-cuts-dozens-of-grants",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.356520+00:00",
-      "last_updated": "2026-07-21T23:56:17.356523+00:00",
+      "first_seen": "2026-07-22T02:48:16.768313+00:00",
+      "last_updated": "2026-07-22T02:48:16.768315+00:00",
       "headline": "HHS Agency Cuts Dozens of Grants",
       "summary": "(MedPage Today) -- The Agency for Healthcare Research and Quality (AHRQ) cut dozens of grants last week, issuing what appeared to be batch termination notices to researchers. Termination letters shared with MedPage Today and posted online had...",
       "category": null,
@@ -770,8 +770,8 @@
       "id": "2026-07-20-one-partner-s-dementia-may-predict-the-other-s-f",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.356663+00:00",
-      "last_updated": "2026-07-21T23:56:17.356666+00:00",
+      "first_seen": "2026-07-22T02:48:16.768433+00:00",
+      "last_updated": "2026-07-22T02:48:16.768435+00:00",
       "headline": "One Partner's Dementia May Predict the Other's Future Risk",
       "summary": "(MedPage Today) -- Spouses of people with dementia had a higher risk of developing dementia themselves, a matched cohort study of nearly 1 million married people in Taiwan showed. Compared with unexposed spouses, both husbands and wives of dementia...",
       "category": null,
@@ -807,8 +807,8 @@
       "id": "2026-07-20-troubling-findings-in-study-of-glp-1-compounders",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.356765+00:00",
-      "last_updated": "2026-07-21T23:56:17.356768+00:00",
+      "first_seen": "2026-07-22T02:48:16.768522+00:00",
+      "last_updated": "2026-07-22T02:48:16.768524+00:00",
       "headline": "Troubling Findings in Study of GLP-1 Compounders",
       "summary": "(MedPage Today) -- The market for compounded GLP-1 drugs remained robust despite the end of semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro, Zepbound) shortages, with many facilities adding ingredients like B vitamins and some operating...",
       "category": null,
@@ -844,8 +844,8 @@
       "id": "2026-07-20-alzheimer-s-breakthrough-scientists-restore-two",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.137324+00:00",
-      "last_updated": "2026-07-21T23:56:17.137326+00:00",
+      "first_seen": "2026-07-22T02:48:16.094660+00:00",
+      "last_updated": "2026-07-22T02:48:16.094662+00:00",
       "headline": "Alzheimer’s breakthrough: Scientists restore two hours of sleep without clearing brain plaques",
       "summary": "Researchers have uncovered a surprising culprit behind sleep loss in Alzheimer’s disease: the brain’s own immune cells. In mice with amyloid plaques, overactive microglia triggered inflammation that kept the brain from getting enough deep, restorative sleep. Temporarily removing most of these cells restored more than…",
       "category": null,
@@ -889,8 +889,8 @@
       "id": "2026-07-20-rising-numbers-of-younger-midwives-quitting-nhs",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:16.755636+00:00",
-      "last_updated": "2026-07-21T23:56:16.755641+00:00",
+      "first_seen": "2026-07-22T02:48:15.485325+00:00",
+      "last_updated": "2026-07-22T02:48:15.485328+00:00",
       "headline": "Rising numbers of younger midwives quitting NHS in England, data shows",
       "summary": "Exclusive: Maternity staffing shortages worsen as more and more under-35s quit because of burnoutMore and more midwives are leaving the NHS before they reach 35 because of burnout, worsening the staffing problems that are affecting maternity units.The growing trend of early career quitting has sparked fears it poses a…",
       "category": null,
@@ -926,8 +926,8 @@
       "id": "2026-07-20-psychology-researchers-know-why-the-odyssey-tran",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:18.118842+00:00",
-      "last_updated": "2026-07-21T23:56:18.118845+00:00",
+      "first_seen": "2026-07-22T02:48:17.367677+00:00",
+      "last_updated": "2026-07-22T02:48:17.367680+00:00",
       "headline": "Psychology researchers know why The Odyssey transcends time",
       "summary": "The “hero’s journey” narrative structure seen in the ancient Greek story can help people make meaning in their own lives",
       "category": null,
@@ -963,8 +963,8 @@
       "id": "2026-07-19-i-ve-heard-menopause-hormone-therapy-fixes-every",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:16.755950+00:00",
-      "last_updated": "2026-07-21T23:56:16.755953+00:00",
+      "first_seen": "2026-07-22T02:48:15.485576+00:00",
+      "last_updated": "2026-07-22T02:48:15.485579+00:00",
       "headline": "I’ve heard menopause hormone therapy fixes everything. Should I take it?",
       "summary": "Timely treatment provides relief for menopause symptoms, but expecting it to fix all of them is a set-up for disappointmentIt happens with some regularity. I offhandedly mention some bodily inconvenience to a fellow middle-aged woman – indigestion, a headache, a bad mood. Immediately, she says it’s perimenopause and…",
       "category": null,
@@ -1000,8 +1000,8 @@
       "id": "2026-07-19-the-mysterious-hum-heard-around-the-world-may-fi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.137215+00:00",
-      "last_updated": "2026-07-21T23:56:17.137218+00:00",
+      "first_seen": "2026-07-22T02:48:16.094564+00:00",
+      "last_updated": "2026-07-22T02:48:16.094566+00:00",
       "headline": "The mysterious hum heard around the world may finally have an explanation",
       "summary": "The mysterious sound known as The Hum has been reported worldwide for decades, yet its source often remains impossible to find. Researchers tested whether people who hear it have exceptional low-frequency hearing or measurable sounds produced inside their ears, but neither explanation fit most participants. The…",
       "category": null,
@@ -1043,8 +1043,8 @@
       "id": "2026-07-19-coffee-may-help-the-body-fight-stress-and-aging",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:17.263468+00:00",
-      "last_updated": "2026-07-21T23:56:17.263472+00:00",
+      "first_seen": "2026-07-22T02:48:16.410655+00:00",
+      "last_updated": "2026-07-22T02:48:16.410657+00:00",
       "headline": "Coffee may help the body fight stress and aging through a hidden cellular switch",
       "summary": "Scientists may have uncovered one reason coffee is repeatedly associated with healthier aging and lower disease risk. Compounds in coffee appear to activate NR4A1, a receptor that helps protect cells from stress, inflammation, and damage. These protective effects disappeared when the receptor was removed,…",
       "category": null,
@@ -1080,8 +1080,8 @@
       "id": "2026-07-19-restoring-britain-s-health-to-2014-levels-could",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:16.756363+00:00",
-      "last_updated": "2026-07-21T23:56:16.756366+00:00",
+      "first_seen": "2026-07-22T02:48:15.485910+00:00",
+      "last_updated": "2026-07-22T02:48:15.485913+00:00",
       "headline": "Restoring Britain’s health to 2014 levels could add 2% to GDP, thinktank says",
       "summary": "Health Foundation paper argues health is an economic asset and improving it could generate £72bn for public financesRestoring the deteriorating health of the UK’s population to the level of 2014 would boost GDP by 2% and generate a £72bn dividend for the public finances, research suggests.A paper by the Health…",
       "category": null,
@@ -1114,48 +1114,11 @@
       "is_new": false
     },
     {
-      "id": "2026-07-19-the-hidden-cost-of-the-night-shift-and-how-to-sl",
+      "id": "2026-07-22-sniffing-chocolate-could-boost-your-leg-day-work",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:16.926007+00:00",
-      "last_updated": "2026-07-21T23:56:16.926017+00:00",
-      "headline": "The hidden cost of the night shift and how to sleep it off",
-      "summary": "More than three million people in the UK work night shifts, which can greatly impact their health. What can be done to help them?",
-      "category": null,
-      "topic_tags": [
-        "sleep"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.co.uk/news/articles/cp9errxl97go?at_medium=RSS&at_campaign=rss",
-          "outlet": "BBC Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: BBC Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-07-19T00:01:55+00:00"
-      },
-      "keyword_hits": [
-        "sleep"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-07-21-sniffing-chocolate-could-boost-your-leg-day-work",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.428343+00:00",
-      "last_updated": "2026-07-21T23:56:19.428345+00:00",
+      "first_seen": "2026-07-22T02:48:18.563648+00:00",
+      "last_updated": "2026-07-22T02:48:18.563651+00:00",
       "headline": "Sniffing Chocolate Could Boost Your Leg Day Workouts and Curb Hunger",
       "summary": "Smelling dark chocolate before and during workouts may help you perform more repetitions and reduce hunger after exercise, new research finds. Getty Images Smelling dark chocolate before and during a leg workout helped participants perform more repetitions. Though the exact mechanism remains unclear, researchers…",
       "category": null,
@@ -1189,14 +1152,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-intermittent-fasting-aids-weight-loss-with-a-sur",
+      "id": "2026-07-22-intermittent-fasting-aids-weight-loss-with-a-sur",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.439783+00:00",
-      "last_updated": "2026-07-21T23:56:19.439786+00:00",
+      "first_seen": "2026-07-22T02:48:18.573964+00:00",
+      "last_updated": "2026-07-22T02:48:18.573967+00:00",
       "headline": "Intermittent Fasting Aids Weight Loss, With a Surprising Psychological Benefit",
       "summary": "Researchers compared intermittent fasting with calorie counting and found that people following fasting protocols thought about food less often. Anchiy/Getty Images A recent study found that people who bounce from one diet to another — or “yo-yo dieters” — may have better results following an intermittent fasting diet…",
       "category": null,
@@ -1230,14 +1193,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-want-to-slow-your-aging-multivitamins-diet-and-f",
+      "id": "2026-07-22-want-to-slow-your-aging-multivitamins-diet-and-f",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.442495+00:00",
-      "last_updated": "2026-07-21T23:56:19.442498+00:00",
+      "first_seen": "2026-07-22T02:48:18.576405+00:00",
+      "last_updated": "2026-07-22T02:48:18.576411+00:00",
       "headline": "Want to Slow Your Aging? Multivitamins, Diet, and Fitness May Help",
       "summary": "Studies show that diet, fitness, and multivitamins may help slow the aging process. Image Credit: Maria Sher/Stocksy Research suggests that taking a multivitamin every day may help slow the signs of biological aging. A recent study found that higher midlife cardiorespiratory fitness levels may be associated with a…",
       "category": null,
@@ -1271,14 +1234,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-how-going-to-the-movies-and-museums-may-help-slo",
+      "id": "2026-07-22-how-going-to-the-movies-and-museums-may-help-slo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.422989+00:00",
-      "last_updated": "2026-07-21T23:56:19.422992+00:00",
+      "first_seen": "2026-07-22T02:48:18.558845+00:00",
+      "last_updated": "2026-07-22T02:48:18.558848+00:00",
       "headline": "How Going to the Movies and Museums May Help Slow Biological Aging",
       "summary": "Research shows that regular cultural engagement can slow physiological aging in older adults. Image Credit: AzmanJaka/Getty A new study claims that older adults who regularly attend cultural events such as museums, movies, and theater tend to have a lower physiological age, meaning their bodies function younger than…",
       "category": null,
@@ -1310,14 +1273,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-depo-provera-other-hormonal-contraceptives-linke",
+      "id": "2026-07-22-depo-provera-other-hormonal-contraceptives-linke",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.425765+00:00",
-      "last_updated": "2026-07-21T23:56:19.425768+00:00",
+      "first_seen": "2026-07-22T02:48:18.561296+00:00",
+      "last_updated": "2026-07-22T02:48:18.561299+00:00",
       "headline": "Depo-Provera, Other Hormonal Contraceptives Linked to Brain Tumors",
       "summary": "Research shows that certain types of birth control, particularly those high in progestogen, may raise the risk of brain tumors. Image Credit: Pekic/Getty A new study revealed a link between certain progestogen contraceptives, including Depo-Provera, and a higher risk of meningioma brain tumors. Meningiomas are brain…",
       "category": null,
@@ -1349,14 +1312,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-losing-just-78-minutes-of-sleep-a-night-over-6-w",
+      "id": "2026-07-22-losing-just-78-minutes-of-sleep-a-night-over-6-w",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.429500+00:00",
-      "last_updated": "2026-07-21T23:56:19.429502+00:00",
+      "first_seen": "2026-07-22T02:48:18.564640+00:00",
+      "last_updated": "2026-07-22T02:48:18.564642+00:00",
       "headline": "Losing Just 78 Minutes of Sleep a Night Over 6 Weeks May Lead to Weight Gain",
       "summary": "A new study found that adults who slept about 78 fewer minutes each night for six weeks gained nearly a pound and became more sedentary, highlighting the important role sleep plays in maintaining a healthy weight. A woman lying on a bed. A new study suggests not getting enough sleep each night may lead to weight gain.…",
       "category": null,
@@ -1388,14 +1351,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-sitting-too-much-raises-cancer-risk-but-short-bu",
+      "id": "2026-07-22-sitting-too-much-raises-cancer-risk-but-short-bu",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.433732+00:00",
-      "last_updated": "2026-07-21T23:56:19.433735+00:00",
+      "first_seen": "2026-07-22T02:48:18.568368+00:00",
+      "last_updated": "2026-07-22T02:48:18.568370+00:00",
       "headline": "Sitting Too Much Raises Cancer Risk, But Short Bursts of Light Activity May Help",
       "summary": "New research shows that prolonged periods of sitting or lying down could increase the risk of certain cancers. Image Credit: Justin Paget/Getty Images A new study found that prolonged sedentary behaviors can raise the risk of various cancers, including colorectal, pancreatic, and breast cancer. Replacing just 1 hour…",
       "category": null,
@@ -1427,14 +1390,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-statins-rarely-cause-severe-muscle-problems-rese",
+      "id": "2026-07-22-statins-rarely-cause-severe-muscle-problems-rese",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.435188+00:00",
-      "last_updated": "2026-07-21T23:56:19.435191+00:00",
+      "first_seen": "2026-07-22T02:48:18.569679+00:00",
+      "last_updated": "2026-07-22T02:48:18.569681+00:00",
       "headline": "Statins Rarely Cause Severe Muscle Problems, Researchers Say",
       "summary": "A large new study found that people taking statins are unlikely to develop serious muscle problems. Sol de Zuasnabar Brebbia/Getty Images New research reports that serious muscular disorders are rare for people who take statins to help lower cholesterol levels. Researchers say their findings are important because many…",
       "category": null,
@@ -1466,14 +1429,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-just-2-hours-of-strength-training-may-lower-hear",
+      "id": "2026-07-22-just-2-hours-of-strength-training-may-lower-hear",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.437771+00:00",
-      "last_updated": "2026-07-21T23:56:19.437774+00:00",
+      "first_seen": "2026-07-22T02:48:18.572128+00:00",
+      "last_updated": "2026-07-22T02:48:18.572131+00:00",
       "headline": "Just 2 Hours of Strength Training May Lower Heart Disease Risk in Women",
       "summary": "Research shows that 2 hours of weekly strength training may help reduce the risk of cardiovascular disease in women. Image Credit: COROIMAGE/Getty Images A new study suggests that women who do at least 2 hours of strength training per week have a lower risk of cardiovascular disease. The findings add that women who…",
       "category": null,
@@ -1505,14 +1468,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-can-glp-1-drugs-like-ozempic-really-change-your",
+      "id": "2026-07-22-can-glp-1-drugs-like-ozempic-really-change-your",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.439336+00:00",
-      "last_updated": "2026-07-21T23:56:19.439339+00:00",
+      "first_seen": "2026-07-22T02:48:18.573578+00:00",
+      "last_updated": "2026-07-22T02:48:18.573580+00:00",
       "headline": "Can GLP-1 Drugs Like Ozempic Really Change Your Sense of Smell and Taste?",
       "summary": "Some GLP-1 users report changes in their taste and smell, according to a new study. Tatsiana Volkava/Getty Images Researchers report that GLP-1 drugs used to treat type 2 diabetes may impair a person’s sense of taste and smell. Experts say taste and smell dysfunction doesn’t appear to be a common side effect of…",
       "category": null,
@@ -1544,14 +1507,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-what-to-consider-before-taking-sunscreen-advice",
+      "id": "2026-07-22-what-to-consider-before-taking-sunscreen-advice",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.443331+00:00",
-      "last_updated": "2026-07-21T23:56:19.443334+00:00",
+      "first_seen": "2026-07-22T02:48:18.577163+00:00",
+      "last_updated": "2026-07-22T02:48:18.577166+00:00",
       "headline": "What to Consider Before Taking Sunscreen Advice on Social Media",
       "summary": "Misinformation about sunscreen on social media platforms like TikTok appears to attract more engagement, according to a new study. Image Credit: Photo by Westend61/GettyImages A new study found that TikTok videos promoting misinformation about sunscreen tend to receive higher engagement. However, while some videos…",
       "category": null,
@@ -1583,14 +1546,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-an-avocado-a-day-may-help-keep-heart-disease-at",
+      "id": "2026-07-22-an-avocado-a-day-may-help-keep-heart-disease-at",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.421368+00:00",
-      "last_updated": "2026-07-21T23:56:19.421390+00:00",
+      "first_seen": "2026-07-22T02:48:18.557492+00:00",
+      "last_updated": "2026-07-22T02:48:18.557495+00:00",
       "headline": "An Avocado a Day May Help Keep Heart Disease at Bay, Study Finds",
       "summary": "Research shows that eating an avocado a day may help reduce heart disease risk in people with obesity. Image Credit: Thai Liang Lim/Getty A recent study has found that eating an avocado a day may help lower the risk of heart disease in people with obesity. The researchers found that this was associated with lower…",
       "category": null,
@@ -1622,14 +1585,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-early-bird-dinner-does-the-tiktok-sleep-hack-act",
+      "id": "2026-07-22-early-bird-dinner-does-the-tiktok-sleep-hack-act",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.423486+00:00",
-      "last_updated": "2026-07-21T23:56:19.423489+00:00",
+      "first_seen": "2026-07-22T02:48:18.559280+00:00",
+      "last_updated": "2026-07-22T02:48:18.559283+00:00",
       "headline": "‘Early Bird Dinner’: Does the TikTok Sleep Hack Actually Work?",
       "summary": "A popular TikTok trend suggests that eating dinner 4 to 5 hours before bed can improve sleep quality. Image credit: Olga Rolenko · Moment/Getty “Early-bird dinners” are a growing social media trend, with some TikTokers claiming that eating earlier can improve sleep quality. Experts agree that consuming the last meal…",
       "category": null,
@@ -1661,14 +1624,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-heart-attack-risk-31-lower-for-people-with-stron",
+      "id": "2026-07-22-heart-attack-risk-31-lower-for-people-with-stron",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.430032+00:00",
-      "last_updated": "2026-07-21T23:56:19.430038+00:00",
+      "first_seen": "2026-07-22T02:48:18.565025+00:00",
+      "last_updated": "2026-07-22T02:48:18.565028+00:00",
       "headline": "Heart Attack Risk 31% Lower for People with Strong Chest, Back Muscles",
       "summary": "Research shows that stronger, better quality back and chest muscles may reduce the risk of a heart attack. Image Credit: minamoto images/Stocksy A recent study found that people with strong back and chest muscles may have a lower risk of heart attack. Researchers used artificial intelligence (AI) to analyze heart…",
       "category": null,
@@ -1700,14 +1663,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-5-cups-of-coffee-daily-may-lower-your-liver-dise",
+      "id": "2026-07-22-5-cups-of-coffee-daily-may-lower-your-liver-dise",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.430460+00:00",
-      "last_updated": "2026-07-21T23:56:19.430463+00:00",
+      "first_seen": "2026-07-22T02:48:18.565385+00:00",
+      "last_updated": "2026-07-22T02:48:18.565387+00:00",
       "headline": "5 Cups of Coffee Daily May Lower Your Liver Disease, Cancer Risk By 47%",
       "summary": "Recent research has found that drinking coffee may help reduce your risk of liver disease and cancer. Image Credit: GNDphotography/Getty A recent study has shown that drinking coffee may help reduce your risk of liver disease and cancer. The researchers found that the more coffee you drink, the greater the potential…",
       "category": null,
@@ -1739,14 +1702,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-young-adults-are-aging-faster-which-may-be-drivi",
+      "id": "2026-07-22-young-adults-are-aging-faster-which-may-be-drivi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.433420+00:00",
-      "last_updated": "2026-07-21T23:56:19.433423+00:00",
+      "first_seen": "2026-07-22T02:48:18.568083+00:00",
+      "last_updated": "2026-07-22T02:48:18.568085+00:00",
       "headline": "Young Adults Are Aging Faster, Which May Be Driving Higher Cancer Rates",
       "summary": "Young adults appear to be aging faster than the previous generation, which could explain the rising early onset cancer rates. ZeynepKaya/Getty Images Researchers say younger generations appear to be aging faster than previous generations. They say the phenomenon may explain why certain cancers are rising drastically…",
       "category": null,
@@ -1778,14 +1741,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-glp-1-drugs-like-ozempic-wegovy-may-help-with-bi",
+      "id": "2026-07-22-glp-1-drugs-like-ozempic-wegovy-may-help-with-bi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.424542+00:00",
-      "last_updated": "2026-07-21T23:56:19.424545+00:00",
+      "first_seen": "2026-07-22T02:48:18.560190+00:00",
+      "last_updated": "2026-07-22T02:48:18.560193+00:00",
       "headline": "GLP-1 Drugs Like Ozempic, Wegovy May Help With Binge Eating Disorder",
       "summary": "GLP-1 medications like Ozempic and Wegovy may help ease symptoms of binge eating disorder and related eating behaviors. Giselleflissak/Getty Images A new study found that GLP-1RAs could reduce key symptoms of binge eating disorder. These included binge eating severity, loss of control eating, and emotional eating.…",
       "category": null,
@@ -1815,14 +1778,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-most-weight-loss-drugs-do-not-improve-quality-of",
+      "id": "2026-07-22-most-weight-loss-drugs-do-not-improve-quality-of",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.427844+00:00",
-      "last_updated": "2026-07-21T23:56:19.427848+00:00",
+      "first_seen": "2026-07-22T02:48:18.563204+00:00",
+      "last_updated": "2026-07-22T02:48:18.563207+00:00",
       "headline": "Most Weight Loss Drugs Do Not Improve Quality of Life or Heart Health",
       "summary": "A new study found that while several newer weight loss medications can help with significant weight loss, they do not improve quality of life or boost long-term heart health. Getty Images A new study found that several newer medications can aid in significant weight loss. However, the most effective drugs produced…",
       "category": null,
@@ -1852,14 +1815,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-chronic-pain-melatonin-may-provide-some-relief-s",
+      "id": "2026-07-22-chronic-pain-melatonin-may-provide-some-relief-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.434690+00:00",
-      "last_updated": "2026-07-21T23:56:19.434693+00:00",
+      "first_seen": "2026-07-22T02:48:18.569240+00:00",
+      "last_updated": "2026-07-22T02:48:18.569243+00:00",
       "headline": "Chronic Pain? Melatonin May Provide Some Relief, Study Finds",
       "summary": "Melatonin alleviated chronic pain about as effectively as over-the-counter painkillers, a new study found. Grace Cary/Getty Images A new study found melatonin eased chronic musculoskeletal pain about as effectively as over-the-counter painkillers. The benefit was clearest for chronic pain, but results for…",
       "category": null,
@@ -1889,14 +1852,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-zepbound-vs-wegovy-which-glp-1-drug-is-best-for",
+      "id": "2026-07-22-zepbound-vs-wegovy-which-glp-1-drug-is-best-for",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.442054+00:00",
-      "last_updated": "2026-07-21T23:56:19.442057+00:00",
+      "first_seen": "2026-07-22T02:48:18.576038+00:00",
+      "last_updated": "2026-07-22T02:48:18.576041+00:00",
       "headline": "Zepbound vs. Wegovy: Which GLP-1 Drug Is Best for Weight Loss?",
       "summary": "Researchers say that GLP-1 drugs containing tirzepatide (Zepbound, Mounjaro) may lead to greater weight loss. Image Credit: Tatsiana Volkava/Getty Images A meta-analysis found that one type of GLP-1 medication may be more effective than others. The analysis showed that GLP-1s containing tirzepatide (Zepbound,…",
       "category": null,
@@ -1926,14 +1889,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-fda-may-ease-restrictions-on-compounded-peptides",
+      "id": "2026-07-22-fda-may-ease-restrictions-on-compounded-peptides",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.420957+00:00",
-      "last_updated": "2026-07-21T23:56:19.420965+00:00",
+      "first_seen": "2026-07-22T02:48:18.557139+00:00",
+      "last_updated": "2026-07-22T02:48:18.557145+00:00",
       "headline": "FDA May Ease Restrictions On Compounded Peptides Despite Safety Warnings",
       "summary": "Photo taken on Aug. 23, 2021 shows the U.S. Food and Drug Administration in Silver Spring, Maryland, the United States. (Photo by Ting Shen/Xinhua via Getty Images) An FDA advisory panel is expected to vote on whether to allow seven types of peptides to be sold as compounded medications. Proponents describe wellness…",
       "category": null,
@@ -1963,14 +1926,14 @@
         "wellness"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-u-s-military-to-screen-for-low-testosterone-why",
+      "id": "2026-07-22-u-s-military-to-screen-for-low-testosterone-why",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.421967+00:00",
-      "last_updated": "2026-07-21T23:56:19.421970+00:00",
+      "first_seen": "2026-07-22T02:48:18.557990+00:00",
+      "last_updated": "2026-07-22T02:48:18.557994+00:00",
       "headline": "U.S. Military to Screen for Low Testosterone. Why Experts Are Concerned",
       "summary": "The U.S. military will begin screening service members for testosterone deficiency to “optimize” health. Getty Images Defense Secretary Pete Hegseth announced that the U.S. military will begin annual screening for testosterone deficiency among service members ages 30 and older. Testosterone replacement therapy (TRT)…",
       "category": null,
@@ -2000,14 +1963,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-why-glp-1-drugs-may-raise-muscle-loss-frailty-ri",
+      "id": "2026-07-22-why-glp-1-drugs-may-raise-muscle-loss-frailty-ri",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.424015+00:00",
-      "last_updated": "2026-07-21T23:56:19.424018+00:00",
+      "first_seen": "2026-07-22T02:48:18.559725+00:00",
+      "last_updated": "2026-07-22T02:48:18.559727+00:00",
       "headline": "Why GLP-1 Drugs May Raise Muscle Loss, Frailty Risk for People Over 65",
       "summary": "A new report states that older adults using GLP-1 drugs may have a higher risk of loss of muscle mass, malnutrition, dehydration, and other frailty-associated conditions. Getty Images A new report states that older adults using GLP-1 drugs may have a higher risk of loss of muscle mass, malnutrition, and dehydration.…",
       "category": null,
@@ -2037,14 +2000,14 @@
         "nutrition"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-what-is-tiktok-s-3-color-rule-how-eating-the-rai",
+      "id": "2026-07-22-what-is-tiktok-s-3-color-rule-how-eating-the-rai",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.425001+00:00",
-      "last_updated": "2026-07-21T23:56:19.425004+00:00",
+      "first_seen": "2026-07-22T02:48:18.560611+00:00",
+      "last_updated": "2026-07-22T02:48:18.560613+00:00",
       "headline": "What Is TikTok’s 3-Color Rule? How ‘Eating the Rainbow’ Can Boost Weight Loss",
       "summary": "Following the “3-color rule” may help boost weight loss and improve overall health. Image Credit: fcafotodigital/Getty One of the newest nutritional trends on TikTok is the “3-color rule.” The “3-color rule” encourages people to include at least 3 different naturally colorful plant-based foods in each meal. Different…",
       "category": null,
@@ -2074,14 +2037,14 @@
         "nutrition"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-no-link-between-prenatal-tylenol-use-and-autism",
+      "id": "2026-07-22-no-link-between-prenatal-tylenol-use-and-autism",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.428878+00:00",
-      "last_updated": "2026-07-21T23:56:19.428880+00:00",
+      "first_seen": "2026-07-22T02:48:18.564114+00:00",
+      "last_updated": "2026-07-22T02:48:18.564117+00:00",
       "headline": "No Link Between Prenatal Tylenol Use and Autism, ADHD, Multiple Studies Confirm",
       "summary": "Research shows that there is no link between taking Tylenol during pregnancy and a higher risk of autism and ADHD. Image Credit: Getty Images In September 2025, the Trump administration suggested that taking Tylenol during pregnancy may raise the risk of autism in children. Many experts have spoken out against this…",
       "category": null,
@@ -2111,14 +2074,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-louisiana-man-becomes-first-in-region-to-be-func",
+      "id": "2026-07-22-louisiana-man-becomes-first-in-region-to-be-func",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.432933+00:00",
-      "last_updated": "2026-07-21T23:56:19.432936+00:00",
+      "first_seen": "2026-07-22T02:48:18.567637+00:00",
+      "last_updated": "2026-07-22T02:48:18.567640+00:00",
       "headline": "Louisiana Man Becomes First In Region to Be Functionally Cured of Sickle Cell Disease",
       "summary": "A Louisiana man has become the first in the Gulf South to be functionally cured of sickle cell disease using gene therapy. Image Credit: Marti Sans/Stocksy Daniel Cressy of Louisiana has become the first person in the Gulf South to be functionally cured of sickle cell disease. The milestone highlights the growing…",
       "category": null,
@@ -2148,14 +2111,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-creatine-supplements-may-help-treat-depression-e",
+      "id": "2026-07-22-creatine-supplements-may-help-treat-depression-e",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.434183+00:00",
-      "last_updated": "2026-07-21T23:56:19.434185+00:00",
+      "first_seen": "2026-07-22T02:48:18.568773+00:00",
+      "last_updated": "2026-07-22T02:48:18.568776+00:00",
       "headline": "Creatine Supplements May Help Treat Depression, Early Evidence Shows",
       "summary": "A large review suggests that creatine could help treat major depressive disorder (MDD), but evidence is mixed. ATHVisions/Getty Images A large review suggests that creatine could be an adjunct treatment for major depressive disorder (MDD). However, not all studies in the review found the same benefits for treating…",
       "category": null,
@@ -2185,14 +2148,14 @@
         "depression"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-glp-1s-like-ozempic-mounjaro-linked-to-reduced-s",
+      "id": "2026-07-22-glp-1s-like-ozempic-mounjaro-linked-to-reduced-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.437248+00:00",
-      "last_updated": "2026-07-21T23:56:19.437252+00:00",
+      "first_seen": "2026-07-22T02:48:18.571558+00:00",
+      "last_updated": "2026-07-22T02:48:18.571561+00:00",
       "headline": "GLP-1s Like Ozempic, Mounjaro Linked to Reduced Stroke, Heart Risks",
       "summary": "A growing body of evidence shows that GLP-1 drugs benefit cardiovascular health. Image Credit: Healthline/Munro/Getty Images GLP-1 medications like Ozempic and Wegovy help protect heart health, but stopping the medications may reduce the protective effects. Some research suggests that GLP-1s containing tirzepatide…",
       "category": null,
@@ -2222,14 +2185,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-covid-vaccine-study-previously-blocked-by-cdc-is",
+      "id": "2026-07-22-covid-vaccine-study-previously-blocked-by-cdc-is",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.438852+00:00",
-      "last_updated": "2026-07-21T23:56:19.438855+00:00",
+      "first_seen": "2026-07-22T02:48:18.573133+00:00",
+      "last_updated": "2026-07-22T02:48:18.573136+00:00",
       "headline": "COVID Vaccine Study Previously Blocked By CDC Is Out — Here's What It Found",
       "summary": "A study on COVID-19 vaccines that was previously blocked by the CDC’s acting director was published in a medical journal. luis velasco/Stocksy A COVID-19 vaccine efficacy study that had previously been blocked by the CDC was published in a scientific journal. Acting CDC Director Jay Bhattacharya blocked the study from…",
       "category": null,
@@ -2259,14 +2222,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-07-21-hhs-to-update-testosterone-therapy-labels-for-pr",
+      "id": "2026-07-22-hhs-to-update-testosterone-therapy-labels-for-pr",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-07-21T23:56:19.440755+00:00",
-      "last_updated": "2026-07-21T23:56:19.440758+00:00",
+      "first_seen": "2026-07-22T02:48:18.574840+00:00",
+      "last_updated": "2026-07-22T02:48:18.574843+00:00",
       "headline": "HHS to Update Testosterone Therapy Labels for Prostate Cancer, Hypogonadism",
       "summary": "HHS announced it would request updates to the warning labels for testosterone replacement therapy products. Malorny/Getty Images The Department of Health and Human Services (HHS) has proposed key changes to the labeling of testosterone replacement therapy (TRT) products. The proposed changes could expand access to TRT…",
       "category": null,
@@ -2296,7 +2259,7 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     }
   ]
 }
