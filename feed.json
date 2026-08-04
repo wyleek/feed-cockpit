@@ -1,25 +1,62 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-08-03T22:59:02.963768+00:00",
-    "live_count": 53,
+    "generated_at": "2026-08-04T00:13:37.990657+00:00",
+    "live_count": 54,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
       "fetched": 387,
-      "kept": 53,
+      "kept": 54,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
   },
   "stories": [
     {
+      "id": "2026-08-03-there-s-a-reason-child-vaccination-rates-are-fal",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-04T00:13:35.338535+00:00",
+      "last_updated": "2026-08-04T00:13:35.338542+00:00",
+      "headline": "There's a reason child vaccination rates are falling - and it's not social media",
+      "summary": "As child immunisation rates fall across the UK, one clinic in west Yorkshire is taking aggressive steps to boost immunisations",
+      "category": null,
+      "topic_tags": [
+        "social media"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c0qvlw2dd0no?at_medium=RSS&at_campaign=rss",
+          "outlet": "BBC Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: BBC Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-08-03T23:10:05+00:00"
+      },
+      "keyword_hits": [
+        "social media"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-08-03-bone-density-appears-to-rebound-in-transgender-y",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.822457+00:00",
-      "last_updated": "2026-08-03T22:59:00.822465+00:00",
+      "first_seen": "2026-08-04T00:13:36.038098+00:00",
+      "last_updated": "2026-08-04T00:13:36.038106+00:00",
       "headline": "Bone Density Appears to Rebound in Transgender Youth After Puberty Blockers Are Done",
       "summary": "(MedPage Today) -- Bone growth among transgender and gender-diverse adolescents slowed compared with peers during pubertal suppression, but partially recovered after starting gender-affirming hormone therapy, a systematic review and meta-analysis...",
       "category": null,
@@ -49,14 +86,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-03-cabotegravir-hiv-prep-effective-among-u-s-women",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.822575+00:00",
-      "last_updated": "2026-08-03T22:59:00.822578+00:00",
+      "first_seen": "2026-08-04T00:13:36.038215+00:00",
+      "last_updated": "2026-08-04T00:13:36.038218+00:00",
       "headline": "Cabotegravir HIV PrEP Effective Among U.S. Women Despite Treatment Interruptions",
       "summary": "(MedPage Today) -- No women taking long-acting cabotegravir (Apretude) for HIV pre-exposure prophylaxis (PrEP) developed an HIV infection despite short delays before some maintenance injections, according to a U.S. study of routine clinical care...",
       "category": null,
@@ -86,14 +123,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-03-automated-oxygen-therapy-adjustments-in-hospital",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.822675+00:00",
-      "last_updated": "2026-08-03T22:59:00.822677+00:00",
+      "first_seen": "2026-08-04T00:13:36.038312+00:00",
+      "last_updated": "2026-08-04T00:13:36.038314+00:00",
       "headline": "Automated Oxygen Therapy Adjustments in Hospital Improves Oxygenation",
       "summary": "(MedPage Today) -- A novel system for autonomous control of supplemental oxygen for adult inpatients who needed it for acute illness or injury improved the proportion of time spent with adequate oxygen levels, the SAVE-O2 AI trial showed. The...",
       "category": null,
@@ -129,8 +166,8 @@
       "id": "2026-08-03-circumcision-and-autism-what-a-new-study-found",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.822737+00:00",
-      "last_updated": "2026-08-03T22:59:00.822739+00:00",
+      "first_seen": "2026-08-04T00:13:36.038372+00:00",
+      "last_updated": "2026-08-04T00:13:36.038374+00:00",
       "headline": "Circumcision and Autism: What a New Study Found",
       "summary": "(MedPage Today) -- A study of U.S. children found no evidence linking neonatal male circumcision with autism spectrum disorder, prospective data from the ECHO cohort showed. Among nearly 2,800 boys in 14 ECHO sites, 6% of those who were circumcised...",
       "category": null,
@@ -166,8 +203,8 @@
       "id": "2026-08-03-senate-funding-resolution-seeks-to-put-omb-rule",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:01.526413+00:00",
-      "last_updated": "2026-08-03T22:59:01.526421+00:00",
+      "first_seen": "2026-08-04T00:13:36.547228+00:00",
+      "last_updated": "2026-08-04T00:13:36.547235+00:00",
       "headline": "Senate funding resolution seeks to put OMB rule changes to research grants on hold",
       "summary": "These proposed changes have seen significant bipartisan pushback and have been criticized by scientists across disciplines",
       "category": null,
@@ -203,8 +240,8 @@
       "id": "2026-08-03-a-simple-supplement-could-help-the-immune-system",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.691621+00:00",
-      "last_updated": "2026-08-03T22:59:00.691631+00:00",
+      "first_seen": "2026-08-04T00:13:35.915564+00:00",
+      "last_updated": "2026-08-04T00:13:35.915572+00:00",
       "headline": "A simple supplement could help the immune system fight cancer and viruses",
       "summary": "Low arginine levels may allow cancer cells and viruses to slip past the immune system by reducing production of a crucial cellular warning protein. In mice, arginine-rich diets led to fewer colon tumors and milder viral infections, suggesting a simple supplement could have powerful therapeutic potential.",
       "category": null,
@@ -240,8 +277,8 @@
       "id": "2026-08-03-two-new-compounds-could-reveal-hidden-drivers-of",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.423256+00:00",
-      "last_updated": "2026-08-03T22:59:00.423265+00:00",
+      "first_seen": "2026-08-04T00:13:35.642367+00:00",
+      "last_updated": "2026-08-04T00:13:35.642375+00:00",
       "headline": "Two new compounds could reveal hidden drivers of Alzheimer’s disease",
       "summary": "Vanderbilt researchers created the first selective compound designed to inhibit TAOK-1, a poorly understood protein connected to Alzheimer’s disease. They also discovered a second compound that activates the entire TAOK protein family, offering scientists an unexpected new research tool. Together, the compounds could…",
       "category": null,
@@ -283,8 +320,8 @@
       "id": "2026-08-03-cyclosporiasis-cases-surge-while-new-research-qu",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:01.526560+00:00",
-      "last_updated": "2026-08-03T22:59:01.526563+00:00",
+      "first_seen": "2026-08-04T00:13:36.547368+00:00",
+      "last_updated": "2026-08-04T00:13:36.547370+00:00",
       "headline": "Cyclosporiasis cases surge while new research questions ‘protein maxxing’",
       "summary": "An outbreak of Cyclospora infections tied to produce spreads across multiple states as new research challenges the protein maxxing craze",
       "category": null,
@@ -320,8 +357,8 @@
       "id": "2026-08-03-i-spent-a-week-crying-i-ve-never-had-an-injury-i",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:58:59.916942+00:00",
-      "last_updated": "2026-08-03T22:58:59.916950+00:00",
+      "first_seen": "2026-08-04T00:13:35.085667+00:00",
+      "last_updated": "2026-08-04T00:13:35.085676+00:00",
       "headline": "‘I spent a week crying. I’ve never had an injury in my life!’ Why do so many fitness fans end up needing surgery?",
       "summary": "From the 47-year-old runner who needs a double hip replacement to the 27-year-old CrossFitter with a ruptured ACL, those who push their bodies too hard often regret it. What are the lessons for the rest of us?Jonathan Price has always been active and exercise-focused. Growing up in south Wales, rugby was his first…",
       "category": null,
@@ -357,8 +394,8 @@
       "id": "2026-08-03-nhs-mental-health-trust-plans-25m-in-cuts-to-job",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:58:59.917079+00:00",
-      "last_updated": "2026-08-03T22:58:59.917083+00:00",
+      "first_seen": "2026-08-04T00:13:35.085784+00:00",
+      "last_updated": "2026-08-04T00:13:35.085787+00:00",
       "headline": "NHS mental health trust plans £25m in cuts to jobs and services",
       "summary": "Body providing care in east London and Bedfordshire accused of ‘unfathomable and unacceptable’ moveAn NHS mental health trust plans to cut a wide range of its services and axe hundreds of jobs to close a £25m hole in its finances.The move by the East London foundation trust (ELFT) and the scale of potential cuts…",
       "category": null,
@@ -394,8 +431,8 @@
       "id": "2026-08-03-what-are-the-luteal-uglies-and-how-they-re-affec",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.135686+00:00",
-      "last_updated": "2026-08-03T22:59:00.135695+00:00",
+      "first_seen": "2026-08-04T00:13:35.338766+00:00",
+      "last_updated": "2026-08-04T00:13:35.338769+00:00",
       "headline": "What are the 'luteal uglies'? And how they're affecting women",
       "summary": "More women than ever are talking about the luteal phase on social media, but how does it actually affect you?",
       "category": null,
@@ -431,8 +468,8 @@
       "id": "2026-08-02-stat-senate-measure-would-block-trump-plan-to-po",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.970711+00:00",
-      "last_updated": "2026-08-03T22:59:00.970720+00:00",
+      "first_seen": "2026-08-04T00:13:36.151682+00:00",
+      "last_updated": "2026-08-04T00:13:36.151689+00:00",
       "headline": "STAT+: Senate measure would block Trump plan to politicize federal grants, for now",
       "summary": "A White House proposal to subject research grants to political scrutiny meets at least a temporary roadblock in the Senate.",
       "category": null,
@@ -468,8 +505,8 @@
       "id": "2026-08-02-i-prescribe-diet-changes-every-week-med-school-b",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.823090+00:00",
-      "last_updated": "2026-08-03T22:59:00.823093+00:00",
+      "first_seen": "2026-08-04T00:13:36.038737+00:00",
+      "last_updated": "2026-08-04T00:13:36.038741+00:00",
       "headline": "I Prescribe Diet Changes Every Week. Med School Barely Taught Me Anything Relevant.",
       "summary": "(MedPage Today) -- Nearly every week, I recommend a change in diet as a first-line treatment for type 2 diabetes, high blood pressure, and high cholesterol -- the conditions that fill American clinics and account for more death than any other...",
       "category": null,
@@ -505,8 +542,8 @@
       "id": "2026-08-02-annie-thought-perimenopause-symptoms-were-keepin",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:58:59.917434+00:00",
-      "last_updated": "2026-08-03T22:58:59.917437+00:00",
+      "first_seen": "2026-08-04T00:13:35.086165+00:00",
+      "last_updated": "2026-08-04T00:13:35.086169+00:00",
       "headline": "Annie thought perimenopause symptoms were keeping her awake. Alcohol was playing a role too | Diane Young",
       "summary": "Hot flushes, anxiety, poor sleep and mood swings are common during perimenopause. But the very thing Annie was using to manage her symptoms had become an even bigger problemThe modern mind is a column where experts discuss mental health issues they are seeing in their workWhen Annie* started pacing around her house at…",
       "category": null,
@@ -546,8 +583,8 @@
       "id": "2026-08-02-without-this-protein-damaged-muscle-turns-to-fat",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.691832+00:00",
-      "last_updated": "2026-08-03T22:59:00.691834+00:00",
+      "first_seen": "2026-08-04T00:13:35.915767+00:00",
+      "last_updated": "2026-08-04T00:13:35.915769+00:00",
       "headline": "Without this protein, damaged muscle turns to fat and scar tissue",
       "summary": "A protein once thought to mainly protect chromosome ends may also be essential for keeping muscle stem cells ready to repair injuries. Researchers found that TRF2 helps these cells maintain their identity and coordinate the cycle of rest, repair, and renewal.",
       "category": null,
@@ -583,8 +620,8 @@
       "id": "2026-08-02-e-bike-injuries-are-on-the-rise-for-children-and",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:58:59.621547+00:00",
-      "last_updated": "2026-08-03T22:58:59.621555+00:00",
+      "first_seen": "2026-08-04T00:13:34.960922+00:00",
+      "last_updated": "2026-08-04T00:13:34.960929+00:00",
       "headline": "E-bike injuries are on the rise for children and teens",
       "summary": "Doctors are seeing more children injured - some badly - from e-bikes and e-scooters. NPR's Ayesha Rascoe talks with Dr. Cornelia Griggs and Caitlin Coit of Mass General Brigham for Children Hospital.",
       "category": null,
@@ -620,8 +657,8 @@
       "id": "2026-08-02-why-is-the-rate-of-premature-births-so-high-in-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:58:59.621629+00:00",
-      "last_updated": "2026-08-03T22:58:59.621633+00:00",
+      "first_seen": "2026-08-04T00:13:34.961005+00:00",
+      "last_updated": "2026-08-04T00:13:34.961008+00:00",
       "headline": "Why is the rate of premature births so high in this community?",
       "summary": "About 1 in 4 babies in the Pakistani fishing settlement of Rehri Goth are born prematurely. Researchers are trying to figure out how to bring the numbers down.",
       "category": null,
@@ -657,8 +694,8 @@
       "id": "2026-08-02-could-a-couch-to-5k-for-books-get-you-back-into",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:58:59.917640+00:00",
-      "last_updated": "2026-08-03T22:58:59.917642+00:00",
+      "first_seen": "2026-08-04T00:13:35.086376+00:00",
+      "last_updated": "2026-08-04T00:13:35.086378+00:00",
       "headline": "Could a couch-to-5k for books get you back into reading?",
       "summary": "With smartphones stealing our attention, we’re picking up fewer books than ever. A novelist shares her eight-week scheme to get you back into the habitDo you feel that it’s harder to read than it used to be? Not harder to read emails, texts and social media posts, of course. We’re reading those all day long. Harder to…",
       "category": null,
@@ -694,8 +731,8 @@
       "id": "2026-08-02-maybe-your-stingy-boomer-parents-should-give-you",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.963307+00:00",
-      "last_updated": "2026-08-03T22:59:02.963317+00:00",
+      "first_seen": "2026-08-04T00:13:37.989338+00:00",
+      "last_updated": "2026-08-04T00:13:37.989345+00:00",
       "headline": "Maybe your stingy boomer parents should give you their money now",
       "summary": "Over the next 20 years the United States will see a massive transfer of wealth as boomers leave trillions of dollars to their children as they pass away. A contingent of those children are asking, “What if we got that money, now?” Millennials and Gen Z want to be able to take advantage of the […]",
       "category": null,
@@ -731,8 +768,8 @@
       "id": "2026-08-02-what-cyclospora-does-inside-the-gut-and-how-it-g",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:58:59.621701+00:00",
-      "last_updated": "2026-08-03T22:58:59.621704+00:00",
+      "first_seen": "2026-08-04T00:13:34.961069+00:00",
+      "last_updated": "2026-08-04T00:13:34.961071+00:00",
       "headline": "What Cyclospora does inside the gut and how it gets there",
       "summary": "Cyclospora, the parasite that has sickened thousands this summer in the U.S., requires time in the human digestive tract to reproduce.",
       "category": null,
@@ -768,8 +805,8 @@
       "id": "2026-08-02-this-once-a-week-workout-may-help-cut-belly-fat",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.691719+00:00",
-      "last_updated": "2026-08-03T22:59:00.691722+00:00",
+      "first_seen": "2026-08-04T00:13:35.915657+00:00",
+      "last_updated": "2026-08-04T00:13:35.915659+00:00",
       "headline": "This once-a-week workout may help cut belly fat, study shows",
       "summary": "A surprisingly small dose of exercise may deliver major health benefits for adults carrying excess fat around the waist. In a four-month trial involving 315 adults with central obesity, researchers found that completing 75 minutes of brisk interval walking in a single weekly session reduced body fat, trimmed…",
       "category": null,
@@ -811,8 +848,8 @@
       "id": "2026-08-02-cancer-may-be-breaking-its-own-dna-to-keep-growi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.691942+00:00",
-      "last_updated": "2026-08-03T22:59:00.691944+00:00",
+      "first_seen": "2026-08-04T00:13:35.915900+00:00",
+      "last_updated": "2026-08-04T00:13:35.915903+00:00",
       "headline": "Cancer may be breaking its own DNA to keep growing",
       "summary": "Cancer cells rely on powerful genetic switches to keep growth genes running at full speed, but that intense activity can damage their own DNA. The resulting breaks are repeatedly repaired, sometimes with small mistakes that allow new mutations to accumulate. Researchers believe this self-inflicted damage may help…",
       "category": null,
@@ -848,8 +885,8 @@
       "id": "2026-08-01-ultra-processed-food-companies-hindering-health",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:58:59.917738+00:00",
-      "last_updated": "2026-08-03T22:58:59.917740+00:00",
+      "first_seen": "2026-08-04T00:13:35.086475+00:00",
+      "last_updated": "2026-08-04T00:13:35.086477+00:00",
       "headline": "Ultra-processed food companies hindering health drives by suing countries, says WHO",
       "summary": "Exclusive: Director general accuses corporations of obstructing efforts to tackle obesity crisis after investigation by Guardian and othersThe world’s biggest ultra-processed food corporations are hindering global efforts to tackle the obesity crisis by suing governments that try to promote healthier diets, the head…",
       "category": null,
@@ -885,8 +922,8 @@
       "id": "2026-08-01-scientists-may-have-found-a-way-to-prevent-stati",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:00.692074+00:00",
-      "last_updated": "2026-08-03T22:59:00.692077+00:00",
+      "first_seen": "2026-08-04T00:13:35.916008+00:00",
+      "last_updated": "2026-08-04T00:13:35.916010+00:00",
       "headline": "Scientists may have found a way to prevent statin muscle pain",
       "summary": "Scientists have identified an immune response that may explain why statins cause muscle pain, weakness, and exercise intolerance in some people. The finding could eventually lead to treatments that protect muscles while preserving the drugs’ lifesaving cardiovascular benefits.",
       "category": null,
@@ -922,8 +959,8 @@
       "id": "2026-08-01-biohacker-bryan-johnson-is-keeping-his-girlfrien",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:58:59.917859+00:00",
-      "last_updated": "2026-08-03T22:58:59.917862+00:00",
+      "first_seen": "2026-08-04T00:13:35.086596+00:00",
+      "last_updated": "2026-08-04T00:13:35.086598+00:00",
       "headline": "Biohacker Bryan Johnson is keeping his girlfriend’s menstrual blood in his freezer | Arwa Mahdawi",
       "summary": "The longevity influencer and his girlfriend, Kate Tolo, say they’re studying women’s health – a worthy goal, but perhaps some skepticism is in orderThe tech entrepreneur Bryan Johnson has devoted his life to dodging death. The 48-year-old is obsessed with becoming the healthiest person in the world and is on a…",
       "category": null,
@@ -956,11 +993,11 @@
       "is_new": false
     },
     {
-      "id": "2026-08-03-prebiotic-sodas-may-contain-less-fiber-and-more",
+      "id": "2026-08-04-prebiotic-sodas-may-contain-less-fiber-and-more",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.744548+00:00",
-      "last_updated": "2026-08-03T22:59:02.744551+00:00",
+      "first_seen": "2026-08-04T00:13:37.703584+00:00",
+      "last_updated": "2026-08-04T00:13:37.703586+00:00",
       "headline": "Prebiotic Sodas May Contain Less Fiber and More Sugar Than Advertised",
       "summary": "New research shows that prebiotic sodas may contain higher sugar and lower fiber than claimed. Rapeepong Puttakumwong/Getty A new study found that prebiotic sodas may contain more sugar and less fiber than they claim. The findings show that a majority of prebiotic sodas contain more sugar than diet sodas and flavored…",
       "category": null,
@@ -994,14 +1031,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-what-is-biblical-eating-inside-tiktok-s-latest-w",
+      "id": "2026-08-04-what-is-biblical-eating-inside-tiktok-s-latest-w",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.742848+00:00",
-      "last_updated": "2026-08-03T22:59:02.742851+00:00",
+      "first_seen": "2026-08-04T00:13:37.701887+00:00",
+      "last_updated": "2026-08-04T00:13:37.701890+00:00",
       "headline": "What Is ‘Biblical Eating’? Inside TikTok’s Latest Whole-Food Obsession",
       "summary": "“Biblical eating” is a social media trend that involves making food choices based on scripture. cihatatceken/Getty “Biblical eating” emphasizes foods mentioned in the Bible and has become a popular nutrition trend on social media. Experts say the diet includes many healthy foods, but there’s no evidence that it…",
       "category": null,
@@ -1035,14 +1072,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-sniffing-chocolate-could-boost-your-leg-day-work",
+      "id": "2026-08-04-sniffing-chocolate-could-boost-your-leg-day-work",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.756365+00:00",
-      "last_updated": "2026-08-03T22:59:02.756368+00:00",
+      "first_seen": "2026-08-04T00:13:37.715736+00:00",
+      "last_updated": "2026-08-04T00:13:37.715738+00:00",
       "headline": "Sniffing Chocolate Could Boost Your Leg Day Workouts and Curb Hunger",
       "summary": "Smelling dark chocolate before and during workouts may help you perform more repetitions and reduce hunger after exercise, new research finds. Getty Images Smelling dark chocolate before and during a leg workout helped participants perform more repetitions. Though the exact mechanism remains unclear, researchers…",
       "category": null,
@@ -1076,14 +1113,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-glp-1s-like-ozempic-wegovy-can-help-maintain-low",
+      "id": "2026-08-04-glp-1s-like-ozempic-wegovy-can-help-maintain-low",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.747092+00:00",
-      "last_updated": "2026-08-03T22:59:02.747096+00:00",
+      "first_seen": "2026-08-04T00:13:37.706129+00:00",
+      "last_updated": "2026-08-04T00:13:37.706131+00:00",
       "headline": "GLP-1s Like Ozempic, Wegovy Can Help Maintain Lower Calorie Intake for Over 1 Year",
       "summary": "Recent research has found that GLP-1s, like Ozempic and Wegovy, can help you maintain a lower calorie intake for more than a year. Image Credit: Jon Challicom/Getty A new study found that people taking semaglutide (Ozempic and Wegovy) maintained a significantly lower calorie intake after 60 weeks on the medication.…",
       "category": null,
@@ -1115,14 +1152,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-how-going-to-the-movies-and-museums-may-help-slo",
+      "id": "2026-08-04-how-going-to-the-movies-and-museums-may-help-slo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.751583+00:00",
-      "last_updated": "2026-08-03T22:59:02.751586+00:00",
+      "first_seen": "2026-08-04T00:13:37.710748+00:00",
+      "last_updated": "2026-08-04T00:13:37.710750+00:00",
       "headline": "How Going to the Movies and Museums May Help Slow Biological Aging",
       "summary": "Research shows that regular cultural engagement can slow physiological aging in older adults. Image Credit: AzmanJaka/Getty A new study claims that older adults who regularly attend cultural events such as museums, movies, and theater tend to have a lower physiological age, meaning their bodies function younger than…",
       "category": null,
@@ -1154,14 +1191,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-depo-provera-other-hormonal-contraceptives-linke",
+      "id": "2026-08-04-depo-provera-other-hormonal-contraceptives-linke",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.753979+00:00",
-      "last_updated": "2026-08-03T22:59:02.754001+00:00",
+      "first_seen": "2026-08-04T00:13:37.713303+00:00",
+      "last_updated": "2026-08-04T00:13:37.713306+00:00",
       "headline": "Depo-Provera, Other Hormonal Contraceptives Linked to Brain Tumors",
       "summary": "Research shows that certain types of birth control, particularly those high in progestogen, may raise the risk of brain tumors. Image Credit: Pekic/Getty A new study revealed a link between certain progestogen contraceptives, including Depo-Provera, and a higher risk of meningioma brain tumors. Meningiomas are brain…",
       "category": null,
@@ -1193,14 +1230,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-losing-just-78-minutes-of-sleep-a-night-over-6-w",
+      "id": "2026-08-04-losing-just-78-minutes-of-sleep-a-night-over-6-w",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.757374+00:00",
-      "last_updated": "2026-08-03T22:59:02.757377+00:00",
+      "first_seen": "2026-08-04T00:13:37.716780+00:00",
+      "last_updated": "2026-08-04T00:13:37.716783+00:00",
       "headline": "Losing Just 78 Minutes of Sleep a Night Over 6 Weeks May Lead to Weight Gain",
       "summary": "A new study found that adults who slept about 78 fewer minutes each night for six weeks gained nearly a pound and became more sedentary, highlighting the important role sleep plays in maintaining a healthy weight. A woman lying on a bed. A new study suggests not getting enough sleep each night may lead to weight gain.…",
       "category": null,
@@ -1232,14 +1269,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-sitting-too-much-raises-cancer-risk-but-short-bu",
+      "id": "2026-08-04-sitting-too-much-raises-cancer-risk-but-short-bu",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.761194+00:00",
-      "last_updated": "2026-08-03T22:59:02.761197+00:00",
+      "first_seen": "2026-08-04T00:13:37.720549+00:00",
+      "last_updated": "2026-08-04T00:13:37.720552+00:00",
       "headline": "Sitting Too Much Raises Cancer Risk, But Short Bursts of Light Activity May Help",
       "summary": "New research shows that prolonged periods of sitting or lying down could increase the risk of certain cancers. Image Credit: Justin Paget/Getty Images A new study found that prolonged sedentary behaviors can raise the risk of various cancers, including colorectal, pancreatic, and breast cancer. Replacing just 1 hour…",
       "category": null,
@@ -1271,14 +1308,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-why-binge-watching-that-tv-show-now-may-affect-y",
+      "id": "2026-08-04-why-binge-watching-that-tv-show-now-may-affect-y",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.744878+00:00",
-      "last_updated": "2026-08-03T22:59:02.744881+00:00",
+      "first_seen": "2026-08-04T00:13:37.703935+00:00",
+      "last_updated": "2026-08-04T00:13:37.703938+00:00",
       "headline": "Why ‘Binge-Watching’ That TV Show Now May Affect Your Brain Later",
       "summary": "Recent research has found that people who watch a lot of TV in midlife showed reduced volume in certain brain regions. Image Credit: Digital Vision/Getty A recent study found that people who reported watching TV “very often” in midlife showed reduced volume in certain brain regions. This included areas associated with…",
       "category": null,
@@ -1310,14 +1347,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-viagra-s-active-ingredient-may-also-help-stop-ca",
+      "id": "2026-08-04-viagra-s-active-ingredient-may-also-help-stop-ca",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.747659+00:00",
-      "last_updated": "2026-08-03T22:59:02.747661+00:00",
+      "first_seen": "2026-08-04T00:13:37.706692+00:00",
+      "last_updated": "2026-08-04T00:13:37.706695+00:00",
       "headline": "Viagra’s Active Ingredient May Also Help Stop Cancer From Spreading",
       "summary": "A recent study found that sildenafil, the active ingredient in Viagra, may stop cancer from metastasizing. BSIP/Getty Images Researchers report that the erectile dysfunction drug Viagra may help slow the spread of cancer. Sildenafil, the active ingredient in Viagra, appears to interfere with cancer cells’ ability to…",
       "category": null,
@@ -1349,14 +1386,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-an-avocado-a-day-may-help-keep-heart-disease-at",
+      "id": "2026-08-04-an-avocado-a-day-may-help-keep-heart-disease-at",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.750302+00:00",
-      "last_updated": "2026-08-03T22:59:02.750305+00:00",
+      "first_seen": "2026-08-04T00:13:37.709394+00:00",
+      "last_updated": "2026-08-04T00:13:37.709397+00:00",
       "headline": "An Avocado a Day May Help Keep Heart Disease at Bay, Study Finds",
       "summary": "Research shows that eating an avocado a day may help reduce heart disease risk in people with obesity. Image Credit: Thai Liang Lim/Getty A recent study has found that eating an avocado a day may help lower the risk of heart disease in people with obesity. The researchers found that this was associated with lower…",
       "category": null,
@@ -1388,14 +1425,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-early-bird-dinner-does-the-tiktok-sleep-hack-act",
+      "id": "2026-08-04-early-bird-dinner-does-the-tiktok-sleep-hack-act",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.751973+00:00",
-      "last_updated": "2026-08-03T22:59:02.751975+00:00",
+      "first_seen": "2026-08-04T00:13:37.711204+00:00",
+      "last_updated": "2026-08-04T00:13:37.711207+00:00",
       "headline": "‘Early Bird Dinner’: Does the TikTok Sleep Hack Actually Work?",
       "summary": "A popular TikTok trend suggests that eating dinner 4 to 5 hours before bed can improve sleep quality. Image credit: Olga Rolenko · Moment/Getty “Early-bird dinners” are a growing social media trend, with some TikTokers claiming that eating earlier can improve sleep quality. Experts agree that consuming the last meal…",
       "category": null,
@@ -1427,14 +1464,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-heart-attack-risk-31-lower-for-people-with-stron",
+      "id": "2026-08-04-heart-attack-risk-31-lower-for-people-with-stron",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.757746+00:00",
-      "last_updated": "2026-08-03T22:59:02.757748+00:00",
+      "first_seen": "2026-08-04T00:13:37.717178+00:00",
+      "last_updated": "2026-08-04T00:13:37.717181+00:00",
       "headline": "Heart Attack Risk 31% Lower for People with Strong Chest, Back Muscles",
       "summary": "Research shows that stronger, better quality back and chest muscles may reduce the risk of a heart attack. Image Credit: minamoto images/Stocksy A recent study found that people with strong back and chest muscles may have a lower risk of heart attack. Researchers used artificial intelligence (AI) to analyze heart…",
       "category": null,
@@ -1466,14 +1503,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-5-cups-of-coffee-daily-may-lower-your-liver-dise",
+      "id": "2026-08-04-5-cups-of-coffee-daily-may-lower-your-liver-dise",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.758123+00:00",
-      "last_updated": "2026-08-03T22:59:02.758126+00:00",
+      "first_seen": "2026-08-04T00:13:37.717526+00:00",
+      "last_updated": "2026-08-04T00:13:37.717528+00:00",
       "headline": "5 Cups of Coffee Daily May Lower Your Liver Disease, Cancer Risk By 47%",
       "summary": "Recent research has found that drinking coffee may help reduce your risk of liver disease and cancer. Image Credit: GNDphotography/Getty A recent study has shown that drinking coffee may help reduce your risk of liver disease and cancer. The researchers found that the more coffee you drink, the greater the potential…",
       "category": null,
@@ -1505,14 +1542,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-young-adults-are-aging-faster-which-may-be-drivi",
+      "id": "2026-08-04-young-adults-are-aging-faster-which-may-be-drivi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.760886+00:00",
-      "last_updated": "2026-08-03T22:59:02.760888+00:00",
+      "first_seen": "2026-08-04T00:13:37.720261+00:00",
+      "last_updated": "2026-08-04T00:13:37.720263+00:00",
       "headline": "Young Adults Are Aging Faster, Which May Be Driving Higher Cancer Rates",
       "summary": "Young adults appear to be aging faster than the previous generation, which could explain the rising early onset cancer rates. ZeynepKaya/Getty Images Researchers say younger generations appear to be aging faster than previous generations. They say the phenomenon may explain why certain cancers are rising drastically…",
       "category": null,
@@ -1544,14 +1581,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-hiv-once-weekly-pill-as-effective-as-daily-treat",
+      "id": "2026-08-04-hiv-once-weekly-pill-as-effective-as-daily-treat",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.742479+00:00",
-      "last_updated": "2026-08-03T22:59:02.742486+00:00",
+      "first_seen": "2026-08-04T00:13:37.701491+00:00",
+      "last_updated": "2026-08-04T00:13:37.701497+00:00",
       "headline": "HIV: Once-Weekly Pill As Effective As Daily Treatment, Global Study Finds",
       "summary": "A once-weekly HIV pill combining the antiretroviral drugs islatravir and lenacapavir is as effective as a once-daily treatment. fotolgahan/E+/Getty Images A once-weekly oral HIV treatment is as effective as a widely used once-daily regimen, according to a large clinical trial. More than 93% of participants maintained…",
       "category": null,
@@ -1581,14 +1618,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-can-humans-live-forever-study-puts-a-cap-on-life",
+      "id": "2026-08-04-can-humans-live-forever-study-puts-a-cap-on-life",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.743352+00:00",
-      "last_updated": "2026-08-03T22:59:02.743355+00:00",
+      "first_seen": "2026-08-04T00:13:37.702364+00:00",
+      "last_updated": "2026-08-04T00:13:37.702367+00:00",
       "headline": "Can Humans Live Forever? Study Puts a Cap on Life Span at 194 Years",
       "summary": "A new study may help broaden understanding of the aspects of aging that may ultimately prove impossible to reverse. Maki Nakamura/DigitalVision/Getty Images A new study probes the upper boundaries of human life span, suggesting that even under the most favorable conditions, DNA mutations may still limit life to…",
       "category": null,
@@ -1618,14 +1655,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-pmos-formerly-pcos-linked-to-significantly-highe",
+      "id": "2026-08-04-pmos-formerly-pcos-linked-to-significantly-highe",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.749026+00:00",
-      "last_updated": "2026-08-03T22:59:02.749029+00:00",
+      "first_seen": "2026-08-04T00:13:37.708038+00:00",
+      "last_updated": "2026-08-04T00:13:37.708041+00:00",
       "headline": "PMOS (Formerly PCOS) Linked to ‘Significantly Higher’ Heart Attack, Stroke Risk",
       "summary": "A new study found that females with PMOS (formerly PCOS) may have a higher risk of developing cardiovascular disease. Image Credit: andreswd/Getty Females with polyendocrine metabolic ovarian syndrome (PMOS) were about four times more likely to develop heart or artery disease than those without it, according to a new…",
       "category": null,
@@ -1655,14 +1692,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-glp-1-drugs-like-ozempic-wegovy-may-help-with-bi",
+      "id": "2026-08-04-glp-1-drugs-like-ozempic-wegovy-may-help-with-bi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.752889+00:00",
-      "last_updated": "2026-08-03T22:59:02.752891+00:00",
+      "first_seen": "2026-08-04T00:13:37.712144+00:00",
+      "last_updated": "2026-08-04T00:13:37.712146+00:00",
       "headline": "GLP-1 Drugs Like Ozempic, Wegovy May Help With Binge Eating Disorder",
       "summary": "GLP-1 medications like Ozempic and Wegovy may help ease symptoms of binge eating disorder and related eating behaviors. Giselleflissak/Getty Images A new study found that GLP-1RAs could reduce key symptoms of binge eating disorder. These included binge eating severity, loss of control eating, and emotional eating.…",
       "category": null,
@@ -1692,14 +1729,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-most-weight-loss-drugs-do-not-improve-quality-of",
+      "id": "2026-08-04-most-weight-loss-drugs-do-not-improve-quality-of",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.755893+00:00",
-      "last_updated": "2026-08-03T22:59:02.755896+00:00",
+      "first_seen": "2026-08-04T00:13:37.715267+00:00",
+      "last_updated": "2026-08-04T00:13:37.715270+00:00",
       "headline": "Most Weight Loss Drugs Do Not Improve Quality of Life or Heart Health",
       "summary": "A new study found that while several newer weight loss medications can help with significant weight loss, they do not improve quality of life or boost long-term heart health. Getty Images A new study found that several newer medications can aid in significant weight loss. However, the most effective drugs produced…",
       "category": null,
@@ -1729,14 +1766,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-higher-body-fat-linked-to-low-sperm-count-testos",
+      "id": "2026-08-04-higher-body-fat-linked-to-low-sperm-count-testos",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.743772+00:00",
-      "last_updated": "2026-08-03T22:59:02.743774+00:00",
+      "first_seen": "2026-08-04T00:13:37.702796+00:00",
+      "last_updated": "2026-08-04T00:13:37.702798+00:00",
       "headline": "Higher Body Fat Linked to Low Sperm Count, Testosterone. Here's Why",
       "summary": "Higher body fat percentages are associated with lower sperm counts and changes in male reproductive hormones, including testosterone. Kate/E+/Getty Images Researchers say body fat measurements are a better predictor of male reproductive health than body mass index readings. They report that men with higher body fat…",
       "category": null,
@@ -1766,14 +1803,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-early-menopause-linked-to-high-blood-pressure-ho",
+      "id": "2026-08-04-early-menopause-linked-to-high-blood-pressure-ho",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.744178+00:00",
-      "last_updated": "2026-08-03T22:59:02.744181+00:00",
+      "first_seen": "2026-08-04T00:13:37.703210+00:00",
+      "last_updated": "2026-08-04T00:13:37.703213+00:00",
       "headline": "Early Menopause Linked to High Blood Pressure. How to Lower Your Risk",
       "summary": "Premature menopause is associated with a greater risk of high blood pressure, especially among those ages 25 to 35. Maskot/Getty Images A study found that early menopause was associated with a greater risk of high blood pressure. The risk was highest when menopause occurred between the ages of 25 and 35. Experts say…",
       "category": null,
@@ -1803,14 +1840,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-more-than-half-of-u-s-adults-eligible-for-statin",
+      "id": "2026-08-04-more-than-half-of-u-s-adults-eligible-for-statin",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.748148+00:00",
-      "last_updated": "2026-08-03T22:59:02.748151+00:00",
+      "first_seen": "2026-08-04T00:13:37.707168+00:00",
+      "last_updated": "2026-08-04T00:13:37.707171+00:00",
       "headline": "More Than Half of U.S. Adults Eligible for Statin Therapy Under New Guidelines",
       "summary": "Three studies evaluated the potential impact of new cholesterol guidelines, which are expected to improve treatment outcomes. Getty Images The AHA, ACC, and other medical organizations released new cholesterol guidelines in 2026. Three studies evaluated the potential impact of the new guidelines and found that they…",
       "category": null,
@@ -1840,14 +1877,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-u-s-military-to-screen-for-low-testosterone-why",
+      "id": "2026-08-04-u-s-military-to-screen-for-low-testosterone-why",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.750760+00:00",
-      "last_updated": "2026-08-03T22:59:02.750763+00:00",
+      "first_seen": "2026-08-04T00:13:37.709903+00:00",
+      "last_updated": "2026-08-04T00:13:37.709906+00:00",
       "headline": "U.S. Military to Screen for Low Testosterone. Why Experts Are Concerned",
       "summary": "The U.S. military will begin screening service members for testosterone deficiency to “optimize” health. Getty Images Defense Secretary Pete Hegseth announced that the U.S. military will begin annual screening for testosterone deficiency among service members ages 30 and older. Testosterone replacement therapy (TRT)…",
       "category": null,
@@ -1877,14 +1914,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-why-glp-1-drugs-may-raise-muscle-loss-frailty-ri",
+      "id": "2026-08-04-why-glp-1-drugs-may-raise-muscle-loss-frailty-ri",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.752444+00:00",
-      "last_updated": "2026-08-03T22:59:02.752446+00:00",
+      "first_seen": "2026-08-04T00:13:37.711661+00:00",
+      "last_updated": "2026-08-04T00:13:37.711663+00:00",
       "headline": "Why GLP-1 Drugs May Raise Muscle Loss, Frailty Risk for People Over 65",
       "summary": "A new report states that older adults using GLP-1 drugs may have a higher risk of loss of muscle mass, malnutrition, dehydration, and other frailty-associated conditions. Getty Images A new report states that older adults using GLP-1 drugs may have a higher risk of loss of muscle mass, malnutrition, and dehydration.…",
       "category": null,
@@ -1914,14 +1951,14 @@
         "nutrition"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-what-is-tiktok-s-3-color-rule-how-eating-the-rai",
+      "id": "2026-08-04-what-is-tiktok-s-3-color-rule-how-eating-the-rai",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.753316+00:00",
-      "last_updated": "2026-08-03T22:59:02.753318+00:00",
+      "first_seen": "2026-08-04T00:13:37.712566+00:00",
+      "last_updated": "2026-08-04T00:13:37.712569+00:00",
       "headline": "What Is TikTok’s 3-Color Rule? How ‘Eating the Rainbow’ Can Boost Weight Loss",
       "summary": "Following the “3-color rule” may help boost weight loss and improve overall health. Image Credit: fcafotodigital/Getty One of the newest nutritional trends on TikTok is the “3-color rule.” The “3-color rule” encourages people to include at least 3 different naturally colorful plant-based foods in each meal. Different…",
       "category": null,
@@ -1951,14 +1988,14 @@
         "nutrition"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-no-link-between-prenatal-tylenol-use-and-autism",
+      "id": "2026-08-04-no-link-between-prenatal-tylenol-use-and-autism",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.756816+00:00",
-      "last_updated": "2026-08-03T22:59:02.756819+00:00",
+      "first_seen": "2026-08-04T00:13:37.716225+00:00",
+      "last_updated": "2026-08-04T00:13:37.716228+00:00",
       "headline": "No Link Between Prenatal Tylenol Use and Autism, ADHD, Multiple Studies Confirm",
       "summary": "Research shows that there is no link between taking Tylenol during pregnancy and a higher risk of autism and ADHD. Image Credit: Getty Images In September 2025, the Trump administration suggested that taking Tylenol during pregnancy may raise the risk of autism in children. Many experts have spoken out against this…",
       "category": null,
@@ -1988,14 +2025,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "2026-08-03-louisiana-man-becomes-first-in-region-to-be-func",
+      "id": "2026-08-04-louisiana-man-becomes-first-in-region-to-be-func",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-03T22:59:02.760449+00:00",
-      "last_updated": "2026-08-03T22:59:02.760452+00:00",
+      "first_seen": "2026-08-04T00:13:37.719805+00:00",
+      "last_updated": "2026-08-04T00:13:37.719808+00:00",
       "headline": "Louisiana Man Becomes First In Region to Be Functionally Cured of Sickle Cell Disease",
       "summary": "A Louisiana man has become the first in the Gulf South to be functionally cured of sickle cell disease using gene therapy. Image Credit: Marti Sans/Stocksy Daniel Cressy of Louisiana has become the first person in the Gulf South to be functionally cured of sickle cell disease. The milestone highlights the growing…",
       "category": null,
@@ -2025,7 +2062,7 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": false
+      "is_new": true
     }
   ]
 }
