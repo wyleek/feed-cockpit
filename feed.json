@@ -1,19 +1,16 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-08-08T21:28:31.671404+00:00",
-    "live_count": 31,
+    "generated_at": "2026-08-08T22:27:40.706139+00:00",
+    "live_count": 64,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
-    "dead_feeds": [
-      "Scientific American — Health",
-      "Healthline News"
-    ],
+    "dead_feeds": [],
     "stats": {
-      "fetched": 287,
-      "kept": 31,
-      "feeds_ok": 10,
-      "feeds_dead": 2
+      "fetched": 387,
+      "kept": 64,
+      "feeds_ok": 12,
+      "feeds_dead": 0
     }
   },
   "stories": [
@@ -21,8 +18,8 @@
       "id": "2026-08-08-a-community-designed-diet-for-heart-failure-e-ci",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.960410+00:00",
-      "last_updated": "2026-08-08T21:28:29.960418+00:00",
+      "first_seen": "2026-08-08T22:27:37.636628+00:00",
+      "last_updated": "2026-08-08T22:27:37.636636+00:00",
       "headline": "A Community-Designed Diet for Heart Failure; E-Cigarettes After Smoking Cessation",
       "summary": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El Paso, look at the top medical...",
       "category": null,
@@ -58,8 +55,8 @@
       "id": "2026-08-08-scientists-reveal-how-much-exercise-you-really-n",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.433632+00:00",
-      "last_updated": "2026-08-08T21:28:29.433633+00:00",
+      "first_seen": "2026-08-08T22:27:37.142866+00:00",
+      "last_updated": "2026-08-08T22:27:37.142868+00:00",
       "headline": "Scientists reveal how much exercise you really need to protect your heart",
       "summary": "Getting the recommended 150 minutes of moderate-to-vigorous exercise each week may offer only modest protection against heart attacks and strokes. A large study suggests that substantially greater benefits may require roughly 560 to 610 minutes a week—nearly 9 to 10 hours of brisk walking, running, cycling, or similar…",
       "category": null,
@@ -97,8 +94,8 @@
       "id": "2026-08-08-a-protein-older-than-blood-circulation-could-tra",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.433789+00:00",
-      "last_updated": "2026-08-08T21:28:29.433790+00:00",
+      "first_seen": "2026-08-08T22:27:37.143153+00:00",
+      "last_updated": "2026-08-08T22:27:37.143154+00:00",
       "headline": "A protein older than blood circulation could transform cancer immunotherapy",
       "summary": "A protein that evolved long before the human circulatory system may help unlock stronger cancer treatments. When C3 is produced inside tumors, it blocks immune-suppressing cells and gives immunotherapy a better chance to work. Researchers were even able to recreate this effect in resistant tumors, significantly…",
       "category": null,
@@ -136,8 +133,8 @@
       "id": "2026-08-08-cutting-sweet-foods-doesn-t-curb-cravings-or-imp",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.433486+00:00",
-      "last_updated": "2026-08-08T21:28:29.433496+00:00",
+      "first_seen": "2026-08-08T22:27:37.142634+00:00",
+      "last_updated": "2026-08-08T22:27:37.142643+00:00",
       "headline": "Cutting sweet foods doesn’t curb cravings or improve health",
       "summary": "Changing how much sweet-tasting food people eat may not change how much they crave or enjoy sweetness after all. In a six-month trial, researchers found that people assigned to high-, low-, or average-sweetness diets showed no meaningful differences in their preference for sweet foods, body weight, or markers linked…",
       "category": null,
@@ -172,11 +169,48 @@
       "is_new": false
     },
     {
+      "id": "2026-08-08-why-loneliness-and-not-social-isolation-may-be-m",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:38.906199+00:00",
+      "last_updated": "2026-08-08T22:27:38.906206+00:00",
+      "headline": "Why loneliness and not social isolation may be making you sick",
+      "summary": "One in six people are thought to experience loneliness, and that can have a serious knock-on effect on their mental and physical health",
+      "category": null,
+      "topic_tags": [
+        "loneliness"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/why-loneliness-and-not-social-isolation-may-be-making-you-sick/",
+          "outlet": "Scientific American — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-08-08T10:00:00+00:00"
+      },
+      "keyword_hits": [
+        "loneliness"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-08-08-teen-cannabis-use-linked-to-slower-memory-and-th",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.206886+00:00",
-      "last_updated": "2026-08-08T21:28:29.206896+00:00",
+      "first_seen": "2026-08-08T22:27:36.678085+00:00",
+      "last_updated": "2026-08-08T22:27:36.678094+00:00",
       "headline": "Teen cannabis use linked to slower memory and thinking growth",
       "summary": "Teens who start using cannabis may experience slower growth in memory, attention, language, and processing speed. Their abilities often developed normally at first, then began leveling off while nonusers continued improving. THC appeared to be the most likely driver, especially for worsening memory.",
       "category": null,
@@ -218,8 +252,8 @@
       "id": "2026-08-07-type-1-diabetes-cases-and-care-vary-widely-acros",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.960501+00:00",
-      "last_updated": "2026-08-08T21:28:29.960502+00:00",
+      "first_seen": "2026-08-08T22:27:37.636772+00:00",
+      "last_updated": "2026-08-08T22:27:37.636774+00:00",
       "headline": "Type 1 Diabetes Cases and Care Vary Widely Across States",
       "summary": "(MedPage Today) -- Wide variations in the numbers of type 1 diabetes patients and specialists throughout the U.S. may affect care availability as diagnostic and treatment modalities continue to advance, data from a cross-sectional study indicated...",
       "category": null,
@@ -252,11 +286,48 @@
       "is_new": false
     },
     {
+      "id": "2026-08-07-latest-pentagon-ufo-files-release-includes-video",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:38.906291+00:00",
+      "last_updated": "2026-08-08T22:27:38.906293+00:00",
+      "headline": "Latest Pentagon UFO files release includes video of mysterious ‘cold orbs’",
+      "summary": "This new cache of material includes footage of a U.S. military plane’s infrared display recorded during an exercise over the Gulf of Oman in 2021",
+      "category": null,
+      "topic_tags": [
+        "exercise"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/latest-pentagon-ufo-files-release-includes-video-of-mysterious-cold-orbs/",
+          "outlet": "Scientific American — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-08-07T20:15:00+00:00"
+      },
+      "keyword_hits": [
+        "exercise"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-08-07-what-did-new-research-about-circumcision-show",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.960549+00:00",
-      "last_updated": "2026-08-08T21:28:29.960550+00:00",
+      "first_seen": "2026-08-08T22:27:37.636852+00:00",
+      "last_updated": "2026-08-08T22:27:37.636854+00:00",
       "headline": "What Did New Research About Circumcision Show?",
       "summary": "(MedPage Today) -- You passed medical training, now see if you can pass our weekly quiz",
       "category": null,
@@ -292,8 +363,8 @@
       "id": "2026-08-07-liposomal-chemo-combination-no-better-than-stand",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.960586+00:00",
-      "last_updated": "2026-08-08T21:28:29.960587+00:00",
+      "first_seen": "2026-08-08T22:27:37.636911+00:00",
+      "last_updated": "2026-08-08T22:27:37.636913+00:00",
       "headline": "Liposomal Chemo Combination No Better Than Standard Induction in Pediatric AML",
       "summary": "(MedPage Today) -- Liposomal daunorubicin and cytarabine (Vyxeos) didn't hold up to standard daunorubicin/cytarabine induction therapy in children and young adults with newly diagnosed acute myeloid leukemia (AML), a phase III trial from the Children...",
       "category": null,
@@ -331,8 +402,8 @@
       "id": "2026-08-07-millions-in-england-face-longer-waits-for-mental",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:28.397227+00:00",
-      "last_updated": "2026-08-08T21:28:28.397235+00:00",
+      "first_seen": "2026-08-08T22:27:35.794774+00:00",
+      "last_updated": "2026-08-08T22:27:35.794783+00:00",
       "headline": "Millions in England face longer waits for mental health care as NHS providers plan cuts",
       "summary": "Exclusive: Seven in 10 survey respondents expect services to be reduced or shut, while more than half anticipate job lossesMillions of adults and children in England face being forced to wait longer for mental health care, with more than two-thirds of NHS providers planning to cut services and half expected to axe…",
       "category": null,
@@ -368,8 +439,8 @@
       "id": "2026-08-07-stat-nih-plans-to-block-international-researcher",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:30.098912+00:00",
-      "last_updated": "2026-08-08T21:28:30.098919+00:00",
+      "first_seen": "2026-08-08T22:27:38.176639+00:00",
+      "last_updated": "2026-08-08T22:27:38.176648+00:00",
       "headline": "STAT+: NIH plans to block international researchers on visas from accessing key funding avenue",
       "summary": "The NIH plans to close the door on one of the few pathways available to international students on visas to forge a career in biomedical research in the U.S.",
       "category": null,
@@ -405,8 +476,8 @@
       "id": "2026-08-07-vitamin-c-may-fight-cancer-but-not-the-way-scien",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.433714+00:00",
-      "last_updated": "2026-08-08T21:28:29.433715+00:00",
+      "first_seen": "2026-08-08T22:27:37.143020+00:00",
+      "last_updated": "2026-08-08T22:27:37.143022+00:00",
       "headline": "Vitamin C may fight cancer — but not the way scientists once thought",
       "summary": "Linus Pauling was widely mocked for claiming that vitamin C could fight cancer, especially after trials using vitamin C pills showed no benefit. Researchers now know that intravenous vitamin C reaches vastly higher concentrations and can behave more like an experimental cancer drug than an ordinary supplement. Early…",
       "category": null,
@@ -439,11 +510,48 @@
       "is_new": false
     },
     {
+      "id": "2026-08-07-why-google-deepmind-broke-up-the-alphafold-team",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:38.906452+00:00",
+      "last_updated": "2026-08-08T22:27:38.906454+00:00",
+      "headline": "Why Google DeepMind broke up the AlphaFold team",
+      "summary": "This artificial intelligence system largely accomplished the task it was built to solve, and researchers outside DeepMind have already been carrying its work forward",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/why-google-deepmind-broke-up-the-alphafold-team/",
+          "outlet": "Scientific American — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-08-07T13:00:00+00:00"
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-08-07-new-autism-therapy-shows-surprising-benefits-eve",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.207072+00:00",
-      "last_updated": "2026-08-08T21:28:29.207073+00:00",
+      "first_seen": "2026-08-08T22:27:36.678372+00:00",
+      "last_updated": "2026-08-08T22:27:36.678373+00:00",
       "headline": "New autism therapy shows surprising benefits even in adult mice",
       "summary": "Blocking the glycine transporter SLC6A20 restored important brain signaling and improved social, communication, and repetitive behaviors in autism-related mouse models. The treatment also worked in human brain organoids and showed lasting effects in adult mice, suggesting the brain may remain more treatable later in…",
       "category": null,
@@ -485,8 +593,8 @@
       "id": "2026-08-07-diy-peptide-injections-are-risky-and-people-may",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:30.415918+00:00",
-      "last_updated": "2026-08-08T21:28:30.415928+00:00",
+      "first_seen": "2026-08-08T22:27:38.681708+00:00",
+      "last_updated": "2026-08-08T22:27:38.681718+00:00",
       "headline": "DIY peptide injections are risky, and people may make serious mistakes when administering them",
       "summary": "On top of the risks of injecting untested and potentially contaminated products, user error may make this runaway wellness fad even more dangerous.",
       "category": null,
@@ -522,8 +630,8 @@
       "id": "2026-08-07-scientists-tracked-12-people-in-antarctica-for-1",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.206958+00:00",
-      "last_updated": "2026-08-08T21:28:29.206959+00:00",
+      "first_seen": "2026-08-08T22:27:36.678188+00:00",
+      "last_updated": "2026-08-08T22:27:36.678190+00:00",
       "headline": "Scientists tracked 12 people in Antarctica for 10 months—what happened could shape future Mars missions",
       "summary": "A ten-month Antarctic experiment found that astronauts may struggle not only with loneliness but also with spending too much time around the same people. Frequent contact was linked to greater tension and mistrust, while the crew increasingly divided into cultural and language-based groups.",
       "category": null,
@@ -562,11 +670,87 @@
       "is_new": false
     },
     {
+      "id": "2026-08-07-is-gen-z-actually-smoking-more-an-investigation",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:38.906602+00:00",
+      "last_updated": "2026-08-08T22:27:38.906604+00:00",
+      "headline": "Is Gen Z actually smoking more? An investigation",
+      "summary": "Smoking in movies and TV is up, and “cigfluencers” have become a thing, but lags in data make it unclear if the vibe shift has any reality to it",
+      "category": null,
+      "topic_tags": [
+        "gen z"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/is-gen-z-actually-smoking-more-an-investigation/",
+          "outlet": "Scientific American — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-08-07T10:30:00+00:00"
+      },
+      "keyword_hits": [
+        "gen z"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-07-smoking-was-supposed-to-be-fading-away-why-are-y",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:38.906654+00:00",
+      "last_updated": "2026-08-08T22:27:38.906656+00:00",
+      "headline": "Smoking was supposed to be fading away. Why are young people embracing it again?",
+      "summary": "Smoking rates remain low, but experts say social media, stress and shifting attitudes could be fueling a cigarette revival",
+      "category": null,
+      "topic_tags": [
+        "stress",
+        "social media"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/podcast/episode/smoking-was-supposed-to-be-fading-away-why-are-young-people-embracing-it-again/",
+          "outlet": "Scientific American — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": "2026-08-07T10:00:00+00:00"
+      },
+      "keyword_hits": [
+        "stress",
+        "social media"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-08-07-kalshi-and-polymarket-bets-on-clinical-trials-cr",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:28.078331+00:00",
-      "last_updated": "2026-08-08T21:28:28.078333+00:00",
+      "first_seen": "2026-08-08T22:27:35.474934+00:00",
+      "last_updated": "2026-08-08T22:27:35.474936+00:00",
       "headline": "Kalshi and Polymarket bets on clinical trials criticized as 'ghastly'",
       "summary": "Researchers warn betting on clinical trials could incentivize insider trading and interfere with drug development. But Kalshi and Polymarket say they provide valuable information to patients.",
       "category": null,
@@ -602,8 +786,8 @@
       "id": "2026-08-07-everyone-s-talking-about-hormone-therapy-for-men",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:28.078279+00:00",
-      "last_updated": "2026-08-08T21:28:28.078288+00:00",
+      "first_seen": "2026-08-08T22:27:35.474854+00:00",
+      "last_updated": "2026-08-08T22:27:35.474862+00:00",
       "headline": "Everyone's talking about hormone therapy for menopause. Should I be on it?",
       "summary": "For years, doctors advised against hormone therapy for women in the menopausal transition. Now everyone's talking about how great it is. Is it really a wonder drug that women should all be on?",
       "category": null,
@@ -639,8 +823,8 @@
       "id": "2026-08-07-wearable-ultrasound-patch-boosts-rem-sleep-witho",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.207007+00:00",
-      "last_updated": "2026-08-08T21:28:29.207008+00:00",
+      "first_seen": "2026-08-08T22:27:36.678268+00:00",
+      "last_updated": "2026-08-08T22:27:36.678270+00:00",
       "headline": "Wearable ultrasound patch boosts REM sleep without drugs or surgery",
       "summary": "A new wearable patch may help people reach REM sleep faster and remain there longer without medication or surgery. In a study of 28 participants, the device shortened the time to REM by 43 minutes and extended it by about 16 minutes. Researchers also observed signs of improved stress regulation and changes in brain…",
       "category": null,
@@ -688,8 +872,8 @@
       "id": "2026-08-07-why-are-ultra-processed-food-firms-panicking-and",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:28.397384+00:00",
-      "last_updated": "2026-08-08T21:28:28.397385+00:00",
+      "first_seen": "2026-08-08T22:27:35.795025+00:00",
+      "last_updated": "2026-08-08T22:27:35.795028+00:00",
       "headline": "Why are ultra-processed food firms panicking and suing? Because they know time is running out | Felicity Lawrence",
       "summary": "As the harm caused by their products becomes more evident, manufacturers are resorting to denial and lawsuits to keep regulation at bayIt is rare for people to drop dead holding the incriminating packaging, but there is no longer any serious doubt that consuming a diet of ultra-processed foods (UPFs) risks a catalogue…",
       "category": null,
@@ -722,11 +906,48 @@
       "is_new": false
     },
     {
+      "id": "2026-08-06-openai-s-latest-math-breakthroughs-commit-resear",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:38.906710+00:00",
+      "last_updated": "2026-08-08T22:27:38.906712+00:00",
+      "headline": "OpenAI’s latest math breakthroughs commit research misconduct, experts say",
+      "summary": "OpenAI released 10 AI-generated results over the weekend. Some mathematicians are unhappy with their approach",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/openais-latest-math-breakthroughs-commit-research-misconduct-experts-say/",
+          "outlet": "Scientific American — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-08-06T18:43:00+00:00"
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-08-06-first-mrna-flu-shot-approved-by-fda-bodes-well-f",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:30.415983+00:00",
-      "last_updated": "2026-08-08T21:28:30.415984+00:00",
+      "first_seen": "2026-08-08T22:27:38.681811+00:00",
+      "last_updated": "2026-08-08T22:27:38.681813+00:00",
       "headline": "First mRNA flu shot approved by FDA bodes well for improving drugs of the future – though a few hurdles remain before mRNA can move beyond vaccines",
       "summary": "From COVID-19 vaccines to Moderna’s mRNA flu vaccine, using mRNA as medicine has shown promise. But before mRNA drugs can go beyond vaccines, researchers need to identify the right diseases to treat.",
       "category": null,
@@ -762,8 +983,8 @@
       "id": "2026-08-06-a-new-level-of-disrespect-from-rfk-jr-pizza-over",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.960793+00:00",
-      "last_updated": "2026-08-08T21:28:29.960794+00:00",
+      "first_seen": "2026-08-08T22:27:37.637261+00:00",
+      "last_updated": "2026-08-08T22:27:37.637263+00:00",
       "headline": "'A New Level of Disrespect' From RFK Jr.; Pizza Over Raises? MD's Sympathy for a Bug",
       "summary": "(MedPage Today) -- The following contains links to social media websites including Bluesky, X, TikTok, Instagram, Facebook, and LinkedIn. \"This is a new level of disrespect,\" said cardiologist Ali Haider, MD, on TikTok, responding to Health Secretary...",
       "category": null,
@@ -799,8 +1020,8 @@
       "id": "2026-08-06-safety-fears-as-scientists-make-first-viruses-de",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:28.397436+00:00",
-      "last_updated": "2026-08-08T21:28:28.397437+00:00",
+      "first_seen": "2026-08-08T22:27:35.795119+00:00",
+      "last_updated": "2026-08-08T22:27:35.795121+00:00",
       "headline": "Safety fears as scientists make first viruses designed by AI",
       "summary": "Researchers say breakthrough offers hope for new medicines but also raises urgent biosecurity questionsScientists have made the first viruses designed by artificial intelligence in a milestone that raises hopes for new medicines but also concerns over how to ensure the technology remains safe.The viruses are specific…",
       "category": null,
@@ -836,8 +1057,8 @@
       "id": "2026-08-06-the-guardian-view-on-mental-health-the-new-secre",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:28.397513+00:00",
-      "last_updated": "2026-08-08T21:28:28.397514+00:00",
+      "first_seen": "2026-08-08T22:27:35.795254+00:00",
+      "last_updated": "2026-08-08T22:27:35.795256+00:00",
       "headline": "The Guardian view on mental health: the new secretary of state should make it a priority | Editorial",
       "summary": "Parity for people with physical and psychological ailments has been promised for years. New neighbourhood clinics are a step in the right directionThe rise in children and young people with mental health problems makes this week’s announcement of a new network of community clinics in England particularly welcome. A&E…",
       "category": null,
@@ -873,8 +1094,8 @@
       "id": "2026-08-06-three-factors-tied-to-13-additional-dementia-fre",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.960844+00:00",
-      "last_updated": "2026-08-08T21:28:29.960845+00:00",
+      "first_seen": "2026-08-08T22:27:37.637348+00:00",
+      "last_updated": "2026-08-08T22:27:37.637350+00:00",
       "headline": "Three Factors Tied to 13 Additional Dementia-Free Years",
       "summary": "(MedPage Today) -- Maintaining three key health factors during midlife -- normal blood pressure, no diabetes, and not smoking -- was associated with nearly 13 additional dementia-free years, a study of 12,000 people in the U.S. showed. Individuals...",
       "category": null,
@@ -910,8 +1131,8 @@
       "id": "2026-08-06-trump-s-gain-of-function-policy-may-suppress-key",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.960877+00:00",
-      "last_updated": "2026-08-08T21:28:29.960878+00:00",
+      "first_seen": "2026-08-08T22:27:37.637404+00:00",
+      "last_updated": "2026-08-08T22:27:37.637405+00:00",
       "headline": "Trump's Gain-of-Function Policy May Suppress Key Pandemic Research",
       "summary": "(MedPage Today) -- A White House policy that seeks to end what it calls \"dangerous gain-of-function\" (DGOF) research is not as restrictive as experts feared, but several said it could still suppress essential work that would better prepare the...",
       "category": null,
@@ -947,8 +1168,8 @@
       "id": "2026-08-06-stat-study-reveals-new-role-for-tau-a-top-target",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:30.099096+00:00",
-      "last_updated": "2026-08-08T21:28:30.099098+00:00",
+      "first_seen": "2026-08-08T22:27:38.176923+00:00",
+      "last_updated": "2026-08-08T22:27:38.176926+00:00",
       "headline": "STAT+: Study reveals new role for tau, a top target for Alzheimer’s drug development",
       "summary": "The protein tau is top target for Alzheimer’s drug development, and a new study bolsters those efforts by describing a previously unknown role that tau plays in neurodegeneration.",
       "category": null,
@@ -981,11 +1202,48 @@
       "is_new": false
     },
     {
+      "id": "2026-08-06-can-quantum-computers-solve-math-s-hardest-probl",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:38.906797+00:00",
+      "last_updated": "2026-08-08T22:27:38.906798+00:00",
+      "headline": "Can quantum computers solve math’s hardest problem?",
+      "summary": "A million-dollar math mystery may someday be resolved in a physics lab. A new study brings this vision one step closer.",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/can-quantum-computers-solve-maths-hardest-problem/",
+          "outlet": "Scientific American — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-08-06T14:00:00+00:00"
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-08-06-india-s-internet-war",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:31.670444+00:00",
-      "last_updated": "2026-08-08T21:28:31.670453+00:00",
+      "first_seen": "2026-08-08T22:27:40.706012+00:00",
+      "last_updated": "2026-08-08T22:27:40.706023+00:00",
       "headline": "India’s internet war",
       "summary": "In 2014, Narendra Modi pioneered the use of social media and digital campaigning in India to become prime minister. Known as one of the first global politicians to harness the power of the internet, he has the most social media followers of any world leader currently in office. Today, over a decade since Modi’s…",
       "category": null,
@@ -1021,8 +1279,8 @@
       "id": "2026-08-06-covid-can-reactivate-dormant-viruses-according-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:30.099247+00:00",
-      "last_updated": "2026-08-08T21:28:30.099248+00:00",
+      "first_seen": "2026-08-08T22:27:38.177185+00:00",
+      "last_updated": "2026-08-08T22:27:38.177187+00:00",
       "headline": "Covid can reactivate dormant viruses, according to study",
       "summary": "A CDC director officially confirmed, Moderna's mRNA flu shot approved, and other health news from Morning Rounds",
       "category": null,
@@ -1058,8 +1316,8 @@
       "id": "2026-08-06-nearly-half-of-dementia-cases-may-be-linked-to-r",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.207183+00:00",
-      "last_updated": "2026-08-08T21:28:29.207184+00:00",
+      "first_seen": "2026-08-08T22:27:36.678550+00:00",
+      "last_updated": "2026-08-08T22:27:36.678551+00:00",
       "headline": "Nearly half of dementia cases may be linked to risks you can change",
       "summary": "A long-term brain study found that common risks such as smoking, high blood pressure, heart disease, and high blood lipids were strongly linked to damage associated with vascular dementia. The findings suggest that healthier lifestyle choices could help delay dementia by reducing several harmful brain changes at once.",
       "category": null,
@@ -1101,8 +1359,8 @@
       "id": "2026-08-06-a-drug-already-used-for-osteoporosis-blocked-spi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.433554+00:00",
-      "last_updated": "2026-08-08T21:28:29.433555+00:00",
+      "first_seen": "2026-08-08T22:27:37.142736+00:00",
+      "last_updated": "2026-08-08T22:27:37.142738+00:00",
       "headline": "A drug already used for osteoporosis blocked spinal damage in a new study",
       "summary": "Genetic changes may set off a chain reaction that causes the spine’s natural shock absorbers to harden and deteriorate. Zebrafish with a faulty collagen-related gene developed mineral buildup and spinal fusion similar to human disc disease. Researchers were able to reduce the damage using an existing osteoporosis drug…",
       "category": null,
@@ -1140,8 +1398,8 @@
       "id": "2026-08-06-walk-in-mental-health-centres-to-open-in-banks-a",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:28.835947+00:00",
-      "last_updated": "2026-08-08T21:28:28.835956+00:00",
+      "first_seen": "2026-08-08T22:27:36.160846+00:00",
+      "last_updated": "2026-08-08T22:27:36.160854+00:00",
       "headline": "Walk-in mental health centres to open in banks and libraries across England",
       "summary": "Government plans network of nearly 200 specialist services to help those facing mental health crises.",
       "category": null,
@@ -1177,8 +1435,8 @@
       "id": "2026-08-06-thc-medication-made-ptsd-nightmares-disappear-fo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-08T21:28:29.207117+00:00",
-      "last_updated": "2026-08-08T21:28:29.207118+00:00",
+      "first_seen": "2026-08-08T22:27:36.678444+00:00",
+      "last_updated": "2026-08-08T22:27:36.678445+00:00",
       "headline": "THC medication made PTSD nightmares disappear for more than a third of patients",
       "summary": "A prescription form of THC helped many people with PTSD escape recurring trauma-related nightmares, with more than one-third reporting that the nightmares disappeared completely after ten weeks. The results could point toward a long-awaited treatment for one of PTSD’s most distressing and stubborn symptoms.",
       "category": null,
@@ -1215,6 +1473,1000 @@
       ],
       "generated": [],
       "is_new": false
+    },
+    {
+      "id": "2026-08-08-prebiotic-sodas-may-contain-less-fiber-and-more",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.421450+00:00",
+      "last_updated": "2026-08-08T22:27:40.421452+00:00",
+      "headline": "Prebiotic Sodas May Contain Less Fiber and More Sugar Than Advertised",
+      "summary": "New research shows that prebiotic sodas may contain higher sugar and lower fiber than claimed. Rapeepong Puttakumwong/Getty A new study found that prebiotic sodas may contain more sugar and less fiber than they claim. The findings show that a majority of prebiotic sodas contain more sugar than diet sodas and flavored…",
+      "category": null,
+      "topic_tags": [
+        "diet",
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/prebiotic-sodas-may-contain-higher-sugar-less-fiber-than-advertised",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 9.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": null
+      },
+      "keyword_hits": [
+        "diet",
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-what-is-biblical-eating-inside-tiktok-s-latest-w",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.419887+00:00",
+      "last_updated": "2026-08-08T22:27:40.419889+00:00",
+      "headline": "What Is ‘Biblical Eating’? Inside TikTok’s Latest Whole-Food Obsession",
+      "summary": "“Biblical eating” is a social media trend that involves making food choices based on scripture. cihatatceken/Getty “Biblical eating” emphasizes foods mentioned in the Bible and has become a popular nutrition trend on social media. Experts say the diet includes many healthy foods, but there’s no evidence that it…",
+      "category": null,
+      "topic_tags": [
+        "nutrition",
+        "diet",
+        "social media"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/biblical-eating-inside-tiktok-whole-food-obsession",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": null
+      },
+      "keyword_hits": [
+        "nutrition",
+        "diet",
+        "social media"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-sniffing-chocolate-could-boost-your-leg-day-work",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.431919+00:00",
+      "last_updated": "2026-08-08T22:27:40.431921+00:00",
+      "headline": "Sniffing Chocolate Could Boost Your Leg Day Workouts and Curb Hunger",
+      "summary": "Smelling dark chocolate before and during workouts may help you perform more repetitions and reduce hunger after exercise, new research finds. Getty Images Smelling dark chocolate before and during a leg workout helped participants perform more repetitions. Though the exact mechanism remains unclear, researchers…",
+      "category": null,
+      "topic_tags": [
+        "exercise",
+        "workout",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/sniffing-chocolate-boost-workout-hunger",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": null
+      },
+      "keyword_hits": [
+        "exercise",
+        "workout",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-glp-1s-like-ozempic-wegovy-can-help-maintain-low",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.423764+00:00",
+      "last_updated": "2026-08-08T22:27:40.423767+00:00",
+      "headline": "GLP-1s Like Ozempic, Wegovy Can Help Maintain Lower Calorie Intake for Over 1 Year",
+      "summary": "Recent research has found that GLP-1s, like Ozempic and Wegovy, can help you maintain a lower calorie intake for more than a year. Image Credit: Jon Challicom/Getty A new study found that people taking semaglutide (Ozempic and Wegovy) maintained a significantly lower calorie intake after 60 weeks on the medication.…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/semaglutide-sustains-lower-calorie-intake-over-one-year",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-how-going-to-the-movies-and-museums-may-help-slo",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.427700+00:00",
+      "last_updated": "2026-08-08T22:27:40.427702+00:00",
+      "headline": "How Going to the Movies and Museums May Help Slow Biological Aging",
+      "summary": "Research shows that regular cultural engagement can slow physiological aging in older adults. Image Credit: AzmanJaka/Getty A new study claims that older adults who regularly attend cultural events such as museums, movies, and theater tend to have a lower physiological age, meaning their bodies function younger than…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/movies-museums-theater-may-slow-biological-aging",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-depo-provera-other-hormonal-contraceptives-linke",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.429804+00:00",
+      "last_updated": "2026-08-08T22:27:40.429806+00:00",
+      "headline": "Depo-Provera, Other Hormonal Contraceptives Linked to Brain Tumors",
+      "summary": "Research shows that certain types of birth control, particularly those high in progestogen, may raise the risk of brain tumors. Image Credit: Pekic/Getty A new study revealed a link between certain progestogen contraceptives, including Depo-Provera, and a higher risk of meningioma brain tumors. Meningiomas are brain…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/depo-provera-hormonal-contraceptives-noncancerous-brain-tumors",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-losing-just-78-minutes-of-sleep-a-night-over-6-w",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.432882+00:00",
+      "last_updated": "2026-08-08T22:27:40.432884+00:00",
+      "headline": "Losing Just 78 Minutes of Sleep a Night Over 6 Weeks May Lead to Weight Gain",
+      "summary": "A new study found that adults who slept about 78 fewer minutes each night for six weeks gained nearly a pound and became more sedentary, highlighting the important role sleep plays in maintaining a healthy weight. A woman lying on a bed. A new study suggests not getting enough sleep each night may lead to weight gain.…",
+      "category": null,
+      "topic_tags": [
+        "sleep",
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/sleep-loss-cause-weight-gain",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "sleep",
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-why-binge-watching-that-tv-show-now-may-affect-y",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.421757+00:00",
+      "last_updated": "2026-08-08T22:27:40.421759+00:00",
+      "headline": "Why ‘Binge-Watching’ That TV Show Now May Affect Your Brain Later",
+      "summary": "Recent research has found that people who watch a lot of TV in midlife showed reduced volume in certain brain regions. Image Credit: Digital Vision/Getty A recent study found that people who reported watching TV “very often” in midlife showed reduced volume in certain brain regions. This included areas associated with…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/binge-watching-tv-may-affect-brain-later",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-viagra-s-active-ingredient-may-also-help-stop-ca",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.424261+00:00",
+      "last_updated": "2026-08-08T22:27:40.424263+00:00",
+      "headline": "Viagra’s Active Ingredient May Also Help Stop Cancer From Spreading",
+      "summary": "A recent study found that sildenafil, the active ingredient in Viagra, may stop cancer from metastasizing. BSIP/Getty Images Researchers report that the erectile dysfunction drug Viagra may help slow the spread of cancer. Sildenafil, the active ingredient in Viagra, appears to interfere with cancer cells’ ability to…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/viagra-may-stop-cancer-from-spreading-study",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-an-avocado-a-day-may-help-keep-heart-disease-at",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.426585+00:00",
+      "last_updated": "2026-08-08T22:27:40.426587+00:00",
+      "headline": "An Avocado a Day May Help Keep Heart Disease at Bay, Study Finds",
+      "summary": "Research shows that eating an avocado a day may help reduce heart disease risk in people with obesity. Image Credit: Thai Liang Lim/Getty A recent study has found that eating an avocado a day may help lower the risk of heart disease in people with obesity. The researchers found that this was associated with lower…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/avocado-lower-heart-disease-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-early-bird-dinner-does-the-tiktok-sleep-hack-act",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.428050+00:00",
+      "last_updated": "2026-08-08T22:27:40.428052+00:00",
+      "headline": "‘Early Bird Dinner’: Does the TikTok Sleep Hack Actually Work?",
+      "summary": "A popular TikTok trend suggests that eating dinner 4 to 5 hours before bed can improve sleep quality. Image credit: Olga Rolenko · Moment/Getty “Early-bird dinners” are a growing social media trend, with some TikTokers claiming that eating earlier can improve sleep quality. Experts agree that consuming the last meal…",
+      "category": null,
+      "topic_tags": [
+        "sleep",
+        "social media"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/early-bird-dinner-tiktok-sleep-hack",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "sleep",
+        "social media"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-heart-attack-risk-31-lower-for-people-with-stron",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.433233+00:00",
+      "last_updated": "2026-08-08T22:27:40.433234+00:00",
+      "headline": "Heart Attack Risk 31% Lower for People with Strong Chest, Back Muscles",
+      "summary": "Research shows that stronger, better quality back and chest muscles may reduce the risk of a heart attack. Image Credit: minamoto images/Stocksy A recent study found that people with strong back and chest muscles may have a lower risk of heart attack. Researchers used artificial intelligence (AI) to analyze heart…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/heart-attack-risk-lower-strong-chest-back-muscles",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-5-cups-of-coffee-daily-may-lower-your-liver-dise",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.433541+00:00",
+      "last_updated": "2026-08-08T22:27:40.433543+00:00",
+      "headline": "5 Cups of Coffee Daily May Lower Your Liver Disease, Cancer Risk By 47%",
+      "summary": "Recent research has found that drinking coffee may help reduce your risk of liver disease and cancer. Image Credit: GNDphotography/Getty A recent study has shown that drinking coffee may help reduce your risk of liver disease and cancer. The researchers found that the more coffee you drink, the greater the potential…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/coffee-daily-lower-risk-liver-disease-cancer",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-hiv-once-weekly-pill-as-effective-as-daily-treat",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.419569+00:00",
+      "last_updated": "2026-08-08T22:27:40.419572+00:00",
+      "headline": "HIV: Once-Weekly Pill As Effective As Daily Treatment, Global Study Finds",
+      "summary": "A once-weekly HIV pill combining the antiretroviral drugs islatravir and lenacapavir is as effective as a once-daily treatment. fotolgahan/E+/Getty Images A once-weekly oral HIV treatment is as effective as a widely used once-daily regimen, according to a large clinical trial. More than 93% of participants maintained…",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/once-weekly-hiv-pill-effective-as-daily-treatment-global-study",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-can-humans-live-forever-study-puts-a-cap-on-life",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.420326+00:00",
+      "last_updated": "2026-08-08T22:27:40.420329+00:00",
+      "headline": "Can Humans Live Forever? Study Puts a Cap on Life Span at 194 Years",
+      "summary": "A new study may help broaden understanding of the aspects of aging that may ultimately prove impossible to reverse. Maki Nakamura/DigitalVision/Getty Images A new study probes the upper boundaries of human life span, suggesting that even under the most favorable conditions, DNA mutations may still limit life to…",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/ultimate-limit-human-lifespan-194-years-study",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-pmos-formerly-pcos-linked-to-significantly-highe",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.425440+00:00",
+      "last_updated": "2026-08-08T22:27:40.425442+00:00",
+      "headline": "PMOS (Formerly PCOS) Linked to ‘Significantly Higher’ Heart Attack, Stroke Risk",
+      "summary": "A new study found that females with PMOS (formerly PCOS) may have a higher risk of developing cardiovascular disease. Image Credit: andreswd/Getty Females with polyendocrine metabolic ovarian syndrome (PMOS) were about four times more likely to develop heart or artery disease than those without it, according to a new…",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/pmos-pcos-significantly-higher-heart-attack-stroke-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-glp-1-drugs-like-ozempic-wegovy-may-help-with-bi",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.428834+00:00",
+      "last_updated": "2026-08-08T22:27:40.428836+00:00",
+      "headline": "GLP-1 Drugs Like Ozempic, Wegovy May Help With Binge Eating Disorder",
+      "summary": "GLP-1 medications like Ozempic and Wegovy may help ease symptoms of binge eating disorder and related eating behaviors. Giselleflissak/Getty Images A new study found that GLP-1RAs could reduce key symptoms of binge eating disorder. These included binge eating severity, loss of control eating, and emotional eating.…",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/glp1-drugs-help-binge-eating-disorder",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-most-weight-loss-drugs-do-not-improve-quality-of",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.431508+00:00",
+      "last_updated": "2026-08-08T22:27:40.431510+00:00",
+      "headline": "Most Weight Loss Drugs Do Not Improve Quality of Life or Heart Health",
+      "summary": "A new study found that while several newer weight loss medications can help with significant weight loss, they do not improve quality of life or boost long-term heart health. Getty Images A new study found that several newer medications can aid in significant weight loss. However, the most effective drugs produced…",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/most-weight-loss-drugs-do-not-improve-quality-life-heart-health",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-longevity-eating-less-protein-linked-to-healthy",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.417589+00:00",
+      "last_updated": "2026-08-08T22:27:40.417595+00:00",
+      "headline": "Longevity: Eating Less Protein Linked to Healthy Aging in New Studies",
+      "summary": "Recent research shows that eating less protein may slow the aging process. d3sign · Moment/Getty New research suggests reducing protein intake may support healthy aging and longevity. Protein restriction may improve metabolism, reduce inflammation, and reduce cellular damage. Protein needs vary by age, activity level,…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/longevity-less-protein-linked-healthy-aging",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-higher-body-fat-linked-to-low-sperm-count-testos",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.420726+00:00",
+      "last_updated": "2026-08-08T22:27:40.420728+00:00",
+      "headline": "Higher Body Fat Linked to Low Sperm Count, Testosterone. Here's Why",
+      "summary": "Higher body fat percentages are associated with lower sperm counts and changes in male reproductive hormones, including testosterone. Kate/E+/Getty Images Researchers say body fat measurements are a better predictor of male reproductive health than body mass index readings. They report that men with higher body fat…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/higher-body-fat-percentage-lower-sperm-count-study",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-early-menopause-linked-to-high-blood-pressure-ho",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.421101+00:00",
+      "last_updated": "2026-08-08T22:27:40.421103+00:00",
+      "headline": "Early Menopause Linked to High Blood Pressure. How to Lower Your Risk",
+      "summary": "Premature menopause is associated with a greater risk of high blood pressure, especially among those ages 25 to 35. Maskot/Getty Images A study found that early menopause was associated with a greater risk of high blood pressure. The risk was highest when menopause occurred between the ages of 25 and 35. Experts say…",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/early-menopause-may-increase-high-blood-pressure-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-more-than-half-of-u-s-adults-eligible-for-statin",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.424654+00:00",
+      "last_updated": "2026-08-08T22:27:40.424656+00:00",
+      "headline": "More Than Half of U.S. Adults Eligible for Statin Therapy Under New Guidelines",
+      "summary": "Three studies evaluated the potential impact of new cholesterol guidelines, which are expected to improve treatment outcomes. Getty Images The AHA, ACC, and other medical organizations released new cholesterol guidelines in 2026. Three studies evaluated the potential impact of the new guidelines and found that they…",
+      "category": null,
+      "topic_tags": [
+        "therapy"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/many-adults-eligible-statin-therapy-new-guidelines",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "therapy"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-u-s-military-to-screen-for-low-testosterone-why",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.426983+00:00",
+      "last_updated": "2026-08-08T22:27:40.426985+00:00",
+      "headline": "U.S. Military to Screen for Low Testosterone. Why Experts Are Concerned",
+      "summary": "The U.S. military will begin screening service members for testosterone deficiency to “optimize” health. Getty Images Defense Secretary Pete Hegseth announced that the U.S. military will begin annual screening for testosterone deficiency among service members ages 30 and older. Testosterone replacement therapy (TRT)…",
+      "category": null,
+      "topic_tags": [
+        "therapy"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/us-military-testosterone-replacement-therapy-pete-hegseth",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "therapy"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-why-glp-1-drugs-may-raise-muscle-loss-frailty-ri",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.428444+00:00",
+      "last_updated": "2026-08-08T22:27:40.428445+00:00",
+      "headline": "Why GLP-1 Drugs May Raise Muscle Loss, Frailty Risk for People Over 65",
+      "summary": "A new report states that older adults using GLP-1 drugs may have a higher risk of loss of muscle mass, malnutrition, dehydration, and other frailty-associated conditions. Getty Images A new report states that older adults using GLP-1 drugs may have a higher risk of loss of muscle mass, malnutrition, and dehydration.…",
+      "category": null,
+      "topic_tags": [
+        "nutrition"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/glp-1-drugs-zepbound-mounjaro-frailty-risk-older-adults",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "nutrition"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-what-is-tiktok-s-3-color-rule-how-eating-the-rai",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.429214+00:00",
+      "last_updated": "2026-08-08T22:27:40.429216+00:00",
+      "headline": "What Is TikTok’s 3-Color Rule? How ‘Eating the Rainbow’ Can Boost Weight Loss",
+      "summary": "Following the “3-color rule” may help boost weight loss and improve overall health. Image Credit: fcafotodigital/Getty One of the newest nutritional trends on TikTok is the “3-color rule.” The “3-color rule” encourages people to include at least 3 different naturally colorful plant-based foods in each meal. Different…",
+      "category": null,
+      "topic_tags": [
+        "nutrition"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/tiktok-3-color-rule-weight-loss",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "nutrition"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-08-08-no-link-between-prenatal-tylenol-use-and-autism",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-08-08T22:27:40.432403+00:00",
+      "last_updated": "2026-08-08T22:27:40.432405+00:00",
+      "headline": "No Link Between Prenatal Tylenol Use and Autism, ADHD, Multiple Studies Confirm",
+      "summary": "Research shows that there is no link between taking Tylenol during pregnancy and a higher risk of autism and ADHD. Image Credit: Getty Images In September 2025, the Trump administration suggested that taking Tylenol during pregnancy may raise the risk of autism in children. Many experts have spoken out against this…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/no-link-between-prenatal-tylenol-autism-adhd-multiple-studies-confirm",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
     }
   ]
 }
