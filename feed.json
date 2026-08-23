@@ -1,14 +1,14 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-08-23T01:15:15.703287+00:00",
-    "live_count": 69,
+    "generated_at": "2026-08-23T03:01:24.835337+00:00",
+    "live_count": 68,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
       "fetched": 387,
-      "kept": 69,
+      "kept": 68,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
@@ -18,8 +18,8 @@
       "id": "2026-08-22-peppermint-oil-lowers-blood-pressure-in-just-20",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.356524+00:00",
-      "last_updated": "2026-08-23T01:15:13.356527+00:00",
+      "first_seen": "2026-08-23T03:01:22.544608+00:00",
+      "last_updated": "2026-08-23T03:01:22.544611+00:00",
       "headline": "Peppermint oil lowers blood pressure in just 20 days",
       "summary": "Peppermint oil may have an unexpected benefit for people with mildly high blood pressure. Adults who took a small dose twice daily for 20 days saw their systolic blood pressure fall by an average of 8.5 mmHg, while a placebo group showed little change. Researchers say the inexpensive oil could eventually provide a…",
       "category": null,
@@ -55,8 +55,8 @@
       "id": "2026-08-22-exercise-may-work-better-for-keeping-weight-off",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.356425+00:00",
-      "last_updated": "2026-08-23T01:15:13.356433+00:00",
+      "first_seen": "2026-08-23T03:01:22.544488+00:00",
+      "last_updated": "2026-08-23T03:01:22.544496+00:00",
       "headline": "Exercise may work better for keeping weight off than losing it",
       "summary": "Exercise may not be a powerful weight-loss tool on its own, but it appears to play a much bigger role in preventing lost weight from returning. By preserving muscle, supporting metabolism, improving fat burning, and regulating appetite and blood sugar, regular activity can make long-term weight maintenance easier.",
       "category": null,
@@ -92,8 +92,8 @@
       "id": "2026-08-22-this-yeast-supplement-may-boost-cancer-fighting",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.356610+00:00",
-      "last_updated": "2026-08-23T01:15:13.356612+00:00",
+      "first_seen": "2026-08-23T03:01:22.544698+00:00",
+      "last_updated": "2026-08-23T03:01:22.544701+00:00",
       "headline": "This yeast supplement may boost cancer-fighting immunity",
       "summary": "A simple yeast-based food supplement may help restore the immune system’s ability to fight cancer, according to new research in mice. Scientists found that yeast beta-glucan reprogrammed early immune cells in the bone marrow, leading to stronger, longer-lasting cancer-fighting responses against colorectal, skin, and…",
       "category": null,
@@ -129,8 +129,8 @@
       "id": "2026-08-22-tooth-count-may-predict-survival-after-pancreati",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.356723+00:00",
-      "last_updated": "2026-08-23T01:15:13.356725+00:00",
+      "first_seen": "2026-08-23T03:01:22.544809+00:00",
+      "last_updated": "2026-08-23T03:01:22.544811+00:00",
       "headline": "Tooth count may predict survival after pancreatic cancer surgery",
       "summary": "Pancreatic cancer patients with at least 21 natural teeth survived nearly two years longer after surgery than those with fewer teeth in a study of 339 people. Researchers suspect tooth loss may reflect decades of inflammation, frailty, nutrition, and other factors tied to the body’s overall resilience.",
       "category": null,
@@ -170,8 +170,8 @@
       "id": "2026-08-22-this-gut-microbe-may-help-keep-you-strong-as-you",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.356885+00:00",
-      "last_updated": "2026-08-23T01:15:13.356887+00:00",
+      "first_seen": "2026-08-23T03:01:22.544968+00:00",
+      "last_updated": "2026-08-23T03:01:22.544970+00:00",
       "headline": "This gut microbe may help keep you strong as you age",
       "summary": "Scientists have linked a specific gut bacterium, Roseburia inulinivorans, to stronger muscles in both humans and mice. Older adults who carried it had 29% greater handgrip strength, while treated mice gained about 30% more grip strength and developed larger, more fast-twitch muscle fibers. The bacterium was also less…",
       "category": null,
@@ -207,8 +207,8 @@
       "id": "2026-08-21-risk-of-pancreatic-cysts-becoming-cancer-grows-a",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.504132+00:00",
-      "last_updated": "2026-08-23T01:15:13.504140+00:00",
+      "first_seen": "2026-08-23T03:01:22.784599+00:00",
+      "last_updated": "2026-08-23T03:01:22.784606+00:00",
       "headline": "Risk of Pancreatic Cysts Becoming Cancer Grows as Worrisome Traits Increase",
       "summary": "(MedPage Today) -- An accumulation of worrisome or high-risk traits in pancreatic cysts increased the likelihood of a subsequent pancreatic cancer diagnosis, a prospective single-center study of more than 200 patients showed. During almost 3 years...",
       "category": null,
@@ -244,8 +244,8 @@
       "id": "2026-08-21-popular-diet-may-not-help-for-weight-but-trial-p",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.504213+00:00",
-      "last_updated": "2026-08-23T01:15:13.504215+00:00",
+      "first_seen": "2026-08-23T03:01:22.784683+00:00",
+      "last_updated": "2026-08-23T03:01:22.784685+00:00",
       "headline": "Popular Diet May Not Help for Weight, but Trial Points to Another Benefit",
       "summary": "(MedPage Today) -- A Mediterranean-style diet program did not lead to greater weight loss compared with a control intervention among primary care patients with obesity, though it did improve diet quality, the DELISH trial showed. Missing the trial...",
       "category": null,
@@ -281,8 +281,8 @@
       "id": "2026-08-21-can-brain-proteins-spread-by-blood-transfusions",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.504281+00:00",
-      "last_updated": "2026-08-23T01:15:13.504283+00:00",
+      "first_seen": "2026-08-23T03:01:22.784750+00:00",
+      "last_updated": "2026-08-23T03:01:22.784753+00:00",
       "headline": "Can Brain Proteins Spread by Blood Transfusions? Early Research Prompts Closer Look.",
       "summary": "(MedPage Today) -- Blood transfusions could possibly transmit harmful brain proteins like amyloid-beta, a review suggested, and additional research and safety measures may be warranted. \"The risks of transfusion-related transmission of amyloid...",
       "category": null,
@@ -318,8 +318,8 @@
       "id": "2026-08-21-early-sugar-exposure-and-cancer-risk-melanoma-va",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.504347+00:00",
-      "last_updated": "2026-08-23T01:15:13.504349+00:00",
+      "first_seen": "2026-08-23T03:01:22.784816+00:00",
+      "last_updated": "2026-08-23T03:01:22.784819+00:00",
       "headline": "Early Sugar Exposure and Cancer Risk; Melanoma Vaccine Win; 'Antifreeze' for CAR-T",
       "summary": "(MedPage Today) -- People who had restricted sugar exposure during the first 2 years of life grew into adults with a lower risk of cancer. (American Journal of Clinical Nutrition) Meanwhile, women who consumed a diet high in antioxidants had a...",
       "category": null,
@@ -357,8 +357,8 @@
       "id": "2026-08-21-study-adds-fuel-to-the-debate-on-statins-and-res",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.504458+00:00",
-      "last_updated": "2026-08-23T01:15:13.504460+00:00",
+      "first_seen": "2026-08-23T03:01:22.784928+00:00",
+      "last_updated": "2026-08-23T03:01:22.784930+00:00",
       "headline": "Study Adds Fuel to the Debate on Statins and Respiratory Illness",
       "summary": "(MedPage Today) -- Older adults starting on statins had a lower hospitalization risk for pneumonia and other respiratory infections, yet more frequently showed up with respiratory illness in the primary care setting, findings from a U.K. population...",
       "category": null,
@@ -394,8 +394,8 @@
       "id": "2026-08-21-ditch-the-giant-handbag-don-t-overdo-the-botox-a",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:12.800842+00:00",
-      "last_updated": "2026-08-23T01:15:12.800849+00:00",
+      "first_seen": "2026-08-23T03:01:21.775667+00:00",
+      "last_updated": "2026-08-23T03:01:21.775674+00:00",
       "headline": "Ditch the giant handbag, don’t overdo the botox and 16 other ways to extend your ‘hotspan’",
       "summary": "If ‘lifespan’ is the time you’re alive and ‘healthspan’ the years you’re disease-free, then ‘hotspan’ is the period you’re attractive and vibrant. Want to increase yours? Experts share their tipsForget 12-step skincare routines, red light therapy and injectables – the single most important thing you can do for your…",
       "category": null,
@@ -431,8 +431,8 @@
       "id": "2026-08-21-2-500-dead-in-outbreak-1-trillion-in-medicare-ad",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.504580+00:00",
-      "last_updated": "2026-08-23T01:15:13.504582+00:00",
+      "first_seen": "2026-08-23T03:01:22.785050+00:00",
+      "last_updated": "2026-08-23T03:01:22.785052+00:00",
       "headline": "2,500 Dead in Outbreak; $1 Trillion in Medicare Advantage Overpayments; MyChart Scam",
       "summary": "(MedPage Today) -- Note that some links may require registration or subscription. A UN official said Congo's Ebola outbreak is growing \"exponentially,\" with deaths doubling to more than 2,500 in the past 3 weeks alone. (AFP via Yahoo!) Research...",
       "category": null,
@@ -468,8 +468,8 @@
       "id": "2026-08-21-scientists-deploy-merck-s-ebola-vaccine-in-drc",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.687404+00:00",
-      "last_updated": "2026-08-23T01:15:13.687411+00:00",
+      "first_seen": "2026-08-23T03:01:22.933261+00:00",
+      "last_updated": "2026-08-23T03:01:22.933266+00:00",
       "headline": "Scientists deploy Merck’s Ebola vaccine in DRC",
       "summary": "Prostate cancer therapy, Meta glasses in hospital settings, and more health news from Morning Rounds",
       "category": null,
@@ -505,8 +505,8 @@
       "id": "2026-08-21-16-of-pennsylvania-teens-have-considered-suicide",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:14.020387+00:00",
-      "last_updated": "2026-08-23T01:15:14.020395+00:00",
+      "first_seen": "2026-08-23T03:01:23.303311+00:00",
+      "last_updated": "2026-08-23T03:01:23.303320+00:00",
       "headline": "16% of Pennsylvania teens have considered suicide – but everyday connection may help",
       "summary": "New Penn State research on nearly 200,000 Pennsylvania teens finds everyday bonds with family, school and community may help prevent youth suicide.",
       "category": null,
@@ -544,8 +544,8 @@
       "id": "2026-08-21-3-minutes-of-sprinting-does-something-90-minutes",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.356807+00:00",
-      "last_updated": "2026-08-23T01:15:13.356809+00:00",
+      "first_seen": "2026-08-23T03:01:22.544891+00:00",
+      "last_updated": "2026-08-23T03:01:22.544893+00:00",
       "headline": "3 minutes of sprinting does something 90 minutes of exercise does not",
       "summary": "A few minutes of sprinting may reshape the bloodstream far more dramatically than a much longer moderate workout. Six 30-second sprints altered nearly a quarter of the blood proteins measured and more than 200 metabolites, while 90 minutes of moderate cycling produced far smaller immediate changes. Many of the…",
       "category": null,
@@ -583,8 +583,8 @@
       "id": "2026-08-21-this-weight-loss-hormone-may-protect-the-liver-e",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.356984+00:00",
-      "last_updated": "2026-08-23T01:15:13.356988+00:00",
+      "first_seen": "2026-08-23T03:01:22.545042+00:00",
+      "last_updated": "2026-08-23T03:01:22.545044+00:00",
       "headline": "This weight-loss hormone may protect the liver even without weight loss",
       "summary": "A hormone already known for curbing appetite and supporting weight loss may have a surprising second job: protecting the liver from inflammation and scarring. Researchers at McMaster University found that GDF15 activates a previously unknown brain-to-liver pathway that triggers the release of glucocorticoids, helping…",
       "category": null,
@@ -620,8 +620,8 @@
       "id": "2026-08-21-ai-may-know-how-you-ll-respond-to-a-vaccine-befo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.357079+00:00",
-      "last_updated": "2026-08-23T01:15:13.357081+00:00",
+      "first_seen": "2026-08-23T03:01:22.545125+00:00",
+      "last_updated": "2026-08-23T03:01:22.545127+00:00",
       "headline": "AI may know how you’ll respond to a vaccine before you get it",
       "summary": "AI may be able to predict how strongly someone will respond to a vaccine before they receive it. By analyzing antibody patterns in more than 4,000 people, researchers found signs of “immune readiness” that helped distinguish strong responders from weak ones. Surprisingly, even some healthy people responded poorly,…",
       "category": null,
@@ -657,8 +657,8 @@
       "id": "2026-08-21-what-happened-when-people-with-anorexia-tried-ma",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:14.176437+00:00",
-      "last_updated": "2026-08-23T01:15:14.176443+00:00",
+      "first_seen": "2026-08-23T03:01:23.407914+00:00",
+      "last_updated": "2026-08-23T03:01:23.407920+00:00",
       "headline": "What happened when people with anorexia tried magic mushrooms",
       "summary": "Researchers are exploring whether magic mushrooms could offer a new treatment for anorexia",
       "category": null,
@@ -694,8 +694,8 @@
       "id": "2026-08-21-as-uss-lincoln-heads-home-mental-health-experts",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:12.686562+00:00",
-      "last_updated": "2026-08-23T01:15:12.686570+00:00",
+      "first_seen": "2026-08-23T03:01:21.661674+00:00",
+      "last_updated": "2026-08-23T03:01:21.661682+00:00",
       "headline": "As USS Lincoln heads home, mental health experts tally the stressors of life at sea",
       "summary": "The USS Abraham Lincoln is now on its way home after spending nine months at sea. Experts weigh in on the mental health challenges of prolonged confinement and isolation aboard an aircraft carrier.",
       "category": null,
@@ -733,8 +733,8 @@
       "id": "2026-08-21-focal-therapy-for-localized-prostate-cancer-has",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.687480+00:00",
-      "last_updated": "2026-08-23T01:15:13.687483+00:00",
+      "first_seen": "2026-08-23T03:01:22.933333+00:00",
+      "last_updated": "2026-08-23T03:01:22.933336+00:00",
       "headline": "Focal therapy for localized prostate cancer has divided physicians. Will new data change minds?",
       "summary": "Urologic oncologists who treat prostate cancer are split over the benefits of focal therapy compared to traditional surgery or radiation.",
       "category": null,
@@ -770,8 +770,8 @@
       "id": "2026-08-21-opinion-lil-nas-x-s-bipolar-diagnosis-and-the-pa",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.687546+00:00",
-      "last_updated": "2026-08-23T01:15:13.687549+00:00",
+      "first_seen": "2026-08-23T03:01:22.933401+00:00",
+      "last_updated": "2026-08-23T03:01:22.933403+00:00",
       "headline": "Opinion: Lil Nas X’s bipolar diagnosis and the paradox of treatment",
       "summary": "We continue to romanticize the symptoms of mental health problems, especially when we talk about achievement.",
       "category": null,
@@ -807,8 +807,8 @@
       "id": "2026-08-21-how-long-could-we-possibly-live-a-new-estimate-i",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:14.902678+00:00",
-      "last_updated": "2026-08-23T01:15:14.902686+00:00",
+      "first_seen": "2026-08-23T03:01:24.063297+00:00",
+      "last_updated": "2026-08-23T03:01:24.063304+00:00",
       "headline": "How long could we possibly live? A new estimate is mind-boggling",
       "summary": "Biogerontologists are exploring the upper limit for human life. A recent study has it verging on two centuries – but columnist Graham Lawton finds reason to be sceptical",
       "category": null,
@@ -844,8 +844,8 @@
       "id": "2026-08-21-uk-men-with-heart-disease-at-higher-risk-of-deve",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:12.801062+00:00",
-      "last_updated": "2026-08-23T01:15:12.801066+00:00",
+      "first_seen": "2026-08-23T03:01:21.775869+00:00",
+      "last_updated": "2026-08-23T03:01:21.775872+00:00",
       "headline": "UK men with heart disease at higher risk of developing and dying from cancer",
       "summary": "Decade-long study finds stark gender difference in outcomes of people with heart diseaseMillions of men with heart disease have a higher risk of developing and dying from cancer, according to a decades-long study.The biggest drivers behind male cases were smoking, obesity and drinking too much alcohol, researchers…",
       "category": null,
@@ -883,8 +883,8 @@
       "id": "2026-08-21-wellness-habits-you-can-start-now-at-no-or-littl",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:12.997228+00:00",
-      "last_updated": "2026-08-23T01:15:12.997235+00:00",
+      "first_seen": "2026-08-23T03:01:21.867265+00:00",
+      "last_updated": "2026-08-23T03:01:21.867272+00:00",
       "headline": "Wellness habits you can start now - at no (or little) cost",
       "summary": "Living a healthy life doesn't have to just be about pricey studio classes and luxury retreats.",
       "category": null,
@@ -920,8 +920,8 @@
       "id": "2026-08-21-scientists-discover-how-gut-bacteria-train-the-i",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.357268+00:00",
-      "last_updated": "2026-08-23T01:15:13.357270+00:00",
+      "first_seen": "2026-08-23T03:01:22.545307+00:00",
+      "last_updated": "2026-08-23T03:01:22.545310+00:00",
       "headline": "Scientists discover how gut bacteria “train” the intestine to fight inflammation",
       "summary": "A compound made when gut bacteria break down dietary fiber may do more than briefly calm inflammation—it could leave a lasting protective “memory” in the gut. Northwestern Medicine researchers found that butyrate can reprogram intestinal lining cells so they continue encouraging anti-inflammatory immune responses even…",
       "category": null,
@@ -961,8 +961,8 @@
       "id": "2026-08-20-physicians-sue-u-s-government-over-new-dietary-g",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.504642+00:00",
-      "last_updated": "2026-08-23T01:15:13.504644+00:00",
+      "first_seen": "2026-08-23T03:01:22.785110+00:00",
+      "last_updated": "2026-08-23T03:01:22.785112+00:00",
       "headline": "Physicians Sue U.S. Government Over New Dietary Guidelines",
       "summary": "(MedPage Today) -- A physician group filed a lawsuit against HHS and the U.S. Department of Agriculture (USDA), alleging that the government botched the most recent dietary guidelines. The suit was brought by the Physicians Committee for Responsible...",
       "category": null,
@@ -998,8 +998,8 @@
       "id": "2026-08-20-first-therapy-approved-for-dangerous-metabolic-d",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.504749+00:00",
-      "last_updated": "2026-08-23T01:15:13.504751+00:00",
+      "first_seen": "2026-08-23T03:01:22.785214+00:00",
+      "last_updated": "2026-08-23T03:01:22.785216+00:00",
       "headline": "First Therapy Approved for Dangerous Metabolic Disorder",
       "summary": "(MedPage Today) -- The FDA on Wednesday granted accelerated approval to pariglasgene brecaparvovec (Genglycos) as the first treatment for glycogen storage disease type Ia (GSDIa), an inherited metabolic disorder that requires frequent consumption...",
       "category": null,
@@ -1035,8 +1035,8 @@
       "id": "2026-08-20-china-s-solar-power-rollout-is-harming-birds-a-n",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:14.176541+00:00",
-      "last_updated": "2026-08-23T01:15:14.176544+00:00",
+      "first_seen": "2026-08-23T03:01:23.408016+00:00",
+      "last_updated": "2026-08-23T03:01:23.408019+00:00",
       "headline": "China’s solar power rollout is harming birds, a new analysis finds",
       "summary": "A new study finds that China’s solar energy boom is hurting bird diversity",
       "category": null,
@@ -1072,8 +1072,8 @@
       "id": "2026-08-20-physicists-pinpoint-the-perfect-crystal-site-for",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:14.176614+00:00",
-      "last_updated": "2026-08-23T01:15:14.176616+00:00",
+      "first_seen": "2026-08-23T03:01:23.408088+00:00",
+      "last_updated": "2026-08-23T03:01:23.408090+00:00",
       "headline": "Physicists pinpoint the perfect crystal site for an ultra-accurate nuclear clock",
       "summary": "Growing crystals “like alchemy,” researchers plotted out the ideal site within the lattice to build a nuclear clock",
       "category": null,
@@ -1109,8 +1109,8 @@
       "id": "2026-08-20-what-to-know-about-dr-heidi-overton-trump-s-pick",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:12.686676+00:00",
-      "last_updated": "2026-08-23T01:15:12.686680+00:00",
+      "first_seen": "2026-08-23T03:01:21.661789+00:00",
+      "last_updated": "2026-08-23T03:01:21.661792+00:00",
       "headline": "What to know about Dr. Heidi Overton, Trump's pick to lead the FDA",
       "summary": "Dr. Heidi Overton is currently working as a White House policy aide. If confirmed, she would lead an agency of 18,000 staffers who study and regulate food, drugs, medical devices, tobacco and more.",
       "category": null,
@@ -1146,8 +1146,8 @@
       "id": "2026-08-20-europe-s-summer-of-wildfires-is-just-a-taste-of",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:14.176676+00:00",
-      "last_updated": "2026-08-23T01:15:14.176678+00:00",
+      "first_seen": "2026-08-23T03:01:23.408150+00:00",
+      "last_updated": "2026-08-23T03:01:23.408153+00:00",
       "headline": "Europe’s summer of wildfires is just a taste of what’s to come",
       "summary": "The area of Europe affected by wildfires is due to triple, a new study finds",
       "category": null,
@@ -1183,8 +1183,8 @@
       "id": "2026-08-20-life-s-last-universal-common-ancestor-may-predat",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:14.176778+00:00",
-      "last_updated": "2026-08-23T01:15:14.176781+00:00",
+      "first_seen": "2026-08-23T03:01:23.408260+00:00",
+      "last_updated": "2026-08-23T03:01:23.408263+00:00",
       "headline": "Life’s ‘last universal common ancestor’ may predate life itself",
       "summary": "A groundbreaking study hints at a hazy boundary between “life” and “non-life,” as well as two distinct origins of biology on Earth",
       "category": null,
@@ -1220,8 +1220,8 @@
       "id": "2026-08-20-stat-fda-approves-ultragenyx-gene-therapy",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.687645+00:00",
-      "last_updated": "2026-08-23T01:15:13.687648+00:00",
+      "first_seen": "2026-08-23T03:01:22.933504+00:00",
+      "last_updated": "2026-08-23T03:01:22.933510+00:00",
       "headline": "STAT+: FDA approves Ultragenyx gene therapy",
       "summary": "Regeneron wins ultra-rare disease drug approval, a validating win for mRNA research, and more biotech news from The Readout",
       "category": null,
@@ -1259,8 +1259,8 @@
       "id": "2026-08-20-stat-pharmalittle-we-re-reading-about-a-regenero",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.687740+00:00",
-      "last_updated": "2026-08-23T01:15:13.687743+00:00",
+      "first_seen": "2026-08-23T03:01:22.933626+00:00",
+      "last_updated": "2026-08-23T03:01:22.933629+00:00",
       "headline": "STAT+: Pharmalittle: We’re reading about a Regeneron rare disease drug, an Ultragenyx gene therapy, and more",
       "summary": "A Regeneron drug for an ultra-rare disease that causes bone to grow where it shouldn't won U.S. regulatory approval, capping a three-decade effort",
       "category": null,
@@ -1296,8 +1296,8 @@
       "id": "2026-08-20-new-therapies-help-people-with-schizophrenia-but",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:14.020473+00:00",
-      "last_updated": "2026-08-23T01:15:14.020475+00:00",
+      "first_seen": "2026-08-23T03:01:23.303395+00:00",
+      "last_updated": "2026-08-23T03:01:23.303398+00:00",
       "headline": "New therapies help people with schizophrenia – but access is woefully inadequate",
       "summary": "Novel treatments include mental exercises to boost cognitive function, as well as strategies that help people with schizophrenia understand the emotions of others.",
       "category": null,
@@ -1333,8 +1333,8 @@
       "id": "2026-08-20-knee-osteoarthritis-isn-t-inevitable-here-s-what",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.357381+00:00",
-      "last_updated": "2026-08-23T01:15:13.357383+00:00",
+      "first_seen": "2026-08-23T03:01:22.545419+00:00",
+      "last_updated": "2026-08-23T03:01:22.545421+00:00",
       "headline": "Knee osteoarthritis isn’t inevitable — here’s what you can do",
       "summary": "Knee osteoarthritis can seriously affect mobility and quality of life, but its progression isn’t completely out of your control. Exercise, stronger leg muscles, a healthier diet, and even modest weight loss can dramatically reduce stress on the knees and help keep pain in check.",
       "category": null,
@@ -1374,8 +1374,8 @@
       "id": "2026-08-20-schizophrenia-s-lost-brain-connections-follow-a",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.201399+00:00",
-      "last_updated": "2026-08-23T01:15:13.201407+00:00",
+      "first_seen": "2026-08-23T03:01:22.217017+00:00",
+      "last_updated": "2026-08-23T03:01:22.217025+00:00",
       "headline": "Schizophrenia’s lost brain connections follow a surprising pattern",
       "summary": "Specialized brain scans reveal that schizophrenia is linked to widespread loss of the synapses that connect brain cells, with the left side of the brain hit especially hard. The damage follows a surprisingly organized pattern tied to the brain’s chemistry and wiring. Researchers also identified a left frontal region…",
       "category": null,
@@ -1417,8 +1417,8 @@
       "id": "2026-08-20-stat-capricor-therapeutics-duchenne-treatment-is",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.687830+00:00",
-      "last_updated": "2026-08-23T01:15:13.687832+00:00",
+      "first_seen": "2026-08-23T03:01:22.933718+00:00",
+      "last_updated": "2026-08-23T03:01:22.933721+00:00",
       "headline": "STAT+: Capricor Therapeutics’ Duchenne treatment is heading for an FDA rejection",
       "summary": "Capricor Therapeutics is trying to stave off FDA rejection of its cell therapy for Duchenne muscular dystrophy.",
       "category": null,
@@ -1454,8 +1454,8 @@
       "id": "2026-08-20-new-mrna-vaccine-could-reduce-the-recurrence-and",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:12.686813+00:00",
-      "last_updated": "2026-08-23T01:15:12.686815+00:00",
+      "first_seen": "2026-08-23T03:01:21.661924+00:00",
+      "last_updated": "2026-08-23T03:01:21.661927+00:00",
       "headline": "New mRNA vaccine could reduce the recurrence and spread of skin cancer",
       "summary": "Merck and Moderna announced a successful late-stage trial for a melanoma vaccine. NPR's Leila Fadel talks to Dr. Robert Vonderheide of Penn Medicine and the American Association for Cancer Research.",
       "category": null,
@@ -1491,8 +1491,8 @@
       "id": "2026-08-20-opinion-capricor-s-duchenne-muscular-dystrophy-d",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.687942+00:00",
-      "last_updated": "2026-08-23T01:15:13.687945+00:00",
+      "first_seen": "2026-08-23T03:01:22.933820+00:00",
+      "last_updated": "2026-08-23T03:01:22.933823+00:00",
       "headline": "Opinion: Capricor’s Duchenne muscular dystrophy drug and the countless tiny decisions that can make or break a study",
       "summary": "“Regulatory flexibility can be exercised in rare disease without sacrificing rigor,” writes Mindy Leffler, whose son has Duchenne muscular dystrophy.",
       "category": null,
@@ -1530,8 +1530,8 @@
       "id": "2026-08-20-reduce-protein-to-increase-longevity-nutrition-e",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.688035+00:00",
-      "last_updated": "2026-08-23T01:15:13.688038+00:00",
+      "first_seen": "2026-08-23T03:01:22.933887+00:00",
+      "last_updated": "2026-08-23T03:01:22.933889+00:00",
       "headline": "Reduce protein to increase longevity? Nutrition experts say that’s a bad idea",
       "summary": "Reducing protein intake could increase human longevity, researchers recently suggested. That's a bad idea, for several reasons, experts say.",
       "category": null,
@@ -1566,54 +1566,11 @@
       "is_new": false
     },
     {
-      "id": "2026-08-20-ai-designed-intrabodies-could-unlock-new-treatme",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-08-23T01:15:13.201533+00:00",
-      "last_updated": "2026-08-23T01:15:13.201536+00:00",
-      "headline": "AI-designed “intrabodies” could unlock new treatments for Alzheimer’s, Parkinson’s and MND",
-      "summary": "Researchers have developed a new way to turn ordinary antibodies into tiny disease-fighting molecules that can work inside human cells, potentially opening new paths for treating Alzheimer’s, Parkinson’s, Huntington’s disease, and motor neurone disease.",
-      "category": null,
-      "topic_tags": [
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/08/260819041242.htm",
-          "outlet": "ScienceDaily — Mind & Brain",
-          "tier": 2,
-          "role": "origin"
-        },
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/08/260819041242.htm",
-          "outlet": "ScienceDaily — Health",
-          "tier": 2,
-          "role": "corroboration"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-08-20T02:01:27+00:00"
-      },
-      "keyword_hits": [
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-08-23-prebiotic-sodas-may-contain-less-fiber-and-more",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.533062+00:00",
-      "last_updated": "2026-08-23T01:15:15.533065+00:00",
+      "first_seen": "2026-08-23T03:01:24.644431+00:00",
+      "last_updated": "2026-08-23T03:01:24.644434+00:00",
       "headline": "Prebiotic Sodas May Contain Less Fiber and More Sugar Than Advertised",
       "summary": "New research shows that prebiotic sodas may contain higher sugar and lower fiber than claimed. Rapeepong Puttakumwong/Getty A new study found that prebiotic sodas may contain more sugar and less fiber than they claim. The findings show that a majority of prebiotic sodas contain more sugar than diet sodas and flavored…",
       "category": null,
@@ -1647,14 +1604,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-poop-pills-show-promise-for-severe-peanut-allerg",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.521307+00:00",
-      "last_updated": "2026-08-23T01:15:15.521310+00:00",
+      "first_seen": "2026-08-23T03:01:24.632485+00:00",
+      "last_updated": "2026-08-23T03:01:24.632487+00:00",
       "headline": "‘Poop Pills’ Show Promise for Severe Peanut Allergy, Early Research Shows",
       "summary": "elzauer/Moment/Getty Images A preliminary study found that “poop pills” — oral fecal microbiome transplantation (FMT) — increased tolerance to peanuts in some adults with a peanut allergy. Researchers found similar results in mice, with a certain type of gut bacteria playing a key role. While the findings are…",
       "category": null,
@@ -1690,14 +1647,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-5-mental-health-benefits-of-glp-1-drugs-like-oze",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.523060+00:00",
-      "last_updated": "2026-08-23T01:15:15.523063+00:00",
+      "first_seen": "2026-08-23T03:01:24.634207+00:00",
+      "last_updated": "2026-08-23T03:01:24.634209+00:00",
       "headline": "5 Mental Health Benefits of GLP-1 Drugs Like Ozempic, Wegovy",
       "summary": "Studies show that GLP-1 medications may have positive effects on mental health. Image Credit: Delmaine Donson/Getty GLP-1 medications are associated with a lower risk of worsening anxiety and depression. GLP-1 drugs may help reduce key symptoms of binge eating disorder and “food noise.” Other surprising mental health…",
       "category": null,
@@ -1731,14 +1688,14 @@
         "mental health"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-what-is-biblical-eating-inside-tiktok-s-latest-w",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.531273+00:00",
-      "last_updated": "2026-08-23T01:15:15.531276+00:00",
+      "first_seen": "2026-08-23T03:01:24.642635+00:00",
+      "last_updated": "2026-08-23T03:01:24.642638+00:00",
       "headline": "What Is ‘Biblical Eating’? Inside TikTok’s Latest Whole-Food Obsession",
       "summary": "“Biblical eating” is a social media trend that involves making food choices based on scripture. cihatatceken/Getty “Biblical eating” emphasizes foods mentioned in the Bible and has become a popular nutrition trend on social media. Experts say the diet includes many healthy foods, but there’s no evidence that it…",
       "category": null,
@@ -1772,14 +1729,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-your-daily-sugary-drink-habit-could-double-your",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.519447+00:00",
-      "last_updated": "2026-08-23T01:15:15.519450+00:00",
+      "first_seen": "2026-08-23T03:01:24.630753+00:00",
+      "last_updated": "2026-08-23T03:01:24.630756+00:00",
       "headline": "Your Daily Sugary Drink Habit Could Double Your Risk of Stomach Cancer",
       "summary": "Drinking at least one sugary beverage a day could more than double your risk for stomach cancer. Milky Way/Moment/Getty Images A new study reports that drinking at least one sugar-sweetened beverage a day could more than double a person’s risk of stomach cancer. Researchers say that artificially sweetened beverages…",
       "category": null,
@@ -1811,14 +1768,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-why-taking-glp-1s-like-ozempic-before-bariatric",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.522494+00:00",
-      "last_updated": "2026-08-23T01:15:15.522497+00:00",
+      "first_seen": "2026-08-23T03:01:24.633667+00:00",
+      "last_updated": "2026-08-23T03:01:24.633670+00:00",
       "headline": "Why Taking GLP-1s Like Ozempic Before Bariatric Surgery May Not Lead to More Weight Loss",
       "summary": "New research shows that using a GLP-1 before bariatric surgery may not increase weight loss. coldsnowstorm · E+/Getty A new study found that using GLP-1 medications, such as Ozempic or Wegovy, before bariatric surgery was not associated with greater weight loss 12 months after the procedure. Researchers also found no…",
       "category": null,
@@ -1850,14 +1807,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-belly-fat-vs-bmi-which-better-predicts-your-hear",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.524349+00:00",
-      "last_updated": "2026-08-23T01:15:15.524352+00:00",
+      "first_seen": "2026-08-23T03:01:24.635480+00:00",
+      "last_updated": "2026-08-23T03:01:24.635483+00:00",
       "headline": "Belly Fat vs. BMI: Which Better Predicts Your Heart Disease Risk?",
       "summary": "Research shows that a person’s belly fat may be a better predictor of heart disease risk than BMI. ozgurcankaya/E+/Getty A new study reports that the amount of belly fat a person is carrying may be a better predictor of future heart disease risk than their body mass index (BMI). An unhealthy waist circumference or…",
       "category": null,
@@ -1889,14 +1846,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-glp-1s-like-ozempic-wegovy-can-help-maintain-low",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.535777+00:00",
-      "last_updated": "2026-08-23T01:15:15.535780+00:00",
+      "first_seen": "2026-08-23T03:01:24.647245+00:00",
+      "last_updated": "2026-08-23T03:01:24.647247+00:00",
       "headline": "GLP-1s Like Ozempic, Wegovy Can Help Maintain Lower Calorie Intake for Over 1 Year",
       "summary": "Recent research has found that GLP-1s, like Ozempic and Wegovy, can help you maintain a lower calorie intake for more than a year. Image Credit: Jon Challicom/Getty A new study found that people taking semaglutide (Ozempic and Wegovy) maintained a significantly lower calorie intake after 60 weeks on the medication.…",
       "category": null,
@@ -1928,14 +1885,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-are-you-really-maxxing-your-health-what-to-know",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.520891+00:00",
-      "last_updated": "2026-08-23T01:15:15.520894+00:00",
+      "first_seen": "2026-08-23T03:01:24.632122+00:00",
+      "last_updated": "2026-08-23T03:01:24.632125+00:00",
       "headline": "Are You Really ‘Maxxing’ Your Health? What to Know About 4 Viral Health Hacks",
       "summary": "“Maxxing” trends are growing in popularity on social media, but experts say many of these health hacks can be ineffective or even pose health risks. Olga Rolenko · Moment “Maxxing” trends aim to optimize specific aspects of health, with popular examples including proteinmaxxing, fibermaxxing, sleepmaxxing, and…",
       "category": null,
@@ -1967,14 +1924,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-taking-the-stairs-may-lower-your-risk-of-death-f",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.521715+00:00",
-      "last_updated": "2026-08-23T01:15:15.521717+00:00",
+      "first_seen": "2026-08-23T03:01:24.632903+00:00",
+      "last_updated": "2026-08-23T03:01:24.632905+00:00",
       "headline": "Taking the Stairs May Lower Your Risk of Death From Cardiovascular Disease",
       "summary": "New research shows that choosing to take the stairs could help reduce your risk of heart disease and early death. baona · E+/Getty A major study has recently found that taking the stairs may help reduce the risk of dying from cardiovascular disease. The researchers also found that climbing stairs can reduce your risk…",
       "category": null,
@@ -2006,14 +1963,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-blood-thinner-may-slow-cognitive-decline-in-alzh",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.522169+00:00",
-      "last_updated": "2026-08-23T01:15:15.522172+00:00",
+      "first_seen": "2026-08-23T03:01:24.633327+00:00",
+      "last_updated": "2026-08-23T03:01:24.633329+00:00",
       "headline": "Blood Thinner May Slow Cognitive Decline in Alzheimer’s Patients With AFib",
       "summary": "New research suggests that newer blood thinners may not only protect against strokes but also support brain health in people with Alzheimer’s. Tatiana Maksimova/Moment/Getty Images A study has found that blood thinners called NOACs may slow cognitive decline in those with Alzheimer’s. Alzheimer’s patients with AFib…",
       "category": null,
@@ -2045,14 +2002,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-why-binge-watching-that-tv-show-now-may-affect-y",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.533417+00:00",
-      "last_updated": "2026-08-23T01:15:15.533419+00:00",
+      "first_seen": "2026-08-23T03:01:24.644807+00:00",
+      "last_updated": "2026-08-23T03:01:24.644809+00:00",
       "headline": "Why ‘Binge-Watching’ That TV Show Now May Affect Your Brain Later",
       "summary": "Recent research has found that people who watch a lot of TV in midlife showed reduced volume in certain brain regions. Image Credit: Digital Vision/Getty A recent study found that people who reported watching TV “very often” in midlife showed reduced volume in certain brain regions. This included areas associated with…",
       "category": null,
@@ -2084,14 +2041,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-viagra-s-active-ingredient-may-also-help-stop-ca",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.536382+00:00",
-      "last_updated": "2026-08-23T01:15:15.536385+00:00",
+      "first_seen": "2026-08-23T03:01:24.647861+00:00",
+      "last_updated": "2026-08-23T03:01:24.647864+00:00",
       "headline": "Viagra’s Active Ingredient May Also Help Stop Cancer From Spreading",
       "summary": "A recent study found that sildenafil, the active ingredient in Viagra, may stop cancer from metastasizing. BSIP/Getty Images Researchers report that the erectile dysfunction drug Viagra may help slow the spread of cancer. Sildenafil, the active ingredient in Viagra, appears to interfere with cancer cells’ ability to…",
       "category": null,
@@ -2123,14 +2080,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-women-with-type-2-diabetes-may-experience-worse",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.526336+00:00",
-      "last_updated": "2026-08-23T01:15:15.526339+00:00",
+      "first_seen": "2026-08-23T03:01:24.637532+00:00",
+      "last_updated": "2026-08-23T03:01:24.637536+00:00",
       "headline": "Women With Type 2 Diabetes May Experience Worse Menopause Symptoms",
       "summary": "Women with type 2 diabetes or prediabetes report worse menopause symptoms, like hot flashes, a new study found. Justin Paget/DigitalVision/Getty Images Postmenopausal women with type 2 diabetes or prediabetes reported worse menopause symptoms than those without the conditions. Physical symptoms like hot flashes and…",
       "category": null,
@@ -2160,14 +2117,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-glp-1s-like-ozempic-mounjaro-may-lower-fracture",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.527198+00:00",
-      "last_updated": "2026-08-23T01:15:15.527201+00:00",
+      "first_seen": "2026-08-23T03:01:24.638427+00:00",
+      "last_updated": "2026-08-23T03:01:24.638429+00:00",
       "headline": "GLP-1s Like Ozempic, Mounjaro May Lower Fracture Risk in Type 2 Diabetes",
       "summary": "GLP-1 medications may help lower fragility-related fracture risk in people with type 2 diabetes. OLEKSANDRA TROIAN · Moment/Getty A new study found that GLP-1 medications may help reduce the risk of fragility fractures in people with type 2 diabetes. The largest fracture reductions were seen in hip, femur, and spine…",
       "category": null,
@@ -2197,14 +2154,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-hiv-once-weekly-pill-as-effective-as-daily-treat",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.530884+00:00",
-      "last_updated": "2026-08-23T01:15:15.530887+00:00",
+      "first_seen": "2026-08-23T03:01:24.642244+00:00",
+      "last_updated": "2026-08-23T03:01:24.642247+00:00",
       "headline": "HIV: Once-Weekly Pill As Effective As Daily Treatment, Global Study Finds",
       "summary": "A once-weekly HIV pill combining the antiretroviral drugs islatravir and lenacapavir is as effective as a once-daily treatment. fotolgahan/E+/Getty Images A once-weekly oral HIV treatment is as effective as a widely used once-daily regimen, according to a large clinical trial. More than 93% of participants maintained…",
       "category": null,
@@ -2234,14 +2191,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-can-humans-live-forever-study-puts-a-cap-on-life",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.531762+00:00",
-      "last_updated": "2026-08-23T01:15:15.531765+00:00",
+      "first_seen": "2026-08-23T03:01:24.643143+00:00",
+      "last_updated": "2026-08-23T03:01:24.643146+00:00",
       "headline": "Can Humans Live Forever? Study Puts a Cap on Life Span at 194 Years",
       "summary": "A new study may help broaden understanding of the aspects of aging that may ultimately prove impossible to reverse. Maki Nakamura/DigitalVision/Getty Images A new study probes the upper boundaries of human life span, suggesting that even under the most favorable conditions, DNA mutations may still limit life to…",
       "category": null,
@@ -2271,14 +2228,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-pmos-formerly-pcos-linked-to-significantly-highe",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.537827+00:00",
-      "last_updated": "2026-08-23T01:15:15.537830+00:00",
+      "first_seen": "2026-08-23T03:01:24.649307+00:00",
+      "last_updated": "2026-08-23T03:01:24.649309+00:00",
       "headline": "PMOS (Formerly PCOS) Linked to ‘Significantly Higher’ Heart Attack, Stroke Risk",
       "summary": "A new study found that females with PMOS (formerly PCOS) may have a higher risk of developing cardiovascular disease. Image Credit: andreswd/Getty Females with polyendocrine metabolic ovarian syndrome (PMOS) were about four times more likely to develop heart or artery disease than those without it, according to a new…",
       "category": null,
@@ -2308,14 +2265,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-t-maxxing-why-young-men-are-obsessed-with-this-m",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.518051+00:00",
-      "last_updated": "2026-08-23T01:15:15.518057+00:00",
+      "first_seen": "2026-08-23T03:01:24.629388+00:00",
+      "last_updated": "2026-08-23T03:01:24.629394+00:00",
       "headline": "‘T-Maxxing’: Why Young Men Are Obsessed With This Muscle Building Hack",
       "summary": "Young men are “T-maxxing” their testosterone levels on social media to optimize their bodies and mood. aire images/Moment/Getty Images “Testosterone-maxxing” or “T-maxxing” is a social media trend that promotes testosterone for improved strength, appearance, and confidence in young men. While medically appropriate in…",
       "category": null,
@@ -2345,14 +2302,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-moderna-merck-melanoma-vaccine-may-help-reduce-r",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.519046+00:00",
-      "last_updated": "2026-08-23T01:15:15.519049+00:00",
+      "first_seen": "2026-08-23T03:01:24.630345+00:00",
+      "last_updated": "2026-08-23T03:01:24.630348+00:00",
       "headline": "Moderna, Merck Melanoma Vaccine May Help Reduce Recurrence, Spread",
       "summary": "A personalized mRNA melanoma vaccine developed by Moderna and Merck shows promise in reducing recurrence and spread. Iparraguirre Recio · Moment/Getty A late-stage trial found that a personalized mRNA therapy for melanoma outperformed Keytruda alone on two important measures of treatment success. The experimental…",
       "category": null,
@@ -2382,14 +2339,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-a-handful-of-nuts-a-day-may-help-keep-blood-pres",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.520192+00:00",
-      "last_updated": "2026-08-23T01:15:15.520196+00:00",
+      "first_seen": "2026-08-23T03:01:24.631427+00:00",
+      "last_updated": "2026-08-23T03:01:24.631429+00:00",
       "headline": "A Handful of Nuts a Day May Help Keep Blood Pressure at Bay",
       "summary": "New research suggests that eating a handful of nuts each day may help lower your risk of high blood pressure. MirageC · Moment/Getty Eating about a handful of nuts each day was associated with a 20% lower risk of developing hypertension, according to a new analysis. While researchers found that higher nut consumption…",
       "category": null,
@@ -2419,14 +2376,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-mounjaro-may-help-protect-heart-health-in-people",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.525829+00:00",
-      "last_updated": "2026-08-23T01:15:15.525832+00:00",
+      "first_seen": "2026-08-23T03:01:24.636972+00:00",
+      "last_updated": "2026-08-23T03:01:24.636975+00:00",
       "headline": "Mounjaro May Help Protect Heart Health in People With Type 2 Diabetes",
       "summary": "Recent research has found that the popular GLP-1 medication, Mounjaro, may help lower heart attack risk in people with type 2 diabetes. Galina Zhigalova · Moment/Getty New research suggests the GLP-1 medication Mounjaro may lower the risk of heart attack and other major cardiovascular events in people with type 2…",
       "category": null,
@@ -2456,14 +2413,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-even-light-physical-activity-may-lower-stroke-ri",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.526785+00:00",
-      "last_updated": "2026-08-23T01:15:15.526788+00:00",
+      "first_seen": "2026-08-23T03:01:24.638014+00:00",
+      "last_updated": "2026-08-23T03:01:24.638017+00:00",
       "headline": "Even Light Physical Activity May Lower Stroke Risk in People With AFib",
       "summary": "Light physical activity should be integrated alongside treatment for atrial fibrillation (AFib) to improve cardiovascular health. MoMo Productions/DigitalVision/Getty Images Physical activity was associated with a lower risk of stroke and death among people with atrial fibrillation (AFib), according to new research.…",
       "category": null,
@@ -2493,14 +2450,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-longevity-eating-less-protein-linked-to-healthy",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.528572+00:00",
-      "last_updated": "2026-08-23T01:15:15.528575+00:00",
+      "first_seen": "2026-08-23T03:01:24.639878+00:00",
+      "last_updated": "2026-08-23T03:01:24.639882+00:00",
       "headline": "Longevity: Eating Less Protein Linked to Healthy Aging in New Studies",
       "summary": "Recent research shows that eating less protein may slow the aging process. d3sign · Moment/Getty New research suggests reducing protein intake may support healthy aging and longevity. Protein restriction may improve metabolism, reduce inflammation, and reduce cellular damage. Protein needs vary by age, activity level,…",
       "category": null,
@@ -2530,14 +2487,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-higher-body-fat-linked-to-low-sperm-count-testos",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.532230+00:00",
-      "last_updated": "2026-08-23T01:15:15.532233+00:00",
+      "first_seen": "2026-08-23T03:01:24.643615+00:00",
+      "last_updated": "2026-08-23T03:01:24.643618+00:00",
       "headline": "Higher Body Fat Linked to Low Sperm Count, Testosterone. Here's Why",
       "summary": "Higher body fat percentages are associated with lower sperm counts and changes in male reproductive hormones, including testosterone. Kate/E+/Getty Images Researchers say body fat measurements are a better predictor of male reproductive health than body mass index readings. They report that men with higher body fat…",
       "category": null,
@@ -2567,14 +2524,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-early-menopause-linked-to-high-blood-pressure-ho",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.532647+00:00",
-      "last_updated": "2026-08-23T01:15:15.532650+00:00",
+      "first_seen": "2026-08-23T03:01:24.644030+00:00",
+      "last_updated": "2026-08-23T03:01:24.644032+00:00",
       "headline": "Early Menopause Linked to High Blood Pressure. How to Lower Your Risk",
       "summary": "Premature menopause is associated with a greater risk of high blood pressure, especially among those ages 25 to 35. Maskot/Getty Images A study found that early menopause was associated with a greater risk of high blood pressure. The risk was highest when menopause occurred between the ages of 25 and 35. Experts say…",
       "category": null,
@@ -2604,14 +2561,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-08-23-more-than-half-of-u-s-adults-eligible-for-statin",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-08-23T01:15:15.536885+00:00",
-      "last_updated": "2026-08-23T01:15:15.536887+00:00",
+      "first_seen": "2026-08-23T03:01:24.648353+00:00",
+      "last_updated": "2026-08-23T03:01:24.648355+00:00",
       "headline": "More Than Half of U.S. Adults Eligible for Statin Therapy Under New Guidelines",
       "summary": "Three studies evaluated the potential impact of new cholesterol guidelines, which are expected to improve treatment outcomes. Getty Images The AHA, ACC, and other medical organizations released new cholesterol guidelines in 2026. Three studies evaluated the potential impact of the new guidelines and found that they…",
       "category": null,
@@ -2641,7 +2598,7 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     }
   ]
 }
