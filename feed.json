@@ -1,26 +1,26 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-09-11T03:11:51.829335+00:00",
-    "live_count": 61,
+    "generated_at": "2026-09-11T08:36:12.926823+00:00",
+    "live_count": 59,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
       "fetched": 387,
-      "kept": 61,
+      "kept": 59,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
   },
   "stories": [
     {
-      "id": "2026-09-10-does-your-partner-s-snoring-keep-you-up-it-could",
+      "id": "2026-09-10-like-a-hangover-why-your-partner-s-snoring-could",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.311326+00:00",
-      "last_updated": "2026-09-11T03:11:49.311333+00:00",
-      "headline": "Does your partner's snoring keep you up? It could be impacting your health",
+      "first_seen": "2026-09-11T08:36:10.082725+00:00",
+      "last_updated": "2026-09-11T08:36:10.082734+00:00",
+      "headline": "'Like a hangover': Why your partner's snoring could be impacting your health",
       "summary": "Sleeping next to a snorer could be having a negative effect on your health, experts tell the BBC.",
       "category": null,
       "topic_tags": [
@@ -55,8 +55,8 @@
       "id": "2026-09-10-novel-two-prong-biologic-shows-promise-in-asthma",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.888398+00:00",
-      "last_updated": "2026-09-11T03:11:49.888404+00:00",
+      "first_seen": "2026-09-11T08:36:10.826079+00:00",
+      "last_updated": "2026-09-11T08:36:10.826087+00:00",
       "headline": "Novel Two-Prong Biologic Shows Promise in Asthma",
       "summary": "(MedPage Today) -- The unique dual inflammation blockade of investigational lunsekimig showed promise for moderate-to-severe asthma in the phase II AIRCULES study. Targeting both thymic stromal lymphopoietin (TSLP) and interleukin (IL)-13, lunsekimig...",
       "category": null,
@@ -92,8 +92,8 @@
       "id": "2026-09-10-study-warns-on-venetoclax-in-double-hit-lymphoma",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.888460+00:00",
-      "last_updated": "2026-09-11T03:11:49.888461+00:00",
+      "first_seen": "2026-09-11T08:36:10.826197+00:00",
+      "last_updated": "2026-09-11T08:36:10.826200+00:00",
       "headline": "Study Warns on Venetoclax in Double-Hit Lymphoma",
       "summary": "(MedPage Today) -- Adding the BCL2 inhibitor venetoclax (Venclexta) to chemoimmunotherapy led to worse outcomes and excess mortality in patients with newly diagnosed double-hit lymphoma, phase II results from a randomized trial showed. Median...",
       "category": null,
@@ -131,8 +131,8 @@
       "id": "2026-09-10-ms-drugs-differ-most-on-relapses-not-disability",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.888511+00:00",
-      "last_updated": "2026-09-11T03:11:49.888512+00:00",
+      "first_seen": "2026-09-11T08:36:10.826267+00:00",
+      "last_updated": "2026-09-11T08:36:10.826269+00:00",
       "headline": "MS Drugs Differ Most on Relapses, Not Disability, Real-World Study Shows",
       "summary": "(MedPage Today) -- New multiple sclerosis (MS) patients treated with B-cell-depleting drugs or high-efficacy therapies had lower relapse rates and fewer brain lesions than those treated with oral drugs, but at 2 years, disability outcomes were...",
       "category": null,
@@ -168,8 +168,8 @@
       "id": "2026-09-10-how-and-why-to-tell-your-doctor-you-re-feeling-d",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.828073+00:00",
-      "last_updated": "2026-09-11T03:11:51.828081+00:00",
+      "first_seen": "2026-09-11T08:36:12.925974+00:00",
+      "last_updated": "2026-09-11T08:36:12.925983+00:00",
       "headline": "How — and why — to tell your doctor you’re feeling depressed",
       "summary": "We’re making this story accessible to all readers as a public service. Support our journalism by becoming a member today. I don’t know about you, but whenever I go to see my primary care doctor, my mental health isn’t usually at the top of my list of things to talk about. But it should be. […]",
       "category": null,
@@ -205,8 +205,8 @@
       "id": "2026-09-10-preschoolers-with-cystic-fibrosis-get-close-to-n",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.888558+00:00",
-      "last_updated": "2026-09-11T03:11:49.888560+00:00",
+      "first_seen": "2026-09-11T08:36:10.826330+00:00",
+      "last_updated": "2026-09-11T08:36:10.826332+00:00",
       "headline": "Preschoolers With Cystic Fibrosis Get Close to Normal on Alyftrek",
       "summary": "(MedPage Today) -- In cystic fibrosis, vanzacaftor-tezacaftor-deutivacaftor (VTD; Alyftrek) showed great potential for modifying the progression of disease in young children, according to the TIMBERLINE study. Assessing safety and tolerability...",
       "category": null,
@@ -242,8 +242,8 @@
       "id": "2026-09-10-how-can-sport-help-mental-health",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.311819+00:00",
-      "last_updated": "2026-09-11T03:11:49.311821+00:00",
+      "first_seen": "2026-09-11T08:36:10.083330+00:00",
+      "last_updated": "2026-09-11T08:36:10.083332+00:00",
       "headline": "How can sport help mental health?",
       "summary": "At the launch of On Your Side, a mental health toolkit created by the Prince of Wales and the Royal Foundation, BBC Sport's Nesta McGregor asks sporting stars, 'how has sport helped your mental health?'",
       "category": null,
@@ -279,8 +279,8 @@
       "id": "2026-09-10-horse-or-newborn-baby-first-i-m-a-doctor-moment",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.888655+00:00",
-      "last_updated": "2026-09-11T03:11:49.888656+00:00",
+      "first_seen": "2026-09-11T08:36:10.826454+00:00",
+      "last_updated": "2026-09-11T08:36:10.826456+00:00",
       "headline": "Horse or Newborn Baby? First 'I'm a Doctor' Moment; Clean Water Ruling",
       "summary": "(MedPage Today) -- The following contains links to social media websites including Bluesky, X, TikTok, Instagram, Facebook, and LinkedIn. Is this a horse or a newborn baby? Pediatrician Gal Barbut, MD, went to the farm to help suss it out. Is...",
       "category": null,
@@ -316,8 +316,8 @@
       "id": "2026-09-10-platinum-based-chemotherapy-in-childhood-causes",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:50.076669+00:00",
-      "last_updated": "2026-09-11T03:11:50.076675+00:00",
+      "first_seen": "2026-09-11T08:36:10.949217+00:00",
+      "last_updated": "2026-09-11T08:36:10.949227+00:00",
       "headline": "Platinum-based chemotherapy in childhood causes mutations that age the liver",
       "summary": "Platinum chemotherapy aged the liver cells of treated children, making them look more like adult liver cells and possibly raising the long-term risk of new tumors",
       "category": null,
@@ -353,8 +353,8 @@
       "id": "2026-09-10-9-11-s-latest-wave-of-cancers-25-years-on",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.888746+00:00",
-      "last_updated": "2026-09-11T03:11:49.888748+00:00",
+      "first_seen": "2026-09-11T08:36:10.826573+00:00",
+      "last_updated": "2026-09-11T08:36:10.826575+00:00",
       "headline": "9/11's Latest Wave of Cancers, 25 Years On",
       "summary": "(MedPage Today) -- As we mark 25 years since 9/11, it's become clear that the devastation wasn't limited to that day, or even to the first decade after the events. Immediately after 9/11, the first wave of respiratory and mental health conditions...",
       "category": null,
@@ -390,8 +390,8 @@
       "id": "2026-09-10-a-scientist-said-bananas-kill-the-benefit-of-blu",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.157427+00:00",
-      "last_updated": "2026-09-11T03:11:49.157434+00:00",
+      "first_seen": "2026-09-11T08:36:09.861254+00:00",
+      "last_updated": "2026-09-11T08:36:09.861265+00:00",
       "headline": "A scientist said bananas ‘kill’ the benefit of blueberries. Is that true?",
       "summary": "Can blending these popular fruits in a smoothie adversely affect the berries’ nutritional benefits? Experts weigh inThis year was shaping up to be a banner year for bananas: they were lauded as “2026’s big viral taste”, landed pride of place as Prada’s new lip balm flavor, and were even deemed “the next pumpkin…",
       "category": null,
@@ -427,8 +427,8 @@
       "id": "2026-09-10-billy-joel-s-brain-shunt-hot-drinks-and-cancer-d",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.888862+00:00",
-      "last_updated": "2026-09-11T03:11:49.888864+00:00",
+      "first_seen": "2026-09-11T08:36:10.826722+00:00",
+      "last_updated": "2026-09-11T08:36:10.826723+00:00",
       "headline": "Billy Joel's Brain Shunt; Hot Drinks and Cancer; Doctors Missing in Nepal Floods",
       "summary": "(MedPage Today) -- Note that some links may require registration or subscription. Billy Joel revealed he had a shunt implanted in his brain following his normal pressure hydrocephalus diagnosis. (People) Here's how Lasker award-winning sleep...",
       "category": null,
@@ -464,8 +464,8 @@
       "id": "2026-09-10-stat-what-to-expect-from-uniqure-s-upcoming-hunt",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:50.076880+00:00",
-      "last_updated": "2026-09-11T03:11:50.076882+00:00",
+      "first_seen": "2026-09-11T08:36:10.949488+00:00",
+      "last_updated": "2026-09-11T08:36:10.949491+00:00",
       "headline": "STAT+: What to expect from UniQure’s upcoming Huntington’s gene therapy readout",
       "summary": "Before the end of September, UniQure is expected to report four-year results from the closely tracked clinical trial of its gene therapy for Huntington’s disease.",
       "category": null,
@@ -501,8 +501,8 @@
       "id": "2026-09-10-stat-roivant-is-one-of-the-savviest-dealmakers-i",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:50.076930+00:00",
-      "last_updated": "2026-09-11T03:11:50.076932+00:00",
+      "first_seen": "2026-09-11T08:36:10.949555+00:00",
+      "last_updated": "2026-09-11T08:36:10.949557+00:00",
       "headline": "STAT+: Roivant is one of the savviest dealmakers in biotech. It also has a secret weapon",
       "summary": "A Roivant lung disease drug has succeeded in a mid-stage study. But the drug’s origins are another fascinating aspect to the story.",
       "category": null,
@@ -538,8 +538,8 @@
       "id": "2026-09-09-menstrual-fitness-why-some-women-are-cycle-synci",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.311394+00:00",
-      "last_updated": "2026-09-11T03:11:49.311395+00:00",
+      "first_seen": "2026-09-11T08:36:10.082792+00:00",
+      "last_updated": "2026-09-11T08:36:10.082794+00:00",
       "headline": "Menstrual fitness: Why some women are 'cycle-syncing' their workouts",
       "summary": "Menstrual cycles are highly individual, making blanket advice found on social media difficult to apply, researchers say.",
       "category": null,
@@ -585,8 +585,8 @@
       "id": "2026-09-09-h-pylori-exposure-and-colorectal-cancer-the-evid",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.888949+00:00",
-      "last_updated": "2026-09-11T03:11:49.888950+00:00",
+      "first_seen": "2026-09-11T08:36:10.826836+00:00",
+      "last_updated": "2026-09-11T08:36:10.826838+00:00",
       "headline": "H. Pylori Exposure and Colorectal Cancer: The Evidence Grows",
       "summary": "(MedPage Today) -- Exposure to Helicobacter pylori, known for its role in gastric cancer, may also play a role in colorectal cancer (CRC), according to results from a risk-attribution modeling study. Based on estimates from 43 studies, H. pylori...",
       "category": null,
@@ -622,8 +622,8 @@
       "id": "2026-09-09-autoimmune-events-from-checkpoint-inhibitors-oft",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.889018+00:00",
-      "last_updated": "2026-09-11T03:11:49.889020+00:00",
+      "first_seen": "2026-09-11T08:36:10.826923+00:00",
+      "last_updated": "2026-09-11T08:36:10.826925+00:00",
       "headline": "Autoimmune Events From Checkpoint Inhibitors Often Demand Aggressive Treatment",
       "summary": "(MedPage Today) -- Autoimmune reactions to immune checkpoint inhibitors (ICIs) in cancer patients referred to rheumatologists were generally more severe than previously reported, German researchers found, with corticosteroids usually insufficient...",
       "category": null,
@@ -659,8 +659,8 @@
       "id": "2026-09-09-very-hot-drinks-may-damage-the-food-pipe-and-inc",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.311889+00:00",
-      "last_updated": "2026-09-11T03:11:49.311890+00:00",
+      "first_seen": "2026-09-11T08:36:10.083417+00:00",
+      "last_updated": "2026-09-11T08:36:10.083419+00:00",
       "headline": "Very hot drinks may damage the food pipe and increase cancer risk",
       "summary": "A study found people who had their drinks \"very hot\" had around a three times higher risk of the cancer than \"warm\" tea or coffee drinkers.",
       "category": null,
@@ -696,8 +696,8 @@
       "id": "2026-09-09-bursts-of-pink-noise-during-sleep-seem-to-help-c",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.321264+00:00",
-      "last_updated": "2026-09-11T03:11:51.321270+00:00",
+      "first_seen": "2026-09-11T08:36:12.224146+00:00",
+      "last_updated": "2026-09-11T08:36:12.224154+00:00",
       "headline": "Bursts of ‘pink noise’ during sleep seem to help clear waste from brain",
       "summary": "The human brain flushes out waste products while we sleep and now it seems that certain sounds might enhance the process",
       "category": null,
@@ -730,48 +730,11 @@
       "is_new": false
     },
     {
-      "id": "2026-09-09-stat-arpa-h-to-invest-62-million-to-develop-fda",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-11T03:11:50.077086+00:00",
-      "last_updated": "2026-09-11T03:11:50.077087+00:00",
-      "headline": "STAT+: ARPA-H to invest $62 million to develop FDA-authorized AI to help treat heart failure",
-      "summary": "ARPA-H, the government agency that funds cutting edge health research, plans to commit $62.7 million to develop artificial intelligence bots that direct treatment of heart failure.",
-      "category": null,
-      "topic_tags": [
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.statnews.com/2026/09/09/arpa-h-advocate-program-autonomous-ai-bots-for-heart-failure/?utm_campaign=rss",
-          "outlet": "STAT News",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-09T16:01:00+00:00"
-      },
-      "keyword_hits": [
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-09-09-scientists-find-a-bone-building-switch-that-coul",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.682326+00:00",
-      "last_updated": "2026-09-11T03:11:49.682333+00:00",
+      "first_seen": "2026-09-11T08:36:10.622553+00:00",
+      "last_updated": "2026-09-11T08:36:10.622563+00:00",
       "headline": "Scientists find a bone-building switch that could fight osteoporosis",
       "summary": "An experimental compound called AP503 significantly strengthened bones in mice by activating GPR133, a receptor that boosts bone formation while slowing bone loss. Because the same treatment has also been linked to stronger muscles, researchers see intriguing potential for combating age-related decline and…",
       "category": null,
@@ -807,8 +770,8 @@
       "id": "2026-09-09-ozempic-and-wegovy-linked-to-nearly-40-fewer-ast",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.682414+00:00",
-      "last_updated": "2026-09-11T03:11:49.682416+00:00",
+      "first_seen": "2026-09-11T08:36:10.622647+00:00",
+      "last_updated": "2026-09-11T08:36:10.622650+00:00",
       "headline": "Ozempic and Wegovy linked to nearly 40% fewer asthma attacks",
       "summary": "Semaglutide, the drug found in Ozempic and Wegovy, was linked to nearly 40% fewer asthma attacks in a large real-world study. It was also associated with about 20% fewer COPD flare-ups. Researchers say GLP-1 drugs may offer respiratory benefits in addition to their effects on diabetes and obesity, but clinical trials…",
       "category": null,
@@ -846,8 +809,8 @@
       "id": "2026-09-09-the-science-of-friendship-and-loneliness",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:50.506994+00:00",
-      "last_updated": "2026-09-11T03:11:50.507000+00:00",
+      "first_seen": "2026-09-11T08:36:11.444553+00:00",
+      "last_updated": "2026-09-11T08:36:11.444561+00:00",
       "headline": "The science of friendship and loneliness",
       "summary": "Assistant professor of psychology Jessica Ayers’s new research challenges assumptions about the kind of friendships we need",
       "category": null,
@@ -885,8 +848,8 @@
       "id": "2026-09-09-how-to-fight-with-the-people-we-care-about-illus",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:48.991773+00:00",
-      "last_updated": "2026-09-11T03:11:48.991779+00:00",
+      "first_seen": "2026-09-11T08:36:09.482518+00:00",
+      "last_updated": "2026-09-11T08:36:09.482526+00:00",
       "headline": "How to fight with the people we care about, illustrated",
       "summary": "Arguing with a partner or a loved one can be anxiety-inducing. Conflict resolution facilitator Priya Parker explains how to start and end a fight — while easing dread for everyone.",
       "category": null,
@@ -922,8 +885,8 @@
       "id": "2026-09-09-drinking-very-hot-drinks-could-triple-risk-of-oe",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.157819+00:00",
-      "last_updated": "2026-09-11T03:11:49.157822+00:00",
+      "first_seen": "2026-09-11T08:36:09.861771+00:00",
+      "last_updated": "2026-09-11T08:36:09.861774+00:00",
       "headline": "Drinking very hot drinks could triple risk of oesophageal cancer, study finds",
       "summary": "Research finds temperature and amount of hot drinks consumed heightens possibility of developing diseaseDrinking very hot tea and coffee triples the risk of developing cancer of the gullet, the world’s largest study of the link between them has found.The findings show that people should let very hot cups of tea and…",
       "category": null,
@@ -961,8 +924,8 @@
       "id": "2026-09-09-caffeine-may-flip-an-ancient-cellular-switch-lin",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.682473+00:00",
-      "last_updated": "2026-09-11T03:11:49.682474+00:00",
+      "first_seen": "2026-09-11T08:36:10.622723+00:00",
+      "last_updated": "2026-09-11T08:36:10.622725+00:00",
       "headline": "Caffeine may flip an ancient cellular switch linked to slower aging",
       "summary": "Scientists found that caffeine activates an ancient cellular energy system involved in stress resistance, DNA repair, and growth. The discovery could help explain caffeine’s links to healthier aging and may point toward new ways to target the same pathway.",
       "category": null,
@@ -998,8 +961,8 @@
       "id": "2026-09-08-this-cosmic-particle-was-never-meant-to-reach-ea",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:50.507054+00:00",
-      "last_updated": "2026-09-11T03:11:50.507056+00:00",
+      "first_seen": "2026-09-11T08:36:11.444628+00:00",
+      "last_updated": "2026-09-11T08:36:11.444630+00:00",
       "headline": "This cosmic particle was never meant to reach Earth. Now scientists think they finally know why it did",
       "summary": "In 2022 researchers detected a very odd photon from an enormous gamma-ray burst that should have been destroyed on its way to Earth",
       "category": null,
@@ -1035,8 +998,8 @@
       "id": "2026-09-08-something-unique-seems-to-be-happening-to-the-br",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:50.507143+00:00",
-      "last_updated": "2026-09-11T03:11:50.507145+00:00",
+      "first_seen": "2026-09-11T08:36:11.444742+00:00",
+      "last_updated": "2026-09-11T08:36:11.444745+00:00",
       "headline": "Something unique seems to be happening to the brain in menopause",
       "summary": "A new study finds sharp contrasts between brain changes in menopause and those during pregnancy and puberty",
       "category": null,
@@ -1072,8 +1035,8 @@
       "id": "2026-09-08-flushing-the-toilet-can-release-a-plume-of-breat",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.157895+00:00",
-      "last_updated": "2026-09-11T03:11:49.157897+00:00",
+      "first_seen": "2026-09-11T08:36:09.861869+00:00",
+      "last_updated": "2026-09-11T08:36:09.861871+00:00",
       "headline": "Flushing the toilet can release a ‘plume’ of breathable pathogens – and closing the lid won’t stop their escape",
       "summary": "New research shows turbulent flushes create toilet-generated aerosols that can transmit legionella, influenza and norovirusFlushing toilets release particles into the “breathing zone” of adults and can remain suspended in the air for at least 20 seconds, a new study has found.And closing the lid might not be enough to…",
       "category": null,
@@ -1111,8 +1074,8 @@
       "id": "2026-09-08-scientists-discover-a-powerful-new-antivenom-hid",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.682530+00:00",
-      "last_updated": "2026-09-11T03:11:49.682531+00:00",
+      "first_seen": "2026-09-11T08:36:10.622794+00:00",
+      "last_updated": "2026-09-11T08:36:10.622796+00:00",
       "headline": "Scientists discover a powerful new antivenom hidden in rattlesnake blood",
       "summary": "Researchers discovered that combinations of toxin-blocking proteins naturally found in rattlesnake blood can powerfully neutralize venom from several dangerous snake species. In lab tests, the mixtures were about 10 times more potent than a current commercial antivenom, pointing toward a new generation of…",
       "category": null,
@@ -1148,8 +1111,8 @@
       "id": "2026-09-08-ozempic-and-wegovy-may-have-an-unexpected-mental",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.603776+00:00",
-      "last_updated": "2026-09-11T03:11:49.603784+00:00",
+      "first_seen": "2026-09-11T08:36:10.384670+00:00",
+      "last_updated": "2026-09-11T08:36:10.384679+00:00",
       "headline": "Ozempic and Wegovy may have an unexpected mental health benefit",
       "summary": "Semaglutide, the drug behind Ozempic and Wegovy, may have benefits that extend well beyond weight loss and diabetes. In a large Swedish study of nearly 15,000 people with bipolar disorder, its use was linked to a 21% lower risk of psychiatric hospitalization. Researchers think effects on inflammation and brain-related…",
       "category": null,
@@ -1195,8 +1158,8 @@
       "id": "2026-09-08-scientists-observe-einstein-s-gravity-in-the-qua",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.682670+00:00",
-      "last_updated": "2026-09-11T03:11:49.682671+00:00",
+      "first_seen": "2026-09-11T08:36:10.622972+00:00",
+      "last_updated": "2026-09-11T08:36:10.622973+00:00",
       "headline": "Scientists observe Einstein’s gravity in the quantum world for the first time",
       "summary": "Physicists have directly observed a long-predicted quantum effect of gravity, putting one of Einstein’s foundational ideas to a striking new test. Using ultracold atoms, researchers split an atom’s quantum wave so that one part was held in place while the other fell freely under gravity, then reunited the two to…",
       "category": null,
@@ -1232,8 +1195,8 @@
       "id": "2026-09-08-scientists-find-a-new-weakness-in-treatment-resi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.682869+00:00",
-      "last_updated": "2026-09-11T03:11:49.682871+00:00",
+      "first_seen": "2026-09-11T08:36:10.623254+00:00",
+      "last_updated": "2026-09-11T08:36:10.623256+00:00",
       "headline": "Scientists find a new weakness in treatment-resistant prostate cancer",
       "summary": "Researchers have found a potential way to attack prostate cancers that evade treatment by changing their cellular identity. Combining two types of drugs reversed many of these changes and sharply slowed tumor growth in preclinical experiments, offering a possible new strategy for aggressive, treatment-resistant…",
       "category": null,
@@ -1266,54 +1229,11 @@
       "is_new": false
     },
     {
-      "id": "2026-09-08-early-statin-use-linked-to-15-lower-dementia-ris",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-11T03:11:49.604045+00:00",
-      "last_updated": "2026-09-11T03:11:49.604047+00:00",
-      "headline": "Early statin use linked to 15% lower dementia risk",
-      "summary": "Starting statins soon after a type 2 diabetes diagnosis may do more than protect the heart. In a nationwide Danish study of more than 132,000 people, those who began statin treatment within a year of diagnosis had a 15% lower relative risk of developing dementia over 10 years compared with those who did not start…",
-      "category": null,
-      "topic_tags": [
-        "study"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260901070520.htm",
-          "outlet": "ScienceDaily — Mind & Brain",
-          "tier": 2,
-          "role": "origin"
-        },
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260901070520.htm",
-          "outlet": "ScienceDaily — Health",
-          "tier": 2,
-          "role": "corroboration"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-08T07:37:21+00:00"
-      },
-      "keyword_hits": [
-        "study"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-09-11-healthy-diet-and-fitness-program-may-improve-pro",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.688524+00:00",
-      "last_updated": "2026-09-11T03:11:51.688526+00:00",
+      "first_seen": "2026-09-11T08:36:12.757312+00:00",
+      "last_updated": "2026-09-11T08:36:12.757314+00:00",
       "headline": "Healthy Diet and Fitness Program May Improve Prostate Cancer Outcomes",
       "summary": "An enhanced diet and exercise program may support men during prostate cancer treatment, according to a new study. Maki Nakamura/DigitalVision/Getty Images Researchers say a monitored program of diet, exercise, and behavioral support may improve prostate cancer treatment outcomes. The scientists reported that men…",
       "category": null,
@@ -1349,14 +1269,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-20-minute-workout-or-90-minute-nap-may-offset-ef",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.693432+00:00",
-      "last_updated": "2026-09-11T03:11:51.693434+00:00",
+      "first_seen": "2026-09-11T08:36:12.763272+00:00",
+      "last_updated": "2026-09-11T08:36:12.763275+00:00",
       "headline": "20-Minute Workout or 90-Minute Nap May Offset Effects of a Sleepless Night",
       "summary": "A short bout of aerobic exercise or a 90-minute nap may improve cognitive function after a sleepless night. MStudioImages/E+/Getty Images A short workout or a 90-minute nap may help your brain recover after a sleepless night, a new study found. The nap was particularly effective: people who took it performed about 22%…",
       "category": null,
@@ -1392,14 +1312,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-even-low-light-exposure-during-sleep-may-raise-y",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.687777+00:00",
-      "last_updated": "2026-09-11T03:11:51.687782+00:00",
+      "first_seen": "2026-09-11T08:36:12.756405+00:00",
+      "last_updated": "2026-09-11T08:36:12.756412+00:00",
       "headline": "Even Low Light Exposure During Sleep May Raise Your Risk of Heart Failure, AFib",
       "summary": "A new study suggests that light exposure during sleep could raise the risk of cardiovascular disease. Yana Iskayeva/Moment/Getty Images New research shows that even dim light during sleep may thicken heart muscle walls and reduce heart flexibility, potentially raising cardiovascular risk. The findings build on prior…",
       "category": null,
@@ -1433,14 +1353,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-poop-pills-show-promise-for-severe-peanut-allerg",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.698892+00:00",
-      "last_updated": "2026-09-11T03:11:51.698893+00:00",
+      "first_seen": "2026-09-11T08:36:12.770030+00:00",
+      "last_updated": "2026-09-11T08:36:12.770032+00:00",
       "headline": "‘Poop Pills’ Show Promise for Severe Peanut Allergy, Early Research Shows",
       "summary": "elzauer/Moment/Getty Images A preliminary study found that “poop pills” — oral fecal microbiome transplantation (FMT) — increased tolerance to peanuts in some adults with a peanut allergy. Researchers found similar results in mice, with a certain type of gut bacteria playing a key role. While the findings are…",
       "category": null,
@@ -1476,14 +1396,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-79-of-young-adults-show-signs-of-cardiovascular",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.692892+00:00",
-      "last_updated": "2026-09-11T03:11:51.692894+00:00",
+      "first_seen": "2026-09-11T08:36:12.762620+00:00",
+      "last_updated": "2026-09-11T08:36:12.762623+00:00",
       "headline": "79% of Young Adults Show Signs of Cardiovascular, Kidney, Metabolic Issues",
       "summary": "Recent research shows that around 79% of young adults show signs of CKM. pixelfit · E+/Getty A recent study has found that around 79% of adults in their 20s already show signs of cardiovascular-kidney-metabolic (CKM) syndrome. CKM syndrome links obesity, diabetes, kidney disease, and heart disease. Prevention and…",
       "category": null,
@@ -1517,14 +1437,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-keto-diet-may-offer-benefits-beyond-weight-loss",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.694206+00:00",
-      "last_updated": "2026-09-11T03:11:51.694208+00:00",
+      "first_seen": "2026-09-11T08:36:12.764223+00:00",
+      "last_updated": "2026-09-11T08:36:12.764225+00:00",
       "headline": "Keto Diet May Offer Benefits Beyond Weight Loss",
       "summary": "A recent study shows that a keto diet may offer greater health benefits for people with obesity. fcafotodigital · E+/Getty A recent study has shown that a ketogenic (keto) diet may offer more health benefits for people with obesity than other weight loss diets. The researchers compared a keto diet with the…",
       "category": null,
@@ -1558,14 +1478,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-5-mental-health-benefits-of-glp-1-drugs-like-oze",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.700198+00:00",
-      "last_updated": "2026-09-11T03:11:51.700199+00:00",
+      "first_seen": "2026-09-11T08:36:12.771710+00:00",
+      "last_updated": "2026-09-11T08:36:12.771712+00:00",
       "headline": "5 Mental Health Benefits of GLP-1 Drugs Like Ozempic, Wegovy",
       "summary": "Studies show that GLP-1 medications may have positive effects on mental health. Image Credit: Delmaine Donson/Getty GLP-1 medications are associated with a lower risk of worsening anxiety and depression. GLP-1 drugs may help reduce key symptoms of binge eating disorder and “food noise.” Other surprising mental health…",
       "category": null,
@@ -1599,14 +1519,14 @@
         "mental health"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-common-erectile-dysfunction-drug-linked-to-glauc",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.694510+00:00",
-      "last_updated": "2026-09-11T03:11:51.694512+00:00",
+      "first_seen": "2026-09-11T08:36:12.764598+00:00",
+      "last_updated": "2026-09-11T08:36:12.764601+00:00",
       "headline": "Common Erectile Dysfunction Drug Linked to Glaucoma, Researchers Say",
       "summary": "A common erectile dysfunction drug prescribed for men with enlarged prostates is linked to a higher risk of glaucoma. Fred De Noyelle /GODONG/Getty Images A new study suggests that people who take the erectile dysfunction drug Cialis for urinary tract issues may have a higher risk of glaucoma, a vision-threatening eye…",
       "category": null,
@@ -1638,14 +1558,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-your-daily-sugary-drink-habit-could-double-your",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.697562+00:00",
-      "last_updated": "2026-09-11T03:11:51.697564+00:00",
+      "first_seen": "2026-09-11T08:36:12.768325+00:00",
+      "last_updated": "2026-09-11T08:36:12.768327+00:00",
       "headline": "Your Daily Sugary Drink Habit Could Double Your Risk of Stomach Cancer",
       "summary": "Drinking at least one sugary beverage a day could more than double your risk for stomach cancer. Milky Way/Moment/Getty Images A new study reports that drinking at least one sugar-sweetened beverage a day could more than double a person’s risk of stomach cancer. Researchers say that artificially sweetened beverages…",
       "category": null,
@@ -1677,14 +1597,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-why-taking-glp-1s-like-ozempic-before-bariatric",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.699769+00:00",
-      "last_updated": "2026-09-11T03:11:51.699770+00:00",
+      "first_seen": "2026-09-11T08:36:12.771179+00:00",
+      "last_updated": "2026-09-11T08:36:12.771180+00:00",
       "headline": "Why Taking GLP-1s Like Ozempic Before Bariatric Surgery May Not Lead to More Weight Loss",
       "summary": "New research shows that using a GLP-1 before bariatric surgery may not increase weight loss. coldsnowstorm · E+/Getty A new study found that using GLP-1 medications, such as Ozempic or Wegovy, before bariatric surgery was not associated with greater weight loss 12 months after the procedure. Researchers also found no…",
       "category": null,
@@ -1716,14 +1636,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-belly-fat-vs-bmi-which-better-predicts-your-hear",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.701174+00:00",
-      "last_updated": "2026-09-11T03:11:51.701176+00:00",
+      "first_seen": "2026-09-11T08:36:12.772956+00:00",
+      "last_updated": "2026-09-11T08:36:12.772959+00:00",
       "headline": "Belly Fat vs. BMI: Which Better Predicts Your Heart Disease Risk?",
       "summary": "Research shows that a person’s belly fat may be a better predictor of heart disease risk than BMI. ozgurcankaya/E+/Getty A new study reports that the amount of belly fat a person is carrying may be a better predictor of future heart disease risk than their body mass index (BMI). An unhealthy waist circumference or…",
       "category": null,
@@ -1755,14 +1675,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-drinking-alcohol-raises-cancer-risk-is-any-amoun",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.689664+00:00",
-      "last_updated": "2026-09-11T03:11:51.689666+00:00",
+      "first_seen": "2026-09-11T08:36:12.758698+00:00",
+      "last_updated": "2026-09-11T08:36:12.758701+00:00",
       "headline": "Drinking Alcohol Raises Cancer Risk. Is Any Amount Safe for Health?",
       "summary": "Research shows that alcohol consumption can raise your risk of cancer and other health conditions, as well as alcohol-related cancer death. Krit of Studio OMG · Moment/Getty Recent research found that alcohol-attributable cancer deaths in the United States doubled between 1990 and 2023. Another study found that even…",
       "category": null,
@@ -1794,14 +1714,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-glp-1-drugs-like-zepbound-effectively-treat-slee",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.690817+00:00",
-      "last_updated": "2026-09-11T03:11:51.690819+00:00",
+      "first_seen": "2026-09-11T08:36:12.760124+00:00",
+      "last_updated": "2026-09-11T08:36:12.760126+00:00",
       "headline": "GLP-1 Drugs Like Zepbound Effectively Treat Sleep Apnea Alongside CPAP",
       "summary": "A new review found that GLP-1s offer significant improvements in obstructive sleep apnea associated with obesity. vitapix/E+/Getty Images New research has found that GLP-1 drugs may improve obstructive sleep apnea (OSA) related to obesity. The effects of tirzepatide (Zepound), which is FDA approved for OSA, were…",
       "category": null,
@@ -1833,14 +1753,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-shingles-vaccine-may-reduce-cardiovascular-disea",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.691072+00:00",
-      "last_updated": "2026-09-11T03:11:51.691074+00:00",
+      "first_seen": "2026-09-11T08:36:12.760433+00:00",
+      "last_updated": "2026-09-11T08:36:12.760435+00:00",
       "headline": "Shingles Vaccine May Reduce Cardiovascular Disease Risk by 9%",
       "summary": "Recent research shows that the shingles vaccine may help reduce the risk of cardiovascular disease. A boy and the sea · E+/Getty A recent study found that the recombinant shingles vaccine (Shingrix) was associated with a 9% lower cardiovascular disease burden compared with the older live vaccine. Researchers observed…",
       "category": null,
@@ -1872,14 +1792,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-are-you-really-maxxing-your-health-what-to-know",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.698616+00:00",
-      "last_updated": "2026-09-11T03:11:51.698618+00:00",
+      "first_seen": "2026-09-11T08:36:12.769677+00:00",
+      "last_updated": "2026-09-11T08:36:12.769679+00:00",
       "headline": "Are You Really ‘Maxxing’ Your Health? What to Know About 4 Viral Health Hacks",
       "summary": "“Maxxing” trends are growing in popularity on social media, but experts say many of these health hacks can be ineffective or even pose health risks. Olga Rolenko · Moment “Maxxing” trends aim to optimize specific aspects of health, with popular examples including proteinmaxxing, fibermaxxing, sleepmaxxing, and…",
       "category": null,
@@ -1911,14 +1831,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-taking-the-stairs-may-lower-your-risk-of-death-f",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.699192+00:00",
-      "last_updated": "2026-09-11T03:11:51.699194+00:00",
+      "first_seen": "2026-09-11T08:36:12.770430+00:00",
+      "last_updated": "2026-09-11T08:36:12.770431+00:00",
       "headline": "Taking the Stairs May Lower Your Risk of Death From Cardiovascular Disease",
       "summary": "New research shows that choosing to take the stairs could help reduce your risk of heart disease and early death. baona · E+/Getty A major study has recently found that taking the stairs may help reduce the risk of dying from cardiovascular disease. The researchers also found that climbing stairs can reduce your risk…",
       "category": null,
@@ -1950,14 +1870,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-blood-thinner-may-slow-cognitive-decline-in-alzh",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.699526+00:00",
-      "last_updated": "2026-09-11T03:11:51.699528+00:00",
+      "first_seen": "2026-09-11T08:36:12.770852+00:00",
+      "last_updated": "2026-09-11T08:36:12.770854+00:00",
       "headline": "Blood Thinner May Slow Cognitive Decline in Alzheimer’s Patients With AFib",
       "summary": "New research suggests that newer blood thinners may not only protect against strokes but also support brain health in people with Alzheimer’s. Tatiana Maksimova/Moment/Getty Images A study has found that blood thinners called NOACs may slow cognitive decline in those with Alzheimer’s. Alzheimer’s patients with AFib…",
       "category": null,
@@ -1989,14 +1909,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-1-year-tailored-exercise-program-reduces-afib-re",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.690205+00:00",
-      "last_updated": "2026-09-11T03:11:51.690206+00:00",
+      "first_seen": "2026-09-11T08:36:12.759394+00:00",
+      "last_updated": "2026-09-11T08:36:12.759397+00:00",
       "headline": "1-Year Tailored Exercise Program Reduces AFib Recurrence By Nearly 50%",
       "summary": "A one-year clinical trial with a tailored exercise program reduced AFib recurrence by 45%. RealPeopleGroup/E+/Getty Images Exercise interventions are underutilized in the treatment of atrial fibrillation (AFib), an abnormal heart rhythm disorder. A one-year clinical trial with a tailored exercise program reduced time…",
       "category": null,
@@ -2026,14 +1946,14 @@
         "exercise"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-artificial-sweetener-xylitol-linked-to-higher-ri",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.692146+00:00",
-      "last_updated": "2026-09-11T03:11:51.692148+00:00",
+      "first_seen": "2026-09-11T08:36:12.761721+00:00",
+      "last_updated": "2026-09-11T08:36:12.761724+00:00",
       "headline": "Artificial Sweetener Xylitol Linked to Higher Risk of Cardiovascular Events",
       "summary": "A popular sugar substitute known as xylitol is associated with higher risks of heart attack and stroke. Xvision/Moment/Getty Images A common artificial sweetener known as xylitol is associated with an increased risk of cardiovascular events. A new study found that the higher the level of xylitol in the blood, the…",
       "category": null,
@@ -2063,14 +1983,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-common-rheumatoid-arthritis-drug-may-support-hai",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.695827+00:00",
-      "last_updated": "2026-09-11T03:11:51.695829+00:00",
+      "first_seen": "2026-09-11T08:36:12.766203+00:00",
+      "last_updated": "2026-09-11T08:36:12.766205+00:00",
       "headline": "Common Rheumatoid Arthritis Drug May Support Hair Regrowth in Alopecia",
       "summary": "Results from two clinical trials show that a common rheumatoid arthritis drug, upadacitinib, supported hair regrowth in alopecia. Viktoriya Skorikova/Moment/Getty Images Researchers report that the drug upadacitinib, used to treat rheumatoid arthritis, effectively treated the hair loss condition alopecia areata in two…",
       "category": null,
@@ -2100,14 +2020,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-women-with-type-2-diabetes-may-experience-worse",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.702663+00:00",
-      "last_updated": "2026-09-11T03:11:51.702664+00:00",
+      "first_seen": "2026-09-11T08:36:12.774887+00:00",
+      "last_updated": "2026-09-11T08:36:12.774889+00:00",
       "headline": "Women With Type 2 Diabetes May Experience Worse Menopause Symptoms",
       "summary": "Women with type 2 diabetes or prediabetes report worse menopause symptoms, like hot flashes, a new study found. Justin Paget/DigitalVision/Getty Images Postmenopausal women with type 2 diabetes or prediabetes reported worse menopause symptoms than those without the conditions. Physical symptoms like hot flashes and…",
       "category": null,
@@ -2137,14 +2057,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-nearly-1-in-3-women-in-their-20s-have-never-had",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.688092+00:00",
-      "last_updated": "2026-09-11T03:11:51.688094+00:00",
+      "first_seen": "2026-09-11T08:36:12.756786+00:00",
+      "last_updated": "2026-09-11T08:36:12.756788+00:00",
       "headline": "Nearly 1 in 3 Women in Their 20s Have Never Had a Cervical Screening",
       "summary": "According to recent research, nearly 32% of females in their 20s have never had a cervical screening. MoMo Productions · DigitalVision/Getty Recent research found that nearly 1 in 3 women ages 21 to 29 had never been screened for cervical cancer as of 2023, up from about 1 in 8 in 2005. Researchers also found…",
       "category": null,
@@ -2174,14 +2094,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-early-menopause-may-lead-to-faster-onset-of-alzh",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.695448+00:00",
-      "last_updated": "2026-09-11T03:11:51.695451+00:00",
+      "first_seen": "2026-09-11T08:36:12.765738+00:00",
+      "last_updated": "2026-09-11T08:36:12.765741+00:00",
       "headline": "Early Menopause May Lead to Faster Onset of Alzheimer's Disease, Cognitive Decline",
       "summary": "Recent research shows that entering menopause early may lead to faster cognitive decline and an earlier onset of Alzheimer’s disease. Kathrin Ziegler · DigitalVision/Getty Earlier menopause may be associated with faster cognitive decline and less favorable brain health later in life. These associations may persist for…",
       "category": null,
@@ -2211,14 +2131,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-t-maxxing-why-young-men-are-obsessed-with-this-m",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.696565+00:00",
-      "last_updated": "2026-09-11T03:11:51.696567+00:00",
+      "first_seen": "2026-09-11T08:36:12.767080+00:00",
+      "last_updated": "2026-09-11T08:36:12.767082+00:00",
       "headline": "‘T-Maxxing’: Why Young Men Are Obsessed With This Muscle Building Hack",
       "summary": "Young men are “T-maxxing” their testosterone levels on social media to optimize their bodies and mood. aire images/Moment/Getty Images “Testosterone-maxxing” or “T-maxxing” is a social media trend that promotes testosterone for improved strength, appearance, and confidence in young men. While medically appropriate in…",
       "category": null,
@@ -2248,14 +2168,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-moderna-merck-melanoma-vaccine-may-help-reduce-r",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.697269+00:00",
-      "last_updated": "2026-09-11T03:11:51.697271+00:00",
+      "first_seen": "2026-09-11T08:36:12.767966+00:00",
+      "last_updated": "2026-09-11T08:36:12.767969+00:00",
       "headline": "Moderna, Merck Melanoma Vaccine May Help Reduce Recurrence, Spread",
       "summary": "A personalized mRNA melanoma vaccine developed by Moderna and Merck shows promise in reducing recurrence and spread. Iparraguirre Recio · Moment/Getty A late-stage trial found that a personalized mRNA therapy for melanoma outperformed Keytruda alone on two important measures of treatment success. The experimental…",
       "category": null,
@@ -2285,14 +2205,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-a-handful-of-nuts-a-day-may-help-keep-blood-pres",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.698086+00:00",
-      "last_updated": "2026-09-11T03:11:51.698088+00:00",
+      "first_seen": "2026-09-11T08:36:12.768990+00:00",
+      "last_updated": "2026-09-11T08:36:12.768992+00:00",
       "headline": "A Handful of Nuts a Day May Help Keep Blood Pressure at Bay",
       "summary": "New research suggests that eating a handful of nuts each day may help lower your risk of high blood pressure. MirageC · Moment/Getty Eating about a handful of nuts each day was associated with a 20% lower risk of developing hypertension, according to a new analysis. While researchers found that higher nut consumption…",
       "category": null,
@@ -2322,14 +2242,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-11-mounjaro-may-help-protect-heart-health-in-people",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-11T03:11:51.702284+00:00",
-      "last_updated": "2026-09-11T03:11:51.702287+00:00",
+      "first_seen": "2026-09-11T08:36:12.774414+00:00",
+      "last_updated": "2026-09-11T08:36:12.774417+00:00",
       "headline": "Mounjaro May Help Protect Heart Health in People With Type 2 Diabetes",
       "summary": "Recent research has found that the popular GLP-1 medication, Mounjaro, may help lower heart attack risk in people with type 2 diabetes. Galina Zhigalova · Moment/Getty New research suggests the GLP-1 medication Mounjaro may lower the risk of heart attack and other major cardiovascular events in people with type 2…",
       "category": null,
@@ -2359,7 +2279,7 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     }
   ]
 }
