@@ -1,25 +1,64 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-09-16T03:30:38.591726+00:00",
-    "live_count": 59,
+    "generated_at": "2026-09-16T09:05:41.563375+00:00",
+    "live_count": 58,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
       "fetched": 387,
-      "kept": 59,
+      "kept": 58,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
   },
   "stories": [
     {
+      "id": "2026-09-16-21-million-women-live-in-u-s-counties-with-limit",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-16T09:05:37.327989+00:00",
+      "last_updated": "2026-09-16T09:05:37.327996+00:00",
+      "headline": "21 million women live in U.S. counties with limited birth control access",
+      "summary": "EXCLUSIVE EMBARGOED 9/16 Data shared exclusively with NPR shows more than 21 million women in the U.S. need birth control that they can't access. Two reproductive research organizations, Guttmacher and Power to Decide, have created an interactive map that shows county-by-county the availability and the need for low or…",
+      "category": null,
+      "topic_tags": [
+        "gut",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/09/16/nx-s1-5956869/21-million-women-live-in-u-s-counties-with-limited-birth-control-access",
+          "outlet": "NPR Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: NPR Health)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": "2026-09-16T08:43:39+00:00"
+      },
+      "keyword_hits": [
+        "gut",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-09-16-scientists-reversed-biological-age-in-older-adul",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.136866+00:00",
-      "last_updated": "2026-09-16T03:30:36.136874+00:00",
+      "first_seen": "2026-09-16T09:05:39.115355+00:00",
+      "last_updated": "2026-09-16T09:05:39.115364+00:00",
       "headline": "Scientists reversed biological age in older adults in just 4 weeks",
       "summary": "Older adults who changed the balance of fat, carbohydrates, and animal protein in their diets showed signs of reduced biological age after just four weeks. The strongest result appeared in participants eating an omnivorous, lower-fat, higher-carbohydrate diet.",
       "category": null,
@@ -49,14 +88,14 @@
         "diet"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-15-air-pollution-linked-to-higher-suicide-risk-inte",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.420304+00:00",
-      "last_updated": "2026-09-16T03:30:35.420312+00:00",
+      "first_seen": "2026-09-16T09:05:37.632630+00:00",
+      "last_updated": "2026-09-16T09:05:37.632638+00:00",
       "headline": "Air pollution linked to higher suicide risk, international research suggests",
       "summary": "Analysis of 29 studies highlights potentially heightened danger from small particulate matter and nitrogen dioxide Air pollution is associated with an increased risk of suicide and suicidal thoughts, according to research.Environmental pollution is known to be associated with poorer mental health but its role in…",
       "category": null,
@@ -94,8 +133,8 @@
       "id": "2026-09-15-the-people-who-fear-ai-are-wasting-time-fighting",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.590222+00:00",
-      "last_updated": "2026-09-16T03:30:38.590227+00:00",
+      "first_seen": "2026-09-16T09:05:41.562763+00:00",
+      "last_updated": "2026-09-16T09:05:41.562771+00:00",
       "headline": "The people who fear AI are wasting time fighting each other",
       "summary": "Everyone is suddenly freaking out about AI. While AI researchers have been warning about their creations’ capabilities for many years, recent events have made those alarms newly tangible. In the spring, Anthropic announced that AI was beginning to speed up the work of building better AIs, raising fears of “recursive…",
       "category": null,
@@ -131,8 +170,8 @@
       "id": "2026-09-15-novel-drug-cuts-risk-for-death-by-44-in-squamous",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.280735+00:00",
-      "last_updated": "2026-09-16T03:30:36.280743+00:00",
+      "first_seen": "2026-09-16T09:05:39.391985+00:00",
+      "last_updated": "2026-09-16T09:05:39.391992+00:00",
       "headline": "Novel Drug Cuts Risk for Death by 44% in Squamous Lung Cancer Trial",
       "summary": "(MedPage Today) -- Second-line treatment with an investigational anti-CTLA-4 immunotherapy improved survival in squamous non-small cell lung cancer (NSCLC) compared with chemotherapy, according to results of the phase III PRESERVE-003 trial. Among...",
       "category": null,
@@ -168,8 +207,8 @@
       "id": "2026-09-15-social-media-is-promoting-harmful-attitudes-towa",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.420639+00:00",
-      "last_updated": "2026-09-16T03:30:35.420642+00:00",
+      "first_seen": "2026-09-16T09:05:37.632906+00:00",
+      "last_updated": "2026-09-16T09:05:37.632909+00:00",
       "headline": "Social media is promoting harmful attitudes towards sun exposure | Letter",
       "summary": "An awareness campaign isn’t enough. The UK should ban commercial sunbeds, writes Dr Amy PerkinsRising melanoma rates demand more than another awareness campaign (Editorial, 7 August). As a consultant dermatologist with a special interest in the health impacts of social media, I see how digital platforms are…",
       "category": null,
@@ -205,8 +244,8 @@
       "id": "2026-09-15-smelling-chocolate-helped-men-complete-more-reps",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.986130+00:00",
-      "last_updated": "2026-09-16T03:30:35.986138+00:00",
+      "first_seen": "2026-09-16T09:05:38.532234+00:00",
+      "last_updated": "2026-09-16T09:05:38.532242+00:00",
       "headline": "Smelling chocolate helped men complete more reps without feeling more tired",
       "summary": "Simply smelling chocolate helped men complete more leg extension repetitions without making the workout feel harder, with dark chocolate producing the strongest effect. The researchers think familiar food aromas may influence appetite and motivation by making the brain anticipate eating.",
       "category": null,
@@ -250,8 +289,8 @@
       "id": "2026-09-15-it-makes-you-feel-helpless-patients-and-doctors",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.420774+00:00",
-      "last_updated": "2026-09-16T03:30:35.420777+00:00",
+      "first_seen": "2026-09-16T09:05:37.632991+00:00",
+      "last_updated": "2026-09-16T09:05:37.632993+00:00",
       "headline": "‘It makes you feel helpless’: patients and doctors cast doubt on standard treatment for endometriosis",
       "summary": "Natalie Greenwood says surgery is no ‘magic fix’ for chronic pelvic pain – a view backed up by a new study“It’s really frustrating to be in this cycle of continuous surgery. It makes you feel helpless,” says Natalie Greenwood, of a condition that affects her so badly she is “non-functioning most of the time because of…",
       "category": null,
@@ -287,8 +326,8 @@
       "id": "2026-09-15-researchers-warn-social-media-driving-harmful-mi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.420880+00:00",
-      "last_updated": "2026-09-16T03:30:35.420883+00:00",
+      "first_seen": "2026-09-16T09:05:37.633070+00:00",
+      "last_updated": "2026-09-16T09:05:37.633072+00:00",
       "headline": "Researchers warn social media driving harmful misuse of Alzheimer’s blood tests",
       "summary": "Exclusive: Screening if used alone risks leading people to believe they are inevitably going to develop dementiaFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastResearchers have warned that social media may be misleading healthy people into taking…",
       "category": null,
@@ -326,8 +365,8 @@
       "id": "2026-09-15-lsd-could-be-approved-for-anxiety-in-the-us-in-2",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:37.993688+00:00",
-      "last_updated": "2026-09-16T03:30:37.993714+00:00",
+      "first_seen": "2026-09-16T09:05:41.041872+00:00",
+      "last_updated": "2026-09-16T09:05:41.041880+00:00",
       "headline": "LSD could be approved for anxiety in the US in 2027",
       "summary": "The psychedelic drug LSD eased anxiety in a late-stage trial, paving the way for a probable approval in the US within the next two years",
       "category": null,
@@ -363,8 +402,8 @@
       "id": "2026-09-15-air-pollution-spiked-after-the-trump-administrat",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.129214+00:00",
-      "last_updated": "2026-09-16T03:30:35.129221+00:00",
+      "first_seen": "2026-09-16T09:05:37.328058+00:00",
+      "last_updated": "2026-09-16T09:05:37.328060+00:00",
       "headline": "Air pollution spiked after the Trump administration stopped embassy monitoring",
       "summary": "In 2025, the Trump administration ended a long-running program to collect air pollution data at U.S. embassies. A new study suggests that led to a 24-33% increase in local pollution levels.",
       "category": null,
@@ -400,8 +439,8 @@
       "id": "2026-09-15-october-2026-science-history-from-50-100-and-150",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.937535+00:00",
-      "last_updated": "2026-09-16T03:30:36.937542+00:00",
+      "first_seen": "2026-09-16T09:05:40.133913+00:00",
+      "last_updated": "2026-09-16T09:05:40.133919+00:00",
       "headline": "October 2026: Science history from 50, 100 and 150 years ago",
       "summary": "Smallpox eradication; skyscraper excavations; research on the racetrack",
       "category": null,
@@ -437,8 +476,8 @@
       "id": "2026-09-15-i-m-a-psychoanalyst-social-media-is-damaging-chi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.421154+00:00",
-      "last_updated": "2026-09-16T03:30:35.421157+00:00",
+      "first_seen": "2026-09-16T09:05:37.633278+00:00",
+      "last_updated": "2026-09-16T09:05:37.633280+00:00",
       "headline": "I’m a psychoanalyst. Social media is damaging children’s inner lives in ways we don’t fully understand | Robin Kirman",
       "summary": "Discussion has focused on behavioral outcomes. But Meta’s settlement shines a light on damage to young people’s emerging desires and identitiesDuring the landmark social media addiction trial that led to Meta’s recent $17.1bn settlement, a therapist testified that she had once asked the plaintiff – a young woman named…",
       "category": null,
@@ -474,8 +513,8 @@
       "id": "2026-09-15-exercise-and-echocardiograms-in-space-protected",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.424961+00:00",
-      "last_updated": "2026-09-16T03:30:36.424968+00:00",
+      "first_seen": "2026-09-16T09:05:39.696333+00:00",
+      "last_updated": "2026-09-16T09:05:39.696340+00:00",
       "headline": "Exercise — and echocardiograms — in space protected astronauts’ hearts in study",
       "summary": "If humans journey to Mars in 2035, exercise will be critical to keeping their hearts strong in microgravity.",
       "category": null,
@@ -513,8 +552,8 @@
       "id": "2026-09-15-nearly-10-000-patients-reveal-what-works-best-fo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.137203+00:00",
-      "last_updated": "2026-09-16T03:30:36.137206+00:00",
+      "first_seen": "2026-09-16T09:05:39.115614+00:00",
+      "last_updated": "2026-09-16T09:05:39.115616+00:00",
       "headline": "Nearly 10,000 patients reveal what works best for knee arthritis pain relief",
       "summary": "A major analysis of 139 clinical trials involving nearly 10,000 people suggests that some of the simplest treatments may work best for knee osteoarthritis. Knee braces ranked highest overall for reducing pain, stiffness, and mobility problems, while water-based therapy was especially effective for pain and regular…",
       "category": null,
@@ -550,8 +589,8 @@
       "id": "2026-09-14-photodynamic-therapy-for-the-most-common-skin-ca",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.281082+00:00",
-      "last_updated": "2026-09-16T03:30:36.281085+00:00",
+      "first_seen": "2026-09-16T09:05:39.392254+00:00",
+      "last_updated": "2026-09-16T09:05:39.392256+00:00",
       "headline": "Photodynamic Therapy for the Most Common Skin Cancer Wins Approval",
       "summary": "(MedPage Today) -- The FDA approved aminolevulinic acid hydrochloride 10% (Ameluz) in combination with photodynamic therapy for treating adults with superficial basal cell carcinoma, maker Biofrontera announced on Monday. The approval represents...",
       "category": null,
@@ -587,8 +626,8 @@
       "id": "2026-09-14-step-stand-stairs",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.129294+00:00",
-      "last_updated": "2026-09-16T03:30:35.129298+00:00",
+      "first_seen": "2026-09-16T09:05:37.328105+00:00",
+      "last_updated": "2026-09-16T09:05:37.328106+00:00",
       "headline": "Step, stand, stairs",
       "summary": "When it comes to longevity, lots of research has shown how much you move matters. But a new study finds your pace may also be key -- even if you fall far short of daily step goals.",
       "category": null,
@@ -626,8 +665,8 @@
       "id": "2026-09-14-cancer-drug-shortages-continue-with-no-immediate",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.281216+00:00",
-      "last_updated": "2026-09-16T03:30:36.281219+00:00",
+      "first_seen": "2026-09-16T09:05:39.392349+00:00",
+      "last_updated": "2026-09-16T09:05:39.392351+00:00",
       "headline": "Cancer Drug Shortages Continue With No Immediate Path Toward Relief",
       "summary": "(MedPage Today) -- All members of the National Comprehensive Cancer Network (NCCN) that responded to an annual survey reported shortages of commonly used generic chemotherapy drugs, topped by ifosfamide, which was in critically short supply at...",
       "category": null,
@@ -663,8 +702,8 @@
       "id": "2026-09-14-first-therapy-to-target-muscle-loss-in-spinal-mu",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.281283+00:00",
-      "last_updated": "2026-09-16T03:30:36.281285+00:00",
+      "first_seen": "2026-09-16T09:05:39.392398+00:00",
+      "last_updated": "2026-09-16T09:05:39.392400+00:00",
       "headline": "First Therapy to Target Muscle Loss in Spinal Muscular Atrophy Gets FDA Approval",
       "summary": "(MedPage Today) -- The FDA approved apitegromab (Isembyld) injection to treat spinal muscular atrophy (SMA) in adults and pediatric patients ages 2 years and older who currently are receiving an SMN2-targeted treatment, the agency announced Friday...",
       "category": null,
@@ -700,8 +739,8 @@
       "id": "2026-09-14-staff-slept-while-patient-killed-at-nhs-mental-h",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.694278+00:00",
-      "last_updated": "2026-09-16T03:30:35.694286+00:00",
+      "first_seen": "2026-09-16T09:05:37.879063+00:00",
+      "last_updated": "2026-09-16T09:05:37.879071+00:00",
       "headline": "Staff slept while patient killed at NHS mental health unit",
       "summary": "Inquest hears how Rolando Torres-Pena, 22, was able to strangle and kill Hugo Flint-Cahan on a hospital ward in east London.",
       "category": null,
@@ -737,8 +776,8 @@
       "id": "2026-09-14-cancer-is-rising-in-younger-adults-faster-biolog",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.137322+00:00",
-      "last_updated": "2026-09-16T03:30:36.137324+00:00",
+      "first_seen": "2026-09-16T09:05:39.115702+00:00",
+      "last_updated": "2026-09-16T09:05:39.115703+00:00",
       "headline": "Cancer is rising in younger adults. Faster biological aging may help explain why",
       "summary": "Cancer rates are rising in adults under 55, and new research suggests accelerated biological aging may be one piece of the puzzle. Scientists found that people from more recent generations tended to have bodies that appeared biologically older than those of earlier generations at the same chronological age. Greater…",
       "category": null,
@@ -771,48 +810,11 @@
       "is_new": false
     },
     {
-      "id": "2026-09-14-stat-pharmalittle-we-re-reading-about-another-as",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.425250+00:00",
-      "last_updated": "2026-09-16T03:30:36.425253+00:00",
-      "headline": "STAT+: Pharmalittle: We’re reading about another AstraZeneca trial failure, a Novo name change, and more",
-      "summary": "AstraZeneca disclosed that a breast cancer pill failed in a pivotal trial testing it as a first-line therapy in advanced tumors",
-      "category": null,
-      "topic_tags": [
-        "therapy"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.statnews.com/pharmalot/2026/09/14/another-astrazeneca-trial-failure-novo-name-change/?utm_campaign=rss",
-          "outlet": "STAT News",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-14T13:07:51+00:00"
-      },
-      "keyword_hits": [
-        "therapy"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-09-14-scientists-discover-strange-link-between-low-vit",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.137114+00:00",
-      "last_updated": "2026-09-16T03:30:36.137118+00:00",
+      "first_seen": "2026-09-16T09:05:39.115551+00:00",
+      "last_updated": "2026-09-16T09:05:39.115553+00:00",
       "headline": "Scientists discover strange link between low vitamin D and pain",
       "summary": "Low vitamin D levels may make recovery from breast cancer surgery more painful, according to a study of 184 women undergoing mastectomy. Patients with vitamin D deficiency were three times more likely to experience moderate to severe pain during the first 24 hours after surgery and also used substantially more of the…",
       "category": null,
@@ -848,8 +850,8 @@
       "id": "2026-09-14-shingles-can-cause-severe-chronic-pain-new-resea",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.786320+00:00",
-      "last_updated": "2026-09-16T03:30:36.786328+00:00",
+      "first_seen": "2026-09-16T09:05:40.055110+00:00",
+      "last_updated": "2026-09-16T09:05:40.055119+00:00",
       "headline": "Shingles can cause severe chronic pain – new research on how exosomes alter neurons offers pathways to treatment",
       "summary": "The pain of post-herpetic neuralgia can drive people to the point of suicide. Researchers are getting closer to pinpointing its cause – which may extend to other forms of neuropathy.",
       "category": null,
@@ -885,8 +887,8 @@
       "id": "2026-09-14-touring-can-take-musicians-to-isolating-anxious",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.421531+00:00",
-      "last_updated": "2026-09-16T03:30:35.421534+00:00",
+      "first_seen": "2026-09-16T09:05:37.633643+00:00",
+      "last_updated": "2026-09-16T09:05:37.633644+00:00",
       "headline": "Touring can take musicians to isolating, anxious extremes. Access to therapy on the road is a vital support",
       "summary": "I know from our early days how high-pressure road life can be. While big tours often hire therapists, grassroots acts can’t afford it. I’m pleased to back a new scheme that aims to change thatWhen Radiohead started touring, it was hugely exciting, but we got signed when we had been going for five or six years and had…",
       "category": null,
@@ -922,8 +924,8 @@
       "id": "2026-09-14-the-one-change-that-worked-i-was-terrified-of-th",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.421749+00:00",
-      "last_updated": "2026-09-16T03:30:35.421752+00:00",
+      "first_seen": "2026-09-16T09:05:37.633732+00:00",
+      "last_updated": "2026-09-16T09:05:37.633734+00:00",
       "headline": "The one change that worked: I was terrified of the dentist – until I found a very special one",
       "summary": "After an agonising experience, I avoided checkups for four years. But a practice that assured a stress-free process for scared patients was transformativeI haven’t always been afraid of the dentist. If you had asked me a decade ago whether sitting in the dentist’s chair filled me with dread or made me break out in a…",
       "category": null,
@@ -959,8 +961,8 @@
       "id": "2026-09-14-research-finds-short-bursts-of-vigorous-movement",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.129394+00:00",
-      "last_updated": "2026-09-16T03:30:35.129396+00:00",
+      "first_seen": "2026-09-16T09:05:37.328172+00:00",
+      "last_updated": "2026-09-16T09:05:37.328174+00:00",
       "headline": "Research finds short bursts of vigorous movement are also beneficial for longevity",
       "summary": "When it comes to longevity, lots of research has shown how much you move matters. But a new study finds your pace may also be key -- even if you fall far short of daily step goals.",
       "category": null,
@@ -998,8 +1000,8 @@
       "id": "2026-09-14-popular-sweetener-byproduct-damages-dna-in-human",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.137532+00:00",
-      "last_updated": "2026-09-16T03:30:36.137534+00:00",
+      "first_seen": "2026-09-16T09:05:39.115870+00:00",
+      "last_updated": "2026-09-16T09:05:39.115872+00:00",
       "headline": "Popular sweetener byproduct damages DNA in human cells",
       "summary": "Sucralose, the artificial sweetener used in Splenda, came under scrutiny after a study found that a related chemical damaged DNA and weakened the gut barrier in laboratory experiments. But later findings have complicated that alarming picture.",
       "category": null,
@@ -1037,8 +1039,8 @@
       "id": "2026-09-13-researchers-hope-powerful-new-microscope-will-re",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.421851+00:00",
-      "last_updated": "2026-09-16T03:30:35.421853+00:00",
+      "first_seen": "2026-09-16T09:05:37.633806+00:00",
+      "last_updated": "2026-09-16T09:05:37.633807+00:00",
       "headline": "Researchers hope powerful new microscope will reveal ‘root cause’ of incurable bowel disease",
       "summary": "No run-of-the-mill tech, ‘Curie’ operates at 10 times the resolution of conventional microscopy and could spur discoveries leading to new treatmentThe number of young people living with debilitating and incurable bowel conditions worldwide is growing, but researchers now hope a one-of-a-kind microscope will help them…",
       "category": null,
@@ -1074,8 +1076,8 @@
       "id": "2026-09-13-most-men-don-t-know-dairy-is-linked-to-prostate",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.137779+00:00",
-      "last_updated": "2026-09-16T03:30:36.137782+00:00",
+      "first_seen": "2026-09-16T09:05:39.116039+00:00",
+      "last_updated": "2026-09-16T09:05:39.116041+00:00",
       "headline": "Most men don’t know dairy is linked to prostate cancer risk",
       "summary": "Most men may be missing an important dietary clue about prostate cancer. A new survey found that only 20% knew research has linked dairy consumption with increased prostate cancer risk, while 66% said they would consider avoiding dairy after learning about the connection. Studies have also associated plant-based diets…",
       "category": null,
@@ -1113,8 +1115,8 @@
       "id": "2026-09-13-how-our-sense-of-beauty-takes-shape-in-the-brain",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.937924+00:00",
-      "last_updated": "2026-09-16T03:30:36.937928+00:00",
+      "first_seen": "2026-09-16T09:05:40.134188+00:00",
+      "last_updated": "2026-09-16T09:05:40.134190+00:00",
       "headline": "How our sense of beauty takes shape in the brain",
       "summary": "A new study tries to map why humans can experience beauty collectively",
       "category": null,
@@ -1150,8 +1152,8 @@
       "id": "2026-09-13-ai-uncovers-hidden-ozempic-side-effects-across-4",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:36.137470+00:00",
-      "last_updated": "2026-09-16T03:30:36.137473+00:00",
+      "first_seen": "2026-09-16T09:05:39.115811+00:00",
+      "last_updated": "2026-09-16T09:05:39.115813+00:00",
       "headline": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
       "summary": "AI analysis of 400,000 Reddit posts found that users of drugs such as Ozempic, Wegovy, Mounjaro, and Zepbound reported unexpected symptoms including menstrual changes, chills, hot flashes, and fatigue. Researchers cannot say the medications caused these problems, but the patterns may reveal overlooked signals worth…",
       "category": null,
@@ -1184,48 +1186,11 @@
       "is_new": false
     },
     {
-      "id": "2026-09-13-i-ve-lost-everything-my-child-my-house-my-money",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-16T03:30:35.422001+00:00",
-      "last_updated": "2026-09-16T03:30:35.422003+00:00",
-      "headline": "‘I’ve lost everything – my child, my house, my money’: how Israel’s war on Gaza has changed men",
-      "summary": "The impact of the conflict on Palestinian men is a largely undiscussed topic. Four civilians talk about their lives and relationshipsBefore the war, Ahmed, 39, had a busy life. He was pursuing a PhD in factchecking and had three jobs: as a radio presenter, editor of a local factchecking website and researcher at an…",
-      "category": null,
-      "topic_tags": [
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/global-development/2026/sep/13/palestinian-men-war-gaza-israel-war",
-          "outlet": "The Guardian — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-13T10:00:05+00:00"
-      },
-      "keyword_hits": [
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-09-16-healthy-diet-and-fitness-program-may-improve-pro",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.377071+00:00",
-      "last_updated": "2026-09-16T03:30:38.377074+00:00",
+      "first_seen": "2026-09-16T09:05:41.398263+00:00",
+      "last_updated": "2026-09-16T09:05:41.398265+00:00",
       "headline": "Healthy Diet and Fitness Program May Improve Prostate Cancer Outcomes",
       "summary": "An enhanced diet and exercise program may support men during prostate cancer treatment, according to a new study. Maki Nakamura/DigitalVision/Getty Images Researchers say a monitored program of diet, exercise, and behavioral support may improve prostate cancer treatment outcomes. The scientists reported that men…",
       "category": null,
@@ -1261,14 +1226,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-20-minute-workout-or-90-minute-nap-may-offset-ef",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.383272+00:00",
-      "last_updated": "2026-09-16T03:30:38.383275+00:00",
+      "first_seen": "2026-09-16T09:05:41.403117+00:00",
+      "last_updated": "2026-09-16T09:05:41.403120+00:00",
       "headline": "20-Minute Workout or 90-Minute Nap May Offset Effects of a Sleepless Night",
       "summary": "A short bout of aerobic exercise or a 90-minute nap may improve cognitive function after a sleepless night. MStudioImages/E+/Getty Images A short workout or a 90-minute nap may help your brain recover after a sleepless night, a new study found. The nap was particularly effective: people who took it performed about 22%…",
       "category": null,
@@ -1304,14 +1269,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-even-low-light-exposure-during-sleep-may-raise-y",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.376203+00:00",
-      "last_updated": "2026-09-16T03:30:38.376206+00:00",
+      "first_seen": "2026-09-16T09:05:41.397548+00:00",
+      "last_updated": "2026-09-16T09:05:41.397550+00:00",
       "headline": "Even Low Light Exposure During Sleep May Raise Your Risk of Heart Failure, AFib",
       "summary": "A new study suggests that light exposure during sleep could raise the risk of cardiovascular disease. Yana Iskayeva/Moment/Getty Images New research shows that even dim light during sleep may thicken heart muscle walls and reduce heart flexibility, potentially raising cardiovascular risk. The findings build on prior…",
       "category": null,
@@ -1345,14 +1310,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-why-your-morning-coffee-may-boost-your-mood-befo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.374447+00:00",
-      "last_updated": "2026-09-16T03:30:38.374451+00:00",
+      "first_seen": "2026-09-16T09:05:41.396077+00:00",
+      "last_updated": "2026-09-16T09:05:41.396079+00:00",
       "headline": "Why Your Morning Coffee May Boost Your Mood Before You Even Take a Sip",
       "summary": "The aroma of cofee may help boost your mood, according to recent research. Busakorn Pongparnit · Moment/Getty The aroma of coffee may help improve mood and reduce feelings of stress, according to a small study of healthy young adults. Smelling coffee was linked to reductions in tension, fatigue, confusion, and other…",
       "category": null,
@@ -1388,14 +1353,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-poop-pills-show-promise-for-severe-peanut-allerg",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.390545+00:00",
-      "last_updated": "2026-09-16T03:30:38.390548+00:00",
+      "first_seen": "2026-09-16T09:05:41.408604+00:00",
+      "last_updated": "2026-09-16T09:05:41.408606+00:00",
       "headline": "‘Poop Pills’ Show Promise for Severe Peanut Allergy, Early Research Shows",
       "summary": "elzauer/Moment/Getty Images A preliminary study found that “poop pills” — oral fecal microbiome transplantation (FMT) — increased tolerance to peanuts in some adults with a peanut allergy. Researchers found similar results in mice, with a certain type of gut bacteria playing a key role. While the findings are…",
       "category": null,
@@ -1431,14 +1396,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-love-to-read-your-book-habit-may-lower-alzheimer",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.373649+00:00",
-      "last_updated": "2026-09-16T03:30:38.373654+00:00",
+      "first_seen": "2026-09-16T09:05:41.395411+00:00",
+      "last_updated": "2026-09-16T09:05:41.395417+00:00",
       "headline": "Love to Read? Your Book Habit May Lower Alzheimer’s Risk by 33%",
       "summary": "Research shows that reading has many benefits for people of all ages. Goodboy Picture Company · E+/Getty Research shows that reading for pleasure has various benefits for people of all ages. Reading has been linked to better cognitive skills and mental well-being, as well as lower levels of stress and loneliness. For…",
       "category": null,
@@ -1472,14 +1437,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-79-of-young-adults-show-signs-of-cardiovascular",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.382557+00:00",
-      "last_updated": "2026-09-16T03:30:38.382560+00:00",
+      "first_seen": "2026-09-16T09:05:41.402570+00:00",
+      "last_updated": "2026-09-16T09:05:41.402572+00:00",
       "headline": "79% of Young Adults Show Signs of Cardiovascular, Kidney, Metabolic Issues",
       "summary": "Recent research shows that around 79% of young adults show signs of CKM. pixelfit · E+/Getty A recent study has found that around 79% of adults in their 20s already show signs of cardiovascular-kidney-metabolic (CKM) syndrome. CKM syndrome links obesity, diabetes, kidney disease, and heart disease. Prevention and…",
       "category": null,
@@ -1513,14 +1478,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-keto-diet-may-offer-benefits-beyond-weight-loss",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.384296+00:00",
-      "last_updated": "2026-09-16T03:30:38.384299+00:00",
+      "first_seen": "2026-09-16T09:05:41.403902+00:00",
+      "last_updated": "2026-09-16T09:05:41.403905+00:00",
       "headline": "Keto Diet May Offer Benefits Beyond Weight Loss",
       "summary": "A recent study shows that a keto diet may offer greater health benefits for people with obesity. fcafotodigital · E+/Getty A recent study has shown that a ketogenic (keto) diet may offer more health benefits for people with obesity than other weight loss diets. The researchers compared a keto diet with the…",
       "category": null,
@@ -1554,14 +1519,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-5-mental-health-benefits-of-glp-1-drugs-like-oze",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.392298+00:00",
-      "last_updated": "2026-09-16T03:30:38.392301+00:00",
+      "first_seen": "2026-09-16T09:05:41.409905+00:00",
+      "last_updated": "2026-09-16T09:05:41.409907+00:00",
       "headline": "5 Mental Health Benefits of GLP-1 Drugs Like Ozempic, Wegovy",
       "summary": "Studies show that GLP-1 medications may have positive effects on mental health. Image Credit: Delmaine Donson/Getty GLP-1 medications are associated with a lower risk of worsening anxiety and depression. GLP-1 drugs may help reduce key symptoms of binge eating disorder and “food noise.” Other surprising mental health…",
       "category": null,
@@ -1595,14 +1560,14 @@
         "mental health"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-common-erectile-dysfunction-drug-linked-to-glauc",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.384679+00:00",
-      "last_updated": "2026-09-16T03:30:38.384682+00:00",
+      "first_seen": "2026-09-16T09:05:41.404197+00:00",
+      "last_updated": "2026-09-16T09:05:41.404198+00:00",
       "headline": "Common Erectile Dysfunction Drug Linked to Glaucoma, Researchers Say",
       "summary": "A common erectile dysfunction drug prescribed for men with enlarged prostates is linked to a higher risk of glaucoma. Fred De Noyelle /GODONG/Getty Images A new study suggests that people who take the erectile dysfunction drug Cialis for urinary tract issues may have a higher risk of glaucoma, a vision-threatening eye…",
       "category": null,
@@ -1634,14 +1599,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-your-daily-sugary-drink-habit-could-double-your",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.388797+00:00",
-      "last_updated": "2026-09-16T03:30:38.388799+00:00",
+      "first_seen": "2026-09-16T09:05:41.407252+00:00",
+      "last_updated": "2026-09-16T09:05:41.407253+00:00",
       "headline": "Your Daily Sugary Drink Habit Could Double Your Risk of Stomach Cancer",
       "summary": "Drinking at least one sugary beverage a day could more than double your risk for stomach cancer. Milky Way/Moment/Getty Images A new study reports that drinking at least one sugar-sweetened beverage a day could more than double a person’s risk of stomach cancer. Researchers say that artificially sweetened beverages…",
       "category": null,
@@ -1673,14 +1638,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-why-taking-glp-1s-like-ozempic-before-bariatric",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.391755+00:00",
-      "last_updated": "2026-09-16T03:30:38.391757+00:00",
+      "first_seen": "2026-09-16T09:05:41.409479+00:00",
+      "last_updated": "2026-09-16T09:05:41.409480+00:00",
       "headline": "Why Taking GLP-1s Like Ozempic Before Bariatric Surgery May Not Lead to More Weight Loss",
       "summary": "New research shows that using a GLP-1 before bariatric surgery may not increase weight loss. coldsnowstorm · E+/Getty A new study found that using GLP-1 medications, such as Ozempic or Wegovy, before bariatric surgery was not associated with greater weight loss 12 months after the procedure. Researchers also found no…",
       "category": null,
@@ -1712,14 +1677,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-drinking-alcohol-raises-cancer-risk-is-any-amoun",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.378423+00:00",
-      "last_updated": "2026-09-16T03:30:38.378426+00:00",
+      "first_seen": "2026-09-16T09:05:41.399379+00:00",
+      "last_updated": "2026-09-16T09:05:41.399381+00:00",
       "headline": "Drinking Alcohol Raises Cancer Risk. Is Any Amount Safe for Health?",
       "summary": "Research shows that alcohol consumption can raise your risk of cancer and other health conditions, as well as alcohol-related cancer death. Krit of Studio OMG · Moment/Getty Recent research found that alcohol-attributable cancer deaths in the United States doubled between 1990 and 2023. Another study found that even…",
       "category": null,
@@ -1751,14 +1716,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-glp-1-drugs-like-zepbound-effectively-treat-slee",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.379843+00:00",
-      "last_updated": "2026-09-16T03:30:38.379846+00:00",
+      "first_seen": "2026-09-16T09:05:41.400499+00:00",
+      "last_updated": "2026-09-16T09:05:41.400501+00:00",
       "headline": "GLP-1 Drugs Like Zepbound Effectively Treat Sleep Apnea Alongside CPAP",
       "summary": "A new review found that GLP-1s offer significant improvements in obstructive sleep apnea associated with obesity. vitapix/E+/Getty Images New research has found that GLP-1 drugs may improve obstructive sleep apnea (OSA) related to obesity. The effects of tirzepatide (Zepound), which is FDA approved for OSA, were…",
       "category": null,
@@ -1790,14 +1755,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-shingles-vaccine-may-reduce-cardiovascular-disea",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.380178+00:00",
-      "last_updated": "2026-09-16T03:30:38.380180+00:00",
+      "first_seen": "2026-09-16T09:05:41.400744+00:00",
+      "last_updated": "2026-09-16T09:05:41.400745+00:00",
       "headline": "Shingles Vaccine May Reduce Cardiovascular Disease Risk by 9%",
       "summary": "Recent research shows that the shingles vaccine may help reduce the risk of cardiovascular disease. A boy and the sea · E+/Getty A recent study found that the recombinant shingles vaccine (Shingrix) was associated with a 9% lower cardiovascular disease burden compared with the older live vaccine. Researchers observed…",
       "category": null,
@@ -1829,14 +1794,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-are-you-really-maxxing-your-health-what-to-know",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.390181+00:00",
-      "last_updated": "2026-09-16T03:30:38.390184+00:00",
+      "first_seen": "2026-09-16T09:05:41.408333+00:00",
+      "last_updated": "2026-09-16T09:05:41.408335+00:00",
       "headline": "Are You Really ‘Maxxing’ Your Health? What to Know About 4 Viral Health Hacks",
       "summary": "“Maxxing” trends are growing in popularity on social media, but experts say many of these health hacks can be ineffective or even pose health risks. Olga Rolenko · Moment “Maxxing” trends aim to optimize specific aspects of health, with popular examples including proteinmaxxing, fibermaxxing, sleepmaxxing, and…",
       "category": null,
@@ -1868,14 +1833,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-taking-the-stairs-may-lower-your-risk-of-death-f",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.390983+00:00",
-      "last_updated": "2026-09-16T03:30:38.390987+00:00",
+      "first_seen": "2026-09-16T09:05:41.408914+00:00",
+      "last_updated": "2026-09-16T09:05:41.408916+00:00",
       "headline": "Taking the Stairs May Lower Your Risk of Death From Cardiovascular Disease",
       "summary": "New research shows that choosing to take the stairs could help reduce your risk of heart disease and early death. baona · E+/Getty A major study has recently found that taking the stairs may help reduce the risk of dying from cardiovascular disease. The researchers also found that climbing stairs can reduce your risk…",
       "category": null,
@@ -1907,14 +1872,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-blood-thinner-may-slow-cognitive-decline-in-alzh",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.391415+00:00",
-      "last_updated": "2026-09-16T03:30:38.391417+00:00",
+      "first_seen": "2026-09-16T09:05:41.409236+00:00",
+      "last_updated": "2026-09-16T09:05:41.409238+00:00",
       "headline": "Blood Thinner May Slow Cognitive Decline in Alzheimer’s Patients With AFib",
       "summary": "New research suggests that newer blood thinners may not only protect against strokes but also support brain health in people with Alzheimer’s. Tatiana Maksimova/Moment/Getty Images A study has found that blood thinners called NOACs may slow cognitive decline in those with Alzheimer’s. Alzheimer’s patients with AFib…",
       "category": null,
@@ -1946,14 +1911,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-1-year-tailored-exercise-program-reduces-afib-re",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.379099+00:00",
-      "last_updated": "2026-09-16T03:30:38.379102+00:00",
+      "first_seen": "2026-09-16T09:05:41.399922+00:00",
+      "last_updated": "2026-09-16T09:05:41.399924+00:00",
       "headline": "1-Year Tailored Exercise Program Reduces AFib Recurrence By Nearly 50%",
       "summary": "A one-year clinical trial with a tailored exercise program reduced AFib recurrence by 45%. RealPeopleGroup/E+/Getty Images Exercise interventions are underutilized in the treatment of atrial fibrillation (AFib), an abnormal heart rhythm disorder. A one-year clinical trial with a tailored exercise program reduced time…",
       "category": null,
@@ -1983,14 +1948,14 @@
         "exercise"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-artificial-sweetener-xylitol-linked-to-higher-ri",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.381579+00:00",
-      "last_updated": "2026-09-16T03:30:38.381582+00:00",
+      "first_seen": "2026-09-16T09:05:41.401778+00:00",
+      "last_updated": "2026-09-16T09:05:41.401781+00:00",
       "headline": "Artificial Sweetener Xylitol Linked to Higher Risk of Cardiovascular Events",
       "summary": "A popular sugar substitute known as xylitol is associated with higher risks of heart attack and stroke. Xvision/Moment/Getty Images A common artificial sweetener known as xylitol is associated with an increased risk of cardiovascular events. A new study found that the higher the level of xylitol in the blood, the…",
       "category": null,
@@ -2020,14 +1985,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-common-rheumatoid-arthritis-drug-may-support-hai",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.386389+00:00",
-      "last_updated": "2026-09-16T03:30:38.386391+00:00",
+      "first_seen": "2026-09-16T09:05:41.405499+00:00",
+      "last_updated": "2026-09-16T09:05:41.405500+00:00",
       "headline": "Common Rheumatoid Arthritis Drug May Support Hair Regrowth in Alopecia",
       "summary": "Results from two clinical trials show that a common rheumatoid arthritis drug, upadacitinib, supported hair regrowth in alopecia. Viktoriya Skorikova/Moment/Getty Images Researchers report that the drug upadacitinib, used to treat rheumatoid arthritis, effectively treated the hair loss condition alopecia areata in two…",
       "category": null,
@@ -2057,14 +2022,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-love-your-coffee-piping-hot-it-may-raise-your-es",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.375766+00:00",
-      "last_updated": "2026-09-16T03:30:38.375769+00:00",
+      "first_seen": "2026-09-16T09:05:41.397183+00:00",
+      "last_updated": "2026-09-16T09:05:41.397186+00:00",
       "headline": "Love Your Coffee Piping Hot? It May Raise Your Esophageal Cancer Risk",
       "summary": "Drinking coffee or tea at very high temperatures could triple your risk of esophageal cancer, researchers say. alvarez/E+/Getty Images Researchers have found a possible link between drinking very hot drinks and esophageal cancer. Drinking coffee or tea at too high a temperature was associated with a threefold risk.…",
       "category": null,
@@ -2094,14 +2059,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-nearly-1-in-3-women-in-their-20s-have-never-had",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.376557+00:00",
-      "last_updated": "2026-09-16T03:30:38.376560+00:00",
+      "first_seen": "2026-09-16T09:05:41.397854+00:00",
+      "last_updated": "2026-09-16T09:05:41.397856+00:00",
       "headline": "Nearly 1 in 3 Women in Their 20s Have Never Had a Cervical Screening",
       "summary": "According to recent research, nearly 32% of females in their 20s have never had a cervical screening. MoMo Productions · DigitalVision/Getty Recent research found that nearly 1 in 3 women ages 21 to 29 had never been screened for cervical cancer as of 2023, up from about 1 in 8 in 2005. Researchers also found…",
       "category": null,
@@ -2131,14 +2096,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-early-menopause-may-lead-to-faster-onset-of-alzh",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.385898+00:00",
-      "last_updated": "2026-09-16T03:30:38.385901+00:00",
+      "first_seen": "2026-09-16T09:05:41.405121+00:00",
+      "last_updated": "2026-09-16T09:05:41.405123+00:00",
       "headline": "Early Menopause May Lead to Faster Onset of Alzheimer's Disease, Cognitive Decline",
       "summary": "Recent research shows that entering menopause early may lead to faster cognitive decline and an earlier onset of Alzheimer’s disease. Kathrin Ziegler · DigitalVision/Getty Earlier menopause may be associated with faster cognitive decline and less favorable brain health later in life. These associations may persist for…",
       "category": null,
@@ -2168,14 +2133,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-t-maxxing-why-young-men-are-obsessed-with-this-m",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.387417+00:00",
-      "last_updated": "2026-09-16T03:30:38.387421+00:00",
+      "first_seen": "2026-09-16T09:05:41.406247+00:00",
+      "last_updated": "2026-09-16T09:05:41.406249+00:00",
       "headline": "‘T-Maxxing’: Why Young Men Are Obsessed With This Muscle Building Hack",
       "summary": "Young men are “T-maxxing” their testosterone levels on social media to optimize their bodies and mood. aire images/Moment/Getty Images “Testosterone-maxxing” or “T-maxxing” is a social media trend that promotes testosterone for improved strength, appearance, and confidence in young men. While medically appropriate in…",
       "category": null,
@@ -2205,14 +2170,14 @@
         "social media"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-moderna-merck-melanoma-vaccine-may-help-reduce-r",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.388395+00:00",
-      "last_updated": "2026-09-16T03:30:38.388399+00:00",
+      "first_seen": "2026-09-16T09:05:41.406967+00:00",
+      "last_updated": "2026-09-16T09:05:41.406969+00:00",
       "headline": "Moderna, Merck Melanoma Vaccine May Help Reduce Recurrence, Spread",
       "summary": "A personalized mRNA melanoma vaccine developed by Moderna and Merck shows promise in reducing recurrence and spread. Iparraguirre Recio · Moment/Getty A late-stage trial found that a personalized mRNA therapy for melanoma outperformed Keytruda alone on two important measures of treatment success. The experimental…",
       "category": null,
@@ -2242,14 +2207,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-16-a-handful-of-nuts-a-day-may-help-keep-blood-pres",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-16T03:30:38.389473+00:00",
-      "last_updated": "2026-09-16T03:30:38.389475+00:00",
+      "first_seen": "2026-09-16T09:05:41.407763+00:00",
+      "last_updated": "2026-09-16T09:05:41.407765+00:00",
       "headline": "A Handful of Nuts a Day May Help Keep Blood Pressure at Bay",
       "summary": "New research suggests that eating a handful of nuts each day may help lower your risk of high blood pressure. MirageC · Moment/Getty Eating about a handful of nuts each day was associated with a 20% lower risk of developing hypertension, according to a new analysis. While researchers found that higher nut consumption…",
       "category": null,
@@ -2279,7 +2244,7 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     }
   ]
 }
