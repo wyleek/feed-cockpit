@@ -1,19 +1,16 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-09-20T20:41:48.234022+00:00",
-    "live_count": 20,
+    "generated_at": "2026-09-20T23:00:00.685151+00:00",
+    "live_count": 47,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
-    "dead_feeds": [
-      "ScienceDaily — Mind & Brain",
-      "Healthline News"
-    ],
+    "dead_feeds": [],
     "stats": {
-      "fetched": 277,
-      "kept": 20,
-      "feeds_ok": 10,
-      "feeds_dead": 2
+      "fetched": 387,
+      "kept": 47,
+      "feeds_ok": 12,
+      "feeds_dead": 0
     }
   },
   "stories": [
@@ -21,8 +18,8 @@
       "id": "2026-09-20-no-veteran-should-need-a-passport-to-find-hope-w",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.276868+00:00",
-      "last_updated": "2026-09-20T20:41:46.276876+00:00",
+      "first_seen": "2026-09-20T22:59:57.953077+00:00",
+      "last_updated": "2026-09-20T22:59:57.953084+00:00",
       "headline": "'No Veteran Should Need a Passport to Find Hope': What We Heard This Week",
       "summary": "(MedPage Today) -- \"No veteran should need a passport to find hope.\" -- Marine Corps veteran Eric Jansen, of the Balanced Veterans Network, urging the FDA to consider psychedelic drugs for severe mental health conditions. \"We've had a real word...",
       "category": null,
@@ -52,14 +49,14 @@
         "mental health"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-20-adults-with-severe-mental-illness-die-15-to-20-y",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:45.470595+00:00",
-      "last_updated": "2026-09-20T20:41:45.470603+00:00",
+      "first_seen": "2026-09-20T22:59:56.290116+00:00",
+      "last_updated": "2026-09-20T22:59:56.290124+00:00",
       "headline": "Adults with severe mental illness die 15 to 20 years earlier from diseases such as cancer",
       "summary": "Exclusive: Stark health inequalities in terms of deaths before age of 75, NHS data revealsAdults with severe mental illness are nearly five times more likely than their peers to die from serious physical diseases before the age of 75, according to research.The analysis of NHS data by the Rethink Mental Illness charity…",
       "category": null,
@@ -95,8 +92,8 @@
       "id": "2026-09-20-8-common-food-additives-linked-to-high-blood-pre",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.034005+00:00",
-      "last_updated": "2026-09-20T20:41:46.034012+00:00",
+      "first_seen": "2026-09-20T22:59:57.449710+00:00",
+      "last_updated": "2026-09-20T22:59:57.449718+00:00",
       "headline": "8 common food additives linked to high blood pressure and heart disease",
       "summary": "Common preservatives hiding in processed foods may carry unexpected heart risks, with heavy consumption linked to substantially higher rates of high blood pressure and cardiovascular disease. Researchers identified eight widely used preservatives associated with hypertension, although the observational study cannot…",
       "category": null,
@@ -134,8 +131,8 @@
       "id": "2026-09-20-photos-the-precarious-life-of-fisherfolk",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:45.201386+00:00",
-      "last_updated": "2026-09-20T20:41:45.201392+00:00",
+      "first_seen": "2026-09-20T22:59:55.909079+00:00",
+      "last_updated": "2026-09-20T22:59:55.909086+00:00",
       "headline": "PHOTOS: The precarious life of fisherfolk",
       "summary": "In the bustling heart of the southern Indian city of Chennai is a market that never sleeps, where residents from the poorest neighborhoods wage a battle of survival with the sea.",
       "category": null,
@@ -171,8 +168,8 @@
       "id": "2026-09-20-why-we-should-all-be-partying-more",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:48.232740+00:00",
-      "last_updated": "2026-09-20T20:41:48.232749+00:00",
+      "first_seen": "2026-09-20T23:00:00.684666+00:00",
+      "last_updated": "2026-09-20T23:00:00.684675+00:00",
       "headline": "Why we should all be partying more",
       "summary": "We are in the midst of a loneliness epidemic: More than half of Americans say they feel isolated, and we’re getting together less and less. In 2023, only about 4 percent of adults said they went to a party on a weekend or holiday. According to Imogen Willetts, a party historian and author of the […]",
       "category": null,
@@ -208,8 +205,8 @@
       "id": "2026-09-20-ancient-dna-reveals-how-plague-kept-returning-fo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.034099+00:00",
-      "last_updated": "2026-09-20T20:41:46.034100+00:00",
+      "first_seen": "2026-09-20T22:59:57.449814+00:00",
+      "last_updated": "2026-09-20T22:59:57.449816+00:00",
       "headline": "Ancient DNA reveals how plague kept returning for 400 years after the Black Death",
       "summary": "Ancient DNA reveals that plague repeatedly returned to Europe for more than 400 years after the Black Death, evolving into new lineages and spreading through trade, migration, and war. Researchers also developed a method to date ancient plague genomes more precisely, linking many of them to specific outbreaks recorded…",
       "category": null,
@@ -245,8 +242,8 @@
       "id": "2026-09-20-hidden-gut-defect-that-may-explain-why-ibd-keeps",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.034184+00:00",
-      "last_updated": "2026-09-20T20:41:46.034186+00:00",
+      "first_seen": "2026-09-20T22:59:57.449913+00:00",
+      "last_updated": "2026-09-20T22:59:57.449914+00:00",
       "headline": "Hidden gut defect that may explain why IBD keeps coming back",
       "summary": "Researchers have uncovered a hidden molecular warning sign of inflammatory bowel disease (IBD) that can linger even when patients feel well and appear to be in remission. By studying around 900 human gut biopsies and patient-derived mini-intestines, the team found that intestinal cells can remain unusually primed to…",
       "category": null,
@@ -286,8 +283,8 @@
       "id": "2026-09-19-oxygen-for-preterm-infants-top-down-therapy-in-c",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.276992+00:00",
-      "last_updated": "2026-09-20T20:41:46.276993+00:00",
+      "first_seen": "2026-09-20T22:59:57.953213+00:00",
+      "last_updated": "2026-09-20T22:59:57.953214+00:00",
       "headline": "Oxygen for Preterm Infants; Top-Down Therapy in Crohn's",
       "summary": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El Paso, look at the top medical...",
       "category": null,
@@ -323,8 +320,8 @@
       "id": "2026-09-19-betel-nuts-are-a-top-mind-affecting-substance-no",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:45.201448+00:00",
-      "last_updated": "2026-09-20T20:41:45.201449+00:00",
+      "first_seen": "2026-09-20T22:59:55.909148+00:00",
+      "last_updated": "2026-09-20T22:59:55.909150+00:00",
       "headline": "Betel nuts are a top mind-affecting substance. Now there's evidence of ancient use",
       "summary": "New research on ancient human remains suggests the habitual usage of betel nuts, a plant seed with mind-affecting properties that is popular in parts of Asia despite the health risks it presents.",
       "category": null,
@@ -360,8 +357,8 @@
       "id": "2026-09-19-the-ai-threat-keeping-scientists-up-at-night",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:48.232849+00:00",
-      "last_updated": "2026-09-20T20:41:48.232851+00:00",
+      "first_seen": "2026-09-20T23:00:00.684784+00:00",
+      "last_updated": "2026-09-20T23:00:00.684786+00:00",
       "headline": "The AI threat keeping scientists up at night",
       "summary": "AI will be the death of me. And you. And everyone we know. At least, this is what a growing number of technologists and policymakers fear. Last week, a lead researcher at Anthropic declared that there was a greater than 10 percent chance of AI “killing all humans” within the next decade. This nerve-racking forecast,…",
       "category": null,
@@ -397,8 +394,8 @@
       "id": "2026-09-18-gene-therapy-for-sanfilippo-syndrome-gets-fda-no",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.277052+00:00",
-      "last_updated": "2026-09-20T20:41:46.277054+00:00",
+      "first_seen": "2026-09-20T22:59:57.953305+00:00",
+      "last_updated": "2026-09-20T22:59:57.953306+00:00",
       "headline": "Gene Therapy for Sanfilippo Syndrome Gets FDA Nod",
       "summary": "(MedPage Today) -- The FDA on Thursday approved rebisufligene etisparvovec (Fayuvi) as the first treatment for pediatric patients with mucopolysaccharidosis type IIIA (MPS IIIA), also known as Sanfilippo syndrome type A, the agency announced Thursday...",
       "category": null,
@@ -434,8 +431,8 @@
       "id": "2026-09-18-study-challenges-standard-of-prolonged-antibioti",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.277165+00:00",
-      "last_updated": "2026-09-20T20:41:46.277166+00:00",
+      "first_seen": "2026-09-20T22:59:57.953435+00:00",
+      "last_updated": "2026-09-20T22:59:57.953436+00:00",
       "headline": "Study 'Challenges' Standard of Prolonged Antibiotics for Orthopedic Infections",
       "summary": "(MedPage Today) -- Giving no more than a week's worth of systemic antibiotics was as effective as a standard multi-week course for preventing treatment failure in patients who underwent surgery for orthopedic infection paired with implant of a...",
       "category": null,
@@ -471,8 +468,8 @@
       "id": "2026-09-18-why-ai-is-speeding-up-scientific-research-but-no",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:47.058093+00:00",
-      "last_updated": "2026-09-20T20:41:47.058100+00:00",
+      "first_seen": "2026-09-20T22:59:58.931977+00:00",
+      "last_updated": "2026-09-20T22:59:58.931984+00:00",
       "headline": "Why AI is speeding up scientific research but not lab experiments",
       "summary": "A new report from Google, Google DeepMind and M.I.T. finds that researchers are using AI—a lot. It’s just not helping as much in the lab",
       "category": null,
@@ -508,8 +505,8 @@
       "id": "2026-09-18-new-cochrane-review-cardiac-rehab-should-be-an-e",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.277288+00:00",
-      "last_updated": "2026-09-20T20:41:46.277289+00:00",
+      "first_seen": "2026-09-20T22:59:57.953576+00:00",
+      "last_updated": "2026-09-20T22:59:57.953578+00:00",
       "headline": "New Cochrane Review: Cardiac Rehab Should Be an Easy Yes for Way More People",
       "summary": "(MedPage Today) -- The benefits of cardiac rehabilitation (CR) in coronary heart disease (CHD) held up better than ever in an updated Cochrane review, and they looked increasingly applicable to more people and exercise programs. A meta-analysis...",
       "category": null,
@@ -545,8 +542,8 @@
       "id": "2026-09-18-stat-roche-expands-its-boston-footprint-with-new",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.508418+00:00",
-      "last_updated": "2026-09-20T20:41:46.508425+00:00",
+      "first_seen": "2026-09-20T22:59:58.191494+00:00",
+      "last_updated": "2026-09-20T22:59:58.191501+00:00",
       "headline": "STAT+: Roche expands its Boston footprint with new research center",
       "summary": "A gene therapy approved for Sanfilippo syndrome, good and bad news for Xenon Pharma, and more biotech news",
       "category": null,
@@ -584,8 +581,8 @@
       "id": "2026-09-18-how-bad-healthcare-can-derail-a-woman-s-entire-l",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:48.233007+00:00",
-      "last_updated": "2026-09-20T20:41:48.233008+00:00",
+      "first_seen": "2026-09-20T23:00:00.684966+00:00",
+      "last_updated": "2026-09-20T23:00:00.684968+00:00",
       "headline": "How bad healthcare can derail a woman’s entire life",
       "summary": "When we think about the stakes in healthcare, we tend to think of them in terms of life and death, being sick or being healthy. The conversation is about your physical well-being and maybe your mental health — and it pretty much stops there. But health affects so much more than your body’s biology or even […]",
       "category": null,
@@ -621,8 +618,8 @@
       "id": "2026-09-18-study-flags-rsv-deaths-in-kids-not-eligible-for",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.277367+00:00",
-      "last_updated": "2026-09-20T20:41:46.277368+00:00",
+      "first_seen": "2026-09-20T22:59:57.953669+00:00",
+      "last_updated": "2026-09-20T22:59:57.953671+00:00",
       "headline": "Study Flags RSV Deaths in Kids Not Eligible for Protection",
       "summary": "(MedPage Today) -- Children and adolescents ineligible for respiratory syncytial virus (RSV) immunization accounted for a substantial proportion of the RSV-associated intensive care unit (ICU) admissions and deaths in recent years, a U.S. cohort...",
       "category": null,
@@ -658,8 +655,8 @@
       "id": "2026-09-18-these-blood-thinners-may-have-an-unexpected-bene",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.034281+00:00",
-      "last_updated": "2026-09-20T20:41:46.034283+00:00",
+      "first_seen": "2026-09-20T22:59:57.306403+00:00",
+      "last_updated": "2026-09-20T22:59:57.306412+00:00",
       "headline": "These blood thinners may have an unexpected benefit for Alzheimer’s patients",
       "summary": "Newer blood thinners may do more than prevent strokes in people with Alzheimer’s disease and atrial fibrillation. Researchers found that patients taking NOACs experienced a slower decline in cognitive function than those using warfarin or no blood thinners. The effect was modest each year but could add up over time.",
       "category": null,
@@ -672,12 +669,18 @@
       "sources": [
         {
           "url": "https://www.sciencedaily.com/releases/2026/09/260917003732.htm",
-          "outlet": "ScienceDaily — Health",
+          "outlet": "ScienceDaily — Mind & Brain",
           "tier": 2,
           "role": "origin"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003732.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "corroboration"
         }
       ],
-      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
       "caveats": null,
       "score": 5.9,
       "score_breakdown": {
@@ -695,8 +698,8 @@
       "id": "2026-09-18-ozempic-can-change-your-body-can-it-change-your",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:46.034334+00:00",
-      "last_updated": "2026-09-20T20:41:46.034335+00:00",
+      "first_seen": "2026-09-20T22:59:57.450065+00:00",
+      "last_updated": "2026-09-20T22:59:57.450067+00:00",
       "headline": "Ozempic can change your body. Can it change your life?",
       "summary": "Ozempic and other GLP-1 medications can improve blood sugar, weight, and cardiovascular health, but researchers found little evidence that they also improve mental health, employment, marriage, or overall well-being. The findings suggest the drugs’ broader life effects may be subtler than their dramatic physical…",
       "category": null,
@@ -734,8 +737,8 @@
       "id": "2026-09-18-there-s-a-long-history-of-athletes-pooing-themse",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-20T20:41:45.471053+00:00",
-      "last_updated": "2026-09-20T20:41:45.471055+00:00",
+      "first_seen": "2026-09-20T22:59:56.290645+00:00",
+      "last_updated": "2026-09-20T22:59:56.290648+00:00",
       "headline": "There’s a long history of athletes pooing themselves mid-race – why, and how can you avoid it?",
       "summary": "Since the ancient Olympics, athletes like Hyrox competitor Joanna Wietrzyk have experienced runner’s diarrhoea. What does the science say about extreme exercise’s ‘mechanical jostling of the intestines’?Soiling yourself in public sounds like a bad dream. But the Australian athlete Joanna Wietrzyk has now apologised…",
       "category": null,
@@ -766,6 +769,1057 @@
       ],
       "generated": [],
       "is_new": false
+    },
+    {
+      "id": "2026-09-20-healthy-diet-and-fitness-program-may-improve-pro",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.447409+00:00",
+      "last_updated": "2026-09-20T23:00:00.447410+00:00",
+      "headline": "Healthy Diet and Fitness Program May Improve Prostate Cancer Outcomes",
+      "summary": "An enhanced diet and exercise program may support men during prostate cancer treatment, according to a new study. Maki Nakamura/DigitalVision/Getty Images Researchers say a monitored program of diet, exercise, and behavioral support may improve prostate cancer treatment outcomes. The scientists reported that men…",
+      "category": null,
+      "topic_tags": [
+        "exercise",
+        "diet",
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/healthy-diet-fitness-program-improves-prostate-cancer-treatment",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 9.7,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 10,
+        "published": null
+      },
+      "keyword_hits": [
+        "exercise",
+        "diet",
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-20-minute-workout-or-90-minute-nap-may-offset-ef",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.452348+00:00",
+      "last_updated": "2026-09-20T23:00:00.452350+00:00",
+      "headline": "20-Minute Workout or 90-Minute Nap May Offset Effects of a Sleepless Night",
+      "summary": "A short bout of aerobic exercise or a 90-minute nap may improve cognitive function after a sleepless night. MStudioImages/E+/Getty Images A short workout or a 90-minute nap may help your brain recover after a sleepless night, a new study found. The nap was particularly effective: people who took it performed about 22%…",
+      "category": null,
+      "topic_tags": [
+        "sleep",
+        "exercise",
+        "workout",
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/workout-or-nap-may-offset-effects-sleepless-night",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 9.7,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 10,
+        "published": null
+      },
+      "keyword_hits": [
+        "sleep",
+        "exercise",
+        "workout",
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-even-low-light-exposure-during-sleep-may-raise-y",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.446730+00:00",
+      "last_updated": "2026-09-20T23:00:00.446732+00:00",
+      "headline": "Even Low Light Exposure During Sleep May Raise Your Risk of Heart Failure, AFib",
+      "summary": "A new study suggests that light exposure during sleep could raise the risk of cardiovascular disease. Yana Iskayeva/Moment/Getty Images New research shows that even dim light during sleep may thicken heart muscle walls and reduce heart flexibility, potentially raising cardiovascular risk. The findings build on prior…",
+      "category": null,
+      "topic_tags": [
+        "sleep",
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/nighttime-light-exposure-cardiovascular-disease-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 9.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": null
+      },
+      "keyword_hits": [
+        "sleep",
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-why-your-morning-coffee-may-boost-your-mood-befo",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.445419+00:00",
+      "last_updated": "2026-09-20T23:00:00.445421+00:00",
+      "headline": "Why Your Morning Coffee May Boost Your Mood Before You Even Take a Sip",
+      "summary": "The aroma of cofee may help boost your mood, according to recent research. Busakorn Pongparnit · Moment/Getty The aroma of coffee may help improve mood and reduce feelings of stress, according to a small study of healthy young adults. Smelling coffee was linked to reductions in tension, fatigue, confusion, and other…",
+      "category": null,
+      "topic_tags": [
+        "stress",
+        "young adults",
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/morning-coffee-boost-your-mood-before-you-take-sip",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.7,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 10,
+        "published": null
+      },
+      "keyword_hits": [
+        "stress",
+        "young adults",
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-is-diet-quality-more-important-for-weight-loss-t",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.444453+00:00",
+      "last_updated": "2026-09-20T23:00:00.444455+00:00",
+      "headline": "Is Diet Quality More Important For Weight Loss Than Counting Calories?",
+      "summary": "Recent research shows that diet quality may help improve overall health more than just counting calories. fcafotodigital · E+/Getty A two-year study found that a Mediterranean-style diet and a calorie-focused weight loss program led to similar amounts of weight loss. People following the Mediterranean-style diet saw…",
+      "category": null,
+      "topic_tags": [
+        "diet",
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/diet-quality-more-important-couting-calories-weight-loss",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": null
+      },
+      "keyword_hits": [
+        "diet",
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-love-to-read-your-book-habit-may-lower-alzheimer",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.444812+00:00",
+      "last_updated": "2026-09-20T23:00:00.444815+00:00",
+      "headline": "Love to Read? Your Book Habit May Lower Alzheimer’s Risk by 33%",
+      "summary": "Research shows that reading has many benefits for people of all ages. Goodboy Picture Company · E+/Getty Research shows that reading for pleasure has various benefits for people of all ages. Reading has been linked to better cognitive skills and mental well-being, as well as lower levels of stress and loneliness. For…",
+      "category": null,
+      "topic_tags": [
+        "stress",
+        "loneliness",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/book-habit-may-lower-alzheimers-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": null
+      },
+      "keyword_hits": [
+        "stress",
+        "loneliness",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-79-of-young-adults-show-signs-of-cardiovascular",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.451796+00:00",
+      "last_updated": "2026-09-20T23:00:00.451798+00:00",
+      "headline": "79% of Young Adults Show Signs of Cardiovascular, Kidney, Metabolic Issues",
+      "summary": "Recent research shows that around 79% of young adults show signs of CKM. pixelfit · E+/Getty A recent study has found that around 79% of adults in their 20s already show signs of cardiovascular-kidney-metabolic (CKM) syndrome. CKM syndrome links obesity, diabetes, kidney disease, and heart disease. Prevention and…",
+      "category": null,
+      "topic_tags": [
+        "young adults",
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/young-adults-show-signs-cardiovascular-kidney-metabolic-issues",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": null
+      },
+      "keyword_hits": [
+        "young adults",
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-keto-diet-may-offer-benefits-beyond-weight-loss",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.453131+00:00",
+      "last_updated": "2026-09-20T23:00:00.453133+00:00",
+      "headline": "Keto Diet May Offer Benefits Beyond Weight Loss",
+      "summary": "A recent study shows that a keto diet may offer greater health benefits for people with obesity. fcafotodigital · E+/Getty A recent study has shown that a ketogenic (keto) diet may offer more health benefits for people with obesity than other weight loss diets. The researchers compared a keto diet with the…",
+      "category": null,
+      "topic_tags": [
+        "diet",
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/keto-diet-benefits-byond-weight-loss",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": null
+      },
+      "keyword_hits": [
+        "diet",
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-common-erectile-dysfunction-drug-linked-to-glauc",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.453442+00:00",
+      "last_updated": "2026-09-20T23:00:00.453443+00:00",
+      "headline": "Common Erectile Dysfunction Drug Linked to Glaucoma, Researchers Say",
+      "summary": "A common erectile dysfunction drug prescribed for men with enlarged prostates is linked to a higher risk of glaucoma. Fred De Noyelle /GODONG/Getty Images A new study suggests that people who take the erectile dysfunction drug Cialis for urinary tract issues may have a higher risk of glaucoma, a vision-threatening eye…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/erectile-dysfunction-drug-cialis-glaucoma-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-your-daily-sugary-drink-habit-could-double-your",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.456540+00:00",
+      "last_updated": "2026-09-20T23:00:00.456541+00:00",
+      "headline": "Your Daily Sugary Drink Habit Could Double Your Risk of Stomach Cancer",
+      "summary": "Drinking at least one sugary beverage a day could more than double your risk for stomach cancer. Milky Way/Moment/Getty Images A new study reports that drinking at least one sugar-sweetened beverage a day could more than double a person’s risk of stomach cancer. Researchers say that artificially sweetened beverages…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/daily-sugary-drink-doubles-stomach-cancer-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 8.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-are-you-eating-enough-whole-grains-to-lower-your",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.444203+00:00",
+      "last_updated": "2026-09-20T23:00:00.444205+00:00",
+      "headline": "Are You Eating Enough Whole Grains to Lower Your Heart Disease Risk?",
+      "summary": "Consuming 4 to 6 servings of whole grains per day could offer significant heart health benefits, according to a new study. Viktoriya Skorikova/Moment/Getty Images A large meta-analysis suggests that eating more whole grains may offer substantial cardiovascular benefits. The findings show that every additional 48 grams…",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/eating-more-whole-grains-lowers-cardiovascular-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-aerobic-exercise-may-improve-brain-health-in-pos",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.443238+00:00",
+      "last_updated": "2026-09-20T23:00:00.443244+00:00",
+      "headline": "Aerobic Exercise May Improve Brain Health in Postmenopausal Women",
+      "summary": "Research shows that aerobic exercise may improve cognitive function in postmenopausal females. adamkaz · E+/Getty Regular aerobic exercise can significantly improve thinking skills like planning and decision making in postmenopausal women, according to recent research. The greatest cognitive benefits were observed in…",
+      "category": null,
+      "topic_tags": [
+        "exercise",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/aerobic-exercise-brain-health-postmenopausal-women",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "exercise",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-drinking-alcohol-raises-cancer-risk-is-any-amoun",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.448499+00:00",
+      "last_updated": "2026-09-20T23:00:00.448500+00:00",
+      "headline": "Drinking Alcohol Raises Cancer Risk. Is Any Amount Safe for Health?",
+      "summary": "Research shows that alcohol consumption can raise your risk of cancer and other health conditions, as well as alcohol-related cancer death. Krit of Studio OMG · Moment/Getty Recent research found that alcohol-attributable cancer deaths in the United States doubled between 1990 and 2023. Another study found that even…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/drinking-alcohol-raises-cancer-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-glp-1-drugs-like-zepbound-effectively-treat-slee",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.449681+00:00",
+      "last_updated": "2026-09-20T23:00:00.449683+00:00",
+      "headline": "GLP-1 Drugs Like Zepbound Effectively Treat Sleep Apnea Alongside CPAP",
+      "summary": "A new review found that GLP-1s offer significant improvements in obstructive sleep apnea associated with obesity. vitapix/E+/Getty Images New research has found that GLP-1 drugs may improve obstructive sleep apnea (OSA) related to obesity. The effects of tirzepatide (Zepound), which is FDA approved for OSA, were…",
+      "category": null,
+      "topic_tags": [
+        "sleep",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/glp-1-drugs-tirzepatide-treat-sleep-apnea-with-cpap-review",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "sleep",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-shingles-vaccine-may-reduce-cardiovascular-disea",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.449939+00:00",
+      "last_updated": "2026-09-20T23:00:00.449940+00:00",
+      "headline": "Shingles Vaccine May Reduce Cardiovascular Disease Risk by 9%",
+      "summary": "Recent research shows that the shingles vaccine may help reduce the risk of cardiovascular disease. A boy and the sea · E+/Getty A recent study found that the recombinant shingles vaccine (Shingrix) was associated with a 9% lower cardiovascular disease burden compared with the older live vaccine. Researchers observed…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/shingles-vaccine-shingrix-cardiovascular-disease-lower-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-are-you-really-maxxing-your-health-what-to-know",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.457611+00:00",
+      "last_updated": "2026-09-20T23:00:00.457612+00:00",
+      "headline": "Are You Really ‘Maxxing’ Your Health? What to Know About 4 Viral Health Hacks",
+      "summary": "“Maxxing” trends are growing in popularity on social media, but experts say many of these health hacks can be ineffective or even pose health risks. Olga Rolenko · Moment “Maxxing” trends aim to optimize specific aspects of health, with popular examples including proteinmaxxing, fibermaxxing, sleepmaxxing, and…",
+      "category": null,
+      "topic_tags": [
+        "sleep",
+        "social media"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/maxxing-health-viral-trends",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": null
+      },
+      "keyword_hits": [
+        "sleep",
+        "social media"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-1-year-tailored-exercise-program-reduces-afib-re",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.449052+00:00",
+      "last_updated": "2026-09-20T23:00:00.449054+00:00",
+      "headline": "1-Year Tailored Exercise Program Reduces AFib Recurrence By Nearly 50%",
+      "summary": "A one-year clinical trial with a tailored exercise program reduced AFib recurrence by 45%. RealPeopleGroup/E+/Getty Images Exercise interventions are underutilized in the treatment of atrial fibrillation (AFib), an abnormal heart rhythm disorder. A one-year clinical trial with a tailored exercise program reduced time…",
+      "category": null,
+      "topic_tags": [
+        "exercise"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/tailored-exercise-intervention-reduces-afib-recurrence",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "exercise"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-artificial-sweetener-xylitol-linked-to-higher-ri",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.451036+00:00",
+      "last_updated": "2026-09-20T23:00:00.451038+00:00",
+      "headline": "Artificial Sweetener Xylitol Linked to Higher Risk of Cardiovascular Events",
+      "summary": "A popular sugar substitute known as xylitol is associated with higher risks of heart attack and stroke. Xvision/Moment/Getty Images A common artificial sweetener known as xylitol is associated with an increased risk of cardiovascular events. A new study found that the higher the level of xylitol in the blood, the…",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/common-sweetener-xylitol-higher-risk-heart-attack-stroke",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-common-rheumatoid-arthritis-drug-may-support-hai",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.454769+00:00",
+      "last_updated": "2026-09-20T23:00:00.454770+00:00",
+      "headline": "Common Rheumatoid Arthritis Drug May Support Hair Regrowth in Alopecia",
+      "summary": "Results from two clinical trials show that a common rheumatoid arthritis drug, upadacitinib, supported hair regrowth in alopecia. Viktoriya Skorikova/Moment/Getty Images Researchers report that the drug upadacitinib, used to treat rheumatoid arthritis, effectively treated the hair loss condition alopecia areata in two…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/arthritis-drug-may-support-hair-regrowth-alopecia",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-microdosing-glp-1s-like-wegovy-zepbound-may-stil",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.443533+00:00",
+      "last_updated": "2026-09-20T23:00:00.443535+00:00",
+      "headline": "Microdosing GLP-1s Like Wegovy, Zepbound May Still Lead to Weight Loss",
+      "summary": "Research shows that microdosing GLP-1 medications may still lead to weight loss. Tatsiana Volkava · Moment/Getty Recent research suggests that people may still lose weight while staying on the lowest starting doses of GLP-1 medications, such as Wegovy or Zepbound, for longer periods. After one year, people taking…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/microdosing-glp1-wegovy-zepbound-weight-loss",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-women-young-adults-experience-fatigue-more-often",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.443824+00:00",
+      "last_updated": "2026-09-20T23:00:00.443826+00:00",
+      "headline": "Women, Young Adults Experience Fatigue More Often, Says CDC",
+      "summary": "A CDC report shows that women and young adults are more likely to experience frequent fatigue. ArtistGNDphotography · E+/Getty A recent report from the CDC’s National Center for Health Statistics (NCHS) showed that nearly 3 in 4 adults in the United States report experiencing fatigue. Women and younger adults reported…",
+      "category": null,
+      "topic_tags": [
+        "young adults"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/women-young-adults-experience-fatigue-more-often-cdc-says",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "young adults"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-love-your-coffee-piping-hot-it-may-raise-your-es",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.446392+00:00",
+      "last_updated": "2026-09-20T23:00:00.446394+00:00",
+      "headline": "Love Your Coffee Piping Hot? It May Raise Your Esophageal Cancer Risk",
+      "summary": "Drinking coffee or tea at very high temperatures could triple your risk of esophageal cancer, researchers say. alvarez/E+/Getty Images Researchers have found a possible link between drinking very hot drinks and esophageal cancer. Drinking coffee or tea at too high a temperature was associated with a threefold risk.…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/very-hot-drinks-may-damage-esophagus-raise-cancer-risk",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-nearly-1-in-3-women-in-their-20s-have-never-had",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.447005+00:00",
+      "last_updated": "2026-09-20T23:00:00.447007+00:00",
+      "headline": "Nearly 1 in 3 Women in Their 20s Have Never Had a Cervical Screening",
+      "summary": "According to recent research, nearly 32% of females in their 20s have never had a cervical screening. MoMo Productions · DigitalVision/Getty Recent research found that nearly 1 in 3 women ages 21 to 29 had never been screened for cervical cancer as of 2023, up from about 1 in 8 in 2005. Researchers also found…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/nearly-one-in-three-women-in-20s-never-had-cervical-screening",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-early-menopause-may-lead-to-faster-onset-of-alzh",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.454388+00:00",
+      "last_updated": "2026-09-20T23:00:00.454391+00:00",
+      "headline": "Early Menopause May Lead to Faster Onset of Alzheimer's Disease, Cognitive Decline",
+      "summary": "Recent research shows that entering menopause early may lead to faster cognitive decline and an earlier onset of Alzheimer’s disease. Kathrin Ziegler · DigitalVision/Getty Earlier menopause may be associated with faster cognitive decline and less favorable brain health later in life. These associations may persist for…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/early-menopause-faster-onset-alzheimers-disease-cognitive-decline",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-t-maxxing-why-young-men-are-obsessed-with-this-m",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.455520+00:00",
+      "last_updated": "2026-09-20T23:00:00.455522+00:00",
+      "headline": "‘T-Maxxing’: Why Young Men Are Obsessed With This Muscle Building Hack",
+      "summary": "Young men are “T-maxxing” their testosterone levels on social media to optimize their bodies and mood. aire images/Moment/Getty Images “Testosterone-maxxing” or “T-maxxing” is a social media trend that promotes testosterone for improved strength, appearance, and confidence in young men. While medically appropriate in…",
+      "category": null,
+      "topic_tags": [
+        "social media"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/can-testosterone-maxxing-really-help-you-build-muscle",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "social media"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-moderna-merck-melanoma-vaccine-may-help-reduce-r",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.456249+00:00",
+      "last_updated": "2026-09-20T23:00:00.456251+00:00",
+      "headline": "Moderna, Merck Melanoma Vaccine May Help Reduce Recurrence, Spread",
+      "summary": "A personalized mRNA melanoma vaccine developed by Moderna and Merck shows promise in reducing recurrence and spread. Iparraguirre Recio · Moment/Getty A late-stage trial found that a personalized mRNA therapy for melanoma outperformed Keytruda alone on two important measures of treatment success. The experimental…",
+      "category": null,
+      "topic_tags": [
+        "therapy"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/moderna-personalized-melanoma-vaccine-reduces-recurrence",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "therapy"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-20-a-handful-of-nuts-a-day-may-help-keep-blood-pres",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-20T23:00:00.457071+00:00",
+      "last_updated": "2026-09-20T23:00:00.457073+00:00",
+      "headline": "A Handful of Nuts a Day May Help Keep Blood Pressure at Bay",
+      "summary": "New research suggests that eating a handful of nuts each day may help lower your risk of high blood pressure. MirageC · Moment/Getty Eating about a handful of nuts each day was associated with a 20% lower risk of developing hypertension, according to a new analysis. While researchers found that higher nut consumption…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/handful-of-nuts-a-day-keep-blood-pressure-at-bay",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
     }
   ]
 }
