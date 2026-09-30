@@ -1,25 +1,415 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-09-30T08:02:44.663914+00:00",
-    "live_count": 58,
+    "generated_at": "2026-09-30T15:39:04.744253+00:00",
+    "live_count": 61,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
       "fetched": 387,
-      "kept": 58,
+      "kept": 61,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
   },
   "stories": [
     {
+      "id": "2026-09-30-the-overlooked-power-of-diet-for-improving-your",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:04.124286+00:00",
+      "last_updated": "2026-09-30T15:39:04.124295+00:00",
+      "headline": "The overlooked power of diet for improving your mental health",
+      "summary": "Therapy and drugs are the go-to options for improving mental health. But psychologist Kimberley Wilson argues that what we eat also has a crucial role to play",
+      "category": null,
+      "topic_tags": [
+        "mental health",
+        "diet",
+        "therapy"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.newscientist.com/article/2589945-the-overlooked-power-of-diet-for-improving-your-mental-health/?utm_campaign=RSS|NSNS&utm_content=health&utm_medium=RSS&utm_source=NSNS",
+          "outlet": "New Scientist — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: New Scientist — Health)",
+      "caveats": null,
+      "score": 8.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": "2026-09-30T15:00:00+00:00"
+      },
+      "keyword_hits": [
+        "mental health",
+        "diet",
+        "therapy"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-30-slashing-sugar-intake-before-antibiotics-may-sav",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:04.124360+00:00",
+      "last_updated": "2026-09-30T15:39:04.124362+00:00",
+      "headline": "Slashing sugar intake before antibiotics may save your microbiome",
+      "summary": "Antibiotics can reduce the diversity of microbes in your gut and lead to health problems, but a study in people with cancer has identified a potential solution",
+      "category": null,
+      "topic_tags": [
+        "gut",
+        "microbiome",
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.newscientist.com/article/2591436-slashing-sugar-intake-before-antibiotics-may-save-your-microbiome/?utm_campaign=RSS|NSNS&utm_content=health&utm_medium=RSS&utm_source=NSNS",
+          "outlet": "New Scientist — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: New Scientist — Health)",
+      "caveats": null,
+      "score": 8.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": "2026-09-30T15:00:00+00:00"
+      },
+      "keyword_hits": [
+        "gut",
+        "microbiome",
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-30-car-t-therapy-shows-durable-benefits-in-myasthen",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:02.353168+00:00",
+      "last_updated": "2026-09-30T15:39:02.353176+00:00",
+      "headline": "CAR-T Therapy Shows Durable Benefits in Myasthenia Gravis",
+      "summary": "(MedPage Today) -- Mivocabtagene autoleucel (miv-cel), an autologous CD19 chimeric antigen receptor (CAR)-T cell therapy, showed benefits lasting 6 months or longer for generalized myasthenia gravis patients in the phase II portion of the KYSA...",
+      "category": null,
+      "topic_tags": [
+        "therapy"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.medpagetoday.com/meetingcoverage/aanem/123195",
+          "outlet": "MedPageToday",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: MedPageToday)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-09-30T14:47:30+00:00"
+      },
+      "keyword_hits": [
+        "therapy"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-30-stat-eli-lilly-s-zepbound-combined-with-amylin-d",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:02.555703+00:00",
+      "last_updated": "2026-09-30T15:39:02.555712+00:00",
+      "headline": "STAT+: Eli Lilly’s Zepbound combined with amylin drug led to significant weight loss in mid-stage trial",
+      "summary": "An investigational combination therapy from Eli Lilly led to significant weight loss in a mid-stage study, but high discontinuation rates raise questions about tolerability.",
+      "category": null,
+      "topic_tags": [
+        "therapy",
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.statnews.com/2026/09/30/eli-lilly-zepbound-amylin-combination-drug-study/?utm_campaign=rss",
+          "outlet": "STAT News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": "2026-09-30T14:15:00+00:00"
+      },
+      "keyword_hits": [
+        "therapy",
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-30-cannabis-users-were-twice-as-likely-to-commit-vi",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:01.779399+00:00",
+      "last_updated": "2026-09-30T15:39:01.779410+00:00",
+      "headline": "Cannabis users were twice as likely to commit violence, review finds",
+      "summary": "A review of more than 265,000 people found that cannabis use was associated with higher rates of both committing violence and becoming a victim of it. The researchers say the link is significant but does not prove cannabis itself is the cause.",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260930020255.htm",
+          "outlet": "ScienceDaily — Mind & Brain",
+          "tier": 2,
+          "role": "origin"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260930020255.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "corroboration"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-09-30T12:49:01+00:00"
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-30-how-empty-chairs-are-helping-people-s-mental-hea",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:01.501235+00:00",
+      "last_updated": "2026-09-30T15:39:01.501239+00:00",
+      "headline": "How empty chairs are helping people's mental health",
+      "summary": "When Dean Perryman's best friend Rob Clancy took his own life, he wanted to create something positive from an unimaginable loss. His idea was simple; reserve an empty chair in a pub and invite anyone who needed a conversation to sit down.",
+      "category": null,
+      "topic_tags": [
+        "mental health"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/videos/c62kwl7d8dkpo?at_medium=RSS&at_campaign=rss",
+          "outlet": "BBC Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: BBC Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-09-30T12:21:45+00:00"
+      },
+      "keyword_hits": [
+        "mental health"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-30-mulberry-may-reshape-gut-bacteria-and-influence",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:02.028572+00:00",
+      "last_updated": "2026-09-30T15:39:02.028582+00:00",
+      "headline": "Mulberry may reshape gut bacteria and influence metabolism",
+      "summary": "Mulberry compounds may reshape the gut microbiome in ways that support intestinal health and metabolism, with some combinations showing especially strong effects in animal studies. However, the results vary depending on the plant part and processing method, and the benefits have yet to be confirmed in humans.",
+      "category": null,
+      "topic_tags": [
+        "gut",
+        "microbiome"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260928100551.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": "2026-09-30T11:45:42+00:00"
+      },
+      "keyword_hits": [
+        "gut",
+        "microbiome"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-30-a-freaked-out-us-food-industry-is-hitting-back-a",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:01.293027+00:00",
+      "last_updated": "2026-09-30T15:39:01.293050+00:00",
+      "headline": "A ‘freaked out’ US food industry is hitting back at Maha – with social media influencers",
+      "summary": "Cross-partisan support in Washington on issues like pesticides and food additives pose a threat to the industry’s bottom line Some of the biggest food and agriculture corporations in the US are funding a campaign that pays social media influencers to combat elements of Robert F Kennedy Jr’s Make America Healthy Again…",
+      "category": null,
+      "topic_tags": [
+        "social media"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/business/2026/sep/30/us-food-industry-maga-social-media-influencers",
+          "outlet": "The Guardian — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-09-30T10:00:24+00:00"
+      },
+      "keyword_hits": [
+        "social media"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-30-montana-starts-enforcing-medicaid-work-requireme",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:01.165232+00:00",
+      "last_updated": "2026-09-30T15:39:01.165240+00:00",
+      "headline": "Montana starts enforcing Medicaid work requirements on Oct 1. Patients are confused",
+      "summary": "In most states, people with Medicaid coverage will have to prove they're working, volunteering or studying, starting Jan. 1. But Montana is starting that early, and it's sowing confusion and anxiety.",
+      "category": null,
+      "topic_tags": [
+        "anxiety",
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/09/30/nx-s1-5946766/montana-early-medicaid-work-requirements-patients-confused",
+          "outlet": "NPR Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: NPR Health)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": "2026-09-30T09:00:00+00:00"
+      },
+      "keyword_hits": [
+        "anxiety",
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-09-30-opinion-stat-what-to-think-about-those-mice-with",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:02.555966+00:00",
+      "last_updated": "2026-09-30T15:39:02.555969+00:00",
+      "headline": "Opinion: STAT+: What to think about those mice with half-human brains",
+      "summary": "New research involving giving mice a human cell-based cortex brings to mind “Flowers for Algernon” and “Pinky and the Brain,” writes STAT Lab Dish columnist Paul Knoepfler.",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.statnews.com/2026/09/30/xeno-mice-human-brains-cortex-research-ethics/?utm_campaign=rss",
+          "outlet": "STAT News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-09-30T08:30:00+00:00"
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-09-30-endometriosis-trial-gives-hope-to-millions-of-wo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:41.114349+00:00",
-      "last_updated": "2026-09-30T08:02:41.114351+00:00",
+      "first_seen": "2026-09-30T15:39:01.500850+00:00",
+      "last_updated": "2026-09-30T15:39:01.500853+00:00",
       "headline": "Endometriosis trial gives hope to millions of women in pain like me",
       "summary": "A £2.3m study will look at whether a personalised pain management plan can improve the quality of life of women who have the debilitating condition.",
       "category": null,
@@ -49,14 +439,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-09-30-family-told-to-call-locksmith-over-mental-health",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:41.113943+00:00",
-      "last_updated": "2026-09-30T08:02:41.113955+00:00",
+      "first_seen": "2026-09-30T15:39:01.500371+00:00",
+      "last_updated": "2026-09-30T15:39:01.500381+00:00",
       "headline": "Family told to call locksmith over mental health fears",
       "summary": "A force should have flagged mental health services after a family called about their son, IOPC says.",
       "category": null,
@@ -86,14 +476,65 @@
         "mental health"
       ],
       "generated": [],
+      "is_new": false
+    },
+    {
+      "id": "2026-09-30-creatine-may-help-build-muscle-even-without-exer",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:01.779505+00:00",
+      "last_updated": "2026-09-30T15:39:01.779507+00:00",
+      "headline": "Creatine may help build muscle even without exercise, researchers find",
+      "summary": "Creatine helped middle-aged adults gain muscle and strength even without a structured workout program in a new 12-week study. When combined with exercise and a calorie-reduced diet, it produced even greater strength gains while helping participants add lean tissue and lose fat. Researchers say the results strengthen…",
+      "category": null,
+      "topic_tags": [
+        "exercise",
+        "workout",
+        "diet",
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260928100547.htm",
+          "outlet": "ScienceDaily — Mind & Brain",
+          "tier": 2,
+          "role": "origin"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260928100547.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "corroboration"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
+      "caveats": null,
+      "score": 8.7,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 10,
+        "published": "2026-09-30T03:12:34+00:00"
+      },
+      "keyword_hits": [
+        "exercise",
+        "workout",
+        "diet",
+        "study",
+        "research"
+      ],
+      "generated": [],
       "is_new": true
     },
     {
       "id": "2026-09-30-hidden-habits-that-make-your-social-anxiety-wors",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:41.114009+00:00",
-      "last_updated": "2026-09-30T08:02:41.114011+00:00",
+      "first_seen": "2026-09-30T15:39:01.500442+00:00",
+      "last_updated": "2026-09-30T15:39:01.500445+00:00",
       "headline": "Hidden habits that make your social anxiety worse - and how to break them",
       "summary": "Social anxiety is more common than many think. Here's what you need to know about the condition.",
       "category": null,
@@ -129,8 +570,8 @@
       "id": "2026-09-29-godzilla-of-weight-loss-drugs-could-provide-othe",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:40.790262+00:00",
-      "last_updated": "2026-09-30T08:02:40.790274+00:00",
+      "first_seen": "2026-09-30T15:39:01.293299+00:00",
+      "last_updated": "2026-09-30T15:39:01.293301+00:00",
       "headline": "‘Godzilla’ of weight-loss drugs could provide other important health benefits",
       "summary": "Though not yet approved by any regulatory agency, retatrutide could help improve blood sugar levels and reduce inflammationThe ‘Godzilla’ of weight-loss drugs could help improve blood sugar levels, reduce inflammation and cut a person’s body weight by a quarter, according to the largest study of its kind.Retatrutide…",
       "category": null,
@@ -166,8 +607,8 @@
       "id": "2026-09-29-is-ai-coming-to-the-medicare-annual-wellness-vis",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.094337+00:00",
-      "last_updated": "2026-09-30T08:02:42.094347+00:00",
+      "first_seen": "2026-09-30T15:39:02.353307+00:00",
+      "last_updated": "2026-09-30T15:39:02.353309+00:00",
       "headline": "Is AI Coming to the Medicare Annual Wellness Visit?",
       "summary": "(MedPage Today) -- Should Medicare's annual wellness visit (AWV) be less physician-driven and more artificial intelligence (AI)-driven? That's the question being asked by CMS in its proposed physician payment rule, issued this past summer. Although...",
       "category": null,
@@ -203,9 +644,9 @@
       "id": "2026-09-29-trump-administration-suppressed-uspstf-recommend",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.094471+00:00",
-      "last_updated": "2026-09-30T08:02:42.094473+00:00",
-      "headline": "Trump Administration Suppressed USPSTF Recommendations",
+      "first_seen": "2026-09-30T15:39:02.353431+00:00",
+      "last_updated": "2026-09-30T15:39:02.353433+00:00",
+      "headline": "Trump Administration Suppressed USPSTF Recommendations, Past Chair Says",
       "summary": "(MedPage Today) -- Leadership of the agency that oversees the U.S. Preventive Services Task Force (USPSTF) suppressed the group's recommendations, a former task force chair said. The director of the Agency for Research Healthcare and Quality ...",
       "category": null,
       "topic_tags": [
@@ -240,8 +681,8 @@
       "id": "2026-09-29-this-year-s-macarthur-fellows-include-researcher",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:40.369831+00:00",
-      "last_updated": "2026-09-30T08:02:40.369842+00:00",
+      "first_seen": "2026-09-30T15:39:01.165389+00:00",
+      "last_updated": "2026-09-30T15:39:01.165392+00:00",
       "headline": "This year's MacArthur Fellows include researchers who fuse science and justice",
       "summary": "The MacArthur Foundation has just announced its latest batch of 20 fellows. Among the recipients of the $800,000 \"no-strings-attached\" fellowships are researchers who were recognized for their work at the intersection of science and justice.",
       "category": null,
@@ -277,8 +718,8 @@
       "id": "2026-09-29-magnesium-is-essential-for-health-but-can-supple",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:40.790370+00:00",
-      "last_updated": "2026-09-30T08:02:40.790372+00:00",
+      "first_seen": "2026-09-30T15:39:01.293402+00:00",
+      "last_updated": "2026-09-30T15:39:01.293404+00:00",
       "headline": "Magnesium is essential for health. But can supplements really help with digestion, muscle pain, anxiety and sleep? | Antiviral",
       "summary": "Experts cite inconsistent evidence for supplementing with the essential mineral – and warn taking magnesium without a deficiency has risksRead more in the Antiviral seriesDanielle Shine says her Instagram inbox was filled with questions after Scarlett Johansson was quoted in the Daily Mail and other publications…",
       "category": null,
@@ -316,8 +757,8 @@
       "id": "2026-09-29-see-the-cool-photos-this-jupiter-bound-spacecraf",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.920255+00:00",
-      "last_updated": "2026-09-30T08:02:42.920265+00:00",
+      "first_seen": "2026-09-30T15:39:03.090931+00:00",
+      "last_updated": "2026-09-30T15:39:03.090940+00:00",
       "headline": "See the cool photos this Jupiter-bound spacecraft took while swinging by Earth",
       "summary": "Juice is on its way to study Jupiter’s moons, with a little assist from Earth’s gravity",
       "category": null,
@@ -350,11 +791,54 @@
       "is_new": false
     },
     {
+      "id": "2026-09-29-children-at-risk-for-depression-get-stuck-on-sad",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:01.779661+00:00",
+      "last_updated": "2026-09-30T15:39:01.779663+00:00",
+      "headline": "Children at risk for depression get “stuck” on sad faces",
+      "summary": "Depression may change which emotional faces children notice most, but the pattern appears to depend on family history. Children at higher familial risk became increasingly focused on sad faces, while lower-risk children with rising symptoms paid less attention to happy ones.",
+      "category": null,
+      "topic_tags": [
+        "depression"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225022.htm",
+          "outlet": "ScienceDaily — Mind & Brain",
+          "tier": 2,
+          "role": "origin"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225022.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "corroboration"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-09-29T12:36:52+00:00"
+      },
+      "keyword_hits": [
+        "depression"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-09-29-researchers-slow-neurodegeneration-in-mice-by-ba",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.237241+00:00",
-      "last_updated": "2026-09-30T08:02:42.237252+00:00",
+      "first_seen": "2026-09-30T15:39:02.556259+00:00",
+      "last_updated": "2026-09-30T15:39:02.556261+00:00",
       "headline": "Researchers slow neurodegeneration in mice by barring T cells from the brain",
       "summary": "A new study in mice led by Washington University in St. Louis researchers suggests that stopping certain immune cells from entering the brain could limit neurodegeneration.",
       "category": null,
@@ -392,8 +876,8 @@
       "id": "2026-09-29-stat-uniqure-s-gene-therapy-continues-to-slow-hu",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.237327+00:00",
-      "last_updated": "2026-09-30T08:02:42.237329+00:00",
+      "first_seen": "2026-09-30T15:39:02.556327+00:00",
+      "last_updated": "2026-09-30T15:39:02.556329+00:00",
       "headline": "STAT+: UniQure’s gene therapy continues to slow Huntington’s progression after four years",
       "summary": "UniQure's gene therapy continues to slow Huntington's progression after four years. But the magnitude of the benefit waned compared to a similar analysis from a year ago.",
       "category": null,
@@ -426,11 +910,54 @@
       "is_new": false
     },
     {
+      "id": "2026-09-29-brain-scans-reveal-which-disorders-are-linked-to",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:01.779587+00:00",
+      "last_updated": "2026-09-30T15:39:01.779590+00:00",
+      "headline": "Brain scans reveal which disorders are linked to faster brain aging",
+      "summary": "A massive MRI study found that Alzheimer’s disease, mild cognitive impairment, psychiatric disorders, and addiction are associated with distinct patterns of accelerated brain aging. The strongest effects appeared in Alzheimer’s and mild cognitive impairment, while ADHD and autism showed no significant overall…",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225038.htm",
+          "outlet": "ScienceDaily — Mind & Brain",
+          "tier": 2,
+          "role": "origin"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/09/260927225038.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "corroboration"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-09-29T11:01:18+00:00"
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-09-29-why-maha-wants-to-make-health-data-much-more-acc",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.237382+00:00",
-      "last_updated": "2026-09-30T08:02:42.237384+00:00",
+      "first_seen": "2026-09-30T15:39:02.556381+00:00",
+      "last_updated": "2026-09-30T15:39:02.556382+00:00",
       "headline": "Why MAHA wants to make health data much more accessible",
       "summary": "At a MAHA Institute event, Kennedy and others argued that health data should be more accessible to researchers can study vaccines, chronic diseases, and autism",
       "category": null,
@@ -465,48 +992,11 @@
       "is_new": false
     },
     {
-      "id": "2026-09-29-stat-drug-pricing-medicaid-and-research-funding",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.237496+00:00",
-      "last_updated": "2026-09-30T08:02:42.237498+00:00",
-      "headline": "STAT+: Drug pricing, Medicaid, and research funding: The key policy issues at stake in the midterms",
-      "summary": "Big shifts in health care policy could emerge depending on who wins the midterms, affecting hospitals and pharma companies.",
-      "category": null,
-      "topic_tags": [
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.statnews.com/2026/09/29/healthcare-industry-midterm-elections-analysis/?utm_campaign=rss",
-          "outlet": "STAT News",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-29T08:30:00+00:00"
-      },
-      "keyword_hits": [
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-09-28-boot-camp-promises-a-submitted-paper-in-just-2-d",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.094748+00:00",
-      "last_updated": "2026-09-30T08:02:42.094750+00:00",
+      "first_seen": "2026-09-30T15:39:02.353731+00:00",
+      "last_updated": "2026-09-30T15:39:02.353733+00:00",
       "headline": "Boot Camp Promises a Submitted Paper in Just 2 Days",
       "summary": "(MedPage Today) -- What if writing and submitting an academic paper didn't take weeks or months, but instead could be done over the course of just one weekend at a premium hotel with plenty of snack breaks? That's the promise offered by Research...",
       "category": null,
@@ -539,48 +1029,11 @@
       "is_new": false
     },
     {
-      "id": "2026-09-28-risk-from-toxic-metals-can-persist-months-after",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.237595+00:00",
-      "last_updated": "2026-09-30T08:02:42.237596+00:00",
-      "headline": "Risk from toxic metals can persist months after wildfires, Maui study finds",
-      "summary": "Post-wildfire air quality needs to be monitored long term, suggests a study finding Maui residents had high levels of toxic metals months later.",
-      "category": null,
-      "topic_tags": [
-        "study"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.statnews.com/2026/09/28/hawaii-wildfire-air-quality-risk-study/?utm_campaign=rss",
-          "outlet": "STAT News",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-28T21:07:09+00:00"
-      },
-      "keyword_hits": [
-        "study"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-09-28-still-in-pain-after-acl-repair-supervised-rehab",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.094872+00:00",
-      "last_updated": "2026-09-30T08:02:42.094874+00:00",
+      "first_seen": "2026-09-30T15:39:02.353821+00:00",
+      "last_updated": "2026-09-30T15:39:02.353823+00:00",
       "headline": "Still in Pain After ACL Repair? Supervised Rehab Superior to Exercises Alone",
       "summary": "(MedPage Today) -- Young adult patients with persistent knee pain following anterior cruciate ligament (ACL) repair surgery got more relief from a supervised physical therapy program compared with self-directed rehab, results of a randomized trial...",
       "category": null,
@@ -618,8 +1071,8 @@
       "id": "2026-09-28-insurance-formularies-holding-up-lower-emission",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.094928+00:00",
-      "last_updated": "2026-09-30T08:02:42.094929+00:00",
+      "first_seen": "2026-09-30T15:39:02.353877+00:00",
+      "last_updated": "2026-09-30T15:39:02.353879+00:00",
       "headline": "Insurance Formularies Holding Up Lower-Emission Asthma, COPD Inhalers",
       "summary": "(MedPage Today) -- Commercial insurance formularies have posed a barrier to cutting greenhouse gas emissions from metered-dose inhalers used to treat asthma and chronic obstructive pulmonary disease (COPD), a study showed. Lower-emission versions...",
       "category": null,
@@ -652,85 +1105,11 @@
       "is_new": false
     },
     {
-      "id": "2026-09-28-two-symptoms-linked-to-antibiotic-delays-in-pres",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.094981+00:00",
-      "last_updated": "2026-09-30T08:02:42.094982+00:00",
-      "headline": "Two Symptoms Linked to Antibiotic Delays in Presumed Sepsis",
-      "summary": "(MedPage Today) -- Patients with community-onset presumed bacterial sepsis were less likely to get timely antibiotics if they had gastrointestinal (GI) or respiratory symptoms at the time of presentation, an observational study found. Among a...",
-      "category": null,
-      "topic_tags": [
-        "study"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.medpagetoday.com/criticalcare/sepsis/123175",
-          "outlet": "MedPageToday",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: MedPageToday)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-28T20:11:47+00:00"
-      },
-      "keyword_hits": [
-        "study"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-09-28-few-lab-tests-actually-need-8-hours-of-fasting-s",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.095061+00:00",
-      "last_updated": "2026-09-30T08:02:42.095062+00:00",
-      "headline": "Few Lab Tests Actually Need 8 Hours of Fasting, Study Suggests",
-      "summary": "(MedPage Today) -- Fasting less than 8 hours before routine blood tests generally did not change results, with few exceptions, according to an observational study. In paired within-person analyses of over 100,000 patients undergoing multiple blood...",
-      "category": null,
-      "topic_tags": [
-        "study"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.medpagetoday.com/primarycare/preventivecare/123173",
-          "outlet": "MedPageToday",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: MedPageToday)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-28T18:56:40+00:00"
-      },
-      "keyword_hits": [
-        "study"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-09-28-diabetes-study-finds-keeping-blood-sugar-too-ste",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:41.761798+00:00",
-      "last_updated": "2026-09-30T08:02:41.761800+00:00",
+      "first_seen": "2026-09-30T15:39:02.028941+00:00",
+      "last_updated": "2026-09-30T15:39:02.028943+00:00",
       "headline": "Diabetes study finds keeping blood sugar too steady may come at a price",
       "summary": "People with diabetes reported better quality of life after days when their glucose stayed largely within a healthy range, even when levels fluctuated more than usual. The unexpected finding suggests that pursuing extremely tight glucose control may sometimes come with a hidden lifestyle burden.",
       "category": null,
@@ -766,8 +1145,8 @@
       "id": "2026-09-28-scientists-just-discovered-what-coffee-really-do",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:41.449334+00:00",
-      "last_updated": "2026-09-30T08:02:41.449346+00:00",
+      "first_seen": "2026-09-30T15:39:01.779734+00:00",
+      "last_updated": "2026-09-30T15:39:01.779735+00:00",
       "headline": "Scientists just discovered what coffee really does to your gut and brain",
       "summary": "A new study suggests coffee may influence mood and brain function by changing the activity of microbes in the gut. Both caffeinated and decaf coffee were linked to lower stress, depression, and impulsivity, while also producing measurable changes in gut bacteria and metabolites. Decaf was associated with better…",
       "category": null,
@@ -815,8 +1194,8 @@
       "id": "2026-09-28-blood-tests-reveal-why-astronauts-get-constipate",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:41.761653+00:00",
-      "last_updated": "2026-09-30T08:02:41.761665+00:00",
+      "first_seen": "2026-09-30T15:39:02.028783+00:00",
+      "last_updated": "2026-09-30T15:39:02.028786+00:00",
       "headline": "Blood tests reveal why astronauts get constipated in space",
       "summary": "Spaceflight may dramatically change the gut within weeks, causing bacteria to break down more protein as food moves more slowly through the intestines. The shift could help explain astronaut constipation and may have wider effects on health, making it an important concern for future missions to Mars.",
       "category": null,
@@ -852,8 +1231,8 @@
       "id": "2026-09-28-menopause-is-a-major-health-milestone-yet-health",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:42.663358+00:00",
-      "last_updated": "2026-09-30T08:02:42.663370+00:00",
+      "first_seen": "2026-09-30T15:39:02.867966+00:00",
+      "last_updated": "2026-09-30T15:39:02.867976+00:00",
       "headline": "Menopause is a major health milestone, yet health records barely track it - new research",
       "summary": "Capturing data about the timing and symptoms of menopause could help address many unanswered questions about this common yet ignored experience.",
       "category": null,
@@ -886,48 +1265,11 @@
       "is_new": false
     },
     {
-      "id": "2026-09-28-flock-cameras-are-creepy-they-might-still-be-wor",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.663319+00:00",
-      "last_updated": "2026-09-30T08:02:44.663331+00:00",
-      "headline": "Flock cameras are creepy. They might still be worth it.",
-      "summary": "To no small extent, Americans have grown accustomed to being watched. For more than a decade, CCTV cameras have recorded a hefty portion of many people’s public movements, while ubiquitous smartphones have made us all perpetually vulnerable to unsolicited documentation (if not, social media notoriety). Until recently,…",
-      "category": null,
-      "topic_tags": [
-        "social media"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.vox.com/politics/504154/flock-cameras-crime-surveillance",
-          "outlet": "Vox",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: Vox)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-28T11:30:00+00:00"
-      },
-      "keyword_hits": [
-        "social media"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-09-28-pomegranate-compound-improves-heart-function-by",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:41.762127+00:00",
-      "last_updated": "2026-09-30T08:02:41.762129+00:00",
+      "first_seen": "2026-09-30T15:39:02.029282+00:00",
+      "last_updated": "2026-09-30T15:39:02.029285+00:00",
       "headline": "Pomegranate compound improves heart function by up to 80% in study",
       "summary": "A compound the body can make after eating pomegranates, walnuts, and some berries improved measures of heart function by up to 80% in animal models of a difficult-to-treat form of heart failure. Urolithin A helped stiff heart tissue relax and reduced scarring and abnormal enlargement. It also improved relaxation in…",
       "category": null,
@@ -963,8 +1305,8 @@
       "id": "2026-09-28-the-one-change-that-worked-anxiety-had-me-hiding",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:40.791103+00:00",
-      "last_updated": "2026-09-30T08:02:40.791105+00:00",
+      "first_seen": "2026-09-30T15:39:01.294300+00:00",
+      "last_updated": "2026-09-30T15:39:01.294303+00:00",
       "headline": "The one change that worked: Anxiety had me hiding from the world – then two magic questions set me free",
       "summary": "I used to be terrified of socialising, certain I would embarrass myself the moment I opened my mouth. And as for dates …As with a lot of teenagers, social confidence was not my strong suit. Throughout my time at school in the early 2010s, I hated the prospect of new social situations and would often lie awake at night…",
       "category": null,
@@ -997,251 +1339,11 @@
       "is_new": false
     },
     {
-      "id": "2026-09-28-5-tips-for-parents-worried-about-their-kids-scre",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:40.369936+00:00",
-      "last_updated": "2026-09-30T08:02:40.369939+00:00",
-      "headline": "5 tips for parents worried about their kids' screen time and online safety",
-      "summary": "Parental monitoring can help protect kids from the harms of social media and excess screen time. Screen time boundaries plus early and open conversations about online habits can make kids less vulnerable.",
-      "category": null,
-      "topic_tags": [
-        "screen time",
-        "social media"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.npr.org/2026/09/28/nx-s1-5965849/screens-teens-parents-social-media-safety",
-          "outlet": "NPR Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: NPR Health)",
-      "caveats": null,
-      "score": 7.0,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 7,
-        "published": "2026-09-28T09:00:00+00:00"
-      },
-      "keyword_hits": [
-        "screen time",
-        "social media"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-09-27-does-glp-1-use-result-in-significant-hair-loss",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:40.791366+00:00",
-      "last_updated": "2026-09-30T08:02:40.791367+00:00",
-      "headline": "Does GLP-1 use result in significant hair loss?",
-      "summary": "Experts share what you need to know about GLP-1-related hair loss as the side-effect gets more attention from researchers About 20 million people across the US, UK, and EU are taking GLP-1 receptor agonists like tirzepatide and semaglutide (Ozempic or Mounjaro are common brands) for weight loss and type 2 diabetes. As…",
-      "category": null,
-      "topic_tags": [
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/wellness/2026/sep/27/glp-1s-hair-loss",
-          "outlet": "The Guardian — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-27T16:00:08+00:00"
-      },
-      "keyword_hits": [
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-09-27-glucosamine-a-popular-joint-supplement-linked-to",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:41.449453+00:00",
-      "last_updated": "2026-09-30T08:02:41.449455+00:00",
-      "headline": "Glucosamine, a popular joint supplement, linked to faster Alzheimer’s progression",
-      "summary": "A large health-record analysis found that glucosamine use was associated with a 25% higher likelihood of mild cognitive impairment progressing to dementia. Lab experiments suggest the popular joint supplement may intensify an abnormal sugar-tagging process in the Alzheimer’s brain, although researchers say clinical…",
-      "category": null,
-      "topic_tags": [
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
-          "outlet": "ScienceDaily — Mind & Brain",
-          "tier": 2,
-          "role": "origin"
-        },
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
-          "outlet": "ScienceDaily — Health",
-          "tier": 2,
-          "role": "corroboration"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-27T13:53:39+00:00"
-      },
-      "keyword_hits": [
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-09-27-one-crispr-treatment-cut-bad-cholesterol-in-half",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:41.762318+00:00",
-      "last_updated": "2026-09-30T08:02:41.762320+00:00",
-      "headline": "One CRISPR treatment cut “bad” cholesterol in half for a full year",
-      "summary": "A single dose of an experimental CRISPR therapy cut LDL cholesterol and triglycerides by about half in patients with difficult-to-treat lipid disorders. The reductions were still present one year later, with the highest dose lowering LDL by 52.5% and triglycerides by 47.8%.",
-      "category": null,
-      "topic_tags": [
-        "therapy"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
-          "outlet": "ScienceDaily — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-27T13:15:21+00:00"
-      },
-      "keyword_hits": [
-        "therapy"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-09-27-this-weather-threat-costs-us-billions-and-it-s-a",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.663450+00:00",
-      "last_updated": "2026-09-30T08:02:44.663451+00:00",
-      "headline": "This weather threat costs us billions. And it’s about to get worse.",
-      "summary": "This story was originally published by High Country News and is reproduced here as part of the Climate Desk Collaboration. At a specialized cold lab in Boulder, Colorado, where indoor temperatures hover around minus 4 degrees Fahrenheit (minus 20 degrees Celsius), atmospheric researcher Anthony Bernal Ayala slices…",
-      "category": null,
-      "topic_tags": [
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.vox.com/climate/504064/hail-damage-climate-change-insurance-science-ncar",
-          "outlet": "Vox",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: Vox)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-09-27T11:00:00+00:00"
-      },
-      "keyword_hits": [
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-09-27-why-rheumatoid-arthritis-pain-may-persist-even-w",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-09-30T08:02:41.449535+00:00",
-      "last_updated": "2026-09-30T08:02:41.449538+00:00",
-      "headline": "Why rheumatoid arthritis pain may persist even when inflammation is under control",
-      "summary": "Pain and fatigue in rheumatoid arthritis can persist even after inflammation improves, with depression, poor sleep, obesity, smoking, and chronic pain potentially helping sustain symptoms. Researchers say identifying these hidden drivers could prevent unnecessary medication changes and lead to more personalized…",
-      "category": null,
-      "topic_tags": [
-        "sleep",
-        "depression",
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260925093208.htm",
-          "outlet": "ScienceDaily — Mind & Brain",
-          "tier": 2,
-          "role": "origin"
-        },
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/09/260925093208.htm",
-          "outlet": "ScienceDaily — Health",
-          "tier": 2,
-          "role": "corroboration"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
-      "caveats": null,
-      "score": 8.1,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 9,
-        "published": "2026-09-27T10:49:13+00:00"
-      },
-      "keyword_hits": [
-        "sleep",
-        "depression",
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-09-30-healthy-diet-and-fitness-program-may-improve-pro",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.448888+00:00",
-      "last_updated": "2026-09-30T08:02:44.448890+00:00",
+      "first_seen": "2026-09-30T15:39:04.626462+00:00",
+      "last_updated": "2026-09-30T15:39:04.626465+00:00",
       "headline": "Healthy Diet and Fitness Program May Improve Prostate Cancer Outcomes",
       "summary": "An enhanced diet and exercise program may support men during prostate cancer treatment, according to a new study. Maki Nakamura/DigitalVision/Getty Images Researchers say a monitored program of diet, exercise, and behavioral support may improve prostate cancer treatment outcomes. The scientists reported that men…",
       "category": null,
@@ -1283,8 +1385,8 @@
       "id": "2026-09-30-20-minute-workout-or-90-minute-nap-may-offset-ef",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.453863+00:00",
-      "last_updated": "2026-09-30T08:02:44.453865+00:00",
+      "first_seen": "2026-09-30T15:39:04.633433+00:00",
+      "last_updated": "2026-09-30T15:39:04.633435+00:00",
       "headline": "20-Minute Workout or 90-Minute Nap May Offset Effects of a Sleepless Night",
       "summary": "A short bout of aerobic exercise or a 90-minute nap may improve cognitive function after a sleepless night. MStudioImages/E+/Getty Images A short workout or a 90-minute nap may help your brain recover after a sleepless night, a new study found. The nap was particularly effective: people who took it performed about 22%…",
       "category": null,
@@ -1326,8 +1428,8 @@
       "id": "2026-09-30-women-with-enlarged-breasts-more-likely-to-exper",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.442471+00:00",
-      "last_updated": "2026-09-30T08:02:44.442474+00:00",
+      "first_seen": "2026-09-30T15:39:04.619171+00:00",
+      "last_updated": "2026-09-30T15:39:04.619174+00:00",
       "headline": "Women With Enlarged Breasts More Likely to Experience Migraine, Sleep Apnea",
       "summary": "new research suggests that macromastia is associated with more than just physical pain and discomfort. Luis Alvarez/DigitalVision/Getty Images A new study found that women with macromastia (enlarged breasts) had higher odds of chronic migraine, neck pain, and obstructive sleep apnea than women without the condition.…",
       "category": null,
@@ -1367,8 +1469,8 @@
       "id": "2026-09-30-even-low-light-exposure-during-sleep-may-raise-y",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.448153+00:00",
-      "last_updated": "2026-09-30T08:02:44.448155+00:00",
+      "first_seen": "2026-09-30T15:39:04.625530+00:00",
+      "last_updated": "2026-09-30T15:39:04.625532+00:00",
       "headline": "Even Low Light Exposure During Sleep May Raise Your Risk of Heart Failure, AFib",
       "summary": "A new study suggests that light exposure during sleep could raise the risk of cardiovascular disease. Yana Iskayeva/Moment/Getty Images New research shows that even dim light during sleep may thicken heart muscle walls and reduce heart flexibility, potentially raising cardiovascular risk. The findings build on prior…",
       "category": null,
@@ -1408,8 +1510,8 @@
       "id": "2026-09-30-why-your-morning-coffee-may-boost-your-mood-befo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.446594+00:00",
-      "last_updated": "2026-09-30T08:02:44.446596+00:00",
+      "first_seen": "2026-09-30T15:39:04.623749+00:00",
+      "last_updated": "2026-09-30T15:39:04.623751+00:00",
       "headline": "Why Your Morning Coffee May Boost Your Mood Before You Even Take a Sip",
       "summary": "The aroma of cofee may help boost your mood, according to recent research. Busakorn Pongparnit · Moment/Getty The aroma of coffee may help improve mood and reduce feelings of stress, according to a small study of healthy young adults. Smelling coffee was linked to reductions in tension, fatigue, confusion, and other…",
       "category": null,
@@ -1451,8 +1553,8 @@
       "id": "2026-09-30-is-diet-quality-more-important-for-weight-loss-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.445466+00:00",
-      "last_updated": "2026-09-30T08:02:44.445467+00:00",
+      "first_seen": "2026-09-30T15:39:04.622479+00:00",
+      "last_updated": "2026-09-30T15:39:04.622482+00:00",
       "headline": "Is Diet Quality More Important For Weight Loss Than Counting Calories?",
       "summary": "Recent research shows that diet quality may help improve overall health more than just counting calories. fcafotodigital · E+/Getty A two-year study found that a Mediterranean-style diet and a calorie-focused weight loss program led to similar amounts of weight loss. People following the Mediterranean-style diet saw…",
       "category": null,
@@ -1492,8 +1594,8 @@
       "id": "2026-09-30-love-to-read-your-book-habit-may-lower-alzheimer",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.445893+00:00",
-      "last_updated": "2026-09-30T08:02:44.445894+00:00",
+      "first_seen": "2026-09-30T15:39:04.622950+00:00",
+      "last_updated": "2026-09-30T15:39:04.622952+00:00",
       "headline": "Love to Read? Your Book Habit May Lower Alzheimer’s Risk by 33%",
       "summary": "Research shows that reading has many benefits for people of all ages. Goodboy Picture Company · E+/Getty Research shows that reading for pleasure has various benefits for people of all ages. Reading has been linked to better cognitive skills and mental well-being, as well as lower levels of stress and loneliness. For…",
       "category": null,
@@ -1533,8 +1635,8 @@
       "id": "2026-09-30-79-of-young-adults-show-signs-of-cardiovascular",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.453265+00:00",
-      "last_updated": "2026-09-30T08:02:44.453267+00:00",
+      "first_seen": "2026-09-30T15:39:04.632740+00:00",
+      "last_updated": "2026-09-30T15:39:04.632743+00:00",
       "headline": "79% of Young Adults Show Signs of Cardiovascular, Kidney, Metabolic Issues",
       "summary": "Recent research shows that around 79% of young adults show signs of CKM. pixelfit · E+/Getty A recent study has found that around 79% of adults in their 20s already show signs of cardiovascular-kidney-metabolic (CKM) syndrome. CKM syndrome links obesity, diabetes, kidney disease, and heart disease. Prevention and…",
       "category": null,
@@ -1574,8 +1676,8 @@
       "id": "2026-09-30-keto-diet-may-offer-benefits-beyond-weight-loss",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.454736+00:00",
-      "last_updated": "2026-09-30T08:02:44.454737+00:00",
+      "first_seen": "2026-09-30T15:39:04.634435+00:00",
+      "last_updated": "2026-09-30T15:39:04.634437+00:00",
       "headline": "Keto Diet May Offer Benefits Beyond Weight Loss",
       "summary": "A recent study shows that a keto diet may offer greater health benefits for people with obesity. fcafotodigital · E+/Getty A recent study has shown that a ketogenic (keto) diet may offer more health benefits for people with obesity than other weight loss diets. The researchers compared a keto diet with the…",
       "category": null,
@@ -1615,8 +1717,8 @@
       "id": "2026-09-30-common-erectile-dysfunction-drug-linked-to-glauc",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.455085+00:00",
-      "last_updated": "2026-09-30T08:02:44.455087+00:00",
+      "first_seen": "2026-09-30T15:39:04.634805+00:00",
+      "last_updated": "2026-09-30T15:39:04.634807+00:00",
       "headline": "Common Erectile Dysfunction Drug Linked to Glaucoma, Researchers Say",
       "summary": "A common erectile dysfunction drug prescribed for men with enlarged prostates is linked to a higher risk of glaucoma. Fred De Noyelle /GODONG/Getty Images A new study suggests that people who take the erectile dysfunction drug Cialis for urinary tract issues may have a higher risk of glaucoma, a vision-threatening eye…",
       "category": null,
@@ -1654,8 +1756,8 @@
       "id": "2026-09-30-are-you-eating-enough-whole-grains-to-lower-your",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.445181+00:00",
-      "last_updated": "2026-09-30T08:02:44.445183+00:00",
+      "first_seen": "2026-09-30T15:39:04.622159+00:00",
+      "last_updated": "2026-09-30T15:39:04.622162+00:00",
       "headline": "Are You Eating Enough Whole Grains to Lower Your Heart Disease Risk?",
       "summary": "Consuming 4 to 6 servings of whole grains per day could offer significant heart health benefits, according to a new study. Viktoriya Skorikova/Moment/Getty Images A large meta-analysis suggests that eating more whole grains may offer substantial cardiovascular benefits. The findings show that every additional 48 grams…",
       "category": null,
@@ -1691,8 +1793,8 @@
       "id": "2026-09-30-ultra-processed-foods-linked-to-higher-risk-of-m",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.441742+00:00",
-      "last_updated": "2026-09-30T08:02:44.441744+00:00",
+      "first_seen": "2026-09-30T15:39:04.618330+00:00",
+      "last_updated": "2026-09-30T15:39:04.618333+00:00",
       "headline": "Ultra-Processed Foods Linked to Higher Risk of Multiple Diseases, Death",
       "summary": "New research found that consuming more ultra-processed foods is linked to an increased risk of multiple health conditions. LauriPatterson/E+/Getty Images A large study has found that eating more ultra-processed foods (UPFs) was linked to a higher risk of disease and early death. The risk of chronic diseases increased…",
       "category": null,
@@ -1730,8 +1832,8 @@
       "id": "2026-09-30-aerobic-exercise-may-improve-brain-health-in-pos",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.444003+00:00",
-      "last_updated": "2026-09-30T08:02:44.444006+00:00",
+      "first_seen": "2026-09-30T15:39:04.620885+00:00",
+      "last_updated": "2026-09-30T15:39:04.620888+00:00",
       "headline": "Aerobic Exercise May Improve Brain Health in Postmenopausal Women",
       "summary": "Research shows that aerobic exercise may improve cognitive function in postmenopausal females. adamkaz · E+/Getty Regular aerobic exercise can significantly improve thinking skills like planning and decision making in postmenopausal women, according to recent research. The greatest cognitive benefits were observed in…",
       "category": null,
@@ -1769,8 +1871,8 @@
       "id": "2026-09-30-drinking-alcohol-raises-cancer-risk-is-any-amoun",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.450008+00:00",
-      "last_updated": "2026-09-30T08:02:44.450010+00:00",
+      "first_seen": "2026-09-30T15:39:04.628043+00:00",
+      "last_updated": "2026-09-30T15:39:04.628047+00:00",
       "headline": "Drinking Alcohol Raises Cancer Risk. Is Any Amount Safe for Health?",
       "summary": "Research shows that alcohol consumption can raise your risk of cancer and other health conditions, as well as alcohol-related cancer death. Krit of Studio OMG · Moment/Getty Recent research found that alcohol-attributable cancer deaths in the United States doubled between 1990 and 2023. Another study found that even…",
       "category": null,
@@ -1808,8 +1910,8 @@
       "id": "2026-09-30-glp-1-drugs-like-zepbound-effectively-treat-slee",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.451176+00:00",
-      "last_updated": "2026-09-30T08:02:44.451177+00:00",
+      "first_seen": "2026-09-30T15:39:04.629879+00:00",
+      "last_updated": "2026-09-30T15:39:04.629884+00:00",
       "headline": "GLP-1 Drugs Like Zepbound Effectively Treat Sleep Apnea Alongside CPAP",
       "summary": "A new review found that GLP-1s offer significant improvements in obstructive sleep apnea associated with obesity. vitapix/E+/Getty Images New research has found that GLP-1 drugs may improve obstructive sleep apnea (OSA) related to obesity. The effects of tirzepatide (Zepound), which is FDA approved for OSA, were…",
       "category": null,
@@ -1847,8 +1949,8 @@
       "id": "2026-09-30-shingles-vaccine-may-reduce-cardiovascular-disea",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.451433+00:00",
-      "last_updated": "2026-09-30T08:02:44.451434+00:00",
+      "first_seen": "2026-09-30T15:39:04.630253+00:00",
+      "last_updated": "2026-09-30T15:39:04.630256+00:00",
       "headline": "Shingles Vaccine May Reduce Cardiovascular Disease Risk by 9%",
       "summary": "Recent research shows that the shingles vaccine may help reduce the risk of cardiovascular disease. A boy and the sea · E+/Getty A recent study found that the recombinant shingles vaccine (Shingrix) was associated with a 9% lower cardiovascular disease burden compared with the older live vaccine. Researchers observed…",
       "category": null,
@@ -1886,8 +1988,8 @@
       "id": "2026-09-30-1-year-tailored-exercise-program-reduces-afib-re",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.450560+00:00",
-      "last_updated": "2026-09-30T08:02:44.450562+00:00",
+      "first_seen": "2026-09-30T15:39:04.628808+00:00",
+      "last_updated": "2026-09-30T15:39:04.628811+00:00",
       "headline": "1-Year Tailored Exercise Program Reduces AFib Recurrence By Nearly 50%",
       "summary": "A one-year clinical trial with a tailored exercise program reduced AFib recurrence by 45%. RealPeopleGroup/E+/Getty Images Exercise interventions are underutilized in the treatment of atrial fibrillation (AFib), an abnormal heart rhythm disorder. A one-year clinical trial with a tailored exercise program reduced time…",
       "category": null,
@@ -1923,8 +2025,8 @@
       "id": "2026-09-30-artificial-sweetener-xylitol-linked-to-higher-ri",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.452517+00:00",
-      "last_updated": "2026-09-30T08:02:44.452519+00:00",
+      "first_seen": "2026-09-30T15:39:04.631760+00:00",
+      "last_updated": "2026-09-30T15:39:04.631763+00:00",
       "headline": "Artificial Sweetener Xylitol Linked to Higher Risk of Cardiovascular Events",
       "summary": "A popular sugar substitute known as xylitol is associated with higher risks of heart attack and stroke. Xvision/Moment/Getty Images A common artificial sweetener known as xylitol is associated with an increased risk of cardiovascular events. A new study found that the higher the level of xylitol in the blood, the…",
       "category": null,
@@ -1960,8 +2062,8 @@
       "id": "2026-09-30-common-rheumatoid-arthritis-drug-may-support-hai",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.456577+00:00",
-      "last_updated": "2026-09-30T08:02:44.456580+00:00",
+      "first_seen": "2026-09-30T15:39:04.636491+00:00",
+      "last_updated": "2026-09-30T15:39:04.636493+00:00",
       "headline": "Common Rheumatoid Arthritis Drug May Support Hair Regrowth in Alopecia",
       "summary": "Results from two clinical trials show that a common rheumatoid arthritis drug, upadacitinib, supported hair regrowth in alopecia. Viktoriya Skorikova/Moment/Getty Images Researchers report that the drug upadacitinib, used to treat rheumatoid arthritis, effectively treated the hair loss condition alopecia areata in two…",
       "category": null,
@@ -1994,11 +2096,48 @@
       "is_new": false
     },
     {
+      "id": "2026-09-30-8-hour-time-restricted-eating-window-may-lead-to",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-09-30T15:39:04.617185+00:00",
+      "last_updated": "2026-09-30T15:39:04.617192+00:00",
+      "headline": "8-Hour Time-Restricted Eating Window May Lead to Greater Weight Loss",
+      "summary": "Research shows that an 8-hour eating window may lead to greater weight loss than other time-restricted eating patterns. FreshSplash · E+/Getty An 8-hour eating window was linked to greater weight loss than a 12-hour window or no time restriction, but not significantly more than a 10-hour window. Time-restricted eating…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/8-hour-time-restricted-eating-window-greater-weight-loss",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-09-30-fullspan-health-announces-first-ever-2026-health",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.441049+00:00",
-      "last_updated": "2026-09-30T08:02:44.441057+00:00",
+      "first_seen": "2026-09-30T15:39:04.617548+00:00",
+      "last_updated": "2026-09-30T15:39:04.617551+00:00",
       "headline": "Fullspan Health Announces First-Ever 2026 Healthline Awards",
       "summary": "The inaugural Healthline Awards showcase credible health and wellness products vetted by a team of expert testers and medical reviewers. Design by Healthline Winners of the inaugural 2026 Healthline Awards have been announced by Fullspan Health, a B2B healthcare platform under Healthline’s parent company, RVO Health.…",
       "category": null,
@@ -2034,8 +2173,8 @@
       "id": "2026-09-30-microdosing-glp-1s-like-wegovy-zepbound-may-stil",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.444335+00:00",
-      "last_updated": "2026-09-30T08:02:44.444337+00:00",
+      "first_seen": "2026-09-30T15:39:04.621273+00:00",
+      "last_updated": "2026-09-30T15:39:04.621275+00:00",
       "headline": "Microdosing GLP-1s Like Wegovy, Zepbound May Still Lead to Weight Loss",
       "summary": "Research shows that microdosing GLP-1 medications may still lead to weight loss. Tatsiana Volkava · Moment/Getty Recent research suggests that people may still lose weight while staying on the lowest starting doses of GLP-1 medications, such as Wegovy or Zepbound, for longer periods. After one year, people taking…",
       "category": null,
@@ -2071,8 +2210,8 @@
       "id": "2026-09-30-women-young-adults-experience-fatigue-more-often",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.444723+00:00",
-      "last_updated": "2026-09-30T08:02:44.444725+00:00",
+      "first_seen": "2026-09-30T15:39:04.621644+00:00",
+      "last_updated": "2026-09-30T15:39:04.621646+00:00",
       "headline": "Women, Young Adults Experience Fatigue More Often, Says CDC",
       "summary": "A CDC report shows that women and young adults are more likely to experience frequent fatigue. ArtistGNDphotography · E+/Getty A recent report from the CDC’s National Center for Health Statistics (NCHS) showed that nearly 3 in 4 adults in the United States report experiencing fatigue. Women and younger adults reported…",
       "category": null,
@@ -2108,8 +2247,8 @@
       "id": "2026-09-30-love-your-coffee-piping-hot-it-may-raise-your-es",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.447735+00:00",
-      "last_updated": "2026-09-30T08:02:44.447737+00:00",
+      "first_seen": "2026-09-30T15:39:04.625075+00:00",
+      "last_updated": "2026-09-30T15:39:04.625078+00:00",
       "headline": "Love Your Coffee Piping Hot? It May Raise Your Esophageal Cancer Risk",
       "summary": "Drinking coffee or tea at very high temperatures could triple your risk of esophageal cancer, researchers say. alvarez/E+/Getty Images Researchers have found a possible link between drinking very hot drinks and esophageal cancer. Drinking coffee or tea at too high a temperature was associated with a threefold risk.…",
       "category": null,
@@ -2145,8 +2284,8 @@
       "id": "2026-09-30-nearly-1-in-3-women-in-their-20s-have-never-had",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.448464+00:00",
-      "last_updated": "2026-09-30T08:02:44.448466+00:00",
+      "first_seen": "2026-09-30T15:39:04.625909+00:00",
+      "last_updated": "2026-09-30T15:39:04.625911+00:00",
       "headline": "Nearly 1 in 3 Women in Their 20s Have Never Had a Cervical Screening",
       "summary": "According to recent research, nearly 32% of females in their 20s have never had a cervical screening. MoMo Productions · DigitalVision/Getty Recent research found that nearly 1 in 3 women ages 21 to 29 had never been screened for cervical cancer as of 2023, up from about 1 in 8 in 2005. Researchers also found…",
       "category": null,
@@ -2182,8 +2321,8 @@
       "id": "2026-09-30-early-menopause-may-lead-to-faster-onset-of-alzh",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.456141+00:00",
-      "last_updated": "2026-09-30T08:02:44.456144+00:00",
+      "first_seen": "2026-09-30T15:39:04.635996+00:00",
+      "last_updated": "2026-09-30T15:39:04.635998+00:00",
       "headline": "Early Menopause May Lead to Faster Onset of Alzheimer's Disease, Cognitive Decline",
       "summary": "Recent research shows that entering menopause early may lead to faster cognitive decline and an earlier onset of Alzheimer’s disease. Kathrin Ziegler · DigitalVision/Getty Earlier menopause may be associated with faster cognitive decline and less favorable brain health later in life. These associations may persist for…",
       "category": null,
@@ -2219,8 +2358,8 @@
       "id": "2026-09-30-t-maxxing-why-young-men-are-obsessed-with-this-m",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-09-30T08:02:44.457418+00:00",
-      "last_updated": "2026-09-30T08:02:44.457420+00:00",
+      "first_seen": "2026-09-30T15:39:04.637441+00:00",
+      "last_updated": "2026-09-30T15:39:04.637444+00:00",
       "headline": "‘T-Maxxing’: Why Young Men Are Obsessed With This Muscle Building Hack",
       "summary": "Young men are “T-maxxing” their testosterone levels on social media to optimize their bodies and mood. aire images/Moment/Getty Images “Testosterone-maxxing” or “T-maxxing” is a social media trend that promotes testosterone for improved strength, appearance, and confidence in young men. While medically appropriate in…",
       "category": null,
