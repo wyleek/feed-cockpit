@@ -1,25 +1,253 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-10-11T04:13:37.924236+00:00",
-    "live_count": 70,
+    "generated_at": "2026-10-11T11:13:52.411016+00:00",
+    "live_count": 73,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
       "fetched": 386,
-      "kept": 70,
+      "kept": 73,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
   },
   "stories": [
     {
+      "id": "2026-10-11-sweating-the-details-sauna-s-potential-health-be",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-10-11T11:13:49.584296+00:00",
+      "last_updated": "2026-10-11T11:13:49.584305+00:00",
+      "headline": "Sweating the details: Sauna's potential health benefits draw scientists' interest",
+      "summary": "A group of international researchers is pushing to rigorously study the potential health benefits of sauna and other heat therapies. They hope to bring scientific legitimacy to the age-old practices.",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/10/11/nx-s1-5996655/heat-therapy-sauna-thermoregulation-health-benefits",
+          "outlet": "NPR Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: NPR Health)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": "2026-10-11T10:00:00+00:00"
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-10-11-could-tutankhamun-s-tomb-hold-clues-to-a-mysteri",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-10-11T11:13:51.250440+00:00",
+      "last_updated": "2026-10-11T11:13:51.250448+00:00",
+      "headline": "Could Tutankhamun's tomb hold clues to a mysterious Egyptian queen?",
+      "summary": "Signs of hidden chambers in the walls of the famous boy king's tomb have raised hopes among researchers of finding hints of Nefertiti's burial place—Tutankhamun's stepmother and mother-in-law",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/could-tutankhamuns-tomb-hold-clues-to-a-mysterious-egyptian-queen/",
+          "outlet": "Scientific American — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-10-11T10:00:00+00:00"
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-10-11-service-increases-access-to-mental-health-suppor",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-10-11T11:13:50.119280+00:00",
+      "last_updated": "2026-10-11T11:13:50.119283+00:00",
+      "headline": "Service increases access to mental health support",
+      "summary": "The programme covers a range of topics, including managing anxiety and boosting self-esteem.",
+      "category": null,
+      "topic_tags": [
+        "anxiety",
+        "mental health"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynwynwgrqo?at_medium=RSS&at_campaign=rss",
+          "outlet": "BBC Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: BBC Health)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": "2026-10-11T07:51:12+00:00"
+      },
+      "keyword_hits": [
+        "anxiety",
+        "mental health"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-10-11-a-plastic-once-thought-harmless-may-be-fueling-f",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-10-11T11:13:50.541276+00:00",
+      "last_updated": "2026-10-11T11:13:50.541279+00:00",
+      "headline": "A plastic once thought harmless may be fueling fatty liver disease",
+      "summary": "One of the world's most common plastics may pose a hidden threat to liver health. Texas A&M researchers discovered that polyethylene microplastics can contribute to fatty liver disease, with potentially worse effects when combined with an unhealthy diet. Even more surprising, this widely used plastic was previously…",
+      "category": null,
+      "topic_tags": [
+        "diet",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261008102718.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": "2026-10-11T00:47:05+00:00"
+      },
+      "keyword_hits": [
+        "diet",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-10-11-neanderthals-may-have-used-prehistoric-glue-as-a",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-10-11T11:13:50.541400+00:00",
+      "last_updated": "2026-10-11T11:13:50.541404+00:00",
+      "headline": "Neanderthals may have used prehistoric glue as an ancient antibiotic",
+      "summary": "Neanderthals may have used a sticky substance made from birch bark to treat wounds thousands of years before antibiotics existed. Researchers recreated ancient birch tar production techniques and discovered that every sample could inhibit the growth of bacteria responsible for dangerous wound infections. Previously…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261008005256.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-10-11T00:45:37+00:00"
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-10-11-a-surprisingly-simple-way-to-relieve-knee-arthri",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-10-11T11:13:50.541168+00:00",
+      "last_updated": "2026-10-11T11:13:50.541177+00:00",
+      "headline": "A surprisingly simple way to relieve knee arthritis pain without pills or surgery",
+      "summary": "A surprisingly simple change in how you walk could help relieve knee arthritis pain and even slow joint damage. In a year-long clinical trial, researchers found that adjusting the angle of a person's foot while walking reduced osteoarthritis pain by an amount comparable to medication, without requiring drugs or…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261009025434.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-10-11T00:00:24+00:00"
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-10-10-loneliness-may-steal-nearly-6-years-of-good-heal",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.779892+00:00",
-      "last_updated": "2026-10-11T04:13:34.779894+00:00",
+      "first_seen": "2026-10-11T11:13:50.335572+00:00",
+      "last_updated": "2026-10-11T11:13:50.335576+00:00",
       "headline": "Loneliness may steal nearly 6 years of good health",
       "summary": "A large study suggests loneliness and social isolation can cost people years of healthy life, especially when it comes to mental health. Men experiencing both lost about 5.8 years free from depression and anxiety, while women lost roughly 3.7 years.",
       "category": null,
@@ -69,8 +297,8 @@
       "id": "2026-10-10-bowel-cancer-melted-away-after-immunotherapy-the",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.900009+00:00",
-      "last_updated": "2026-10-11T04:13:34.900011+00:00",
+      "first_seen": "2026-10-11T11:13:50.541761+00:00",
+      "last_updated": "2026-10-11T11:13:50.541764+00:00",
       "headline": "Bowel cancer “melted away” after immunotherapy, then stayed away",
       "summary": "A short course of immunotherapy before surgery may offer remarkably durable protection for some patients with stage two or three bowel cancer. In the NEOPRISM-CRC trial, 32 patients with a specific genetic form of bowel cancer received pembrolizumab for up to nine weeks before surgery instead of the usual post-surgery…",
       "category": null,
@@ -106,8 +334,8 @@
       "id": "2026-10-10-best-strategy-for-early-septic-shock-hormone-the",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:35.428286+00:00",
-      "last_updated": "2026-10-11T04:13:35.428295+00:00",
+      "first_seen": "2026-10-11T11:13:50.707161+00:00",
+      "last_updated": "2026-10-11T11:13:50.707170+00:00",
       "headline": "Best Strategy for Early Septic Shock; Hormone Therapy and Blood Clot Risk",
       "summary": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El Paso, look at the top medical...",
       "category": null,
@@ -143,8 +371,8 @@
       "id": "2026-10-10-this-beer-making-waste-may-offer-a-new-stream-fo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:36.204088+00:00",
-      "last_updated": "2026-10-11T04:13:36.204096+00:00",
+      "first_seen": "2026-10-11T11:13:51.250547+00:00",
+      "last_updated": "2026-10-11T11:13:51.250551+00:00",
       "headline": "This beer-making waste may offer a new stream for cleaner water",
       "summary": "The research offers yet another way the brewery industry might repurpose its myriad by-products",
       "category": null,
@@ -180,8 +408,8 @@
       "id": "2026-10-10-why-taking-a-break-from-exercise-might-not-mean",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:36.204156+00:00",
-      "last_updated": "2026-10-11T04:13:36.204158+00:00",
+      "first_seen": "2026-10-11T11:13:51.250611+00:00",
+      "last_updated": "2026-10-11T11:13:51.250613+00:00",
       "headline": "Why taking a break from exercise might not mean you need to start from scratch",
       "summary": "Why taking a break from exercise doesn't may not mean you need to start from scratch",
       "category": null,
@@ -217,8 +445,8 @@
       "id": "2026-10-10-scientists-may-have-found-why-diabetic-wounds-re",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.900200+00:00",
-      "last_updated": "2026-10-11T04:13:34.900202+00:00",
+      "first_seen": "2026-10-11T11:13:50.541936+00:00",
+      "last_updated": "2026-10-11T11:13:50.541938+00:00",
       "headline": "Scientists may have found why diabetic wounds refuse to heal",
       "summary": "Chronic diabetic wounds may fail to heal because immune cells remain locked in damaging inflammatory states instead of transitioning toward tissue repair. Researchers are exploring treatments that reprogram these immune responses, raising hopes for more targeted and effective therapies for diabetic ulcers.",
       "category": null,
@@ -254,8 +482,8 @@
       "id": "2026-10-09-controversial-vaccine-trial-touted-by-rfk-jr-get",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.169532+00:00",
-      "last_updated": "2026-10-11T04:13:34.169541+00:00",
+      "first_seen": "2026-10-11T11:13:49.852855+00:00",
+      "last_updated": "2026-10-11T11:13:49.852863+00:00",
       "headline": "Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau",
       "summary": "Recommended dose of hepatitis B vaccine will be withheld from thousands of newborns by Danish researchersA controversial research trial that will withhold hepatitis B vaccines from some African newborns was given approval to move forward this week.It is a central part of the vaccine vision for Robert F Kennedy Jr, the…",
       "category": null,
@@ -291,8 +519,8 @@
       "id": "2026-10-09-scientists-discover-5-hidden-brain-patterns-behi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.779725+00:00",
-      "last_updated": "2026-10-11T04:13:34.779733+00:00",
+      "first_seen": "2026-10-11T11:13:50.335354+00:00",
+      "last_updated": "2026-10-11T11:13:50.335363+00:00",
       "headline": "Scientists discover 5 hidden brain patterns behind depression",
       "summary": "Depression may not be one biological condition, but several distinct patterns of brain activity hiding under the same diagnosis. Researchers studying 263 people with depression identified five brain profiles, each showing different patterns of communication between brain regions and associations with symptoms such as…",
       "category": null,
@@ -338,8 +566,8 @@
       "id": "2026-10-09-stat-life-biosciences-share-glaucoma-study-updat",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:35.609703+00:00",
-      "last_updated": "2026-10-11T04:13:35.609711+00:00",
+      "first_seen": "2026-10-11T11:13:50.808927+00:00",
+      "last_updated": "2026-10-11T11:13:50.808937+00:00",
       "headline": "STAT+: Life Biosciences share glaucoma study updates for its cellular reprogramming drug",
       "summary": "Life Biosciences said yesterday that three glaucoma patients have now received a single injection of its experimental cellular reprogramming drug, with no serious adverse events.",
       "category": null,
@@ -375,8 +603,8 @@
       "id": "2026-10-09-hhs-touts-new-vaccine-injury-initiatives",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:35.428939+00:00",
-      "last_updated": "2026-10-11T04:13:35.428942+00:00",
+      "first_seen": "2026-10-11T11:13:50.707616+00:00",
+      "last_updated": "2026-10-11T11:13:50.707620+00:00",
       "headline": "HHS Touts New Vaccine-Injury Initiatives",
       "summary": "(MedPage Today) -- HHS announced a series of initiatives to further study vaccine injuries, but public health advocates and vaccine experts say they will sow more mistrust in vaccines. Health Secretary Robert F. Kennedy Jr. \"has once again created...",
       "category": null,
@@ -412,8 +640,8 @@
       "id": "2026-10-09-the-social-reckoning-is-a-surreal-portrait-of-so",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:36.204285+00:00",
-      "last_updated": "2026-10-11T04:13:36.204287+00:00",
+      "first_seen": "2026-10-11T11:13:51.250751+00:00",
+      "last_updated": "2026-10-11T11:13:51.250754+00:00",
       "headline": "The Social Reckoning is a ‘surreal’ portrait of social media’s harms, scientist says",
       "summary": "The movie is based on the true story of how Facebook employee Frances Haugen blew the whistle on the company’s safety practices",
       "category": null,
@@ -449,8 +677,8 @@
       "id": "2026-10-09-execution-live-stream-could-cause-ptsd-in-viewer",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.169804+00:00",
-      "last_updated": "2026-10-11T04:13:34.169807+00:00",
+      "first_seen": "2026-10-11T11:13:49.853141+00:00",
+      "last_updated": "2026-10-11T11:13:49.853145+00:00",
       "headline": "Execution live stream could cause PTSD in viewers, say psychiatrists",
       "summary": "Warning follows Pete Hegseth announcement that firing squad execution of Fort Hood killer will be public• US politics – latest updatesLivestreaming an execution could cause post-traumatic stress disorder in the viewing public, mental health experts have said, after the US confirmed plans to broadcast the death by…",
       "category": null,
@@ -488,8 +716,8 @@
       "id": "2026-10-09-nearly-1-in-10-young-adults-could-have-fatty-nar",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.088266+00:00",
-      "last_updated": "2026-10-11T04:13:37.088275+00:00",
+      "first_seen": "2026-10-11T11:13:51.761813+00:00",
+      "last_updated": "2026-10-11T11:13:51.761822+00:00",
       "headline": "Nearly 1 in 10 young adults could have fatty, narrow arteries",
       "summary": "Atherosclerosis, the build-up of fatty plaque in arteries, usually affects people older than 50, but a \"meaningful\" proportion of younger adults also have the condition",
       "category": null,
@@ -525,8 +753,8 @@
       "id": "2026-10-09-skin-creams-may-have-potent-ingredients-not-foun",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:35.429109+00:00",
-      "last_updated": "2026-10-11T04:13:35.429111+00:00",
+      "first_seen": "2026-10-11T11:13:50.707799+00:00",
+      "last_updated": "2026-10-11T11:13:50.707802+00:00",
       "headline": "Skin Creams May Have Potent Ingredients Not Found on the Label",
       "summary": "(MedPage Today) -- Some over-the-counter (OTC) skin creams have undeclared pharmacologically active ingredients (UPAIs) that could be harmful to consumers, an observational study found. Out of 18 preselected products, UPAIs were identified in...",
       "category": null,
@@ -562,8 +790,8 @@
       "id": "2026-10-09-autism-adhd-and-mental-health-review-what-you-ne",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.523586+00:00",
-      "last_updated": "2026-10-11T04:13:34.523595+00:00",
+      "first_seen": "2026-10-11T11:13:50.118791+00:00",
+      "last_updated": "2026-10-11T11:13:50.118799+00:00",
       "headline": "Autism, ADHD and mental health review: What you need to know",
       "summary": "It contains big lessons for the NHS, welfare, education and employment policies. What are the key takeaways?",
       "category": null,
@@ -599,8 +827,8 @@
       "id": "2026-10-09-i-gave-meta-s-muse-and-openai-s-dots-my-password",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:36.204347+00:00",
-      "last_updated": "2026-10-11T04:13:36.204349+00:00",
+      "first_seen": "2026-10-11T11:13:51.250825+00:00",
+      "last_updated": "2026-10-11T11:13:51.250827+00:00",
       "headline": "I gave Meta’s Muse and OpenAI’s Dots my passwords for a week",
       "summary": "Meta’s and OpenAI’s new agents can streamline your life. Artificial intelligence researchers helped me test how far to trust them",
       "category": null,
@@ -636,8 +864,8 @@
       "id": "2026-10-09-only-one-workout-helped-older-adults-lose-fat-an",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.899881+00:00",
-      "last_updated": "2026-10-11T04:13:34.899888+00:00",
+      "first_seen": "2026-10-11T11:13:50.541635+00:00",
+      "last_updated": "2026-10-11T11:13:50.541639+00:00",
       "headline": "Only one workout helped older adults lose fat and keep muscle",
       "summary": "A six-month study suggests that high-intensity interval training (HIIT) may offer older adults a powerful advantage: losing body fat while keeping their muscle. Unlike moderate-intensity workouts, which led to a small loss of lean muscle, HIIT preserved it while also improving body composition around the waist.",
       "category": null,
@@ -675,8 +903,8 @@
       "id": "2026-10-09-antarctica-s-penguins-are-sending-us-a-distress",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.922752+00:00",
-      "last_updated": "2026-10-11T04:13:37.922761+00:00",
+      "first_seen": "2026-10-11T11:13:52.410159+00:00",
+      "last_updated": "2026-10-11T11:13:52.410167+00:00",
       "headline": "Antarctica’s penguins are sending us a distress signal",
       "summary": "This story was originally published by The Guardian and is reproduced here as part of the Climate Desk collaboration. The world’s largest penguin colony has declined by two-thirds since 2011, most likely because of the climate crisis, a study has revealed. Scientists said the rapid demise of chinstrap penguins on…",
       "category": null,
@@ -714,8 +942,8 @@
       "id": "2026-10-09-feverish-after-a-vaccine-the-reason-could-be-you",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:36.204459+00:00",
-      "last_updated": "2026-10-11T04:13:36.204460+00:00",
+      "first_seen": "2026-10-11T11:13:51.250959+00:00",
+      "last_updated": "2026-10-11T11:13:51.250961+00:00",
       "headline": "Feverish after a vaccine? The reason could be your gut microbiome",
       "summary": "In a new study, people who had worse fevers after a COVID shot tended to have similar gut characteristics",
       "category": null,
@@ -755,8 +983,8 @@
       "id": "2026-10-09-one-doctor-s-fight-to-make-iud-placement-better",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:36.204412+00:00",
-      "last_updated": "2026-10-11T04:13:36.204413+00:00",
+      "first_seen": "2026-10-11T11:13:51.250903+00:00",
+      "last_updated": "2026-10-11T11:13:51.250905+00:00",
       "headline": "One doctor’s fight to make IUD placement better",
       "summary": "A new study shows promising results in lowering pain during IUD placements",
       "category": null,
@@ -792,8 +1020,8 @@
       "id": "2026-10-09-bacteria-turn-a-virus-own-weapon-against-it",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.900096+00:00",
-      "last_updated": "2026-10-11T04:13:34.900099+00:00",
+      "first_seen": "2026-10-11T11:13:50.541843+00:00",
+      "last_updated": "2026-10-11T11:13:50.541846+00:00",
       "headline": "Bacteria turn a virus’ own weapon against it",
       "summary": "Researchers have uncovered a new way bacteria detect viral attacks: a virus-produced enzyme cuts a bacterial sensor protein, triggering a self-destructing immune response. The discovery could lead to more effective phage therapies against antibiotic-resistant bacteria and provide insight into ancient immune mechanisms…",
       "category": null,
@@ -829,8 +1057,8 @@
       "id": "2026-10-09-chatgpt-for-teens-has-special-safeguards-a-watch",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:33.825320+00:00",
-      "last_updated": "2026-10-11T04:13:33.825332+00:00",
+      "first_seen": "2026-10-11T11:13:49.584482+00:00",
+      "last_updated": "2026-10-11T11:13:49.584487+00:00",
       "headline": "ChatGPT for Teens has special safeguards. A watchdog group finds most don't work",
       "summary": "A study from Common Sense Media says most safeguards in ChatGPT for Teens failed. The chatbot talks to teens like a friend and doesn't alert parents when users talk about self-harm and suicide.",
       "category": null,
@@ -868,8 +1096,8 @@
       "id": "2026-10-09-opinion-50-years-ago-my-colleagues-and-i-pursued",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:35.609971+00:00",
-      "last_updated": "2026-10-11T04:13:35.609974+00:00",
+      "first_seen": "2026-10-11T11:13:50.809178+00:00",
+      "last_updated": "2026-10-11T11:13:50.809181+00:00",
       "headline": "Opinion: 50 years ago, my colleagues and I pursued basic research science that became revolutionary",
       "summary": "“Basic studies led to clinical and translational advances that no one could have predicted,” Robert Gallo writes of his work with interleukin-2.",
       "category": null,
@@ -905,8 +1133,8 @@
       "id": "2026-10-09-the-fall-of-roe-dramatically-changed-abortion-ac",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:35.610035+00:00",
-      "last_updated": "2026-10-11T04:13:35.610036+00:00",
+      "first_seen": "2026-10-11T11:13:50.809248+00:00",
+      "last_updated": "2026-10-11T11:13:50.809250+00:00",
       "headline": "The fall of Roe dramatically changed abortion access. This researcher used Reddit to capture how",
       "summary": "With research on abortion access barriers, STAT Wunderkind Betsy Pleasants is defining a framework for using AI tools without losing sight of the people behind the data.",
       "category": null,
@@ -942,8 +1170,8 @@
       "id": "2026-10-09-nearly-30-000-people-tested-quit-smoking-methods",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.779828+00:00",
-      "last_updated": "2026-10-11T04:13:34.779830+00:00",
+      "first_seen": "2026-10-11T11:13:50.335453+00:00",
+      "last_updated": "2026-10-11T11:13:50.335481+00:00",
       "headline": "Nearly 30,000 people tested quit-smoking methods. One stood out",
       "summary": "Nicotine e-cigarettes appear to help more smokers quit than patches, gum, and several other common approaches, according to a major review of 80 clinical trials. Researchers say regulated vaping products are not risk-free, but may be a significantly less harmful alternative for people who would otherwise continue…",
       "category": null,
@@ -985,8 +1213,8 @@
       "id": "2026-10-08-trump-administration-investigates-9-universities",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:35.610103+00:00",
-      "last_updated": "2026-10-11T04:13:35.610105+00:00",
+      "first_seen": "2026-10-11T11:13:50.809330+00:00",
+      "last_updated": "2026-10-11T11:13:50.809333+00:00",
       "headline": "Trump administration investigates 9 universities for alleged visa fraud",
       "summary": "This story has been updated. The Trump administration announced Thursday that it is investigating nine universities for alleged fraud related to visas commonly used by postdoctoral researchers, a core part…",
       "category": null,
@@ -1022,8 +1250,8 @@
       "id": "2026-10-08-nhs-england-mental-health-services-review-what-h",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.170210+00:00",
-      "last_updated": "2026-10-11T04:13:34.170212+00:00",
+      "first_seen": "2026-10-11T11:13:49.853615+00:00",
+      "last_updated": "2026-10-11T11:13:49.853618+00:00",
       "headline": "NHS England mental health services review: what has it found and what does it recommend?",
       "summary": "Prof Peter Fonagy’s 607-page report is categoric that mental distress has increased substantially and ‘cannot be explained by greater awareness alone’Full report | NHS at risk of ‘system failures’ as demand for ADHD and autism care soars, inquiry findsAnalysis | No ‘snowflakes’: mental health review says today’s youth…",
       "category": null,
@@ -1061,8 +1289,8 @@
       "id": "2026-10-08-no-snowflakes-mental-health-review-says-today-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.170103+00:00",
-      "last_updated": "2026-10-11T04:13:34.170106+00:00",
+      "first_seen": "2026-10-11T11:13:49.853486+00:00",
+      "last_updated": "2026-10-11T11:13:49.853490+00:00",
       "headline": "No ‘snowflakes’: mental health review says today’s youth have it harder and harms are real",
       "summary": "Peter Fonagy lauds courage of young people and warns of consequences of rising prevalence of mental illnessFull report | NHS at risk of ‘system failures’ as demand for ADHD and autism care soars, inquiry findsExplainer | What has the Fonagy review found and what does it recommend?Eighteen months ago, in an…",
       "category": null,
@@ -1098,8 +1326,8 @@
       "id": "2026-10-08-nhs-at-risk-of-system-failures-as-demand-for-adh",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.170307+00:00",
-      "last_updated": "2026-10-11T04:13:34.170308+00:00",
+      "first_seen": "2026-10-11T11:13:49.853729+00:00",
+      "last_updated": "2026-10-11T11:13:49.853732+00:00",
       "headline": "NHS at risk of ‘system failures’ as demand for ADHD and autism care soars, inquiry finds",
       "summary": "England-focused mental health review returns stark warning and calls for shift to ‘needs-led’ systemExplainer | What has the Fonagy review found and what does it recommend?Analysis | No ‘snowflakes’: mental health review says today’s youth have it harder and harms are realThe NHS in England is heading into a “world of…",
       "category": null,
@@ -1135,8 +1363,8 @@
       "id": "2026-10-08-health-secretary-kennedy-touts-an-initiative-to",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:33.825546+00:00",
-      "last_updated": "2026-10-11T04:13:33.825550+00:00",
+      "first_seen": "2026-10-11T11:13:49.584626+00:00",
+      "last_updated": "2026-10-11T11:13:49.584629+00:00",
       "headline": "Health Secretary Kennedy touts an initiative to study vaccine safety",
       "summary": "Health Secretary Robert F. Kennedy Jr. has established a new clinic at the National Institutes of Health to study vaccine injuries. It's part of a larger administration effort on vaccine safety.",
       "category": null,
@@ -1172,8 +1400,8 @@
       "id": "2026-10-08-harry-says-he-slipped-into-depression-after-leav",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.523696+00:00",
-      "last_updated": "2026-10-11T04:13:34.523698+00:00",
+      "first_seen": "2026-10-11T11:13:50.118909+00:00",
+      "last_updated": "2026-10-11T11:13:50.118912+00:00",
       "headline": "Harry says he 'slipped into depression' after leaving UK",
       "summary": "The Duke of Sussex says he had an \"adrenaline crash\" while visiting Vancouver Island to \"get some space\".",
       "category": null,
@@ -1209,8 +1437,8 @@
       "id": "2026-10-08-nih-funding-uncertainty-thwarts-u-s-researchers",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:35.610181+00:00",
-      "last_updated": "2026-10-11T04:13:35.610182+00:00",
+      "first_seen": "2026-10-11T11:13:50.809423+00:00",
+      "last_updated": "2026-10-11T11:13:50.809425+00:00",
       "headline": "NIH funding uncertainty thwarts U.S. researchers",
       "summary": "How has the NIH been spending its budget? And why are biotech investors feeling gloomy? Find out on this week's episode of \"The Readout LOUD\" podcast.",
       "category": null,
@@ -1246,8 +1474,8 @@
       "id": "2026-10-08-suicide-is-up-among-black-americans-we-need-to-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:33.825635+00:00",
-      "last_updated": "2026-10-11T04:13:33.825638+00:00",
+      "first_seen": "2026-10-11T11:13:49.584688+00:00",
+      "last_updated": "2026-10-11T11:13:49.584691+00:00",
       "headline": "Suicide is up among Black Americans. We need to talk about it.",
       "summary": "NPR's Michel Martin hosted a panel conversation about mental health and suicide in the Black community, exploring a difficult subject in deeply personal conversations.",
       "category": null,
@@ -1283,8 +1511,8 @@
       "id": "2026-10-08-the-guardian-view-on-cancers-in-under-50s-the-ri",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.170416+00:00",
-      "last_updated": "2026-10-11T04:13:34.170418+00:00",
+      "first_seen": "2026-10-11T11:13:49.853855+00:00",
+      "last_updated": "2026-10-11T11:13:49.853858+00:00",
       "headline": "The Guardian view on cancers in under-50s: the risks of obesity must be confronted | Editorial",
       "summary": "More research into the troubling rise in early onset cancers is needed. But we already know that food is among the culpritsThe latest findings about the rise in cancers in people under 50, from the World Cancer Research Fund (WCRF), are extremely concerning. While a cancer diagnosis is bad news at any time, it is a…",
       "category": null,
@@ -1320,8 +1548,8 @@
       "id": "2026-10-08-the-big-unanswered-question-about-russia-s-plagu",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.088347+00:00",
-      "last_updated": "2026-10-11T04:13:37.088350+00:00",
+      "first_seen": "2026-10-11T11:13:51.761903+00:00",
+      "last_updated": "2026-10-11T11:13:51.761906+00:00",
       "headline": "The big unanswered question about Russia’s ‘plague’ death",
       "summary": "Russia says it is winding down precautionary measures taken after a lab worker at a plague research institute died. But what made officials think these were needed at all?",
       "category": null,
@@ -1357,8 +1585,8 @@
       "id": "2026-10-08-fda-approved-epilepsy-drug-may-help-reverse-oste",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.900300+00:00",
-      "last_updated": "2026-10-11T04:13:34.900302+00:00",
+      "first_seen": "2026-10-11T11:13:50.542041+00:00",
+      "last_updated": "2026-10-11T11:13:50.542044+00:00",
       "headline": "FDA-approved epilepsy drug may help reverse osteoarthritis damage",
       "summary": "Researchers at Yale have identified a promising new approach to osteoarthritis that could do more than simply ease pain. The epilepsy drug lacosamide appears to block a protein involved in both pain signaling and cartilage destruction, helping damaged joints shift back toward repair in preclinical studies.",
       "category": null,
@@ -1391,126 +1619,11 @@
       "is_new": false
     },
     {
-      "id": "2026-10-08-covid-brexit-and-liz-truss-mini-budget-led-to-la",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.170571+00:00",
-      "last_updated": "2026-10-11T04:13:34.170573+00:00",
-      "headline": "Covid, Brexit and Liz Truss mini-budget led to lasting decline in mental health, study finds",
-      "summary": "Researchers found five events, including Russia’s invasion of Ukraine, caused serious damage to mental wellbeing across UKBrexit, Liz Truss’s mini-budget and other “shocks” over the last 10 years have led to a serious and lasting deterioration in the UK population’s mental health, research has found.Russia’s invasion…",
-      "category": null,
-      "topic_tags": [
-        "mental health",
-        "study",
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/society/2026/oct/08/covid-brexit-liz-truss-mini-budget-lasting-decline-mental-health-uk-study",
-          "outlet": "The Guardian — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
-      "caveats": null,
-      "score": 8.1,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 9,
-        "published": "2026-10-08T09:00:16+00:00"
-      },
-      "keyword_hits": [
-        "mental health",
-        "study",
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-10-08-cancer-is-tripling-and-will-keep-increasing-firs",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.170667+00:00",
-      "last_updated": "2026-10-11T04:13:34.170668+00:00",
-      "headline": "‘Cancer is tripling and will keep increasing’: first African to lead global action against disease ready for battle",
-      "summary": "With cancer cases rising fastest in poorer countries, Zainab Shinkafi-Bagudu, president-elect of the Union for International Cancer Control, says Africa needs investment in research, diagnosis and preventionWhen Dr Zainab Shinkafi-Bagudu last saw Gloria in Abuja, the young breast cancer patient was so ill that she was…",
-      "category": null,
-      "topic_tags": [
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/global-development/2026/oct/08/health-cancer-zainab-shinkafi-bagudu-africa-uicc-global-south",
-          "outlet": "The Guardian — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-10-08T09:00:15+00:00"
-      },
-      "keyword_hits": [
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-10-08-just-7-days-of-strength-training-started-shrinki",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-10-11T04:13:34.900470+00:00",
-      "last_updated": "2026-10-11T04:13:34.900472+00:00",
-      "headline": "Just 7 days of strength training started shrinking fat cells in mice",
-      "summary": "Just seven strength-training sessions helped obese mice shrink visceral fat cells and reactivate molecular pathways involved in burning stored fat, despite no change in overall body weight. The findings suggest some benefits of resistance exercise may begin long before weight loss becomes visible, though the results…",
-      "category": null,
-      "topic_tags": [
-        "exercise"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/10/261006234509.htm",
-          "outlet": "ScienceDaily — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-10-08T08:33:40+00:00"
-      },
-      "keyword_hits": [
-        "exercise"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-10-11-healthy-diet-and-fitness-program-may-improve-pro",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.673725+00:00",
-      "last_updated": "2026-10-11T04:13:37.673727+00:00",
+      "first_seen": "2026-10-11T11:13:52.232822+00:00",
+      "last_updated": "2026-10-11T11:13:52.232825+00:00",
       "headline": "Healthy Diet and Fitness Program May Improve Prostate Cancer Outcomes",
       "summary": "An enhanced diet and exercise program may support men during prostate cancer treatment, according to a new study. Maki Nakamura/DigitalVision/Getty Images Researchers say a monitored program of diet, exercise, and behavioral support may improve prostate cancer treatment outcomes. The scientists reported that men…",
       "category": null,
@@ -1546,14 +1659,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-taking-blood-pressure-meds-dash-diet-likely-safe",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.660220+00:00",
-      "last_updated": "2026-10-11T04:13:37.660223+00:00",
+      "first_seen": "2026-10-11T11:13:52.217049+00:00",
+      "last_updated": "2026-10-11T11:13:52.217053+00:00",
       "headline": "Taking Blood Pressure Meds? DASH Diet Likely Safe for Potassium Levels",
       "summary": "The well-known DASH diet does not significantly affect potassium levels in adults taking certain blood pressure medications. Tatiana Maksimova/Moment/Getty Images A new study reports that the DASH diet does not significantly increase potassium levels in people taking high blood pressure medication. Researchers said…",
       "category": null,
@@ -1587,14 +1700,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-low-energy-diet-plus-structured-exercise-reverse",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.663960+00:00",
-      "last_updated": "2026-10-11T04:13:37.663961+00:00",
+      "first_seen": "2026-10-11T11:13:52.221446+00:00",
+      "last_updated": "2026-10-11T11:13:52.221449+00:00",
       "headline": "Low-Energy Diet Plus Structured Exercise Reverses Early Onset Diabetes",
       "summary": "A low-energy diet combined with a structured exercise program led to early onset type 2 diabetes remission. FreshSplash/E+/Getty Images A new study found that a low-energy diet and exercise reversed early onset type 2 diabetes in half of the participants. This is important because early onset diabetes can lead to…",
       "category": null,
@@ -1628,14 +1741,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-women-with-enlarged-breasts-more-likely-to-exper",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.666997+00:00",
-      "last_updated": "2026-10-11T04:13:37.666999+00:00",
+      "first_seen": "2026-10-11T11:13:52.224950+00:00",
+      "last_updated": "2026-10-11T11:13:52.224953+00:00",
       "headline": "Women With Enlarged Breasts More Likely to Experience Migraine, Sleep Apnea",
       "summary": "new research suggests that macromastia is associated with more than just physical pain and discomfort. Luis Alvarez/DigitalVision/Getty Images A new study found that women with macromastia (enlarged breasts) had higher odds of chronic migraine, neck pain, and obstructive sleep apnea than women without the condition.…",
       "category": null,
@@ -1669,14 +1782,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-even-low-light-exposure-during-sleep-may-raise-y",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.672891+00:00",
-      "last_updated": "2026-10-11T04:13:37.672894+00:00",
+      "first_seen": "2026-10-11T11:13:52.231797+00:00",
+      "last_updated": "2026-10-11T11:13:52.231800+00:00",
       "headline": "Even Low Light Exposure During Sleep May Raise Your Risk of Heart Failure, AFib",
       "summary": "A new study suggests that light exposure during sleep could raise the risk of cardiovascular disease. Yana Iskayeva/Moment/Getty Images New research shows that even dim light during sleep may thicken heart muscle walls and reduce heart flexibility, potentially raising cardiovascular risk. The findings build on prior…",
       "category": null,
@@ -1710,14 +1823,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-why-your-morning-coffee-may-boost-your-mood-befo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.671305+00:00",
-      "last_updated": "2026-10-11T04:13:37.671307+00:00",
+      "first_seen": "2026-10-11T11:13:52.229942+00:00",
+      "last_updated": "2026-10-11T11:13:52.229945+00:00",
       "headline": "Why Your Morning Coffee May Boost Your Mood Before You Even Take a Sip",
       "summary": "The aroma of cofee may help boost your mood, according to recent research. Busakorn Pongparnit · Moment/Getty The aroma of coffee may help improve mood and reduce feelings of stress, according to a small study of healthy young adults. Smelling coffee was linked to reductions in tension, fatigue, confusion, and other…",
       "category": null,
@@ -1753,14 +1866,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-wellness-apps-medically-tailored-meals-help-slow",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.659055+00:00",
-      "last_updated": "2026-10-11T04:13:37.659061+00:00",
+      "first_seen": "2026-10-11T11:13:52.215655+00:00",
+      "last_updated": "2026-10-11T11:13:52.215662+00:00",
       "headline": "Wellness Apps, Medically Tailored Meals Help Slow Weight Gain After GLP-1s",
       "summary": "Recent research shows that structured support may help with weight maintenance after stopping GLP-1s. licensed miniseries · E+/Getty Most people regain a significant portion of the weight they lost within 1 year of stopping GLP-1 medications such as semaglutide (Wegovy) or tirzepatide (Zepbound). A small study found…",
       "category": null,
@@ -1794,14 +1907,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-cutting-back-on-ultra-processed-foods-may-help-e",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.662779+00:00",
-      "last_updated": "2026-10-11T04:13:37.662780+00:00",
+      "first_seen": "2026-10-11T11:13:52.220082+00:00",
+      "last_updated": "2026-10-11T11:13:52.220085+00:00",
       "headline": "Cutting Back on Ultra-Processed Foods May Help Ease Depression Symptoms",
       "summary": "Recent research has found that reducing UPF intake may help improve symptoms of depression. cafotodigital · E+/Getty A small study found that reducing ultra-processed food (UPF) intake was associated with improvements in depression symptoms. The findings add to previous research linking high UPF consumption with an…",
       "category": null,
@@ -1835,14 +1948,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-is-diet-quality-more-important-for-weight-loss-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.670096+00:00",
-      "last_updated": "2026-10-11T04:13:37.670098+00:00",
+      "first_seen": "2026-10-11T11:13:52.228535+00:00",
+      "last_updated": "2026-10-11T11:13:52.228538+00:00",
       "headline": "Is Diet Quality More Important For Weight Loss Than Counting Calories?",
       "summary": "Recent research shows that diet quality may help improve overall health more than just counting calories. fcafotodigital · E+/Getty A two-year study found that a Mediterranean-style diet and a calorie-focused weight loss program led to similar amounts of weight loss. People following the Mediterranean-style diet saw…",
       "category": null,
@@ -1876,14 +1989,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-love-to-read-your-book-habit-may-lower-alzheimer",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.670549+00:00",
-      "last_updated": "2026-10-11T04:13:37.670551+00:00",
+      "first_seen": "2026-10-11T11:13:52.229055+00:00",
+      "last_updated": "2026-10-11T11:13:52.229058+00:00",
       "headline": "Love to Read? Your Book Habit May Lower Alzheimer’s Risk by 33%",
       "summary": "Research shows that reading has many benefits for people of all ages. Goodboy Picture Company · E+/Getty Research shows that reading for pleasure has various benefits for people of all ages. Reading has been linked to better cognitive skills and mental well-being, as well as lower levels of stress and loneliness. For…",
       "category": null,
@@ -1917,14 +2030,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-letter-from-the-editor-in-chief-is-worrying-abou",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.663517+00:00",
-      "last_updated": "2026-10-11T04:13:37.663519+00:00",
+      "first_seen": "2026-10-11T11:13:52.220955+00:00",
+      "last_updated": "2026-10-11T11:13:52.220958+00:00",
       "headline": "Letter From the Editor-in-Chief: Is Worrying About Sleep Keeping Us Awake?",
       "summary": "A recent study found that a lack of REM and deep sleep is linked to higher risks of dozens of diseases. Credit: Getty A new study analyzing wrist tracker data from 95,000 people found that higher amounts of REM and deep sleep were linked to a lower risk of 83 diseases combined, including dementia, hypertension, and…",
       "category": null,
@@ -1956,14 +2069,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-wall-squats-planks-once-a-week-may-help-lower-yo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.664435+00:00",
-      "last_updated": "2026-10-11T04:13:37.664437+00:00",
+      "first_seen": "2026-10-11T11:13:52.222013+00:00",
+      "last_updated": "2026-10-11T11:13:52.222016+00:00",
       "headline": "Wall Squats, Planks Once a Week May Help Lower Your Blood Pressure",
       "summary": "Performing isometric exercises like wall squats and planks just a few times per week may help lower blood pressure. VioletaStoimenova/E+/Getty Images Just one or two isometric exercise sessions per week may help lower blood pressure in the short term, according to a new study. Performing isometric exercises, such as…",
       "category": null,
@@ -1995,14 +2108,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-are-you-eating-enough-whole-grains-to-lower-your",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.669789+00:00",
-      "last_updated": "2026-10-11T04:13:37.669791+00:00",
+      "first_seen": "2026-10-11T11:13:52.228176+00:00",
+      "last_updated": "2026-10-11T11:13:52.228178+00:00",
       "headline": "Are You Eating Enough Whole Grains to Lower Your Heart Disease Risk?",
       "summary": "Consuming 4 to 6 servings of whole grains per day could offer significant heart health benefits, according to a new study. Viktoriya Skorikova/Moment/Getty Images A large meta-analysis suggests that eating more whole grains may offer substantial cardiovascular benefits. The findings show that every additional 48 grams…",
       "category": null,
@@ -2032,14 +2145,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-pain-prevalence-higher-in-women-increases-most-r",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.660566+00:00",
-      "last_updated": "2026-10-11T04:13:37.660568+00:00",
+      "first_seen": "2026-10-11T11:13:52.217477+00:00",
+      "last_updated": "2026-10-11T11:13:52.217481+00:00",
       "headline": "Pain Prevalence Higher in Women, Increases Most Rapidly Before 55",
       "summary": "Recent research has found that women experience pain more often than men and that pain prevalence increases more rapidly before the age of 55. ljubaphoto · E+/Getty A large global study found that pain prevalence increases most rapidly before age 55 and is consistently higher in women than men across 11 body sites.…",
       "category": null,
@@ -2071,14 +2184,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-increasing-ozempic-dose-linked-to-lower-heart-ri",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.661983+00:00",
-      "last_updated": "2026-10-11T04:13:37.661985+00:00",
+      "first_seen": "2026-10-11T11:13:52.219138+00:00",
+      "last_updated": "2026-10-11T11:13:52.219141+00:00",
       "headline": "Increasing Ozempic Dose Linked to Lower Heart Risk Than Switching to Mounjaro",
       "summary": "Recent research suggests that increasing your Ozempic dose may offer greater heart protection than switching to Mounjaro. Eva Kongshavn · Moment/Getty A real-world study found that people with type 2 diabetes who increased their Ozempic dose rather than switching to Mounjaro had a lower risk of major adverse…",
       "category": null,
@@ -2110,14 +2223,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-insomnia-isn-t-just-exhausting-it-may-raise-your",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.664823+00:00",
-      "last_updated": "2026-10-11T04:13:37.664825+00:00",
+      "first_seen": "2026-10-11T11:13:52.222423+00:00",
+      "last_updated": "2026-10-11T11:13:52.222425+00:00",
       "headline": "Insomnia Isn’t Just Exhausting — It May Raise Your Risk of Stroke, Dementia",
       "summary": "Recent research has found that chronic insomnia may increase the risk of stroke, dementia, and depression. ljubaphoto · E+/Getty A recent review has found that insomnia may be associated with an increased risk of stroke and hospitalization. The researchers also found evidence of an association between insomnia and…",
       "category": null,
@@ -2149,14 +2262,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-ultra-processed-foods-linked-to-higher-risk-of-m",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.666205+00:00",
-      "last_updated": "2026-10-11T04:13:37.666207+00:00",
+      "first_seen": "2026-10-11T11:13:52.224026+00:00",
+      "last_updated": "2026-10-11T11:13:52.224029+00:00",
       "headline": "Ultra-Processed Foods Linked to Higher Risk of Multiple Diseases, Death",
       "summary": "New research found that consuming more ultra-processed foods is linked to an increased risk of multiple health conditions. LauriPatterson/E+/Getty Images A large study has found that eating more ultra-processed foods (UPFs) was linked to a higher risk of disease and early death. The risk of chronic diseases increased…",
       "category": null,
@@ -2188,14 +2301,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-aerobic-exercise-may-improve-brain-health-in-pos",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.668565+00:00",
-      "last_updated": "2026-10-11T04:13:37.668568+00:00",
+      "first_seen": "2026-10-11T11:13:52.226815+00:00",
+      "last_updated": "2026-10-11T11:13:52.226818+00:00",
       "headline": "Aerobic Exercise May Improve Brain Health in Postmenopausal Women",
       "summary": "Research shows that aerobic exercise may improve cognitive function in postmenopausal females. adamkaz · E+/Getty Regular aerobic exercise can significantly improve thinking skills like planning and decision making in postmenopausal women, according to recent research. The greatest cognitive benefits were observed in…",
       "category": null,
@@ -2227,14 +2340,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-drinking-alcohol-raises-cancer-risk-is-any-amoun",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.675014+00:00",
-      "last_updated": "2026-10-11T04:13:37.675016+00:00",
+      "first_seen": "2026-10-11T11:13:52.234374+00:00",
+      "last_updated": "2026-10-11T11:13:52.234377+00:00",
       "headline": "Drinking Alcohol Raises Cancer Risk. Is Any Amount Safe for Health?",
       "summary": "Research shows that alcohol consumption can raise your risk of cancer and other health conditions, as well as alcohol-related cancer death. Krit of Studio OMG · Moment/Getty Recent research found that alcohol-attributable cancer deaths in the United States doubled between 1990 and 2023. Another study found that even…",
       "category": null,
@@ -2266,14 +2379,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-glp-1-drugs-like-zepbound-effectively-treat-slee",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.676395+00:00",
-      "last_updated": "2026-10-11T04:13:37.676397+00:00",
+      "first_seen": "2026-10-11T11:13:52.236031+00:00",
+      "last_updated": "2026-10-11T11:13:52.236034+00:00",
       "headline": "GLP-1 Drugs Like Zepbound Effectively Treat Sleep Apnea Alongside CPAP",
       "summary": "A new review found that GLP-1s offer significant improvements in obstructive sleep apnea associated with obesity. vitapix/E+/Getty Images New research has found that GLP-1 drugs may improve obstructive sleep apnea (OSA) related to obesity. The effects of tirzepatide (Zepound), which is FDA approved for OSA, were…",
       "category": null,
@@ -2305,14 +2418,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-shingles-vaccine-may-reduce-cardiovascular-disea",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.676710+00:00",
-      "last_updated": "2026-10-11T04:13:37.676712+00:00",
+      "first_seen": "2026-10-11T11:13:52.236399+00:00",
+      "last_updated": "2026-10-11T11:13:52.236401+00:00",
       "headline": "Shingles Vaccine May Reduce Cardiovascular Disease Risk by 9%",
       "summary": "Recent research shows that the shingles vaccine may help reduce the risk of cardiovascular disease. A boy and the sea · E+/Getty A recent study found that the recombinant shingles vaccine (Shingrix) was associated with a 9% lower cardiovascular disease burden compared with the older live vaccine. Researchers observed…",
       "category": null,
@@ -2344,14 +2457,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-detached-nails-more-than-4-times-higher-among-gl",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.661067+00:00",
-      "last_updated": "2026-10-11T04:13:37.661069+00:00",
+      "first_seen": "2026-10-11T11:13:52.218070+00:00",
+      "last_updated": "2026-10-11T11:13:52.218073+00:00",
       "headline": "Detached Nails More Than 4 Times Higher Among GLP-1 Users, Study Finds",
       "summary": "In a new study, GLP-1 users reported nail detachment more than four times as often as nonusers. Waishaw/Getty Images GLP-1 drugs like Ozempic have been linked to unusual nail changes in a new study. GLP-1 users reported nail detachment more than four times as often as nonusers, and nail discoloration affected 46% of…",
       "category": null,
@@ -2381,14 +2494,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-can-the-bpc-157-wolverine-peptide-really-help-wi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.662427+00:00",
-      "last_updated": "2026-10-11T04:13:37.662428+00:00",
+      "first_seen": "2026-10-11T11:13:52.219685+00:00",
+      "last_updated": "2026-10-11T11:13:52.219687+00:00",
       "headline": "Can the BPC-157 ‘Wolverine’ Peptide Really Help With Pain and Recovery?",
       "summary": "A new study shows a 33-fold increase in new BPC-157 users in recent years. Compassionate Eye Foundation/Jonathan Bielaski/DigitalVision/Getty Images Proponents of BPC-157, the “Wolverine” peptide, tout injury recovery and pain relief despite limited human evidence to establish safety and effectiveness. Until the…",
       "category": null,
@@ -2418,14 +2531,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-1-year-tailored-exercise-program-reduces-afib-re",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.675663+00:00",
-      "last_updated": "2026-10-11T04:13:37.675665+00:00",
+      "first_seen": "2026-10-11T11:13:52.235167+00:00",
+      "last_updated": "2026-10-11T11:13:52.235170+00:00",
       "headline": "1-Year Tailored Exercise Program Reduces AFib Recurrence By Nearly 50%",
       "summary": "A one-year clinical trial with a tailored exercise program reduced AFib recurrence by 45%. RealPeopleGroup/E+/Getty Images Exercise interventions are underutilized in the treatment of atrial fibrillation (AFib), an abnormal heart rhythm disorder. A one-year clinical trial with a tailored exercise program reduced time…",
       "category": null,
@@ -2455,14 +2568,14 @@
         "exercise"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-switching-from-glp-1-injections-to-wegovy-pill-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.661335+00:00",
-      "last_updated": "2026-10-11T04:13:37.661337+00:00",
+      "first_seen": "2026-10-11T11:13:52.218385+00:00",
+      "last_updated": "2026-10-11T11:13:52.218387+00:00",
       "headline": "Switching from GLP-1 Injections to Wegovy Pill Shows Additional Weight Loss of 4.1%",
       "summary": "Recent research shows people who switch to the Wegovy pill from a GLP-1 injection can lose additional weight. PixelsEffect · E+/Getty People with overweight or obesity who switched from an injectable GLP-1 weight loss medication to the Wegovy (semaglutide) pill lost an average of 4.1% of their body weight over 3…",
       "category": null,
@@ -2492,14 +2605,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-8-hour-time-restricted-eating-window-may-lead-to",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.665135+00:00",
-      "last_updated": "2026-10-11T04:13:37.665136+00:00",
+      "first_seen": "2026-10-11T11:13:52.222796+00:00",
+      "last_updated": "2026-10-11T11:13:52.222799+00:00",
       "headline": "8-Hour Time-Restricted Eating Window May Lead to Greater Weight Loss",
       "summary": "Research shows that an 8-hour eating window may lead to greater weight loss than other time-restricted eating patterns. FreshSplash · E+/Getty An 8-hour eating window was linked to greater weight loss than a 12-hour window or no time restriction, but not significantly more than a 10-hour window. Time-restricted eating…",
       "category": null,
@@ -2529,14 +2642,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-fullspan-health-announces-first-ever-2026-health",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.665466+00:00",
-      "last_updated": "2026-10-11T04:13:37.665467+00:00",
+      "first_seen": "2026-10-11T11:13:52.223181+00:00",
+      "last_updated": "2026-10-11T11:13:52.223183+00:00",
       "headline": "Fullspan Health Announces First-Ever 2026 Healthline Awards",
       "summary": "The inaugural Healthline Awards showcase credible health and wellness products vetted by a team of expert testers and medical reviewers. Design by Healthline Winners of the inaugural 2026 Healthline Awards have been announced by Fullspan Health, a B2B healthcare platform under Healthline’s parent company, RVO Health.…",
       "category": null,
@@ -2566,14 +2679,14 @@
         "wellness"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-microdosing-glp-1s-like-wegovy-zepbound-may-stil",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.668935+00:00",
-      "last_updated": "2026-10-11T04:13:37.668937+00:00",
+      "first_seen": "2026-10-11T11:13:52.227211+00:00",
+      "last_updated": "2026-10-11T11:13:52.227213+00:00",
       "headline": "Microdosing GLP-1s Like Wegovy, Zepbound May Still Lead to Weight Loss",
       "summary": "Research shows that microdosing GLP-1 medications may still lead to weight loss. Tatsiana Volkava · Moment/Getty Recent research suggests that people may still lose weight while staying on the lowest starting doses of GLP-1 medications, such as Wegovy or Zepbound, for longer periods. After one year, people taking…",
       "category": null,
@@ -2603,14 +2716,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-women-young-adults-experience-fatigue-more-often",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.669300+00:00",
-      "last_updated": "2026-10-11T04:13:37.669302+00:00",
+      "first_seen": "2026-10-11T11:13:52.227638+00:00",
+      "last_updated": "2026-10-11T11:13:52.227641+00:00",
       "headline": "Women, Young Adults Experience Fatigue More Often, Says CDC",
       "summary": "A CDC report shows that women and young adults are more likely to experience frequent fatigue. ArtistGNDphotography · E+/Getty A recent report from the CDC’s National Center for Health Statistics (NCHS) showed that nearly 3 in 4 adults in the United States report experiencing fatigue. Women and younger adults reported…",
       "category": null,
@@ -2640,14 +2753,14 @@
         "young adults"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-love-your-coffee-piping-hot-it-may-raise-your-es",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.672473+00:00",
-      "last_updated": "2026-10-11T04:13:37.672476+00:00",
+      "first_seen": "2026-10-11T11:13:52.231306+00:00",
+      "last_updated": "2026-10-11T11:13:52.231309+00:00",
       "headline": "Love Your Coffee Piping Hot? It May Raise Your Esophageal Cancer Risk",
       "summary": "Drinking coffee or tea at very high temperatures could triple your risk of esophageal cancer, researchers say. alvarez/E+/Getty Images Researchers have found a possible link between drinking very hot drinks and esophageal cancer. Drinking coffee or tea at too high a temperature was associated with a threefold risk.…",
       "category": null,
@@ -2677,14 +2790,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-10-11-nearly-1-in-3-women-in-their-20s-have-never-had",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-10-11T04:13:37.673243+00:00",
-      "last_updated": "2026-10-11T04:13:37.673244+00:00",
+      "first_seen": "2026-10-11T11:13:52.232199+00:00",
+      "last_updated": "2026-10-11T11:13:52.232202+00:00",
       "headline": "Nearly 1 in 3 Women in Their 20s Have Never Had a Cervical Screening",
       "summary": "According to recent research, nearly 32% of females in their 20s have never had a cervical screening. MoMo Productions · DigitalVision/Getty Recent research found that nearly 1 in 3 women ages 21 to 29 had never been screened for cervical cancer as of 2023, up from about 1 in 8 in 2005. Researchers also found…",
       "category": null,
@@ -2714,7 +2827,7 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     }
   ]
 }
