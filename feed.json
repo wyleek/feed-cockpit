@@ -1,25 +1,136 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-11-01T01:52:25.525907+00:00",
-    "live_count": 59,
+    "generated_at": "2026-11-01T08:45:14.303471+00:00",
+    "live_count": 61,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
       "fetched": 392,
-      "kept": 59,
+      "kept": 61,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
   },
   "stories": [
     {
+      "id": "2026-11-01-new-charity-uses-outdoors-to-improve-mental-heal",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-01T08:45:11.560348+00:00",
+      "last_updated": "2026-11-01T08:45:11.560351+00:00",
+      "headline": "New charity uses outdoors to improve mental health",
+      "summary": "A new charity hopes to use outdoor activities to improve men's mental health on the Isle of Man.",
+      "category": null,
+      "topic_tags": [
+        "mental health"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ck98zqpzn1e5o?at_medium=RSS&at_campaign=rss",
+          "outlet": "BBC Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: BBC Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-01T07:39:54+00:00"
+      },
+      "keyword_hits": [
+        "mental health"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-01-how-to-improve-your-memory-10-easy-enjoyable-exp",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-01T08:45:11.451317+00:00",
+      "last_updated": "2026-11-01T08:45:11.451325+00:00",
+      "headline": "How to improve your memory: 10 easy, enjoyable expert tips – from reading a book to getting more sleep",
+      "summary": "Relying on technology can make us forgetful, but there are some simple ways to sharpen your recall. Memory experts describe the tricks and habits that can helpMemory can worsen as we age, but it is often possible to do something about it. Here, memory experts share their advice on how to improve your power of recall.…",
+      "category": null,
+      "topic_tags": [
+        "sleep"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/lifeandstyle/2026/nov/01/how-to-improve-your-memory-10-easy-enjoyable-expert-tips-from-reading-a-book-to-getting-more-sleep",
+          "outlet": "The Guardian — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-01T05:00:03+00:00"
+      },
+      "keyword_hits": [
+        "sleep"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-01-scientists-discover-a-hidden-driver-of-high-chol",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-01T08:45:12.032586+00:00",
+      "last_updated": "2026-11-01T08:45:12.032589+00:00",
+      "headline": "Scientists discover a hidden driver of high cholesterol and a way to stop it",
+      "summary": "Scientists have uncovered a hidden mechanism that allows high-cholesterol diets to undermine the body's natural cholesterol defenses, and blocking it dramatically lowered harmful LDL cholesterol in mice. Even more promising, an experimental drug targeting this pathway has already passed an early human safety trial,…",
+      "category": null,
+      "topic_tags": [
+        "diet"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/10/261030003003.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-01T01:57:50+00:00"
+      },
+      "keyword_hits": [
+        "diet"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-10-31-scientists-finally-discover-how-a-common-gut-bac",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.335453+00:00",
-      "last_updated": "2026-11-01T01:52:23.335461+00:00",
+      "first_seen": "2026-11-01T08:45:12.032488+00:00",
+      "last_updated": "2026-11-01T08:45:12.032494+00:00",
       "headline": "Scientists finally discover how a common gut bacterium can trigger colon cancer",
       "summary": "Scientists at Johns Hopkins have uncovered a crucial missing link between a common gut bacterium and colorectal cancer, solving a mystery that has puzzled researchers for nearly two decades. The bacterium, Bacteroides fragilis, produces a toxin that damages the colon’s protective lining, triggers chronic inflammation,…",
       "category": null,
@@ -57,8 +168,8 @@
       "id": "2026-10-31-do-you-have-seasonal-affective-disorder-how-to-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:22.418666+00:00",
-      "last_updated": "2026-11-01T01:52:22.418673+00:00",
+      "first_seen": "2026-11-01T08:45:11.349626+00:00",
+      "last_updated": "2026-11-01T08:45:11.349633+00:00",
       "headline": "Do you have seasonal affective disorder? How to tell — and what to do about it",
       "summary": "The syndrome can make people feel like a \"hibernating bear,\" says Dr. Norman Rosenthal, who published the first research on SAD. He explains how to identify the symptoms and what to do to feel better.",
       "category": null,
@@ -94,8 +205,8 @@
       "id": "2026-10-31-a-surprising-vitamin-a-discovery-is-changing-wha",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.335802+00:00",
-      "last_updated": "2026-11-01T01:52:23.335805+00:00",
+      "first_seen": "2026-11-01T08:45:12.032874+00:00",
+      "last_updated": "2026-11-01T08:45:12.032877+00:00",
       "headline": "A surprising vitamin A discovery is changing what scientists know about vision",
       "summary": "Scientists at Johns Hopkins University have uncovered a surprising process that helps humans develop sharp vision before birth, challenging decades of assumptions about how the eye forms. Using miniature human retinas grown in the lab, researchers discovered that a vitamin A derivative and thyroid hormones work…",
       "category": null,
@@ -131,8 +242,8 @@
       "id": "2026-10-31-a-simple-blood-test-could-reveal-alzheimer-s-ris",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.075738+00:00",
-      "last_updated": "2026-11-01T01:52:23.075748+00:00",
+      "first_seen": "2026-11-01T08:45:11.798896+00:00",
+      "last_updated": "2026-11-01T08:45:11.798903+00:00",
       "headline": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
       "summary": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with the highest-risk individuals facing a 38% chance of impairment within five years and an estimated 78% chance within 10 years. Scientists believe the discovery could…",
       "category": null,
@@ -174,8 +285,8 @@
       "id": "2026-10-30-why-you-should-eat-kiwi-and-pineapple-skins",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:22.746762+00:00",
-      "last_updated": "2026-11-01T01:52:22.746765+00:00",
+      "first_seen": "2026-11-01T08:45:11.560658+00:00",
+      "last_updated": "2026-11-01T08:45:11.560661+00:00",
       "headline": "Why you should eat kiwi and pineapple skins",
       "summary": "Eating fruit and vegetable scraps such as peels and stalks could provide a health boost that most of us are missing, say UK researchers, external.",
       "category": null,
@@ -211,8 +322,8 @@
       "id": "2026-10-30-lonely-cancer-deaths-silence-was-deafening-menta",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.460526+00:00",
-      "last_updated": "2026-11-01T01:52:23.460535+00:00",
+      "first_seen": "2026-11-01T08:45:12.207173+00:00",
+      "last_updated": "2026-11-01T08:45:12.207178+00:00",
       "headline": "Lonely Cancer Deaths; 'Silence Was Deafening'; Mental Health and Cancer Mortality",
       "summary": "(MedPage Today) -- People who lived alone had a significantly higher mortality from cancer and multiple other conditions. (American Cancer Society) The FDA warned Amgen that a promotional video for its colorectal cancer drug ​panitumumab...",
       "category": null,
@@ -248,8 +359,8 @@
       "id": "2026-10-30-paleo-lighting-can-fix-your-brain-s-clock-after",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.911371+00:00",
-      "last_updated": "2026-11-01T01:52:23.911379+00:00",
+      "first_seen": "2026-11-01T08:45:12.813776+00:00",
+      "last_updated": "2026-11-01T08:45:12.813782+00:00",
       "headline": "‘Paleo lighting’ can fix your brain’s clock after daylight savings",
       "summary": "The clocks falling back this weekend will give you the opportunity to sleep like a caveman",
       "category": null,
@@ -285,8 +396,8 @@
       "id": "2026-10-30-how-election-day-can-affect-your-heart",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.579359+00:00",
-      "last_updated": "2026-11-01T01:52:23.579368+00:00",
+      "first_seen": "2026-11-01T08:45:12.325618+00:00",
+      "last_updated": "2026-11-01T08:45:12.325623+00:00",
       "headline": "How Election Day can affect your heart",
       "summary": "Political campaigns can do more than raise your blood pressure. Studies link election stress to irregular heartbeats and an increase in heart attacks.",
       "category": null,
@@ -322,8 +433,8 @@
       "id": "2026-10-30-type-2-diabetes-breakthrough-as-54-achieve-remis",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.335663+00:00",
-      "last_updated": "2026-11-01T01:52:23.335667+00:00",
+      "first_seen": "2026-11-01T08:45:12.032748+00:00",
+      "last_updated": "2026-11-01T08:45:12.032750+00:00",
       "headline": "Type 2 diabetes breakthrough as 54% achieve remission in just 6 months",
       "summary": "A promising new study suggests that more than half of younger adults with type 2 diabetes could achieve remission in just six months through a combination of a low-calorie diet and structured exercise. Researchers found that 54% of participants under age 45 who followed an intensive diet and exercise program achieved…",
       "category": null,
@@ -365,8 +476,8 @@
       "id": "2026-10-30-nearly-2-out-of-3-teens-and-tweens-use-ai-chatbo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:22.418752+00:00",
-      "last_updated": "2026-11-01T01:52:22.418755+00:00",
+      "first_seen": "2026-11-01T08:45:11.349709+00:00",
+      "last_updated": "2026-11-01T08:45:11.349712+00:00",
       "headline": "Nearly 2 out of 3 teens and tweens use AI chatbots, new research shows",
       "summary": "Most kids say they use chatbots for help with homework and when they're stressed, lonely, or anxious. And how they use chatbots is tied to their mental health.",
       "category": null,
@@ -408,8 +519,8 @@
       "id": "2026-10-30-how-major-policy-shift-is-changing-police-respon",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:22.746167+00:00",
-      "last_updated": "2026-11-01T01:52:22.746175+00:00",
+      "first_seen": "2026-11-01T08:45:11.560055+00:00",
+      "last_updated": "2026-11-01T08:45:11.560064+00:00",
       "headline": "How major policy shift is changing police response to mental health call-outs",
       "summary": "999 calls will be triaged and if there is any risk of harm or to life, or if a crime is involved, the police will still attend.",
       "category": null,
@@ -445,8 +556,8 @@
       "id": "2026-10-30-scientists-discover-why-chronic-back-pain-feels",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.076022+00:00",
-      "last_updated": "2026-11-01T01:52:23.076024+00:00",
+      "first_seen": "2026-11-01T08:45:11.799192+00:00",
+      "last_updated": "2026-11-01T08:45:11.799195+00:00",
       "headline": "Scientists discover why chronic back pain feels so personal",
       "summary": "A surprising discovery at UC San Diego suggests that chronic lower back pain may become deeply embedded in the brain's sense of personal identity. Researchers found that movement-triggered pain activates a brain network associated with self-awareness and memories, even though ordinary acute pain typically shuts this…",
       "category": null,
@@ -488,8 +599,8 @@
       "id": "2026-10-29-manosphere-and-online-misogyny-should-be-treated",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:22.559995+00:00",
-      "last_updated": "2026-11-01T01:52:22.560003+00:00",
+      "first_seen": "2026-11-01T08:45:11.451691+00:00",
+      "last_updated": "2026-11-01T08:45:11.451694+00:00",
       "headline": "Manosphere and online misogyny should be treated as public health issues, say UK experts",
       "summary": "Report calls for an effort to tackle harms in similar way to obesity and smoking, and stresses need to ‘offer boys something better’The manosphere and online misogyny should be treated by the government as a public health issue, in the same way as obesity or smoking, experts have said.Writing in the Lancet, the…",
       "category": null,
@@ -525,8 +636,8 @@
       "id": "2026-10-29-intensified-adjuvant-chemo-no-better-than-standa",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.460899+00:00",
-      "last_updated": "2026-11-01T01:52:23.460902+00:00",
+      "first_seen": "2026-11-01T08:45:12.207493+00:00",
+      "last_updated": "2026-11-01T08:45:12.207496+00:00",
       "headline": "Intensified Adjuvant Chemo No Better Than Standard in High-Risk Colon Cancer",
       "summary": "(MedPage Today) -- Intensified adjuvant chemotherapy did not improve disease-free survival (DFS) compared with standard chemotherapy in patients with high-risk stage III colon cancer, the phase III IROCAS trial showed. The 3-year DFS rate was...",
       "category": null,
@@ -562,8 +673,8 @@
       "id": "2026-10-29-what-killed-500-plus-penguins-how-scientists-sol",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:22.418846+00:00",
-      "last_updated": "2026-11-01T01:52:22.418849+00:00",
+      "first_seen": "2026-11-01T08:45:11.349795+00:00",
+      "last_updated": "2026-11-01T08:45:11.349798+00:00",
       "headline": "What killed 500-plus penguins? How scientists solved the mystery",
       "summary": "The penguins that perished lived on the Danger Islands in Antarctica. The prime suspect was avian flu. Researchers were surprised by what they found.",
       "category": null,
@@ -599,8 +710,8 @@
       "id": "2026-10-29-halloween-candy-ct-scan-breast-meeting-manel-md",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.460997+00:00",
-      "last_updated": "2026-11-01T01:52:23.461000+00:00",
+      "first_seen": "2026-11-01T08:45:12.207585+00:00",
+      "last_updated": "2026-11-01T08:45:12.207587+00:00",
       "headline": "Halloween Candy CT Scan; Breast Meeting Manel; MD Debunks Colloidal Silver for Colds",
       "summary": "(MedPage Today) -- The following contains links to social media websites including Bluesky, X, TikTok, Instagram, Facebook, and LinkedIn. Radiologist Justin Shafa, MD, put his medical training to the test by trying to identify Halloween candy...",
       "category": null,
@@ -636,8 +747,8 @@
       "id": "2026-10-29-lost-your-spark-the-silent-sister-of-depression",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:22.418906+00:00",
-      "last_updated": "2026-11-01T01:52:22.418908+00:00",
+      "first_seen": "2026-11-01T08:45:11.349853+00:00",
+      "last_updated": "2026-11-01T08:45:11.349855+00:00",
       "headline": "Lost your spark? The \"silent sister\" of depression, and a quiz to spot her",
       "summary": "Always busy, but rarely joyful? Allison Aubrey and Juana Summers discuss a tool to spot \"high functioning depression.\"",
       "category": null,
@@ -673,8 +784,8 @@
       "id": "2026-10-29-a-peek-inside-the-2026-l-or-al-unesco-for-women",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.524243+00:00",
-      "last_updated": "2026-11-01T01:52:25.524252+00:00",
+      "first_seen": "2026-11-01T08:45:14.303047+00:00",
+      "last_updated": "2026-11-01T08:45:14.303052+00:00",
       "headline": "A peek inside the 2026 L’Oréal-UNESCO For Women in Science celebration",
       "summary": "On October 22, Vox co-hosted a screening event honoring the 2026 L’Oréal-UNESCO For Women in Science grant awardees. The program awards five women scientists postdoctoral grants to advance their research. This year’s recipients work in fields including immunology, planetary science, and ecology. Learn more about the…",
       "category": null,
@@ -710,8 +821,8 @@
       "id": "2026-10-29-emergency-stockpiles-are-a-luxury-that-not-every",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:22.560134+00:00",
-      "last_updated": "2026-11-01T01:52:22.560137+00:00",
+      "first_seen": "2026-11-01T08:45:11.451816+00:00",
+      "last_updated": "2026-11-01T08:45:11.451819+00:00",
       "headline": "Emergency stockpiles are a luxury that not everyone can afford | Letters",
       "summary": "Keira Callaghan says being prepared should be a public health measure, not a privilege, and Chris Rotheram is experiencing prescription anxiety. Plus five more letters in response to the Be Ready campaignThe Be Ready campaign may offer sensible advice in principle (Every Briton should stockpile water and food…",
       "category": null,
@@ -747,8 +858,8 @@
       "id": "2026-10-29-six-popular-sugar-substitutes-linked-to-faster-b",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.075842+00:00",
-      "last_updated": "2026-11-01T01:52:23.075845+00:00",
+      "first_seen": "2026-11-01T08:45:11.799019+00:00",
+      "last_updated": "2026-11-01T08:45:11.799022+00:00",
       "headline": "Six popular sugar substitutes linked to faster brain aging",
       "summary": "A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking skills, equivalent to approximately 1.6 additional years of brain aging. Six popular sweeteners were linked to faster cognitive decline, raising concerns about the…",
       "category": null,
@@ -790,8 +901,8 @@
       "id": "2026-10-29-inhaling-co2-may-rescue-nerves-ability-to-regrow",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:24.802178+00:00",
-      "last_updated": "2026-11-01T01:52:24.802187+00:00",
+      "first_seen": "2026-11-01T08:45:13.584636+00:00",
+      "last_updated": "2026-11-01T08:45:13.584641+00:00",
       "headline": "Inhaling CO2 may rescue nerves’ ability to regrow",
       "summary": "Breathing out after birth switches off the ability of tissues to regenerate, a study in mice suggests. But the pathway seems to be reversible",
       "category": null,
@@ -827,8 +938,8 @@
       "id": "2026-10-29-less-than-42-minutes-of-bright-daylight-linked-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.075933+00:00",
-      "last_updated": "2026-11-01T01:52:23.075935+00:00",
+      "first_seen": "2026-11-01T08:45:11.799109+00:00",
+      "last_updated": "2026-11-01T08:45:11.799112+00:00",
       "headline": "Less than 42 minutes of bright daylight linked to higher dementia risk",
       "summary": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found that higher daytime light exposure was associated with a 16% lower risk of dementia, with longer exposure to bright light linked to even greater reductions. Remarkably,…",
       "category": null,
@@ -872,8 +983,8 @@
       "id": "2026-10-29-scientists-can-now-rewire-living-brains",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.911628+00:00",
-      "last_updated": "2026-11-01T01:52:23.911632+00:00",
+      "first_seen": "2026-11-01T08:45:12.814021+00:00",
+      "last_updated": "2026-11-01T08:45:12.814024+00:00",
       "headline": "Scientists can now rewire living brains",
       "summary": "The tool could eventually lead to an entirely new approach for treating mental health",
       "category": null,
@@ -909,8 +1020,8 @@
       "id": "2026-10-29-scientists-discover-that-cranberry-juice-may-hel",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.336127+00:00",
-      "last_updated": "2026-11-01T01:52:23.336130+00:00",
+      "first_seen": "2026-11-01T08:45:12.033207+00:00",
+      "last_updated": "2026-11-01T08:45:12.033210+00:00",
       "headline": "Scientists discover that cranberry juice may help fight tooth decay",
       "summary": "Cranberry juice may offer an unexpected benefit beyond its reputation for helping prevent urinary tract infections: protecting teeth from decay. Researchers at the University of Illinois Chicago discovered that pure, unsweetened cranberry juice slowed the regrowth of dental plaque bacteria and reduced their production…",
       "category": null,
@@ -943,54 +1054,11 @@
       "is_new": false
     },
     {
-      "id": "2026-10-29-your-blood-pressure-could-be-dangerous-even-when",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-01T01:52:23.076175+00:00",
-      "last_updated": "2026-11-01T01:52:23.076177+00:00",
-      "headline": "Your blood pressure could be dangerous even when your numbers look normal",
-      "summary": "Researchers have discovered a small group of brain cells that prevents dangerous blood pressure swings, even when average readings appear normal. The finding reveals a hidden source of cardiovascular risk and could open the door to new treatments that protect the heart and brain.",
-      "category": null,
-      "topic_tags": [
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
-          "outlet": "ScienceDaily — Mind & Brain",
-          "tier": 2,
-          "role": "origin"
-        },
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
-          "outlet": "ScienceDaily — Health",
-          "tier": 2,
-          "role": "corroboration"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-10-29T03:54:37+00:00"
-      },
-      "keyword_hits": [
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-11-01-women-with-autoimmune-diseases-more-likely-to-be",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.316506+00:00",
-      "last_updated": "2026-11-01T01:52:25.316508+00:00",
+      "first_seen": "2026-11-01T08:45:14.157072+00:00",
+      "last_updated": "2026-11-01T08:45:14.157074+00:00",
       "headline": "Women With Autoimmune Diseases More Likely to Be Misdiagnosed Than Men",
       "summary": "Women with autoimmune disease are also more likely to be misdiagnosed with mental health conditions than men. MementoJpeg/Moment/Getty Images A new study found that women with autoimmune diseases often take longer to get a correct diagnosis. The researchers added that women are more likely to be misdiagnosed with…",
       "category": null,
@@ -1024,14 +1092,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-taking-blood-pressure-meds-dash-diet-likely-safe",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.322312+00:00",
-      "last_updated": "2026-11-01T01:52:25.322315+00:00",
+      "first_seen": "2026-11-01T08:45:14.162869+00:00",
+      "last_updated": "2026-11-01T08:45:14.162872+00:00",
       "headline": "Taking Blood Pressure Meds? DASH Diet Likely Safe for Potassium Levels",
       "summary": "The well-known DASH diet does not significantly affect potassium levels in adults taking certain blood pressure medications. Tatiana Maksimova/Moment/Getty Images A new study reports that the DASH diet does not significantly increase potassium levels in people taking high blood pressure medication. Researchers said…",
       "category": null,
@@ -1065,14 +1133,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-low-energy-diet-plus-structured-exercise-reverse",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.326830+00:00",
-      "last_updated": "2026-11-01T01:52:25.326833+00:00",
+      "first_seen": "2026-11-01T08:45:14.167285+00:00",
+      "last_updated": "2026-11-01T08:45:14.167288+00:00",
       "headline": "Low-Energy Diet Plus Structured Exercise Reverses Early Onset Diabetes",
       "summary": "A low-energy diet combined with a structured exercise program led to early onset type 2 diabetes remission. FreshSplash/E+/Getty Images A new study found that a low-energy diet and exercise reversed early onset type 2 diabetes in half of the participants. This is important because early onset diabetes can lead to…",
       "category": null,
@@ -1106,14 +1174,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-hormone-therapy-may-boost-weight-loss-on-wegovy",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.311170+00:00",
-      "last_updated": "2026-11-01T01:52:25.311173+00:00",
+      "first_seen": "2026-11-01T08:45:14.151694+00:00",
+      "last_updated": "2026-11-01T08:45:14.151697+00:00",
       "headline": "Hormone Therapy May Boost Weight Loss on Wegovy, But Not as Much on Zepbound",
       "summary": "New research shows that using hormone therapy with a GLP-1 during menopause may lead to greater weight loss. Tatsiana Volkava · Moment/Getty A study presented at the 2026 Annual Meeting of The Menopause Society found that women using menopause hormone therapy (MHT) alongside semaglutide (Ozempic, Wegovy) experienced…",
       "category": null,
@@ -1147,14 +1215,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-hormone-therapy-may-help-improve-menopause-brain",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.319987+00:00",
-      "last_updated": "2026-11-01T01:52:25.319989+00:00",
+      "first_seen": "2026-11-01T08:45:14.160568+00:00",
+      "last_updated": "2026-11-01T08:45:14.160571+00:00",
       "headline": "Hormone Therapy May Help Improve Menopause Brain Fog, Mood Changes",
       "summary": "Recent research has shown that hormone therapy may help improve brain fog and mood changes associated with menopause. elenaleonova · E+/Getty Hormone therapy may affect changes in the brain that occur during menopause. A recent study has shown that hormone therapy may help improve “brain fog” symptoms during…",
       "category": null,
@@ -1188,14 +1256,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-wellness-apps-medically-tailored-meals-help-slow",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.320882+00:00",
-      "last_updated": "2026-11-01T01:52:25.320884+00:00",
+      "first_seen": "2026-11-01T08:45:14.161454+00:00",
+      "last_updated": "2026-11-01T08:45:14.161457+00:00",
       "headline": "Wellness Apps, Medically Tailored Meals Help Slow Weight Gain After GLP-1s",
       "summary": "Recent research shows that structured support may help with weight maintenance after stopping GLP-1s. licensed miniseries · E+/Getty Most people regain a significant portion of the weight they lost within 1 year of stopping GLP-1 medications such as semaglutide (Wegovy) or tirzepatide (Zepbound). A small study found…",
       "category": null,
@@ -1229,14 +1297,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-cutting-back-on-ultra-processed-foods-may-help-e",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.325420+00:00",
-      "last_updated": "2026-11-01T01:52:25.325422+00:00",
+      "first_seen": "2026-11-01T08:45:14.165887+00:00",
+      "last_updated": "2026-11-01T08:45:14.165889+00:00",
       "headline": "Cutting Back on Ultra-Processed Foods May Help Ease Depression Symptoms",
       "summary": "Recent research has found that reducing UPF intake may help improve symptoms of depression. cafotodigital · E+/Getty A small study found that reducing ultra-processed food (UPF) intake was associated with improvements in depression symptoms. The findings add to previous research linking high UPF consumption with an…",
       "category": null,
@@ -1270,14 +1338,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-taking-fish-oil-to-boost-brain-health-a-2-year-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.308909+00:00",
-      "last_updated": "2026-11-01T01:52:25.308912+00:00",
+      "first_seen": "2026-11-01T08:45:14.149491+00:00",
+      "last_updated": "2026-11-01T08:45:14.149494+00:00",
       "headline": "Taking Fish Oil to Boost Brain Health? A 2-Year Study Questions the Benefits",
       "summary": "Research suggests that fish oil supplements may offer no benefit for Alzheimer’s prevention. Anastasiia Sienotova/Moment/Getty Images A 2-year clinical trial found that high dose omega-3 supplements didn’t improve memory, thinking skills, or brain structure in older adults at increased risk of Alzheimer’s disease. The…",
       "category": null,
@@ -1309,14 +1377,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-getting-more-physical-activity-may-help-with-you",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.312027+00:00",
-      "last_updated": "2026-11-01T01:52:25.312030+00:00",
+      "first_seen": "2026-11-01T08:45:14.152568+00:00",
+      "last_updated": "2026-11-01T08:45:14.152570+00:00",
       "headline": "Getting More Physical Activity May Help With Your Perimenopause Symptoms",
       "summary": "A regular exercise routine has been shown to help with perimenopause symptoms like hot flashes and anxity. Galina Zhigalova/Moment/Getty Images A new study reports that exercising more frequently may help alleviate perimenopause symptoms. While increased physical activity was linked to improved perimenopause symptoms…",
       "category": null,
@@ -1348,14 +1416,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-walking-yoga-or-zumba-which-exercises-help-relie",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.316051+00:00",
-      "last_updated": "2026-11-01T01:52:25.316054+00:00",
+      "first_seen": "2026-11-01T08:45:14.156599+00:00",
+      "last_updated": "2026-11-01T08:45:14.156602+00:00",
       "headline": "Walking, Yoga, or Zumba? Which Exercises Help Relieve Menopause Mood Symptoms",
       "summary": "Recent research shows that regular physical activity may help improve menopause mood symptoms. Wilson Araujo · E+/Getty Regular physical activity may help reduce depressive symptoms and improve quality of life during menopause, according to a review of 12 clinical trials involving over 1,000 people ages 40 to 65.…",
       "category": null,
@@ -1387,14 +1455,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-letter-from-the-editor-in-chief-is-worrying-abou",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.326304+00:00",
-      "last_updated": "2026-11-01T01:52:25.326307+00:00",
+      "first_seen": "2026-11-01T08:45:14.166763+00:00",
+      "last_updated": "2026-11-01T08:45:14.166766+00:00",
       "headline": "Letter From the Editor-in-Chief: Is Worrying About Sleep Keeping Us Awake?",
       "summary": "A recent study found that a lack of REM and deep sleep is linked to higher risks of dozens of diseases. Credit: Getty A new study analyzing wrist tracker data from 95,000 people found that higher amounts of REM and deep sleep were linked to a lower risk of 83 diseases combined, including dementia, hypertension, and…",
       "category": null,
@@ -1426,14 +1494,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-wall-squats-planks-once-a-week-may-help-lower-yo",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.327384+00:00",
-      "last_updated": "2026-11-01T01:52:25.327386+00:00",
+      "first_seen": "2026-11-01T08:45:14.167837+00:00",
+      "last_updated": "2026-11-01T08:45:14.167839+00:00",
       "headline": "Wall Squats, Planks Once a Week May Help Lower Your Blood Pressure",
       "summary": "Performing isometric exercises like wall squats and planks just a few times per week may help lower blood pressure. VioletaStoimenova/E+/Getty Images Just one or two isometric exercise sessions per week may help lower blood pressure in the short term, according to a new study. Performing isometric exercises, such as…",
       "category": null,
@@ -1465,14 +1533,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-obesity-in-your-20s-and-30s-may-increase-cancer",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.308054+00:00",
-      "last_updated": "2026-11-01T01:52:25.308057+00:00",
+      "first_seen": "2026-11-01T08:45:14.148683+00:00",
+      "last_updated": "2026-11-01T08:45:14.148686+00:00",
       "headline": "Obesity in Your 20s and 30s May Increase Cancer Risk Later in Life",
       "summary": "New research shows that having obesity in your 20s and 30s may increase your risk of developing cancer before midlife. Anchiy · E+/Getty Young adults with obesity may face a higher risk of developing cancer before midlife compared to those at a moderate weight, according to new research. Cancer risk increased…",
       "category": null,
@@ -1504,14 +1572,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-6-to-8-cups-of-tea-daily-may-reduce-heart-diseas",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.309681+00:00",
-      "last_updated": "2026-11-01T01:52:25.309684+00:00",
+      "first_seen": "2026-11-01T08:45:14.150243+00:00",
+      "last_updated": "2026-11-01T08:45:14.150246+00:00",
       "headline": "6 to 8 Cups of Tea Daily May Reduce Heart Disease Risk by 11%",
       "summary": "Recent research has found that regularly drinking tea may help reduce your risk of heart disease. Guido Mieth · Moment/Getty Regular tea drinkers may have an 11% lower risk of vascular disease, including a 37% lower risk of ischemic stroke and a 17% lower risk of heart attack, according to a large study. Both black…",
       "category": null,
@@ -1543,14 +1611,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-ultra-processed-food-intake-may-not-be-linked-to",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.317558+00:00",
-      "last_updated": "2026-11-01T01:52:25.317561+00:00",
+      "first_seen": "2026-11-01T08:45:14.158144+00:00",
+      "last_updated": "2026-11-01T08:45:14.158147+00:00",
       "headline": "Ultra-Processed Food Intake May Not Be Linked to Colorectal Cancer",
       "summary": "Researchers found no association between overall intake of ultra-processed foods and colorectal cancer in a large U.S. study. Anastasiia Krivenok/Moment/Getty Images Researchers report that consumption of ultra-processed foods doesn’t necessarily increase a person’s risk of developing colorectal cancer. They note that…",
       "category": null,
@@ -1582,14 +1650,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-pain-prevalence-higher-in-women-increases-most-r",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.322743+00:00",
-      "last_updated": "2026-11-01T01:52:25.322745+00:00",
+      "first_seen": "2026-11-01T08:45:14.163306+00:00",
+      "last_updated": "2026-11-01T08:45:14.163314+00:00",
       "headline": "Pain Prevalence Higher in Women, Increases Most Rapidly Before 55",
       "summary": "Recent research has found that women experience pain more often than men and that pain prevalence increases more rapidly before the age of 55. ljubaphoto · E+/Getty A large global study found that pain prevalence increases most rapidly before age 55 and is consistently higher in women than men across 11 body sites.…",
       "category": null,
@@ -1621,14 +1689,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-increasing-ozempic-dose-linked-to-lower-heart-ri",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.324459+00:00",
-      "last_updated": "2026-11-01T01:52:25.324461+00:00",
+      "first_seen": "2026-11-01T08:45:14.165002+00:00",
+      "last_updated": "2026-11-01T08:45:14.165004+00:00",
       "headline": "Increasing Ozempic Dose Linked to Lower Heart Risk Than Switching to Mounjaro",
       "summary": "Recent research suggests that increasing your Ozempic dose may offer greater heart protection than switching to Mounjaro. Eva Kongshavn · Moment/Getty A real-world study found that people with type 2 diabetes who increased their Ozempic dose rather than switching to Mounjaro had a lower risk of major adverse…",
       "category": null,
@@ -1660,14 +1728,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-insomnia-isn-t-just-exhausting-it-may-raise-your",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.327795+00:00",
-      "last_updated": "2026-11-01T01:52:25.327798+00:00",
+      "first_seen": "2026-11-01T08:45:14.168277+00:00",
+      "last_updated": "2026-11-01T08:45:14.168280+00:00",
       "headline": "Insomnia Isn’t Just Exhausting — It May Raise Your Risk of Stroke, Dementia",
       "summary": "Recent research has found that chronic insomnia may increase the risk of stroke, dementia, and depression. ljubaphoto · E+/Getty A recent review has found that insomnia may be associated with an increased risk of stroke and hospitalization. The researchers also found evidence of an association between insomnia and…",
       "category": null,
@@ -1699,14 +1767,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-ultra-processed-foods-linked-to-higher-risk-of-m",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.329466+00:00",
-      "last_updated": "2026-11-01T01:52:25.329469+00:00",
+      "first_seen": "2026-11-01T08:45:14.169890+00:00",
+      "last_updated": "2026-11-01T08:45:14.169893+00:00",
       "headline": "Ultra-Processed Foods Linked to Higher Risk of Multiple Diseases, Death",
       "summary": "New research found that consuming more ultra-processed foods is linked to an increased risk of multiple health conditions. LauriPatterson/E+/Getty Images A large study has found that eating more ultra-processed foods (UPFs) was linked to a higher risk of disease and early death. The risk of chronic diseases increased…",
       "category": null,
@@ -1738,14 +1806,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-detached-nails-more-than-4-times-higher-among-gl",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.323340+00:00",
-      "last_updated": "2026-11-01T01:52:25.323342+00:00",
+      "first_seen": "2026-11-01T08:45:14.163938+00:00",
+      "last_updated": "2026-11-01T08:45:14.163941+00:00",
       "headline": "Detached Nails More Than 4 Times Higher Among GLP-1 Users, Study Finds",
       "summary": "In a new study, GLP-1 users reported nail detachment more than four times as often as nonusers. Waishaw/Getty Images GLP-1 drugs like Ozempic have been linked to unusual nail changes in a new study. GLP-1 users reported nail detachment more than four times as often as nonusers, and nail discoloration affected 46% of…",
       "category": null,
@@ -1775,14 +1843,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-can-the-bpc-157-wolverine-peptide-really-help-wi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.325026+00:00",
-      "last_updated": "2026-11-01T01:52:25.325029+00:00",
+      "first_seen": "2026-11-01T08:45:14.165517+00:00",
+      "last_updated": "2026-11-01T08:45:14.165519+00:00",
       "headline": "Can the BPC-157 ‘Wolverine’ Peptide Really Help With Pain and Recovery?",
       "summary": "A new study shows a 33-fold increase in new BPC-157 users in recent years. Compassionate Eye Foundation/Jonathan Bielaski/DigitalVision/Getty Images Proponents of BPC-157, the “Wolverine” peptide, tout injury recovery and pain relief despite limited human evidence to establish safety and effectiveness. Until the…",
       "category": null,
@@ -1812,14 +1880,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-how-non-dairy-creamers-doubled-coffee-s-calories",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.307101+00:00",
-      "last_updated": "2026-11-01T01:52:25.307107+00:00",
+      "first_seen": "2026-11-01T08:45:14.147788+00:00",
+      "last_updated": "2026-11-01T08:45:14.147792+00:00",
       "headline": "How Non-Dairy Creamers Doubled Coffee’s Calories For Many Americans",
       "summary": "Recent research shows that additions to coffee have increased its calorie content by 40%. Boy_Anupong · Moment/Getty The average number of calories U.S. adults consumed from coffee beverages increased by nearly 40% between 2003 and 2018, rising from 43 to 60 calories per day, even as the amount of coffee consumed…",
       "category": null,
@@ -1849,14 +1917,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-this-is-how-fast-you-should-walk-to-help-lower-y",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.310759+00:00",
-      "last_updated": "2026-11-01T01:52:25.310762+00:00",
+      "first_seen": "2026-11-01T08:45:14.151281+00:00",
+      "last_updated": "2026-11-01T08:45:14.151283+00:00",
       "headline": "This Is How Fast You Should Walk to Help Lower Your Risk of Death",
       "summary": "People who walk faster may have better underlying health. Lol2368/E+/Getty Images A study found that walking speed can help predict people’s risk of dying from any cause. Both a clinical test and a test done in daily life were able to predict mortality risk. Experts say walking speed predicts death risk because it’s…",
       "category": null,
@@ -1886,14 +1954,14 @@
         "study"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-how-this-former-weightlifter-lost-80-pounds-afte",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.311616+00:00",
-      "last_updated": "2026-11-01T01:52:25.311619+00:00",
+      "first_seen": "2026-11-01T08:45:14.152147+00:00",
+      "last_updated": "2026-11-01T08:45:14.152149+00:00",
       "headline": "How This Former Weightlifter Lost 80 Pounds After GLP-1s Stopped Working",
       "summary": "After trying diets and GLP-1 medications without lasting weight loss, former competitive weightlifter Dana Bichler (pictured above) lost more than 80 pounds following a minimally invasive procedure. Photo: Dana Bichler Former competitive weightlifter Dana Bichler lost more than 80 pounds after undergoing endoscopic…",
       "category": null,
@@ -1923,14 +1991,14 @@
         "diet"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-adhd-medications-may-help-ease-menopausal-brain",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.312927+00:00",
-      "last_updated": "2026-11-01T01:52:25.312930+00:00",
+      "first_seen": "2026-11-01T08:45:14.153469+00:00",
+      "last_updated": "2026-11-01T08:45:14.153472+00:00",
       "headline": "ADHD Medications May Help Ease Menopausal Brain Fog",
       "summary": "Recent research has found that ADHD medications may help reduce menopausal brain fog. WhiteTea · E+/Getty A recent review found that ADHD medications like lisdexamfetamine (Vyvanse) and atomoxetine (Strattera) may help improve self-reported symptoms of brain fog in perimenopausal and postmenopausal women. Menopausal…",
       "category": null,
@@ -1960,14 +2028,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-why-living-with-endometriosis-may-double-your-od",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.313383+00:00",
-      "last_updated": "2026-11-01T01:52:25.313385+00:00",
+      "first_seen": "2026-11-01T08:45:14.153941+00:00",
+      "last_updated": "2026-11-01T08:45:14.153943+00:00",
       "headline": "Why Living with Endometriosis May Double Your Odds of Migraine",
       "summary": "Researchers may have uncovered the surprising connection between endometriosis and migraine. South_agency/E+/Getty Images Those with endometriosis had 2.3 times the odds of also having migraine, according to a new analysis of more than 13 million females. The researchers said the two conditions may share a pain…",
       "category": null,
@@ -1997,14 +2065,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-acog-strongly-recommends-hormone-therapy-for-men",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.314753+00:00",
-      "last_updated": "2026-11-01T01:52:25.314756+00:00",
+      "first_seen": "2026-11-01T08:45:14.155300+00:00",
+      "last_updated": "2026-11-01T08:45:14.155303+00:00",
       "headline": "ACOG Strongly Recommends Hormone Therapy for Menopause Symptoms",
       "summary": "The ACOG released updated recommendations for the management of various menopause symptoms. MoMo Productions · DigitalVision/Getty The American College of Obstetricians and Gynecologists (ACOG) released expanded menopause management guidelines strongly recommending menopause hormone therapy (MHT) for vasomotor…",
       "category": null,
@@ -2034,14 +2102,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-a-handful-of-pistachios-may-help-you-sleep-bette",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.315251+00:00",
-      "last_updated": "2026-11-01T01:52:25.315253+00:00",
+      "first_seen": "2026-11-01T08:45:14.155801+00:00",
+      "last_updated": "2026-11-01T08:45:14.155803+00:00",
       "headline": "A Handful of Pistachios May Help You Sleep Better, Review Says",
       "summary": "Pistachios contain several nutrients associated with sleep, llike melatonin, which helps regulate the sleep-wake cycle. fcafotodigital/E+/Getty Images A narrative review of current evidence suggests that pistachios may help support sleep. Pistachios contain nutrients associated with sleep health, including tryptophan,…",
       "category": null,
@@ -2071,14 +2139,14 @@
         "sleep"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-ultra-processed-food-intake-may-increase-dementi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.315649+00:00",
-      "last_updated": "2026-11-01T01:52:25.315652+00:00",
+      "first_seen": "2026-11-01T08:45:14.156193+00:00",
+      "last_updated": "2026-11-01T08:45:14.156195+00:00",
       "headline": "Ultra-Processed Food Intake May Increase Dementia, Stroke Risk",
       "summary": "Recent research has shown that high intake of ultra-processed foods may be associated with an increased risk of stroke. Liudmila Evsegneeva · Moment/Getty Healthy adults who consume high amounts of ultra-processed foods (UPFs) may be more likely to show signs of vascular brain injury, which has been linked to stroke…",
       "category": null,
@@ -2108,14 +2176,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-rj-mitte-s-death-highlights-mental-health-challe",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.318376+00:00",
-      "last_updated": "2026-11-01T01:52:25.318378+00:00",
+      "first_seen": "2026-11-01T08:45:14.158979+00:00",
+      "last_updated": "2026-11-01T08:45:14.158981+00:00",
       "headline": "RJ Mitte's Death Highlights Mental Health Challenges for People With Cerebral Palsy",
       "summary": "RJ Mitte attends a screening of “Talking To Strangers” at Fine Arts Theatre on September 30, 2026, in Beverly Hills, CA. Unique Nicole/Getty Images “Breaking Bad” actor RJ Mitte has reportedly died by suicide at age 34, according to his representative. Authorities have not yet confirmed the official cause of death.…",
       "category": null,
@@ -2145,14 +2213,14 @@
         "mental health"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-pmos-formerly-pcos-may-be-associated-with-alzhei",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.318823+00:00",
-      "last_updated": "2026-11-01T01:52:25.318825+00:00",
+      "first_seen": "2026-11-01T08:45:14.159408+00:00",
+      "last_updated": "2026-11-01T08:45:14.159410+00:00",
       "headline": "PMOS, Formerly PCOS, May Be Associated with Alzheimer's Disease Risk",
       "summary": "Recent research shows that certain metabolic issues associated with PMOS may affect dementia risk. NickyLloyd · E+/Getty Polyendocrine metabolic ovarian syndrome (PMOS), formerly known as polycystic ovary syndrome (PCOS), has been linked to changes in brain function and cognition that may overlap with Alzheimer’s…",
       "category": null,
@@ -2182,14 +2250,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-switching-from-glp-1-injections-to-wegovy-pill-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.323694+00:00",
-      "last_updated": "2026-11-01T01:52:25.323696+00:00",
+      "first_seen": "2026-11-01T08:45:14.164256+00:00",
+      "last_updated": "2026-11-01T08:45:14.164258+00:00",
       "headline": "Switching from GLP-1 Injections to Wegovy Pill Shows Additional Weight Loss of 4.1%",
       "summary": "Recent research shows people who switch to the Wegovy pill from a GLP-1 injection can lose additional weight. PixelsEffect · E+/Getty People with overweight or obesity who switched from an injectable GLP-1 weight loss medication to the Wegovy (semaglutide) pill lost an average of 4.1% of their body weight over 3…",
       "category": null,
@@ -2219,14 +2287,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-8-hour-time-restricted-eating-window-may-lead-to",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.328157+00:00",
-      "last_updated": "2026-11-01T01:52:25.328160+00:00",
+      "first_seen": "2026-11-01T08:45:14.168636+00:00",
+      "last_updated": "2026-11-01T08:45:14.168639+00:00",
       "headline": "8-Hour Time-Restricted Eating Window May Lead to Greater Weight Loss",
       "summary": "Research shows that an 8-hour eating window may lead to greater weight loss than other time-restricted eating patterns. FreshSplash · E+/Getty An 8-hour eating window was linked to greater weight loss than a 12-hour window or no time restriction, but not significantly more than a 10-hour window. Time-restricted eating…",
       "category": null,
@@ -2256,14 +2324,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-01-fullspan-health-announces-first-ever-2026-health",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-01T01:52:25.328583+00:00",
-      "last_updated": "2026-11-01T01:52:25.328586+00:00",
+      "first_seen": "2026-11-01T08:45:14.169049+00:00",
+      "last_updated": "2026-11-01T08:45:14.169051+00:00",
       "headline": "Fullspan Health Announces First-Ever 2026 Healthline Awards",
       "summary": "The inaugural Healthline Awards showcase credible health and wellness products vetted by a team of expert testers and medical reviewers. Design by Healthline Winners of the inaugural 2026 Healthline Awards have been announced by Fullspan Health, a B2B healthcare platform under Healthline’s parent company, RVO Health.…",
       "category": null,
@@ -2293,7 +2361,7 @@
         "wellness"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     }
   ]
 }
