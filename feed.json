@@ -1,25 +1,713 @@
 {
   "meta": {
     "pack": "wellness-genz",
-    "generated_at": "2026-11-09T09:10:45.041081+00:00",
-    "live_count": 71,
+    "generated_at": "2026-11-09T20:25:50.156769+00:00",
+    "live_count": 76,
     "schema_version": 1,
     "pipeline": "fetch_feed.py (no-AI)",
     "dead_feeds": [],
     "stats": {
-      "fetched": 391,
-      "kept": 71,
+      "fetched": 390,
+      "kept": 76,
       "feeds_ok": 12,
       "feeds_dead": 0
     }
   },
   "stories": [
     {
+      "id": "2026-11-09-valbenazine-for-tardive-dyskinesia-tied-to-less",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.302575+00:00",
+      "last_updated": "2026-11-09T20:25:48.302584+00:00",
+      "headline": "Valbenazine for Tardive Dyskinesia Tied to Less Antipsychotic Drop-Off",
+      "summary": "(MedPage Today) -- Starting valbenazine (Ingrezza) to treat tardive dyskinesia might reduce antipsychotic discontinuation in patients newly diagnosed with the side effect, a retrospective cohort study of Medicare claims indicated. Among patients...",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.medpagetoday.com/meetingcoverage/neicongress/123792",
+          "outlet": "MedPageToday",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: MedPageToday)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T19:46:19+00:00"
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-stat-bill-ackman-s-bold-plan-to-transform-brain",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.455525+00:00",
+      "last_updated": "2026-11-09T20:25:48.455534+00:00",
+      "headline": "STAT+: Bill Ackman’s bold plan to transform brain research",
+      "summary": "Billionaire Bill Ackman as a bold plan to transform brain research, spurred by a tragic backstory.",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.statnews.com/2026/11/09/bill-ackman-launches-new-brain-research-institute/?utm_campaign=rss",
+          "outlet": "STAT News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T19:21:55+00:00"
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-cold-therapy-may-be-worse-than-doing-nothing-for",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:49.621560+00:00",
+      "last_updated": "2026-11-09T20:25:49.621569+00:00",
+      "headline": "Cold therapy may be worse than doing nothing for post-exercise recovery",
+      "summary": "Many are convinced that ice baths or cold showers are an effective way to speed recovery after exercise, but a study finds that cold therapy may actually have the opposite effect",
+      "category": null,
+      "topic_tags": [
+        "exercise",
+        "therapy",
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.newscientist.com/article/2598085-cold-therapy-may-be-worse-than-doing-nothing-for-post-exercise-recovery/?utm_campaign=RSS|NSNS&utm_content=health&utm_medium=RSS&utm_source=NSNS",
+          "outlet": "New Scientist — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: New Scientist — Health)",
+      "caveats": null,
+      "score": 8.1,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 9,
+        "published": "2026-11-09T19:00:00+00:00"
+      },
+      "keyword_hits": [
+        "exercise",
+        "therapy",
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-why-not-sirolimus-for-active-lupus",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.302683+00:00",
+      "last_updated": "2026-11-09T20:25:48.302685+00:00",
+      "headline": "Why Not Sirolimus for Active Lupus?",
+      "summary": "(MedPage Today) -- ORLANDO -- Patients with systemic lupus erythematosus (SLE) that is uncontrolled despite standard therapy did well with a daily oral dose of sirolimus in a trial from China, although safety concerns weren't entirely relieved...",
+      "category": null,
+      "topic_tags": [
+        "therapy"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.medpagetoday.com/meetingcoverage/acr/123790",
+          "outlet": "MedPageToday",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: MedPageToday)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T18:41:18+00:00"
+      },
+      "keyword_hits": [
+        "therapy"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-eli-lilly-shows-glp-1-weight-loss-pill-foundayo",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.854061+00:00",
+      "last_updated": "2026-11-09T20:25:48.854069+00:00",
+      "headline": "Eli Lilly shows GLP-1 weight-loss pill Foundayo can dramatically improve sleep apnea",
+      "summary": "Foundayo, a daily pill, successfully reduced obstructive sleep apnea, according to clinical trial data",
+      "category": null,
+      "topic_tags": [
+        "sleep"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/eli-lilly-shows-glp-1-weight-loss-pill-foundayo-can-dramatically-improve-sleep-apnea/",
+          "outlet": "Scientific American — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T18:31:00+00:00"
+      },
+      "keyword_hits": [
+        "sleep"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-bulevirtide-linked-to-less-decompensation-in-chr",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.302747+00:00",
+      "last_updated": "2026-11-09T20:25:48.302749+00:00",
+      "headline": "Bulevirtide Linked to Less Decompensation in Chronic Hep D With Cirrhosis",
+      "summary": "(MedPage Today) -- In patients with chronic hepatitis delta (CHD) with cirrhosis, treatment with bulevirtide (Hepcludex) was associated with lower risk of liver decompensation, according to results from a European retrospective study. Among more...",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.medpagetoday.com/meetingcoverage/aasld/123789",
+          "outlet": "MedPageToday",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: MedPageToday)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T17:54:02+00:00"
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-stat-gene-therapy-s-long-debated-cancer-risk-mat",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.455689+00:00",
+      "last_updated": "2026-11-09T20:25:48.455691+00:00",
+      "headline": "STAT+: Gene therapy’s long-debated cancer risk materializes",
+      "summary": "For years, gene therapy researchers debated whether the viruses they use to ferry replacement genes into cells could cause tumors. A small number of cases now offer strong evidence that…",
+      "category": null,
+      "topic_tags": [
+        "therapy",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.statnews.com/2026/11/09/biotech-news-gene-therapy-long-debated-cancer-risk-materializes/?utm_campaign=rss",
+          "outlet": "STAT News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
+      "caveats": null,
+      "score": 7.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": "2026-11-09T14:36:12+00:00"
+      },
+      "keyword_hits": [
+        "therapy",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-stat-eli-lilly-s-glp-1-pill-foundayo-helped-alle",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.455754+00:00",
+      "last_updated": "2026-11-09T20:25:48.455756+00:00",
+      "headline": "STAT+: Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in studies",
+      "summary": "Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in two late-stage studies, but it doesn’t appear as effective as Lilly’s injectable drug Zepbound.",
+      "category": null,
+      "topic_tags": [
+        "sleep"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.statnews.com/2026/11/09/eli-lilly-foundayo-sleep-apnea/?utm_campaign=rss",
+          "outlet": "STAT News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T14:30:00+00:00"
+      },
+      "keyword_hits": [
+        "sleep"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-stat-pharmalittle-we-re-reading-about-a-novartis",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.455819+00:00",
+      "last_updated": "2026-11-09T20:25:48.455820+00:00",
+      "headline": "STAT+: Pharmalittle: We’re reading about a Novartis heart drug, BIO fighting a Trump program, and more",
+      "summary": "Novartis is largely abandoning a drug once considered a potential blockbuster after a study found it had little promise for preventing heart attacks and deaths",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.statnews.com/pharmalot/2026/11/09/novartis-abandons-heart-drug-bio-fighting-trump-program/?utm_campaign=rss",
+          "outlet": "STAT News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T14:28:42+00:00"
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-trial-finds-tangible-results-from-yoga-as-cardia",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.302924+00:00",
+      "last_updated": "2026-11-09T20:25:48.302926+00:00",
+      "headline": "Trial Finds Tangible Results From Yoga as Cardiac Rehab",
+      "summary": "(MedPage Today) -- Yoga-based cardiac rehabilitation did not change cardiac outcomes for people with heart failure and reduced ejection fraction (HFrEF), though there were big boosts in exercise capacity and quality of life in an Indian randomized...",
+      "category": null,
+      "topic_tags": [
+        "exercise"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.medpagetoday.com/meetingcoverage/aha/123780",
+          "outlet": "MedPageToday",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: MedPageToday)",
+      "caveats": null,
+      "score": 6.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T14:19:31+00:00"
+      },
+      "keyword_hits": [
+        "exercise"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-why-do-farts-smell-so-bad-a-microbiologist-expla",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.768668+00:00",
+      "last_updated": "2026-11-09T20:25:48.768678+00:00",
+      "headline": "Why do farts smell so bad? A microbiologist explains the odors brewing in your gut",
+      "summary": "Your farts’ aromas are tuned to your diet – and your overall health.",
+      "category": null,
+      "topic_tags": [
+        "gut",
+        "diet"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://theconversation.com/why-do-farts-smell-so-bad-a-microbiologist-explains-the-odors-brewing-in-your-gut-294335",
+          "outlet": "The Conversation — Health",
+          "tier": 1,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 1 feed: The Conversation — Health)",
+      "caveats": null,
+      "score": 8.4,
+      "score_breakdown": {
+        "source_strength": 10,
+        "keyword_relevance": 7,
+        "published": "2026-11-09T13:42:17+00:00"
+      },
+      "keyword_hits": [
+        "gut",
+        "diet"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-for-veterans-with-mild-traumatic-brain-injury-a",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.768754+00:00",
+      "last_updated": "2026-11-09T20:25:48.768756+00:00",
+      "headline": "For veterans with mild traumatic brain injury, a restaurant or other noisy environment can feel like a battlefield",
+      "summary": "For veterans with brain injuries, noisy, overstimulating environments can lead to high stress and irritability, making them want to avoid such situations altogether.",
+      "category": null,
+      "topic_tags": [
+        "stress"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://theconversation.com/for-veterans-with-mild-traumatic-brain-injury-a-restaurant-or-other-noisy-environment-can-feel-like-a-battlefield-295941",
+          "outlet": "The Conversation — Health",
+          "tier": 1,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 1 feed: The Conversation — Health)",
+      "caveats": null,
+      "score": 7.2,
+      "score_breakdown": {
+        "source_strength": 10,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T13:41:46+00:00"
+      },
+      "keyword_hits": [
+        "stress"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-psychiatric-intensive-care-unit-for-women-to-ope",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:47.606031+00:00",
+      "last_updated": "2026-11-09T20:25:47.606044+00:00",
+      "headline": "Psychiatric intensive care unit for women to open",
+      "summary": "The unit will care for women with serious mental health needs in Kent and Medway.",
+      "category": null,
+      "topic_tags": [
+        "mental health"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmly0dk420rgo?at_medium=RSS&at_campaign=rss",
+          "outlet": "BBC Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: BBC Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T11:45:04+00:00"
+      },
+      "keyword_hits": [
+        "mental health"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-bursts-of-pink-noise-during-sleep-could-help-you",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.854177+00:00",
+      "last_updated": "2026-11-09T20:25:48.854180+00:00",
+      "headline": "Bursts of ‘pink noise’ during sleep could help your brain clean itself",
+      "summary": "Triggering a flow of the brain’s cleaning fluid could lead to better sleep—and may decrease harmful waste particles",
+      "category": null,
+      "topic_tags": [
+        "sleep"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/bursts-of-pink-noise-during-sleep-could-help-your-brain-clean-itself/",
+          "outlet": "Scientific American — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T11:45:00+00:00"
+      },
+      "keyword_hits": [
+        "sleep"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-when-your-gut-bacteria-run-out-of-fiber-they-may",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.019513+00:00",
+      "last_updated": "2026-11-09T20:25:48.019516+00:00",
+      "headline": "When your gut bacteria run out of fiber, they may start eating your gut lining",
+      "summary": "Scientists have discovered that gut bacteria can feed on the protective mucus lining your intestines, producing potentially harmful compounds, but fiber helps keep this activity in check. Overlooked proteins in plant foods also help shift gut bacteria toward producing beneficial substances, revealing a surprising new…",
+      "category": null,
+      "topic_tags": [
+        "gut"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261105083622.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T11:32:00+00:00"
+      },
+      "keyword_hits": [
+        "gut"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-scientists-discover-a-surprising-link-between-ac",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:48.019265+00:00",
+      "last_updated": "2026-11-09T20:25:48.019267+00:00",
+      "headline": "Scientists discover a surprising link between acorns and lyme disease",
+      "summary": "After more than 35 years of research, scientists have uncovered surprising clues about what really drives Lyme disease risk. Contrary to longstanding assumptions, deer populations appear less important than mice, which can fuel a 40% increase in tick numbers the following year. Even acorn production can predict tick…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261106174518.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T10:59:35+00:00"
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-a-simple-supplement-may-help-clear-brain-fog-aft",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:47.847257+00:00",
+      "last_updated": "2026-11-09T20:25:47.847259+00:00",
+      "headline": "A simple supplement may help clear brain fog after cancer",
+      "summary": "A surprising new study from UCLA suggests that a naturally occurring molecule could help breast cancer survivors overcome the frustrating brain fog and exhaustion that can linger long after treatment ends. Researchers found that women taking an oxaloacetate supplement for eight weeks experienced substantial…",
+      "category": null,
+      "topic_tags": [
+        "study",
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261104084013.htm",
+          "outlet": "ScienceDaily — Mind & Brain",
+          "tier": 2,
+          "role": "origin"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261104084013.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "corroboration"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
+      "caveats": null,
+      "score": 8.0,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 7,
+        "published": "2026-11-09T10:33:23+00:00"
+      },
+      "keyword_hits": [
+        "study",
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
+      "id": "2026-11-09-common-osteoporosis-drugs-linked-to-24-lower-dem",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:47.846975+00:00",
+      "last_updated": "2026-11-09T20:25:47.846986+00:00",
+      "headline": "Common osteoporosis drugs linked to 24% lower dementia risk in major study",
+      "summary": "A massive study of more than 120,000 older adults suggests that common osteoporosis drugs may reduce the risk of Alzheimer’s disease and other dementias by up to 24%. The surprising findings raise the possibility that medications already used to strengthen bones could also help protect the aging brain.",
+      "category": null,
+      "topic_tags": [
+        "study"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261108233037.htm",
+          "outlet": "ScienceDaily — Mind & Brain",
+          "tier": 2,
+          "role": "origin"
+        },
+        {
+          "url": "https://www.sciencedaily.com/releases/2026/11/261108233037.htm",
+          "outlet": "ScienceDaily — Health",
+          "tier": 2,
+          "role": "corroboration"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Mind & Brain)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": "2026-11-09T07:36:14+00:00"
+      },
+      "keyword_hits": [
+        "study"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-11-09-a-little-known-protein-could-be-a-major-culprit",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.567275+00:00",
-      "last_updated": "2026-11-09T09:10:42.567284+00:00",
+      "first_seen": "2026-11-09T20:25:48.019112+00:00",
+      "last_updated": "2026-11-09T20:25:48.019122+00:00",
       "headline": "A little-known protein could be a major culprit in type 2 diabetes",
       "summary": "Scientists have discovered that a buildup of a protein called Miro1 may be a hidden driver of insulin resistance in Type 2 diabetes, with preclinical experiments showing that removing it restores the muscles’ response to insulin. Exercise was also found to lower Miro1 levels in people with diabetes, revealing a…",
       "category": null,
@@ -49,14 +737,14 @@
         "exercise"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-09-only-6-4-of-stroke-survivors-receive-enough-ther",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:41.933230+00:00",
-      "last_updated": "2026-11-09T09:10:41.933239+00:00",
+      "first_seen": "2026-11-09T20:25:47.352727+00:00",
+      "last_updated": "2026-11-09T20:25:47.352738+00:00",
       "headline": "Only 6.4% of stroke survivors receive enough therapy, finds ‘damning’ report",
       "summary": "Stroke Association says widespread lack of rehabilitation hinders patients’ chances of regaining physical and mental functionFewer than one in 15 stroke survivors are getting the amount of therapy the NHS should provide to maximise their chances of recovery, a report has revealed.The figure was a “damning” indictment…",
       "category": null,
@@ -92,8 +780,8 @@
       "id": "2026-11-08-scientists-wipe-out-deadly-brain-tumors-in-every",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.385293+00:00",
-      "last_updated": "2026-11-09T09:10:42.385296+00:00",
+      "first_seen": "2026-11-09T20:25:47.847330+00:00",
+      "last_updated": "2026-11-09T20:25:47.847332+00:00",
       "headline": "Scientists wipe out deadly brain tumors in every mouse tested with new cancer therapy",
       "summary": "Scientists at UC San Francisco have developed a powerful new cancer therapy that remains inactive until it reaches the brain, where it switches on to attack deadly tumors. The engineered immune cells, called B-SYNC CAR-T cells, completely eliminated diffuse midline glioma (DMG), an aggressive childhood brain cancer…",
       "category": null,
@@ -129,14 +817,14 @@
         "therapy"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-08-survival-after-sudden-cardiac-arrest-didn-t-impr",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:43.004843+00:00",
-      "last_updated": "2026-11-09T09:10:43.004850+00:00",
+      "first_seen": "2026-11-09T20:25:48.456008+00:00",
+      "last_updated": "2026-11-09T20:25:48.456010+00:00",
       "headline": "Survival after sudden cardiac arrest didn’t improve despite training bystanders, emergency responders",
       "summary": "A new study found survival after sudden cardiac arrest didn’t improve with advance training of responders — but researchers aren't ready to shut the door on the possibility.",
       "category": null,
@@ -174,8 +862,8 @@
       "id": "2026-11-08-einstein-s-equations-reveal-how-gravity-could-br",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.567778+00:00",
-      "last_updated": "2026-11-09T09:10:42.567780+00:00",
+      "first_seen": "2026-11-09T20:25:48.019799+00:00",
+      "last_updated": "2026-11-09T20:25:48.019801+00:00",
       "headline": "Einstein's equations reveal how gravity could break, reconnect, and release energy",
       "summary": "More than a century after Einstein revolutionized our understanding of gravity, scientists have uncovered a surprising new phenomenon hidden within his equations. Researchers at Columbia University and Universidad Adolfo Ibáñez have identified a theoretical process called \"gravitational reconnection,\" in which…",
       "category": null,
@@ -205,14 +893,14 @@
         "research"
       ],
       "generated": [],
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "2026-11-08-what-do-patients-with-sleep-disorder-really-mean",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.874409+00:00",
-      "last_updated": "2026-11-09T09:10:42.874417+00:00",
+      "first_seen": "2026-11-09T20:25:48.302982+00:00",
+      "last_updated": "2026-11-09T20:25:48.302984+00:00",
       "headline": "What Do Patients With Sleep Disorder Really Mean by 'Brain Fog'?",
       "summary": "(MedPage Today) -- Brain fog among individuals with sleep disorders was primarily characterized by memory impairment, difficulty concentrating, and forgetfulness, according to a lexicon analysis of social media posts. Among 554,312 posts and comments...",
       "category": null,
@@ -250,8 +938,8 @@
       "id": "2026-11-08-adjunctive-l-methylfolate-tied-to-executive-func",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.874553+00:00",
-      "last_updated": "2026-11-09T09:10:42.874555+00:00",
+      "first_seen": "2026-11-09T20:25:48.303109+00:00",
+      "last_updated": "2026-11-09T20:25:48.303111+00:00",
       "headline": "Adjunctive L-Methylfolate Tied to Executive Function Gains in Psychiatric Patients",
       "summary": "(MedPage Today) -- In treatment-experienced psychiatric patients receiving established pharmacotherapy, adjunctive L-methylfolate (Deplin) was linked with significant reductions in overall symptom burden and improvements in executive function...",
       "category": null,
@@ -287,8 +975,8 @@
       "id": "2026-11-08-half-of-nhs-trusts-in-england-lack-funds-earmark",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:41.933378+00:00",
-      "last_updated": "2026-11-09T09:10:41.933381+00:00",
+      "first_seen": "2026-11-09T20:25:47.352879+00:00",
+      "last_updated": "2026-11-09T20:25:47.352882+00:00",
       "headline": "Half of NHS trusts in England lack funds earmarked to cover maternity leave",
       "summary": "Physiotherapy services hit particularly hard compared with other areas of healthcare such as nursing, union findsAlmost half of the NHS trusts in England have no earmarked funding to cover staff on maternity leave, according to analysis that raises fresh concerns about pressure on physiotherapy services.Freedom of…",
       "category": null,
@@ -324,8 +1012,8 @@
       "id": "2026-11-08-tired-all-the-time-what-to-know-about-b12-and-if",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:41.933620+00:00",
-      "last_updated": "2026-11-09T09:10:41.933622+00:00",
+      "first_seen": "2026-11-09T20:25:47.353140+00:00",
+      "last_updated": "2026-11-09T20:25:47.353142+00:00",
       "headline": "Tired all the time? What to know about B12 and if it actually boosts energy levels",
       "summary": "Med spas are raving about vitamin B12 shots as a pick-me-up. But do they actually make you feel more energized?If you spend time on social media, you may have seen med spa owners and employees describing vitamin B12 shots as a pick-me-up. When they’re run down or facing a busy week, they say, a quick injection gets…",
       "category": null,
@@ -361,8 +1049,8 @@
       "id": "2026-11-08-student-loan-limits-for-pas-other-health-workers",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.874643+00:00",
-      "last_updated": "2026-11-09T09:10:42.874646+00:00",
+      "first_seen": "2026-11-09T20:25:48.303210+00:00",
+      "last_updated": "2026-11-09T20:25:48.303212+00:00",
       "headline": "Student Loan Limits for PAs, Other Health Workers Steering Many to Private Lenders",
       "summary": "(MedPage Today) -- New limits on federal student loans filled Chloe Frabotta with anxiety as she began studying in New York City to become a physician assistant. The changes that took effect this fall include caps on loans for particular programs...",
       "category": null,
@@ -400,8 +1088,8 @@
       "id": "2026-11-08-i-was-in-a-darker-place-than-i-d-ever-been-ect-w",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:41.933755+00:00",
-      "last_updated": "2026-11-09T09:10:41.933757+00:00",
+      "first_seen": "2026-11-09T20:25:47.353286+00:00",
+      "last_updated": "2026-11-09T20:25:47.353288+00:00",
       "headline": "‘I was in a darker place than I’d ever been. ECT was my only hope’: how Ted Scheinman finally broke through his depression",
       "summary": "Troubled from the age of three, by 35 the American journalist viewed himself as ‘the lowest piece of dirt on the Earth’ – and neither therapy nor drugs seemed to help. But there was one thing he hadn’t tried …Ted Scheinman can date the origin of his depression with laser accuracy. It was the day he went to the fair,…",
       "category": null,
@@ -439,8 +1127,8 @@
       "id": "2026-11-08-ditching-primary-prevention-statins-in-old-age-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.874705+00:00",
-      "last_updated": "2026-11-09T09:10:42.874707+00:00",
+      "first_seen": "2026-11-09T20:25:48.303268+00:00",
+      "last_updated": "2026-11-09T20:25:48.303270+00:00",
       "headline": "Ditching Primary Prevention Statins in Old Age? Technically 'Safe' With Caveats",
       "summary": "(MedPage Today) -- Long-time statin users over age 70 were arguably fine stopping therapy in the STREAM randomized trial, but the results hardly boded well for longer-term cardiovascular safety, and there was no upside in quality of life. A strategy...",
       "category": null,
@@ -476,8 +1164,8 @@
       "id": "2026-11-08-a-24-hour-fast-triggers-a-surprising-repair-resp",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.567640+00:00",
-      "last_updated": "2026-11-09T09:10:42.567642+00:00",
+      "first_seen": "2026-11-09T20:25:48.019605+00:00",
+      "last_updated": "2026-11-09T20:25:48.019607+00:00",
       "headline": "A 24-hour fast triggers a surprising repair response in the gut",
       "summary": "Scientists have discovered that fasting for just 24 hours increases a beneficial gut bacterium that helps the intestines regenerate after radiation damage. The preclinical findings could pave the way for new treatments that protect healthy tissue during cancer therapy, potentially without requiring patients to fast.",
       "category": null,
@@ -515,8 +1203,8 @@
       "id": "2026-11-08-low-testosterone-linked-to-18-higher-risk-of-dyi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.568010+00:00",
-      "last_updated": "2026-11-09T09:10:42.568012+00:00",
+      "first_seen": "2026-11-09T20:25:48.020042+00:00",
+      "last_updated": "2026-11-09T20:25:48.020045+00:00",
       "headline": "Low testosterone linked to 18% higher risk of dying from cancer",
       "summary": "A major international study tracking more than 26,000 men found that very low testosterone levels were associated with an 18% higher risk of dying from cancer later in life. Surprisingly, testosterone itself showed no clear link to prostate cancer, although two other sex hormones did. Researchers believe low…",
       "category": null,
@@ -554,8 +1242,8 @@
       "id": "2026-11-08-stat-why-the-latest-heart-drug-failures-should-m",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:43.004909+00:00",
-      "last_updated": "2026-11-09T09:10:43.004911+00:00",
+      "first_seen": "2026-11-09T20:25:48.456068+00:00",
+      "last_updated": "2026-11-09T20:25:48.456070+00:00",
       "headline": "STAT+: Why the latest heart drug failures should make us all more skeptical of AI hype",
       "summary": "Once again, a hot new technology that was supposed to speed up drug research has fallen flat.",
       "category": null,
@@ -591,8 +1279,8 @@
       "id": "2026-11-08-scientists-discover-hidden-brain-changes-linked",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.385438+00:00",
-      "last_updated": "2026-11-09T09:10:42.385440+00:00",
+      "first_seen": "2026-11-09T20:25:47.847504+00:00",
+      "last_updated": "2026-11-09T20:25:47.847507+00:00",
       "headline": "Scientists discover hidden brain changes linked to common sleep disorders",
       "summary": "Scientists have discovered that sleep disorders are associated with structural changes in brain regions that control attention, decision-making, and emotions, potentially explaining why disrupted sleep can affect everyday thinking and behavior. The findings, drawn from 57 brain imaging studies, reveal both shared and…",
       "category": null,
@@ -634,8 +1322,8 @@
       "id": "2026-11-08-stronger-flu-shot-linked-to-nearly-55-lower-alzh",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.567421+00:00",
-      "last_updated": "2026-11-09T09:10:42.567423+00:00",
+      "first_seen": "2026-11-09T20:25:48.019339+00:00",
+      "last_updated": "2026-11-09T20:25:48.019341+00:00",
       "headline": "Stronger flu shot linked to nearly 55% lower Alzheimer's risk",
       "summary": "A surprising new study suggests that a stronger flu shot could offer older adults significantly greater protection against Alzheimer's disease. Researchers at UTHealth Houston analyzed nearly 200,000 adults ages 65 and older and found that those who received a high-dose influenza vaccine had a nearly 55% lower risk of…",
       "category": null,
@@ -673,8 +1361,8 @@
       "id": "2026-11-08-scientists-discover-a-hidden-warning-sign-of-can",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.385092+00:00",
-      "last_updated": "2026-11-09T09:10:42.385100+00:00",
+      "first_seen": "2026-11-09T20:25:47.847070+00:00",
+      "last_updated": "2026-11-09T20:25:47.847072+00:00",
       "headline": "Scientists discover a hidden warning sign of cannabis addiction",
       "summary": "A study of more than 17,700 US adults found that people who use cannabis in multiple forms have dramatically higher rates of daily consumption and addiction symptoms than those who stick primarily to one method. Nearly 67% of those who used almost every form met criteria for cannabis use disorder, compared with just…",
       "category": null,
@@ -716,8 +1404,8 @@
       "id": "2026-11-07-nasa-reveals-new-lunar-rover-promise-to-launch-t",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:43.576160+00:00",
-      "last_updated": "2026-11-09T09:10:43.576168+00:00",
+      "first_seen": "2026-11-09T20:25:48.854323+00:00",
+      "last_updated": "2026-11-09T20:25:48.854325+00:00",
       "headline": "NASA reveals new lunar rover, PROMISE, to launch to moon in 2028",
       "summary": "At a press event on Saturday, the agency’s officials stressed that rovers and other infrastructure will be critical to ensuring human survival on the moon",
       "category": null,
@@ -753,8 +1441,8 @@
       "id": "2026-11-07-oral-lsd-drug-hits-phase-iii-endpoints-in-anxiet",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.874788+00:00",
-      "last_updated": "2026-11-09T09:10:42.874789+00:00",
+      "first_seen": "2026-11-09T20:25:48.303351+00:00",
+      "last_updated": "2026-11-09T20:25:48.303353+00:00",
       "headline": "Oral LSD Drug Hits Phase III Endpoints in Anxiety, Depression",
       "summary": "(MedPage Today) -- DT120, an investigational orally disintegrating tablet (ODT) formulation of the psychedelic lysergide (LSD), met the primary endpoints in a pair of phase III trials for generalized anxiety disorder (GAD) and major depressive...",
       "category": null,
@@ -792,8 +1480,8 @@
       "id": "2026-11-07-lowering-blood-pressure-after-stroke-or-with-dia",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:43.004961+00:00",
-      "last_updated": "2026-11-09T09:10:43.004963+00:00",
+      "first_seen": "2026-11-09T20:25:48.456118+00:00",
+      "last_updated": "2026-11-09T20:25:48.456120+00:00",
       "headline": "Lowering blood pressure after stroke or with diabetes poses challenges, in research and practice",
       "summary": "High blood pressure is known as the silent killer. Researchers are finding new ways to fight back.",
       "category": null,
@@ -829,8 +1517,8 @@
       "id": "2026-11-07-avoiding-chemo-in-breast-cancer-psychedelic-medi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.874844+00:00",
-      "last_updated": "2026-11-09T09:10:42.874846+00:00",
+      "first_seen": "2026-11-09T20:25:48.303405+00:00",
+      "last_updated": "2026-11-09T20:25:48.303407+00:00",
       "headline": "Avoiding Chemo in Breast Cancer; Psychedelic Medication for Depression",
       "summary": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El Paso, look at the top medical...",
       "category": null,
@@ -863,85 +1551,11 @@
       "is_new": false
     },
     {
-      "id": "2026-11-07-study-finds-evidence-of-cannabis-use-2-800-years",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.874977+00:00",
-      "last_updated": "2026-11-09T09:10:42.874979+00:00",
-      "headline": "Study Finds Evidence of Cannabis Use 2,800 Years Ago",
-      "summary": "(MedPage Today) -- People may have been getting high off cannabis earlier than previously thought -- at least 2,800 years ago, a new study suggests. Archaeologists who led a dig at a monumental tomb in Siberia said they turned up evidence of...",
-      "category": null,
-      "topic_tags": [
-        "study"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.medpagetoday.com/psychiatry/generalpsychiatry/123750",
-          "outlet": "MedPageToday",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: MedPageToday)",
-      "caveats": null,
-      "score": 6.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-07T15:00:00+00:00"
-      },
-      "keyword_hits": [
-        "study"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-11-07-new-high-safety-chemicals-in-plastic-food-packag",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:41.934014+00:00",
-      "last_updated": "2026-11-09T09:10:41.934016+00:00",
-      "headline": "New ‘high safety’ chemicals in plastic food packaging linked to lower birth weight, study finds",
-      "summary": "Dinch, an allegedly ‘safe’ alternative, used in the EU and US also found to cause fetal development complicationsExposure to a new generation of allegedly “safe” plasticizers is linked to lower birth weight and fetal development complications, which could cause serious health problems later in life, a new…",
-      "category": null,
-      "topic_tags": [
-        "study"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/us-news/2026/nov/07/nontoxic-plastic-lower-birth-weight-study",
-          "outlet": "The Guardian — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-07T12:00:13+00:00"
-      },
-      "keyword_hits": [
-        "study"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-11-07-nothing-can-be-fully-transparent-physicists-disc",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:43.576271+00:00",
-      "last_updated": "2026-11-09T09:10:43.576274+00:00",
+      "first_seen": "2026-11-09T20:25:48.854430+00:00",
+      "last_updated": "2026-11-09T20:25:48.854432+00:00",
       "headline": "Nothing can be fully transparent, physicists discover",
       "summary": "Quantum researchers show how materials inevitably absorb light",
       "category": null,
@@ -977,8 +1591,8 @@
       "id": "2026-11-07-drinking-2-3-cups-of-coffee-a-day-linked-to-dram",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.385185+00:00",
-      "last_updated": "2026-11-09T09:10:42.385187+00:00",
+      "first_seen": "2026-11-09T20:25:47.847152+00:00",
+      "last_updated": "2026-11-09T20:25:47.847155+00:00",
       "headline": "Drinking 2–3 cups of coffee a day linked to dramatically lower dementia risk",
       "summary": "Drinking two to three cups of caffeinated coffee daily was linked to a dramatically lower risk of dementia and better cognitive functioning in a study spanning up to 43 years. The benefits appeared regardless of genetic risk, but decaffeinated coffee did not show the same association.",
       "category": null,
@@ -1017,48 +1631,11 @@
       "is_new": false
     },
     {
-      "id": "2026-11-07-yes-saunas-are-great-but-have-you-heard-of-this",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:41.934233+00:00",
-      "last_updated": "2026-11-09T09:10:41.934235+00:00",
-      "headline": "Yes, saunas are great – but have you heard of this amazing thing called a bath?",
-      "summary": "Ever since the ancient Greeks, we’ve suspected that soaking in hot water is good for your health. Now science has proved itAt a time when many of us feel overwhelmed, overstretched and over-reliant on screens, it’s unsurprising that the wellness industry is booming, with spa facilities – saunas in particular –…",
-      "category": null,
-      "topic_tags": [
-        "wellness"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/lifeandstyle/2026/nov/07/yes-saunas-are-great-but-have-you-heard-of-this-amazing-thing-called-a-bath",
-          "outlet": "The Guardian — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-07T05:00:02+00:00"
-      },
-      "keyword_hits": [
-        "wellness"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-11-07-magic-mushrooms-rewire-the-brain-in-a-way-scient",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.385369+00:00",
-      "last_updated": "2026-11-09T09:10:42.385371+00:00",
+      "first_seen": "2026-11-09T20:25:47.847402+00:00",
+      "last_updated": "2026-11-09T20:25:47.847404+00:00",
       "headline": "Magic mushrooms rewire the brain in a way scientists didn't expect",
       "summary": "A surprising discovery reveals how psilocybin, the active compound in magic mushrooms, rapidly reshapes the brain by creating new neural connections and strengthening them. Researchers found that the drug behaves differently in healthy and chronically stressed mice, potentially helping repair brain circuits damaged by…",
       "category": null,
@@ -1099,383 +1676,11 @@
       "is_new": false
     },
     {
-      "id": "2026-11-06-gene-therapy-under-scrutiny-after-nine-tumor-rep",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.875071+00:00",
-      "last_updated": "2026-11-09T09:10:42.875073+00:00",
-      "headline": "Gene Therapy Under Scrutiny After Nine Tumor Reports",
-      "summary": "(MedPage Today) -- Drugmaker Novartis acknowledged Thursday that there have been nine reports of tumors in children treated with its gene therapy onasemnogene abeparvovec (Zolgensma) for spinal muscular atrophy (SMA). Two of the tumor cases were...",
-      "category": null,
-      "topic_tags": [
-        "therapy"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.medpagetoday.com/neurology/generalneurology/123769",
-          "outlet": "MedPageToday",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: MedPageToday)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-06T22:27:17+00:00"
-      },
-      "keyword_hits": [
-        "therapy"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-11-06-oral-food-challenge-clears-many-infants-thought",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.875183+00:00",
-      "last_updated": "2026-11-09T09:10:42.875185+00:00",
-      "headline": "Oral Food Challenge Clears Many Infants Thought to Have Peanut Allergy",
-      "summary": "(MedPage Today) -- More than a third of infants thought to be allergic to peanuts were not actually allergic, an oral food challenge study showed. With the aim of treating peanut allergy among babies who reacted to peanut before 1 year of age...",
-      "category": null,
-      "topic_tags": [
-        "study"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.medpagetoday.com/allergyimmunology/allergy/123766",
-          "outlet": "MedPageToday",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: MedPageToday)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-06T20:58:26+00:00"
-      },
-      "keyword_hits": [
-        "study"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-11-06-this-brain-change-can-make-foxes-act-like-pet-do",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:43.576353+00:00",
-      "last_updated": "2026-11-09T09:10:43.576355+00:00",
-      "headline": "This brain change can make foxes act like pet dogs",
-      "summary": "Using data from a 1950s Russian experiment, researchers are getting “to the heart of brain programming” in foxes",
-      "category": null,
-      "topic_tags": [
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.scientificamerican.com/article/this-brain-change-can-make-foxes-act-like-pet-dogs/",
-          "outlet": "Scientific American — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: Scientific American — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-06T19:00:00+00:00"
-      },
-      "keyword_hits": [
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-11-06-stat-new-tumor-cases-show-common-gene-therapy-to",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:43.005268+00:00",
-      "last_updated": "2026-11-09T09:10:43.005271+00:00",
-      "headline": "STAT+: New tumor cases show common gene therapy tool can come with risk",
-      "summary": "New cases show AAV gene therapies like Zolgensma carry tumor risks, raising key concerns for SMA patients and gene therapy researchers in general.",
-      "category": null,
-      "topic_tags": [
-        "therapy",
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk/?utm_campaign=rss",
-          "outlet": "STAT News",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
-      "caveats": null,
-      "score": 7.0,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 7,
-        "published": "2026-11-06T16:14:40+00:00"
-      },
-      "keyword_hits": [
-        "therapy",
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-11-06-less-than-4-minutes-of-vigorous-exercise-a-day-c",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.421162+00:00",
-      "last_updated": "2026-11-09T09:10:44.421170+00:00",
-      "headline": "Less than 4 minutes of vigorous exercise a day could halve your dementia risk",
-      "summary": "Bursts of vigorous physical activity, such as carrying heavy shopping or rushing for the bus, seem to have a significant effect on our brain health and dementia risk",
-      "category": null,
-      "topic_tags": [
-        "exercise"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.newscientist.com/article/2597936-less-than-4-minutes-of-vigorous-exercise-a-day-could-half-your-dementia-risk/?utm_campaign=RSS|NSNS&utm_content=health&utm_medium=RSS&utm_source=NSNS",
-          "outlet": "New Scientist — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: New Scientist — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-06T16:00:00+00:00"
-      },
-      "keyword_hits": [
-        "exercise"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-11-06-eu-charges-tiktok-with-failing-to-protect-users",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:41.934382+00:00",
-      "last_updated": "2026-11-09T09:10:41.934384+00:00",
-      "headline": "EU charges TikTok with failing to protect users’ mental health",
-      "summary": "Regulator’s initial ruling says algorithm ‘can be harmful’ and led young and vulnerable viewers ‘down rabbit holes they can’t easily escape’TikTok has been charged by the European Commission with failing to protect users’ mental health by exposing them to a relentless stream of content that risks worsening eating…",
-      "category": null,
-      "topic_tags": [
-        "mental health"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/technology/2026/nov/06/eu-charges-tiktok-failure-to-protect-users-mental-health",
-          "outlet": "The Guardian — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-06T15:17:08+00:00"
-      },
-      "keyword_hits": [
-        "mental health"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-11-06-stat-amgen-s-repatha-linked-to-fewer-heart-attac",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:43.005339+00:00",
-      "last_updated": "2026-11-09T09:10:43.005341+00:00",
-      "headline": "STAT+: Amgen’s Repatha linked to fewer heart attacks",
-      "summary": "Pithy intro text about the biopharma milieu. Novartis cites more tumor reports after Zolgensma Novartis has disclosed seven previously unreported cases of tumors in children who received Zolgensma, its gene therapy…",
-      "category": null,
-      "topic_tags": [
-        "therapy"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/?utm_campaign=rss",
-          "outlet": "STAT News",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-06T15:14:53+00:00"
-      },
-      "keyword_hits": [
-        "therapy"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-11-06-stat-pharmalittle-we-re-reading-about-a-novartis",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:43.005424+00:00",
-      "last_updated": "2026-11-09T09:10:43.005426+00:00",
-      "headline": "STAT+: Pharmalittle: We’re reading about a Novartis gene therapy, faster U.K. drug reviews, and more",
-      "summary": "Novartis acknowledged seven instances of tumors being found in children who were treated with Zolgensma for spinal muscular atrophy",
-      "category": null,
-      "topic_tags": [
-        "therapy"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.statnews.com/pharmalot/2026/11/06/novartis-gene-therapy-tumors-found-faster-uk-drug-reviews/?utm_campaign=rss",
-          "outlet": "STAT News",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: STAT News)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-06T14:41:03+00:00"
-      },
-      "keyword_hits": [
-        "therapy"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-11-06-major-trial-challenges-how-doctors-decide-who-re",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:42.567495+00:00",
-      "last_updated": "2026-11-09T09:10:42.567497+00:00",
-      "headline": "Major trial challenges how doctors decide who really needs statins",
-      "summary": "A study of nearly 5,800 adults found that heart scans measuring calcium buildup in the arteries led to the same observed rate of major cardiovascular events as traditional risk assessments, despite recommending statins to far fewer patients. Surprisingly, patients advised to take statins based on their scans were…",
-      "category": null,
-      "topic_tags": [
-        "study"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.sciencedaily.com/releases/2026/11/261105224604.htm",
-          "outlet": "ScienceDaily — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: ScienceDaily — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-06T10:59:18+00:00"
-      },
-      "keyword_hits": [
-        "study"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
-      "id": "2026-11-06-is-ferritin-face-real-why-your-iron-levels-might",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:41.934511+00:00",
-      "last_updated": "2026-11-09T09:10:41.934513+00:00",
-      "headline": "Is ‘ferritin face’ real? Why your iron levels might be low - video",
-      "summary": "Social media is awash with claims iron deficiency can be identified in the mirror by dark circles, breaking hair and dry skin. But is ‘ferritin face’ real? Madeleine Finlay tells Ian Sample why so many of us struggle to keep our iron levels up, how we can actually diagnose low iron and the best way to correct a…",
-      "category": null,
-      "topic_tags": [
-        "social media"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/science/video/2026/nov/06/is-ferritin-face-real-why-your-iron-levels-might-be-low-video",
-          "outlet": "The Guardian — Health",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: The Guardian — Health)",
-      "caveats": null,
-      "score": 5.9,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 5,
-        "published": "2026-11-06T10:54:06+00:00"
-      },
-      "keyword_hits": [
-        "social media"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-11-09-women-with-autoimmune-diseases-more-likely-to-be",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.870417+00:00",
-      "last_updated": "2026-11-09T09:10:44.870420+00:00",
+      "first_seen": "2026-11-09T20:25:49.996006+00:00",
+      "last_updated": "2026-11-09T20:25:49.996008+00:00",
       "headline": "Women With Autoimmune Diseases More Likely to Be Misdiagnosed Than Men",
       "summary": "Women with autoimmune disease are also more likely to be misdiagnosed with mental health conditions than men. MementoJpeg/Moment/Getty Images A new study found that women with autoimmune diseases often take longer to get a correct diagnosis. The researchers added that women are more likely to be misdiagnosed with…",
       "category": null,
@@ -1515,8 +1720,8 @@
       "id": "2026-11-09-taking-blood-pressure-meds-dash-diet-likely-safe",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.875375+00:00",
-      "last_updated": "2026-11-09T09:10:44.875378+00:00",
+      "first_seen": "2026-11-09T20:25:50.001177+00:00",
+      "last_updated": "2026-11-09T20:25:50.001181+00:00",
       "headline": "Taking Blood Pressure Meds? DASH Diet Likely Safe for Potassium Levels",
       "summary": "The well-known DASH diet does not significantly affect potassium levels in adults taking certain blood pressure medications. Tatiana Maksimova/Moment/Getty Images A new study reports that the DASH diet does not significantly increase potassium levels in people taking high blood pressure medication. Researchers said…",
       "category": null,
@@ -1556,8 +1761,8 @@
       "id": "2026-11-09-low-calorie-diet-and-supervised-exercise-may-rev",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.860408+00:00",
-      "last_updated": "2026-11-09T09:10:44.860411+00:00",
+      "first_seen": "2026-11-09T20:25:49.985340+00:00",
+      "last_updated": "2026-11-09T20:25:49.985342+00:00",
       "headline": "Low-Calorie Diet and Supervised Exercise May Reverse Early Onset Type 2 Diabetes",
       "summary": "In a recent study, more than half of young adults entered remission for type 2 diabetes with lifestyle changes. Luis Alvarez · DigitalVision/Getty A new trial found that 54% of adults with early onset type 2 diabetes (diagnosed before age 45) entered remission after 6 months on a supervised low calorie diet and…",
       "category": null,
@@ -1599,8 +1804,8 @@
       "id": "2026-11-09-hormone-therapy-may-boost-weight-loss-on-wegovy",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.865790+00:00",
-      "last_updated": "2026-11-09T09:10:44.865792+00:00",
+      "first_seen": "2026-11-09T20:25:49.991202+00:00",
+      "last_updated": "2026-11-09T20:25:49.991204+00:00",
       "headline": "Hormone Therapy May Boost Weight Loss on Wegovy, But Not as Much on Zepbound",
       "summary": "New research shows that using hormone therapy with a GLP-1 during menopause may lead to greater weight loss. Tatsiana Volkava · Moment/Getty A study presented at the 2026 Annual Meeting of The Menopause Society found that women using menopause hormone therapy (MHT) alongside semaglutide (Ozempic, Wegovy) experienced…",
       "category": null,
@@ -1640,8 +1845,8 @@
       "id": "2026-11-09-hormone-therapy-may-help-improve-menopause-brain",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.873417+00:00",
-      "last_updated": "2026-11-09T09:10:44.873420+00:00",
+      "first_seen": "2026-11-09T20:25:49.999080+00:00",
+      "last_updated": "2026-11-09T20:25:49.999082+00:00",
       "headline": "Hormone Therapy May Help Improve Menopause Brain Fog, Mood Changes",
       "summary": "Recent research has shown that hormone therapy may help improve brain fog and mood changes associated with menopause. elenaleonova · E+/Getty Hormone therapy may affect changes in the brain that occur during menopause. A recent study has shown that hormone therapy may help improve “brain fog” symptoms during…",
       "category": null,
@@ -1681,8 +1886,8 @@
       "id": "2026-11-09-wellness-apps-medically-tailored-meals-help-slow",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.874164+00:00",
-      "last_updated": "2026-11-09T09:10:44.874166+00:00",
+      "first_seen": "2026-11-09T20:25:49.999883+00:00",
+      "last_updated": "2026-11-09T20:25:49.999885+00:00",
       "headline": "Wellness Apps, Medically Tailored Meals Help Slow Weight Gain After GLP-1s",
       "summary": "Recent research shows that structured support may help with weight maintenance after stopping GLP-1s. licensed miniseries · E+/Getty Most people regain a significant portion of the weight they lost within 1 year of stopping GLP-1 medications such as semaglutide (Wegovy) or tirzepatide (Zepbound). A small study found…",
       "category": null,
@@ -1722,8 +1927,8 @@
       "id": "2026-11-09-glp-1s-may-help-lower-diabetes-heart-risks-bette",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.860786+00:00",
-      "last_updated": "2026-11-09T09:10:44.860788+00:00",
+      "first_seen": "2026-11-09T20:25:49.985759+00:00",
+      "last_updated": "2026-11-09T20:25:49.985761+00:00",
       "headline": "GLP-1s May Help Lower Diabetes, Heart Risks Better Than Standard Prevention",
       "summary": "GLP-1 drugs like Ozempic and Mounjaro treated prediabetes more effectively than metformin, according to a new study. Milko/E+/Getty Images Researchers say GLP-1 medications appear to be more effective in treating prediabetes than the commonly prescribed drug metformin. They said GLP-1 drugs were also associated with a…",
       "category": null,
@@ -1761,8 +1966,8 @@
       "id": "2026-11-09-taking-fish-oil-to-boost-brain-health-a-2-year-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.863935+00:00",
-      "last_updated": "2026-11-09T09:10:44.863937+00:00",
+      "first_seen": "2026-11-09T20:25:49.989191+00:00",
+      "last_updated": "2026-11-09T20:25:49.989193+00:00",
       "headline": "Taking Fish Oil to Boost Brain Health? A 2-Year Study Questions the Benefits",
       "summary": "Research suggests that fish oil supplements may offer no benefit for Alzheimer’s prevention. Anastasiia Sienotova/Moment/Getty Images A 2-year clinical trial found that high dose omega-3 supplements didn’t improve memory, thinking skills, or brain structure in older adults at increased risk of Alzheimer’s disease. The…",
       "category": null,
@@ -1800,8 +2005,8 @@
       "id": "2026-11-09-getting-more-physical-activity-may-help-with-you",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.866505+00:00",
-      "last_updated": "2026-11-09T09:10:44.866507+00:00",
+      "first_seen": "2026-11-09T20:25:49.991977+00:00",
+      "last_updated": "2026-11-09T20:25:49.991979+00:00",
       "headline": "Getting More Physical Activity May Help With Your Perimenopause Symptoms",
       "summary": "A regular exercise routine has been shown to help with perimenopause symptoms like hot flashes and anxity. Galina Zhigalova/Moment/Getty Images A new study reports that exercising more frequently may help alleviate perimenopause symptoms. While increased physical activity was linked to improved perimenopause symptoms…",
       "category": null,
@@ -1839,8 +2044,8 @@
       "id": "2026-11-09-walking-yoga-or-zumba-which-exercises-help-relie",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.869996+00:00",
-      "last_updated": "2026-11-09T09:10:44.869998+00:00",
+      "first_seen": "2026-11-09T20:25:49.995596+00:00",
+      "last_updated": "2026-11-09T20:25:49.995598+00:00",
       "headline": "Walking, Yoga, or Zumba? Which Exercises Help Relieve Menopause Mood Symptoms",
       "summary": "Recent research shows that regular physical activity may help improve menopause mood symptoms. Wilson Araujo · E+/Getty Regular physical activity may help reduce depressive symptoms and improve quality of life during menopause, according to a review of 12 clinical trials involving over 1,000 people ages 40 to 65.…",
       "category": null,
@@ -1878,8 +2083,8 @@
       "id": "2026-11-09-energy-drinks-stimulant-supplements-linked-to-hi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.859716+00:00",
-      "last_updated": "2026-11-09T09:10:44.859719+00:00",
+      "first_seen": "2026-11-09T20:25:49.984608+00:00",
+      "last_updated": "2026-11-09T20:25:49.984610+00:00",
       "headline": "Energy Drinks, Stimulant Supplements Linked to Higher Heart Risks in Young Adults",
       "summary": "New research suggests that caffeinated energy drinks and stimulant supplements are associated with significantly higher risks of serious heart problems in young adults. FG Trade/E+/Getty Images Energy drinks and stimulant supplements may be associated with significantly higher risks of serious heart problems in young…",
       "category": null,
@@ -1917,8 +2122,8 @@
       "id": "2026-11-09-losing-weight-in-your-50s-may-protect-your-heart",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.861657+00:00",
-      "last_updated": "2026-11-09T09:10:44.861663+00:00",
+      "first_seen": "2026-11-09T20:25:49.986706+00:00",
+      "last_updated": "2026-11-09T20:25:49.986708+00:00",
       "headline": "Losing Weight in Your 50s May Protect Your Heart Health Later in Life",
       "summary": "Losing weight during midlife may benefit cardiovascular health for years to come, researchers say. adamkaz/E+/Getty Images Adults who lost more than 5% of their body weight in their early 50s saw improved heart health later in life, according to a recent study. Participants’ blood pressure, “good” cholesterol and…",
       "category": null,
@@ -1956,8 +2161,8 @@
       "id": "2026-11-09-obesity-in-your-20s-and-30s-may-increase-cancer",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.863259+00:00",
-      "last_updated": "2026-11-09T09:10:44.863261+00:00",
+      "first_seen": "2026-11-09T20:25:49.988456+00:00",
+      "last_updated": "2026-11-09T20:25:49.988458+00:00",
       "headline": "Obesity in Your 20s and 30s May Increase Cancer Risk Later in Life",
       "summary": "New research shows that having obesity in your 20s and 30s may increase your risk of developing cancer before midlife. Anchiy · E+/Getty Young adults with obesity may face a higher risk of developing cancer before midlife compared to those at a moderate weight, according to new research. Cancer risk increased…",
       "category": null,
@@ -1995,8 +2200,8 @@
       "id": "2026-11-09-6-to-8-cups-of-tea-daily-may-reduce-heart-diseas",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.864563+00:00",
-      "last_updated": "2026-11-09T09:10:44.864566+00:00",
+      "first_seen": "2026-11-09T20:25:49.989878+00:00",
+      "last_updated": "2026-11-09T20:25:49.989880+00:00",
       "headline": "6 to 8 Cups of Tea Daily May Reduce Heart Disease Risk by 11%",
       "summary": "Recent research has found that regularly drinking tea may help reduce your risk of heart disease. Guido Mieth · Moment/Getty Regular tea drinkers may have an 11% lower risk of vascular disease, including a 37% lower risk of ischemic stroke and a 17% lower risk of heart attack, according to a large study. Both black…",
       "category": null,
@@ -2034,8 +2239,8 @@
       "id": "2026-11-09-ultra-processed-food-intake-may-not-be-linked-to",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.871336+00:00",
-      "last_updated": "2026-11-09T09:10:44.871339+00:00",
+      "first_seen": "2026-11-09T20:25:49.996915+00:00",
+      "last_updated": "2026-11-09T20:25:49.996917+00:00",
       "headline": "Ultra-Processed Food Intake May Not Be Linked to Colorectal Cancer",
       "summary": "Researchers found no association between overall intake of ultra-processed foods and colorectal cancer in a large U.S. study. Anastasiia Krivenok/Moment/Getty Images Researchers report that consumption of ultra-processed foods doesn’t necessarily increase a person’s risk of developing colorectal cancer. They note that…",
       "category": null,
@@ -2073,8 +2278,8 @@
       "id": "2026-11-09-pain-prevalence-higher-in-women-increases-most-r",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.875727+00:00",
-      "last_updated": "2026-11-09T09:10:44.875729+00:00",
+      "first_seen": "2026-11-09T20:25:50.001570+00:00",
+      "last_updated": "2026-11-09T20:25:50.001572+00:00",
       "headline": "Pain Prevalence Higher in Women, Increases Most Rapidly Before 55",
       "summary": "Recent research has found that women experience pain more often than men and that pain prevalence increases more rapidly before the age of 55. ljubaphoto · E+/Getty A large global study found that pain prevalence increases most rapidly before age 55 and is consistently higher in women than men across 11 body sites.…",
       "category": null,
@@ -2109,50 +2314,11 @@
       "is_new": false
     },
     {
-      "id": "2026-11-09-increasing-ozempic-dose-linked-to-lower-heart-ri",
-      "status": "new",
-      "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.877174+00:00",
-      "last_updated": "2026-11-09T09:10:44.877176+00:00",
-      "headline": "Increasing Ozempic Dose Linked to Lower Heart Risk Than Switching to Mounjaro",
-      "summary": "Recent research suggests that increasing your Ozempic dose may offer greater heart protection than switching to Mounjaro. Eva Kongshavn · Moment/Getty A real-world study found that people with type 2 diabetes who increased their Ozempic dose rather than switching to Mounjaro had a lower risk of major adverse…",
-      "category": null,
-      "topic_tags": [
-        "study",
-        "research"
-      ],
-      "angle_tag": "unscored",
-      "angle_line": null,
-      "angle_authenticity": null,
-      "sources": [
-        {
-          "url": "https://www.healthline.com/health-news/increase-ozempic-dose-lower-heart-events-mounjaro",
-          "outlet": "Healthline News",
-          "tier": 2,
-          "role": "origin"
-        }
-      ],
-      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
-      "caveats": null,
-      "score": 7.0,
-      "score_breakdown": {
-        "source_strength": 7,
-        "keyword_relevance": 7,
-        "published": null
-      },
-      "keyword_hits": [
-        "study",
-        "research"
-      ],
-      "generated": [],
-      "is_new": false
-    },
-    {
       "id": "2026-11-09-detached-nails-more-than-4-times-higher-among-gl",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.876240+00:00",
-      "last_updated": "2026-11-09T09:10:44.876242+00:00",
+      "first_seen": "2026-11-09T20:25:50.002121+00:00",
+      "last_updated": "2026-11-09T20:25:50.002123+00:00",
       "headline": "Detached Nails More Than 4 Times Higher Among GLP-1 Users, Study Finds",
       "summary": "In a new study, GLP-1 users reported nail detachment more than four times as often as nonusers. Waishaw/Getty Images GLP-1 drugs like Ozempic have been linked to unusual nail changes in a new study. GLP-1 users reported nail detachment more than four times as often as nonusers, and nail discoloration affected 46% of…",
       "category": null,
@@ -2185,11 +2351,48 @@
       "is_new": false
     },
     {
+      "id": "2026-11-09-plant-based-milk-alternatives-may-not-give-you-e",
+      "status": "new",
+      "pinned": false,
+      "first_seen": "2026-11-09T20:25:49.982591+00:00",
+      "last_updated": "2026-11-09T20:25:49.982598+00:00",
+      "headline": "Plant-Based Milk Alternatives May Not Give You Enough Iodine. Here’s Why That Matters",
+      "summary": "Recent research shows that swapping dairy for plant-based alternatives may reduce your iodine intake. Tanja Ivanova · Moment/Getty Most plant-based milk, yogurt, and cheese alternatives aren’t fortified with iodine, which may lead to iodine inadequacy if you replace even 20% of your dairy intake with these products.…",
+      "category": null,
+      "topic_tags": [
+        "research"
+      ],
+      "angle_tag": "unscored",
+      "angle_line": null,
+      "angle_authenticity": null,
+      "sources": [
+        {
+          "url": "https://www.healthline.com/health-news/plant-based-milk-alternatives-dont-give-enough-iodine",
+          "outlet": "Healthline News",
+          "tier": 2,
+          "role": "origin"
+        }
+      ],
+      "verification": "Source pre-vetted (Tier 2 feed: Healthline News)",
+      "caveats": null,
+      "score": 5.9,
+      "score_breakdown": {
+        "source_strength": 7,
+        "keyword_relevance": 5,
+        "published": null
+      },
+      "keyword_hits": [
+        "research"
+      ],
+      "generated": [],
+      "is_new": true
+    },
+    {
       "id": "2026-11-09-mammograms-may-offer-early-insight-into-cardiova",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.858210+00:00",
-      "last_updated": "2026-11-09T09:10:44.858216+00:00",
+      "first_seen": "2026-11-09T20:25:49.982949+00:00",
+      "last_updated": "2026-11-09T20:25:49.982952+00:00",
       "headline": "Mammograms May Offer Early Insight Into Cardiovascular Disease",
       "summary": "Breast arterial calcification (BAC), which is detected on mammograms, may indicate a potential risk of cardiovascular disease. Tom Werner/DigitalVision/Getty Images Mammograms may do more than detect breast cancer — the routine X-ray check may also offer insight into heart health. Research shows that breast arterial…",
       "category": null,
@@ -2225,8 +2428,8 @@
       "id": "2026-11-09-ferritin-face-what-low-iron-actually-does-and-do",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.858559+00:00",
-      "last_updated": "2026-11-09T09:10:44.858562+00:00",
+      "first_seen": "2026-11-09T20:25:49.983305+00:00",
+      "last_updated": "2026-11-09T20:25:49.983307+00:00",
       "headline": "‘Ferritin Face’: What Low Iron Actually Does (and Doesn't Do) to Your Appearance",
       "summary": "Reports on social media suggest a phenomenon coined “ferritin face” could indicate iron deficiency. fotostorm · E+/Getty Reports of “ferritin face” on social media suggest that certain facial changes could indicate that you’re low in iron. Low iron levels may cause subtle changes in appearance, but these signs alone…",
       "category": null,
@@ -2262,8 +2465,8 @@
       "id": "2026-11-09-new-food-pyramid-puts-healthy-carbs-and-plant-ba",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.859197+00:00",
-      "last_updated": "2026-11-09T09:10:44.859200+00:00",
+      "first_seen": "2026-11-09T20:25:49.984018+00:00",
+      "last_updated": "2026-11-09T20:25:49.984020+00:00",
       "headline": "New Food Pyramid Puts Healthy Carbs and Plant-Based Foods First",
       "summary": "Nutrition experts have released a new international food pyramid that focuses on healthy carbs and plant-based foods. Kinga Krzeminska · Moment/Getty A new international food pyramid developed by 22 nutrition experts emphasizes plant-based foods, healthier fats, and high fiber carbohydrates. Unlike the updated U.S.…",
       "category": null,
@@ -2299,8 +2502,8 @@
       "id": "2026-11-09-healthier-salt-substitute-may-prevent-millions-o",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.860082+00:00",
-      "last_updated": "2026-11-09T09:10:44.860084+00:00",
+      "first_seen": "2026-11-09T20:25:49.984988+00:00",
+      "last_updated": "2026-11-09T20:25:49.984990+00:00",
       "headline": "Healthier Salt Substitute May Prevent Millions of Deaths From Heart Disease",
       "summary": "New research suggests a healthier form of salt could prevent more than 10 million new cases of heart and kidney disease worldwide each year. Eva-Katalin/E+/Getty Images Swapping regular table salt for potassium-enriched salt could prevent nearly 105,000 U.S. deaths a year and millions of deaths globally, according to…",
       "category": null,
@@ -2336,8 +2539,8 @@
       "id": "2026-11-09-how-non-dairy-creamers-doubled-coffee-s-calories",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.862529+00:00",
-      "last_updated": "2026-11-09T09:10:44.862531+00:00",
+      "first_seen": "2026-11-09T20:25:49.987655+00:00",
+      "last_updated": "2026-11-09T20:25:49.987658+00:00",
       "headline": "How Non-Dairy Creamers Doubled Coffee’s Calories For Many Americans",
       "summary": "Recent research shows that additions to coffee have increased its calorie content by 40%. Boy_Anupong · Moment/Getty The average number of calories U.S. adults consumed from coffee beverages increased by nearly 40% between 2003 and 2018, rising from 43 to 60 calories per day, even as the amount of coffee consumed…",
       "category": null,
@@ -2373,8 +2576,8 @@
       "id": "2026-11-09-this-is-how-fast-you-should-walk-to-help-lower-y",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.865443+00:00",
-      "last_updated": "2026-11-09T09:10:44.865446+00:00",
+      "first_seen": "2026-11-09T20:25:49.990832+00:00",
+      "last_updated": "2026-11-09T20:25:49.990834+00:00",
       "headline": "This Is How Fast You Should Walk to Help Lower Your Risk of Death",
       "summary": "People who walk faster may have better underlying health. Lol2368/E+/Getty Images A study found that walking speed can help predict people’s risk of dying from any cause. Both a clinical test and a test done in daily life were able to predict mortality risk. Experts say walking speed predicts death risk because it’s…",
       "category": null,
@@ -2410,8 +2613,8 @@
       "id": "2026-11-09-how-this-former-weightlifter-lost-80-pounds-afte",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.866156+00:00",
-      "last_updated": "2026-11-09T09:10:44.866159+00:00",
+      "first_seen": "2026-11-09T20:25:49.991603+00:00",
+      "last_updated": "2026-11-09T20:25:49.991606+00:00",
       "headline": "How This Former Weightlifter Lost 80 Pounds After GLP-1s Stopped Working",
       "summary": "After trying diets and GLP-1 medications without lasting weight loss, former competitive weightlifter Dana Bichler (pictured above) lost more than 80 pounds following a minimally invasive procedure. Photo: Dana Bichler Former competitive weightlifter Dana Bichler lost more than 80 pounds after undergoing endoscopic…",
       "category": null,
@@ -2447,8 +2650,8 @@
       "id": "2026-11-09-adhd-medications-may-help-ease-menopausal-brain",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.867251+00:00",
-      "last_updated": "2026-11-09T09:10:44.867254+00:00",
+      "first_seen": "2026-11-09T20:25:49.992799+00:00",
+      "last_updated": "2026-11-09T20:25:49.992801+00:00",
       "headline": "ADHD Medications May Help Ease Menopausal Brain Fog",
       "summary": "Recent research has found that ADHD medications may help reduce menopausal brain fog. WhiteTea · E+/Getty A recent review found that ADHD medications like lisdexamfetamine (Vyvanse) and atomoxetine (Strattera) may help improve self-reported symptoms of brain fog in perimenopausal and postmenopausal women. Menopausal…",
       "category": null,
@@ -2484,8 +2687,8 @@
       "id": "2026-11-09-why-living-with-endometriosis-may-double-your-od",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.867646+00:00",
-      "last_updated": "2026-11-09T09:10:44.867648+00:00",
+      "first_seen": "2026-11-09T20:25:49.993197+00:00",
+      "last_updated": "2026-11-09T20:25:49.993199+00:00",
       "headline": "Why Living with Endometriosis May Double Your Odds of Migraine",
       "summary": "Researchers may have uncovered the surprising connection between endometriosis and migraine. South_agency/E+/Getty Images Those with endometriosis had 2.3 times the odds of also having migraine, according to a new analysis of more than 13 million females. The researchers said the two conditions may share a pain…",
       "category": null,
@@ -2521,8 +2724,8 @@
       "id": "2026-11-09-acog-strongly-recommends-hormone-therapy-for-men",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.868794+00:00",
-      "last_updated": "2026-11-09T09:10:44.868796+00:00",
+      "first_seen": "2026-11-09T20:25:49.994412+00:00",
+      "last_updated": "2026-11-09T20:25:49.994415+00:00",
       "headline": "ACOG Strongly Recommends Hormone Therapy for Menopause Symptoms",
       "summary": "The ACOG released updated recommendations for the management of various menopause symptoms. MoMo Productions · DigitalVision/Getty The American College of Obstetricians and Gynecologists (ACOG) released expanded menopause management guidelines strongly recommending menopause hormone therapy (MHT) for vasomotor…",
       "category": null,
@@ -2558,8 +2761,8 @@
       "id": "2026-11-09-a-handful-of-pistachios-may-help-you-sleep-bette",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.869238+00:00",
-      "last_updated": "2026-11-09T09:10:44.869241+00:00",
+      "first_seen": "2026-11-09T20:25:49.994878+00:00",
+      "last_updated": "2026-11-09T20:25:49.994880+00:00",
       "headline": "A Handful of Pistachios May Help You Sleep Better, Review Says",
       "summary": "Pistachios contain several nutrients associated with sleep, llike melatonin, which helps regulate the sleep-wake cycle. fcafotodigital/E+/Getty Images A narrative review of current evidence suggests that pistachios may help support sleep. Pistachios contain nutrients associated with sleep health, including tryptophan,…",
       "category": null,
@@ -2595,8 +2798,8 @@
       "id": "2026-11-09-ultra-processed-food-intake-may-increase-dementi",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.869637+00:00",
-      "last_updated": "2026-11-09T09:10:44.869640+00:00",
+      "first_seen": "2026-11-09T20:25:49.995215+00:00",
+      "last_updated": "2026-11-09T20:25:49.995217+00:00",
       "headline": "Ultra-Processed Food Intake May Increase Dementia, Stroke Risk",
       "summary": "Recent research has shown that high intake of ultra-processed foods may be associated with an increased risk of stroke. Liudmila Evsegneeva · Moment/Getty Healthy adults who consume high amounts of ultra-processed foods (UPFs) may be more likely to show signs of vascular brain injury, which has been linked to stroke…",
       "category": null,
@@ -2632,8 +2835,8 @@
       "id": "2026-11-09-rj-mitte-s-death-highlights-mental-health-challe",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.872069+00:00",
-      "last_updated": "2026-11-09T09:10:44.872071+00:00",
+      "first_seen": "2026-11-09T20:25:49.997636+00:00",
+      "last_updated": "2026-11-09T20:25:49.997638+00:00",
       "headline": "RJ Mitte's Death Highlights Mental Health Challenges for People With Cerebral Palsy",
       "summary": "RJ Mitte attends a screening of “Talking To Strangers” at Fine Arts Theatre on September 30, 2026, in Beverly Hills, CA. Unique Nicole/Getty Images “Breaking Bad” actor RJ Mitte has reportedly died by suicide at age 34, according to his representative. Authorities have not yet confirmed the official cause of death.…",
       "category": null,
@@ -2669,8 +2872,8 @@
       "id": "2026-11-09-pmos-formerly-pcos-may-be-associated-with-alzhei",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.872447+00:00",
-      "last_updated": "2026-11-09T09:10:44.872449+00:00",
+      "first_seen": "2026-11-09T20:25:49.998021+00:00",
+      "last_updated": "2026-11-09T20:25:49.998022+00:00",
       "headline": "PMOS, Formerly PCOS, May Be Associated with Alzheimer's Disease Risk",
       "summary": "Recent research shows that certain metabolic issues associated with PMOS may affect dementia risk. NickyLloyd · E+/Getty Polyendocrine metabolic ovarian syndrome (PMOS), formerly known as polycystic ovary syndrome (PCOS), has been linked to changes in brain function and cognition that may overlap with Alzheimer’s…",
       "category": null,
@@ -2706,8 +2909,8 @@
       "id": "2026-11-09-switching-from-glp-1-injections-to-wegovy-pill-s",
       "status": "new",
       "pinned": false,
-      "first_seen": "2026-11-09T09:10:44.876513+00:00",
-      "last_updated": "2026-11-09T09:10:44.876515+00:00",
+      "first_seen": "2026-11-09T20:25:50.002417+00:00",
+      "last_updated": "2026-11-09T20:25:50.002419+00:00",
       "headline": "Switching from GLP-1 Injections to Wegovy Pill Shows Additional Weight Loss of 4.1%",
       "summary": "Recent research shows people who switch to the Wegovy pill from a GLP-1 injection can lose additional weight. PixelsEffect · E+/Getty People with overweight or obesity who switched from an injectable GLP-1 weight loss medication to the Wegovy (semaglutide) pill lost an average of 4.1% of their body weight over 3…",
       "category": null,
